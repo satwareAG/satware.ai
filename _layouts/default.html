@@ -6,10 +6,22 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}">
 
+    <meta property="og:url" content="{{ page.canonical }}">
+    <meta property="og:type" content="website">
+
+    <link rel="canonical" href="{{ page.canonical }}" />
+
+    <meta name="published" content="{{ page.date | date: "%Y-%m-%d" }}">
+    <meta name="modified" content="{{ page.last_modified_at | date: "%Y-%m-%d" }}">
+
     <link rel="shortcut icon" href="/assets/img/satai-favicon.png" sizes="196x196">
     <link rel="apple-touch-icon" href="/assets/img/satai-favicon.png" sizes="196x196">
 
     <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:description" content="{{ page.description }}">
+
     <meta property="og:image" content="https://satware.ai/assets/img/share.jpg">
     <meta name="twitter:image" content="https://satware.ai/assets/img/share.jpg">
 
@@ -22,7 +34,7 @@
     <div class="header-container">
         <div class="logo">
             <a href="{{ "/" | relative_url }}">
-            <img src="{{ "/assets/img/satware-ai.svg" | relative_url }}" alt="satware//AI Logo">
+            <img src="{{ "/assets/img/satware-ai.svg" | relative_url }}" alt="satware//AI Logo" title="satware//AI Logo">
             </a>
         </div>
     </div>

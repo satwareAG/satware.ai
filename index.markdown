@@ -2,6 +2,7 @@
 layout: default
 title: "satware® AI: KI-basierte Automatisierung und Softwarelösungen für Unternehmen"
 description: "Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir bieten innovative Automatisierung, Softwareentwicklung und maßgeschneiderte IT-Lösungen für moderne Unternehmen. Optimieren Sie Ihre Prozesse mit unserer Expertise."
+canonical: "https://satware.ai/"
 ---
 
 <div class="hero-section">
@@ -14,7 +15,7 @@ description: "Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir b
       <a href="mailto:ja@satware.com" title="E-Mail an Jane Alesi">ja@satware.com</a>
     </div>
     <div class="image-block">
-      <img src="{{ "/assets/img/ja-pp.png" | relative_url }}" alt="Jane Alesi" class="centered-image">
+      <img src="{{ "/assets/img/ja-pp.png" | relative_url }}" alt="Profilbild von Jane Alesi" title="Profilbild von Jane Alesi" class="centered-image">
     </div>
   </div>
 </div>

@@ -32,6 +32,19 @@ body {
     text-align: left;
 }
 
+a,
+a:visited{
+    color: #ffb800;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:visited:hover{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
 h1 {
     font-size: 7rem;
 }
@@ -227,6 +240,7 @@ footer {
 
 .footer-column a{
     color: #fff;
+
 }
 
 .footer-column a:hover{
@@ -238,6 +252,8 @@ footer {
     flex: 1; /* Flexibler Raum für jede Spalte */
     padding: 1rem; /* Abstand innerhalb der Spalten */
     text-align: left; /* Linksbündig ausrichten */
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .footer-column p {
@@ -262,7 +278,9 @@ footer {
 #menu-footer{
     list-style: none;
     display: inline-flex;
-    margin-left: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
 }
 
 #menu-footer li {
@@ -270,17 +288,35 @@ footer {
     padding-right: 20px;
 }
 
-#menu-footer li a{
-    color: #fff;
-}
-
-#menu-footer li a:hover{
-    text-decoration: none;
-    color: #ffb800;
-}
-
+#menu-footer li a,
 #menu-footer li a:visited{
     color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu-footer li a:hover,
+#menu-footer li a:visited:hover
+{
+    text-decoration: none;
+    color: #ffb800;
+    transition: all 0.3s ease-in-out;
+}
+
+article{
+    padding: 1rem 0;
+}
+
+.blog-entry-headline a,
+.blog-entry-headline a:hover,
+.blog-entry-headline a:visited,
+.blog-entry-headline a:visited:hover{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    color: #fff;
+}
+
+.post-header{
+    padding: 4rem 0 1rem 0;
 }
 
 
