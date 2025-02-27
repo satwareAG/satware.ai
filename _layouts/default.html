@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+
+    <meta property="og:url" content="{{ page.canonical }}">
+    <meta property="og:type" content="website">
+
+    <link rel="canonical" href="{{ page.canonical }}" />
+
+    <meta name="published" content="{{ page.date | date: "%Y-%m-%d" }}">
+    <meta name="modified" content="{{ page.last_modified_at | date: "%Y-%m-%d" }}">
+
+    <link rel="shortcut icon" href="/assets/img/satai-favicon.png" sizes="196x196">
+    <link rel="apple-touch-icon" href="/assets/img/satai-favicon.png" sizes="196x196">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:description" content="{{ page.description }}">
+
+    <meta property="og:image" content="https://satware.ai/assets/img/share.jpg">
+    <meta name="twitter:image" content="https://satware.ai/assets/img/share.jpg">
+
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/satag.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/fontawesome/css/all.min.css" | relative_url }}">
+</head>
+<body class="{{ page.page_id }} satai-page-dark">
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <a href="{{ "/" | relative_url }}">
+            <img src="{{ "/assets/img/satware-ai.svg" | relative_url }}" alt="satware//AI Logo" title="satware//AI Logo">
+            </a>
+        </div>
+        <nav class="main-navigation">
+            <ul class="nav-menu">
+                <li><a href="{{ "/team/" | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %}>Team</a></li>
+                <li><a href="{{ "/blog/" | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menü öffnen">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </div>
+</header>
+
+<main>
+    {{ content }}
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <p>satware AG</p>
+            <p>Friedrich-Ebert-Str. 34</p>
+            <p>67549 Worms</p>
+
+        </div>
+        <div class="footer-column">
+            <p>06241 987280</p>
+            <p>E-Mail: <a href="mailto:ja@satware.com" title="E-Mail an Jane Alesi">ja@satware.com</a></p>
+            <div class="social-media">
+                <a target="_blank" href="https://www.facebook.com/satwareAG/" title="Zur Facebook Seite der satware AG"><i class="fa-brands fa-square-facebook"></i></a><a target="_blank" href="https://www.instagram.com/satware.ag/" title="Zur Instagram Page der satware AG"><i class="fa-brands fa-instagram"></i></a><a target="_blank" href="https://www.linkedin.com/company/satware-ag/?originalSubdomain=de" title="Zur LinkedIn Seite der satware AG"><i class="fa-brands fa-linkedin"></i></a><a target="_blank" href="https://twitter.com/satwareAG" title="Zur X Page der satware AG"><i class="fa-brands fa-x-twitter"></i></a><a target="_blank" href="https://www.xing.com/pages/satwareag" title="Zur Xing Seite der satware AG"><i class="fa-brands fa-xing"></i></a><a target="_blank" href="https://www.youtube.com/channel/UChfn2XBDE9yfZrWnMzs1k0g" title="Zum YouTube Kanal der satware AG"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+
+        </div>
+        <div class="footer-column">
+            <!-- Leere Spalte -->
+        </div>
+
+
+
+
+    </div>
+    <ul id="menu-footer" class="bottom-nav"><li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a target="_blank" href="https://satware.com/kontakt/">Kontakt</a></li>
+        <li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a target="_blank" href="https://satware.com/impressum/">Impressum</a></li>
+        <li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a target="_blank" href="https://satware.com/datenschutzerklaerung/">Datenschutz</a></li>
+        <li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a target="_blank" href="https://satware.com/newsletter/">Newsletter</a></li>
+    </ul>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function() {
+                mobileMenuToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        // Schließe das Menü, wenn ein Link geklickt wird
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    });
+</script>
+
+
+<!-- Made by the lovely SATWARE//UNICORN
+
+                                                                                `y-
+                                                                               s+y
+                                                                               d d
+                                                                              :h/m`
+                                                                              s:`h.
+                                                                              d/:h-
+                                                                             `h`.o/
+                                                                             :h/:s+   -/++/.
+                                                                            .s/``oy:+ssossyh+
+                                                                       `-/+ooN/:yyooosyhddyyy:
+                                                                    `:+oossysm./myyhhyyyyyhhh+`
+                                                                  .+o+oysso+omshyyysyyhysshho:
+                                                                `+o/oyso+++shdysssyhs+//////oso.
+                                                               -s/+hs++osyhhysssyhs+//oooooooosh:
+                                                              :y:ohooyhhyysssyhho+/+osh+-.`...-:+`
+                                                             .h-/d+odyssssyyhyo+oshh/.-/+/-.`
+                                                             s/-hs+dyssyyhysoshs/:/+//doy/-:/+o///:-.`
+                                                             d--m+omyhdhyso+:d:  o+` -NhNm   s:  `./hy+.
+                                                            `d:/myo+/::-.    : `+o   `/hs.  o/     +s:/do`
+                                                            `my/../+o+        /+ms/++/:`   :s       /++/-y`
+                                                           `s/`-oo::yo+        ::          h`            o/
+                                                           y-.s+-:osyhd:                  :s             :o
+                                                          :s so+++ohysyh                  y-  `/         o/
+                                                          s:`.:+shmysssm`                 d    dhs+//:::/h
+                                                          ://:hysshhsssd:                 d    :hhohs/h+h`
+                                                             -dssshhsssh/                 d     -sh/hhh+
+                                                            .dssssmysssd:                 h`     .sdo:
+                                                           .dysssymssssm`          /+/////yo//+++:`
+                                                         .ohsssssmyssshs           `y- ``   `-://-
+                                     ``            `.:/oyhsssssydysssyh`            `h` .:/+yo.``o/
+                                      ./oyysooossyyyyysssssssydhsssshy`              +y+/.` ++   `d
+                                       ``../osyyhyyyyyyyyhhhhyssssyy/                /y:..` .h`  `d-:`
+                                  `/oyhhddmdyooyhdhhhhyyyyssssyhys:`                 `.--://+osy+//--++
+                                 /hhyyyyyhhdddddhhhhhyyhhhyssh+.`                            `h`      /o
+            s`                  odyhhhdmmmmmmddddddmNh+ddmho:hso+`                           :o       .h
+           `Ny.               `odhddhhyoo++++++ossssssmmmymody+d/                            ++      `s:
+            mhh/`            -yddhhs+///////oss/-.`   mmhhhm+o---                            -y     -s:
+            yhyhy/`       `:shdhhy+///////os+.      .smdyyym+`                       ++//:----h/--:+/`
+         `  -myyyhhs/---:oyhhdsyy///////+y+`         `oddho+o-                     `++  `..-------.
+         s+. +dyyyyyhhhhhhhdyoom+//////oy.            `yd-                        :o-
+         hsso:odhyyyyyhhdhso++yy//////so`              `s:                     `:o:`
+         oy+ossymdhhhhyso++++sh//////ss                 `+s`                `-/+:`
+         `hs+++++ooo++++++++yh+/////+h`              `.:+/:`       .....-:/+/:`
+          -Ndyooo++++++oooyhs///////h:            `./ss/`         :y/oy:-.`
+           dyddyyysssssoohh+///////ss           `/+:` -/+:`      `h.  h`
+           -h++osoo+++ooso///////+ss`           h.       -o/    `s:   :o
+            /y+/////+///////////+y/             h`         /s` .y/`...-d
+             -yo+////////////+oy+`              :s          :y/ho//::--y-
+               :oso++++++++sso/`                 :s-`     `:ss-        o:
+                  .:/++++/:.                       :++++++/:h         `h`
+                                                            s/.```.:+++`
+                                                             .::/::.
+
+ -->
+
+</body>
+</html>
