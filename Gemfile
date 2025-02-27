@@ -33,4 +33,8 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
+# Required for Ruby 3.0+
 gem "webrick", "~> 1.9"
+
+# Für Deployment auf GitHub Pages nützliche Gems
+gem "kramdown-parser-gfm", "~> 1.1"

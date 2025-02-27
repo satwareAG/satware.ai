@@ -23,7 +23,12 @@ description: "Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir b
 baseurl: "" # Lassen Sie dies leer, wenn die Website im Root-Verzeichnis gehostet wird
 url: "https://satware.ai" # Die zukünftige URL der Website
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
+
+# Kontaktinformationen
+email: info@satware.ai # Fügen Sie Ihre E-Mail-Adresse hinzu, falls gewünscht
+phone: "+49 123 456789" # Fügen Sie Ihre Telefonnummer hinzu, falls gewünscht
+address: "Worms, Deutschland" # Fügen Sie Ihre Adresse hinzu, falls gewünscht
 
 # Build settings
 theme: minima
@@ -32,6 +37,33 @@ assets:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag # Für bessere SEO
+
+# SEO-Einstellungen
+lang: de-DE # Sprache der Website
+author: satware AG # Autor der Website
+logo: /assets/img/satware-ai.svg # Pfad zu Ihrem Logo (falls vorhanden)
+social:
+  name: satware AG
+  links:
+    - https://twitter.com/jekyllrb
+    - https://github.com/jekyll
+
+# Permalink-Struktur
+permalink: /:categories/:title/
+
+# Pagination (falls benötigt)
+# paginate: 10
+# paginate_path: "/blog/page:num/"
+
+# Collections (falls benötigt)
+# collections:
+#   services:
+#     output: true
+#     permalink: /:collection/:name/
+#   case-studies:
+#     output: true
+#     permalink: /:collection/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,15 +72,23 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  - README.md
+  - LICENSE
+
+# Include specific files/folders that would otherwise be excluded
+include:
+  - .htaccess
+  - CNAME
