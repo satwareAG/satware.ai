@@ -6,41 +6,41 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}">
 
-    <meta property="og:url" content="{{ page.canonical }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:type" content="website">
 
-    <link rel="canonical" href="{{ page.canonical }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="published" content="{{ page.date | date: "%Y-%m-%d" }}">
     <meta name="modified" content="{{ page.last_modified_at | date: "%Y-%m-%d" }}">
 
-    <link rel="shortcut icon" href="/assets/img/satai-favicon.png" sizes="196x196">
-    <link rel="apple-touch-icon" href="/assets/img/satai-favicon.png" sizes="196x196">
+    <link rel="shortcut icon" href="{{ '/assets/img/satai-favicon.png' | relative_url }}" sizes="196x196">
+    <link rel="apple-touch-icon" href="{{ '/assets/img/satai-favicon.png' | relative_url }}" sizes="196x196">
 
     <meta name="twitter:card" content="summary_large_image">
 
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:description" content="{{ page.description }}">
 
-    <meta property="og:image" content="https://satware.ai/assets/img/share.jpg">
-    <meta name="twitter:image" content="https://satware.ai/assets/img/share.jpg">
+    <meta property="og:image" content="{{ site.url }}/assets/img/share.jpg">
+    <meta name="twitter:image" content="{{ site.url }}/assets/img/share.jpg">
 
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/satag.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/fontawesome/css/all.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/satag.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}">
 </head>
 <body class="{{ page.page_id }} satai-page-dark">
 <header>
     <div class="header-container">
         <div class="logo">
-            <a href="{{ "/" | relative_url }}">
-            <img src="{{ "/assets/img/satware-ai.svg" | relative_url }}" alt="satware//AI Logo" title="satware//AI Logo">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/img/satware-ai.svg' | relative_url }}" alt="satware//AI Logo" title="satware//AI Logo">
             </a>
         </div>
         <nav class="main-navigation">
             <ul class="nav-menu">
-                <li><a href="{{ "/team/" | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %}>Team</a></li>
-                <li><a href="{{ "/blog/" | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="{{ '/team/' | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %}>Team</a></li>
+                <li><a href="{{ '/blog/' | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
             </ul>
             <button class="mobile-menu-toggle" aria-label="Menü öffnen">
                 <span class="bar"></span>
