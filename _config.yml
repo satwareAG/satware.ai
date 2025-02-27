@@ -22,13 +22,8 @@ title: "satware® AI: KI-basierte Automatisierung und Softwarelösungen für Unt
 description: "Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir bieten innovative Automatisierung, Softwareentwicklung und maßgeschneiderte IT-Lösungen für moderne Unternehmen. Optimieren Sie Ihre Prozesse mit unserer Expertise."
 baseurl: "" # Lassen Sie dies leer, wenn die Website im Root-Verzeichnis gehostet wird
 url: "https://satware.ai" # Die zukünftige URL der Website
-twitter_username: jekyllrb
-github_username: jekyll
 
-# Kontaktinformationen
-email: info@satware.ai # Fügen Sie Ihre E-Mail-Adresse hinzu, falls gewünscht
-phone: "+49 123 456789" # Fügen Sie Ihre Telefonnummer hinzu, falls gewünscht
-address: "Worms, Deutschland" # Fügen Sie Ihre Adresse hinzu, falls gewünscht
+
 
 # Build settings
 theme: minima
