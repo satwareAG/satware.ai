@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ "/assets/satag.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/fontawesome/css/all.min.css" | relative_url }}">
 </head>
-<body>
+<body class="{{ page.page_id }} satai-page-dark">
 <header>
     <div class="header-container">
         <div class="logo">
@@ -37,6 +37,17 @@
             <img src="{{ "/assets/img/satware-ai.svg" | relative_url }}" alt="satware//AI Logo" title="satware//AI Logo">
             </a>
         </div>
+        <nav class="main-navigation">
+            <ul class="nav-menu">
+                <li><a href="{{ "/team/" | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %}>Team</a></li>
+                <li><a href="{{ "/blog/" | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Menü öffnen">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
     </div>
 </header>
 
@@ -76,6 +87,30 @@
         <li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a target="_blank" href="https://satware.com/newsletter/">Newsletter</a></li>
     </ul>
 </footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function() {
+                mobileMenuToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+        }
+
+        // Schließe das Menü, wenn ein Link geklickt wird
+        const navLinks = document.querySelectorAll('.nav-menu a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    });
+</script>
+
 
 <!-- Made by the lovely SATWARE//UNICORN
 

@@ -15,7 +15,7 @@ canonical: "https://satware.ai/"
       <a href="mailto:ja@satware.com" title="E-Mail an Jane Alesi">ja@satware.com</a>
     </div>
     <div class="image-block">
-      <img src="{{ "/assets/img/ja-pp.png" | relative_url }}" alt="Profilbild von Jane Alesi" title="Profilbild von Jane Alesi" class="centered-image">
+      <img src="{{ "/assets/img/ja-pp-team.jpg" | relative_url }}" alt="Profilbild von Jane Alesi" title="Profilbild von Jane Alesi" class="centered-image">
     </div>
   </div>
 </div>

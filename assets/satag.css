@@ -34,7 +34,7 @@ body {
 
 a,
 a:visited{
-    color: #ffb800;
+    color: #521370;
     transition: all 0.3s ease-in-out;
 }
 
@@ -225,7 +225,7 @@ footer .social-media img {
 footer {
     background-color: #000; /* Hintergrundfarbe des Footers */
     color: #fff; /* Textfarbe */
-    padding: 2rem;
+    padding: 2rem 0;
     width: 100%; /* Vollständige Breite */
 }
 
@@ -236,6 +236,7 @@ footer {
     width: 100%;
     max-width: 1400px; /* Maximale Breite für den Footer */
     margin: 0 auto; /* Zentrieren des Containers */
+
 }
 
 .footer-column a{
@@ -244,7 +245,7 @@ footer {
 }
 
 .footer-column a:hover{
-    color: #ffb800;
+    color: #521370;
     text-decoration: none;
 }
 
@@ -298,7 +299,7 @@ footer {
 #menu-footer li a:visited:hover
 {
     text-decoration: none;
-    color: #ffb800;
+    color: #521370;
     transition: all 0.3s ease-in-out;
 }
 
@@ -320,9 +321,194 @@ article{
 }
 
 
+.typingmind-chat-widget-button{
+    div{
+        border-radius: 0 !important;
+    }
+    div:nth-child(2){
+        border: 2px solid #521370 !important;
+    }
+}
+
+/* Navigation Styling */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 0;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: #fff; /* Akzentfarbe auf Weiß geändert */
+}
+
+.nav-menu a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff; /* Akzentfarbe auf Weiß geändert */
+    transition: width 0.3s ease;
+}
+
+.nav-menu a:hover::after,
+.nav-menu a.active::after {
+    width: 100%;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.mobile-menu-toggle .bar {
+    display: block;
+    width: 25px;
+    height: 1px;
+    margin: 7px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 120px; /* Anpassen an Ihre Header-Höhe */
+        flex-direction: column;
+        background-color: #000; /* Anpassen an Ihre Hintergrundfarbe */
+        width: 100%;
+        text-align: left;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 1000;
+        padding: 20px 10%;
+        opacity: 0;
+        transition: .3s all ease;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        opacity: 1;
+        transition: .3s all ease;
+    }
+
+    .nav-menu li {
+        margin: 15px 0;
+    }
+
+    .mobile-menu-toggle {
+        display: block;
+        float: right;
+        position: relative;
+    }
+
+    .mobile-menu-toggle.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .mobile-menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-menu-toggle.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+/* Team-Seiten-spezifisches Styling */
+body.team img,
+[data-page-id="team"] img {
+    float: left;
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Explizit das Logo ausschließen */
+body.team header .logo img,
+[data-page-id="team"] header .logo img {
+    float: none;
+    width: 237.469px;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+body.team hr,
+[data-page-id="team"] hr {
+    clear: both;
+    margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid #eaeaea;
+}
+
+@media (max-width: 768px) {
+    body.team img,
+    [data-page-id="team"] img {
+        float: none;
+        display: block;
+        margin-bottom: 1rem;
+        max-width: 200px;
+    }
+
+    /* Logo-Größe auf mobilen Geräten beibehalten */
+    body.team header .logo img,
+    [data-page-id="team"] header .logo img {
+        width: 237.469px;
+    }
+
+    .header-container {
+        padding: 0;
+    }
+}
+
 @media (min-width: 1364px){
     .contact-block{
         margin-top: -26rem;
+    }
+}
+
+@media (max-width: 1250px){
+    .footer-container{
+        padding: 2rem;
     }
 }
 
