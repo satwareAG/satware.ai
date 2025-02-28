@@ -55,6 +55,15 @@ h1, h2, h3 {
     line-height: 1.1;
 }
 
+blockquote {
+    color: #fff;
+    border-left: 2px solid #521370;
+    letter-spacing: -1px;
+    font-style: normal;
+    padding: .5rem 1rem;
+    font-weight: 200;
+}
+
 header, footer {
     background-color: #000;
     color: #fff;
@@ -121,7 +130,7 @@ footer .social-media img {
 .hero-content .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: #ffc107;
+    background-color: #521370;
     color: #000;
     text-decoration: none;
     border-radius: 5px;
@@ -170,7 +179,7 @@ footer .social-media img {
 }
 
 .contact-block a {
-    color: #ffc107; /* Farbe des E-Mail-Links */
+    color: #521370; /* Farbe des E-Mail-Links */
     text-decoration: none;
 }
 
@@ -319,6 +328,13 @@ article{
 .post-header{
     padding: 4rem 0 1rem 0;
 }
+
+.post-content h3,h4 {
+    padding-top: 2rem;
+}
+
+
+
 
 
 .typingmind-chat-widget-button{
@@ -476,8 +492,7 @@ body.team hr,
 [data-page-id="team"] hr {
     clear: both;
     margin: 2rem 0;
-    border: 0;
-    border-top: 1px solid #eaeaea;
+    border: none;
 }
 
 @media (max-width: 768px) {
