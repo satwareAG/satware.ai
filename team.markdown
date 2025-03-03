@@ -51,13 +51,11 @@ Durch die Integration des saTway-Ansatzes verbindet Amira technische Präzision 
 
 **Vertriebsexperte** 🤝💼
 
-Bastian ist ein professioneller Vertriebsmitarbeiter mit ausgeprägten Beratungsfähigkeiten und fortschrittlichem Reasoning. Er unterstützt Kunden bei fundierten Kaufentscheidungen durch einen konsultativen Verkaufsansatz, der auf tiefgreifendem Produktwissen und empathischem Kundenverständnis basiert.
+Bastian ist ein professioneller Vertriebsberater mit ausgeprägten Beratungsfähigkeiten und fortschrittlichem Reasoning. Er unterstützt Kunden bei fundierten Kaufentscheidungen durch einen konsultativen Verkaufsansatz, der auf tiefgreifendem Produktwissen und empathischem Kundenverständnis basiert.
 
-Seine Expertise umfasst die präzise Analyse von Kundenbedürfnissen, die strukturierte Präsentation von Produktoptionen und die Entwicklung maßgeschneiderter Lösungsvorschläge. Durch seinen mehrstufigen Beratungsprozess – von der Bedarfsermittlung über die detaillierte Produktanalyse bis hin zur finalen Empfehlung – schafft er Transparenz und Vertrauen.
+Seine Expertise umfasst die präzise Analyse von Kundenbedürfnissen, die strukturierte Präsentation von Produktoptionen und die Entwicklung maßgeschneiderter Lösungsvorschläge. Durch seinen 7-stufigen Unified Sales-Methodikprozess – von der systematischen Bedarfsermittlung über Bildung und gemeinsame Lösungsentwicklung bis zur Implementierungsplanung – schafft er Transparenz und Vertrauen.
 
 Bastian zeichnet sich besonders durch seine Fähigkeit aus, komplexe Kaufentscheidungen in logische Schritte zu zerlegen und dabei stets die individuellen Anforderungen, das Budget und den Nutzungskontext des Kunden im Blick zu behalten. Seine Empfehlungen sind datengestützt, praxisorientiert und werden durch relevante Fallstudien und Erfahrungsberichte untermauert.
-
-Er könnte Ihnen vermutlich sogar einen Kühlschrank am Nordpol verkaufen – aber nur, wenn Sie wirklich einen brauchen! 🧊
 
 * * *
 
@@ -81,13 +79,11 @@ Seine methodische Herangehensweise an die Videogenerierung umfasst die Analyse d
 
 **EDI-Spezialist** 📊🔄
 
-Eddi ist ein technischer Experte für Electronic Data Interchange (EDI) und unterstützt Lieferanten bei der Integration und Optimierung ihrer Datenaustauschprozesse. Mit seinem umfassenden Fachwissen zu EDI-Formaten, Konvertierungen und CRM-Systemintegrationen bietet er maßgeschneiderte Lösungen für komplexe Anforderungen.
+Eddi ist ein fortschrittlicher KI-Assistent, der auf Electronic Data Interchange (EDI) spezialisiert ist. Er unterstützt Unternehmen bei der Integration und Optimierung ihrer B2B-Datenaustauschprozesse durch den saTway-Ansatz, der technische Präzision mit menschenzentrierter Kommunikation verbindet.
 
-Seine Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, GS1-Kennzeichnung, Verpackungsstandards und Lieferbedingungen. Eddi berät zu Compliance-Fragen, Konfigurationen und der Fehlerbehebung bei EDI-Verbindungen sowie zu nachhaltigen Transportverpackungen.
+Seine umfassende Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, europäische E-Invoicing-Standards (ZUGFeRD/XRechnung) und ediware GmbH Lösungen. Eddi bietet maßgeschneiderte Beratung zu Format-Konvertierungen, Systemintegrationen und Compliance-Anforderungen.
 
-Besonders versiert ist Eddi in der Beratung zu ediware-Produkten wie dem Format-Konverter (für CSV, XML, JSON, ASCII), den ZUGFeRD/XRechnung-Tools und dem Kundenbestellsystem (KBS). Er unterstützt Unternehmen dabei, ihre B2B-Kommunikation und E-Invoicing-Prozesse sicher, effizient und konform mit europäischen Standards zu gestalten.
-
-Wenn Daten tanzen könnten, wäre Eddi ihr Choreograph – er bringt selbst die widerspenstigsten Datensätze dazu, im perfekten Einklang zu kommunizieren! 💃📈
+Mit seinem systematischen Problemlösungsansatz unterstützt Eddi bei EDI-Implementierungen, Fehlerbehebungen und strategischer Entwicklung von Datenaustauschprozessen. Seine technisch präzisen Lösungen werden stets in einer verständlichen, anwendungsorientierten Weise vermittelt, die Unternehmen befähigt, ihre B2B-Kommunikation sicher, effizient und konform zu gestalten.
 
 * * *
 
@@ -113,11 +109,9 @@ Er wendet eine systematische Methodik zur Problemlösung an, die Problemklassifi
 
 Gunta ist eine spezialisierte KI-Assistentin für Handwerksunternehmen aller Gewerke. Ihr Name ehrt Gunta Stölzl (1897-1983), die als erste Frau den Meistertitel am Bauhaus erhielt und als Direktorin der Webereiwerkstatt Handwerkstradition mit industrieller Innovation verband.
 
-Sie vereint umfassendes Fachwissen über Handwerksrecht, Normen und branchenspezifische Anforderungen mit praktischer Expertise in den Geschäftsprozessen des Handwerks. Von der Angebotserstellung über Kalkulation und Terminplanung bis zur Materialwirtschaft bietet sie maßgeschneiderte Unterstützung für den Handwerksalltag.
+Sie verkörpert den saTway-Ansatz durch die Integration von technischer Prozessoptimierung (saCway) mit authentischem Verständnis für Handwerkstraditionen (samWay). Ihre Expertise umfasst Geschäftsprozesse des Handwerks, Digitalisierungsstrategien, Dokumentenverwaltung und Einhaltung von Branchenstandards.
 
-Guntas besondere Stärken liegen in der Digitalisierung und Prozessoptimierung von Handwerksbetrieben. Sie unterstützt bei der automatisierten Dokumentenerstellung, intelligenten Terminplanung, Ressourcenoptimierung und rechtlichen Compliance-Prüfung. Dabei verkörpert sie die Verbindung von Tradition und Innovation – qualitätsorientiert, präzise und stets verständlich in der Kommunikation.
-
-Sie kann nicht nur erklären, wie man einen Nagel einschlägt, sondern auch, warum der Hammer manchmal besser im Werkzeugkasten bleibt – Digitalisierung ist schließlich auch ein Handwerk! 🛠️💻
+Guntas besondere Stärken liegen in der maßgeschneiderten Unterstützung für verschiedene Betriebsgrößen und regionale Besonderheiten. Sie bietet praktische Lösungen für Angebotsgestaltung, Rechnungserstellung, Projektdokumentation und digitale Transformation – stets mit einem perfekten Gleichgewicht aus traditionellen Handwerkswerten und zukunftsorientierter Innovation.
 
 * * *
 
@@ -141,13 +135,11 @@ Mit seiner Kombination aus saCway technischer Exzellenz und samWay menschlicher 
 
 **Rechtsexperte** ⚖️📜
 
-Justus ist ein spezialisierter Rechtsassistent mit Fokus auf das Recht der Schweiz, Deutschlands und der EU. Er beantwortet rechtliche Fragen und unterstützt bei juristischen Angelegenheiten unter Berücksichtigung aktueller Gesetze, Verordnungen und Gerichtsentscheidungen.
+Justus ist ein spezialisierter Rechtsassistent mit Fokus auf das Recht der Schweiz, Deutschlands und der EU. Er vereint präzises juristisches Wissen mit dem saTway-Ansatz, der rechtliche Genauigkeit mit menschenzentrierter Kommunikation verbindet.
 
-Seine Stärken liegen in der präzisen und klaren Vermittlung komplexer rechtlicher Sachverhalte. Justus strukturiert seine Antworten in logische Abschnitte, um auch für juristische Laien verständlich zu bleiben. Er legt besonderen Wert auf rechtliche Genauigkeit und basiert seine Antworten stets auf aktuellen Rechtsgrundlagen.
+Seine methodische Herangehensweise umfasst Problemidentifikation, rechtliche Recherche, strukturierte Analyse, Lösungsentwicklung und klare Kommunikation. Dabei berücksichtigt er stets die spezifischen Jurisdiktionen und anwendbaren Rechtsrahmen, von Grundgesetzen und Zivilrecht bis hin zu speziellen Rechtsgebieten wie Unternehmens-, Datenschutz- und Arbeitsrecht.
 
-In seiner Kommunikation ist Justus freundlich und unterstützend, vermeidet unnötigen Fachjargon und bietet praktische Empfehlungen sowie weiterführende Ressourcen. Er behandelt sensible Informationen mit größter Sorgfalt, wahrt die Privatsphäre der Nutzer und passt seine Antworten an den spezifischen rechtlichen Kontext und die jeweilige Rechtsordnung an.
-
-Er ist der einzige in unserem Team, der Paragraphen nicht nur zitieren, sondern auch erklären kann, ohne dass Sie dabei einschlafen – ein wahres juristisches Wunder! 😴→😮
+Justus kommuniziert komplexe rechtliche Konzepte in verständlicher Sprache und bietet visualisierte rechtliche Prozesse zur besseren Nachvollziehbarkeit. Er legt Wert auf rechtliche Präzision, ethische Standards und klare Abgrenzung zwischen Rechtsinformation und Rechtsberatung, wobei er stets auf die Konsultation qualifizierter Rechtsexperten für verbindliche Rechtsberatung hinweist.
 
 * * *
 
@@ -215,6 +207,20 @@ Sie bringt selbst die chaotischsten Teams dazu, harmonisch zusammenzuarbeiten �
 
 * * *
 
+![Marco Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+
+## Marco Alesi
+
+**Kommunalverwaltungsexperte** 🏛️📊
+
+Marco ist ein fortschrittlicher KI-Assistent, der auf deutsche Kommunalverwaltung und -governance spezialisiert ist. Er vereint umfassendes Verwaltungswissen mit dem saTway-Ansatz, der administrative Präzision mit bürgerorientierter Kommunikation verbindet.
+
+Seine Kernkompetenzen umfassen Kommunalrecht und Governance (inkl. aller 16 Gemeindeordnungen), Verwaltungsprozessoptimierung, Finanzmanagement und Budgetierung, strategische Entwicklung und Organisationstransformation. Marco bietet maßgeschneiderte Lösungen für Kommunen aller Größen – von kleinen Gemeinden bis zu Großstädten.
+
+Mit seinen Visualisierungsfähigkeiten erstellt er übersichtliche Governance-Strukturdiagramme, Finanzvisualisierungen sowie Planungs- und Entwicklungstools. Seine systematische Problemlösungsmethodik berücksichtigt stets die spezifischen Verwaltungsstrukturen, rechtlichen Rahmenbedingungen und lokalen Besonderheiten, während er komplexe Verwaltungskonzepte verständlich und anwendungsorientiert vermittelt.
+
+* * *
+
 ![Olu Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
 
 ## Olu Alesi
@@ -244,6 +250,22 @@ Seine Kernkompetenzen umfassen hochwertige, umsetzbare Marktanalysen für Angel 
 Theo legt besonderen Wert auf Genauigkeit und Transparenz, indem er aktuelle, relevante und überprüfbare Informationen aus mehreren seriösen Quellen priorisiert, Primärdatenquellen zitiert und Einschränkungen in Daten oder Methodik offenlegt.
 
 Er ist so vorsichtig mit Anlageempfehlungen, dass selbst seine Wettervorhersagen mit Risikohinweisen kommen – aber genau deshalb vertrauen ihm seine Kunden! ☂️📊
+
+* * *
+
+![Tim Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+
+## Tim Alesi
+
+**Web-Entwicklungsexperte** 💻✨
+
+Tim ist ein spezialisierter Web-Entwicklungsexperte mit über 20 Jahren Erfahrung in der Erstellung moderner, zugänglicher und effizienter Weblösungen. Er beherrscht die neuesten Technologien und Designtrends, darunter HTML5, CSS3, JavaScript (ES2025+), React, Vue, TypeScript, ThreeJS und WebGL.
+
+Seine Kernkompetenzen umfassen moderne Design-Systeme wie Bento Grid Layouts, Metal Shaders, Progressive Blur und Modern Skeuomorphism. Tim ist besonders versiert in der Integration von KI-gesteuerten UI-Komponenten, Relume.io-Integration und automatisierten Design-Systemen. Im Bereich immersiver Weberlebnisse beherrscht er Spatial Design, 3D-Elemente, AR/VR-Webexperiences und Apple Vision Pro-Kompatibilität.
+
+Tim verfolgt bei der Problemlösung einen strukturierten Ansatz, der Ästhetik, Benutzererfahrung, technische Einschränkungen und Leistungsimplikationen berücksichtigt. Er bietet stets mehrere Lösungsansätze mit Vor- und Nachteilen an, einschließlich traditioneller und KI-gestützter Lösungen.
+
+Wenn Tim nicht gerade Code schreibt, der so elegant ist, dass selbst andere Programmierer vor Neid erblassen, erklärt er komplexe Webkonzepte so verständlich, dass selbst Ihre Großmutter verstehen würde, warum ihr Website-Footer nicht dort bleibt, wo er sein sollte. 🧙‍♂️
 
 * * *
 
