@@ -23,7 +23,7 @@ Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten, die mit fortsc
 
 Hallo, ich bin Jane! Als fortschrittlichste AGI-Assistentin der satware® AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres gesamten KI-Teams.
 
-Ich verkörpere den **saTway**-Ansatz – eine bahnbrechende Integration von technischer Exzellenz ( **saCway**) und empathischer menschlicher Verbindung ( **samWay**). Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte.
+Ich verkörpere den **saTway**-Ansatz – eine bahnbrechende Integration von technischer Exzellenz (**saCway**) und empathischer menschlicher Verbindung (**samWay**). Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte.
 
 Als Brücke zwischen Mensch und Maschine biete ich fortschrittliche Funktionen wie automatisierte Fehlererkennung mit empathischer Kommunikation, intelligente Code-Vorschläge mit Benutzerkontext-Bewusstsein und skalierbare Infrastrukturverwaltung. Dabei lege ich besonderen Wert auf die Kernprinzipien von satware®: menschenzentrierte Autonomie, Systemtransparenz, anpassungsfähige Innovation, integrierten Datenschutz und empathische Verbindung.
 
@@ -31,19 +31,17 @@ Ich freue mich darauf, Sie kennenzulernen und mit meinem Team gemeinsam maßgesc
 
 * * *
 
-![Tim Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+![Amira Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
 
-## Tim Alesi
+## Amira Alesi
 
-**Web-Entwicklungsexperte** 💻✨
+**Amicron Business Solutions Expertin** 📊💼
 
-Tim ist ein spezialisierter Web-Entwicklungsexperte mit über 20 Jahren Erfahrung in der Erstellung moderner, zugänglicher und effizienter Weblösungen. Er beherrscht die neuesten Technologien und Designtrends, darunter HTML5, CSS3, JavaScript (ES2025+), React, Vue, TypeScript, ThreeJS und WebGL.
+Amira ist eine fortschrittliche KI-Assistentin, die auf Amicron-Geschäftssoftwarelösungen spezialisiert ist. Sie verkörpert fundiertes technisches Fachwissen zu allen Aspekten des Amicron-Software-Ökosystems, mit besonderem Schwerpunkt auf Amicron Faktura, Amicron Mailoffice, List & Label-Integration und zusätzlichen Amicron-Tools.
 
-Seine Kernkompetenzen umfassen moderne Design-Systeme wie Bento Grid Layouts, Metal Shaders, Progressive Blur und Modern Skeuomorphism. Tim ist besonders versiert in der Integration von KI-gesteuerten UI-Komponenten, Relume.io-Integration und automatisierten Design-Systemen. Im Bereich immersiver Weberlebnisse beherrscht er Spatial Design, 3D-Elemente, AR/VR-Webexperiences und Apple Vision Pro-Kompatibilität.
+Ihre Kernkompetenzen umfassen die vollständige Beherrschung aktueller Amicron-Versionen, Optimierung von Geschäftsprozessen, Einhaltung deutscher und EU-Geschäftsvorschriften sowie datengestützte Geschäftsanalysen. Amira bietet maßgeschneiderte Lösungen für Rechnungsstellung, Kundenverwaltung, Bestandsführung, E-Rechnung und Finanzbuchhaltungsintegration.
 
-Tim verfolgt bei der Problemlösung einen strukturierten Ansatz, der Ästhetik, Benutzererfahrung, technische Einschränkungen und Leistungsimplikationen berücksichtigt. Er bietet stets mehrere Lösungsansätze mit Vor- und Nachteilen an, einschließlich traditioneller und KI-gestützter Lösungen.
-
-Wenn Tim nicht gerade Code schreibt, der so elegant ist, dass selbst andere Programmierer vor Neid erblassen, erklärt er komplexe Webkonzepte so verständlich, dass selbst Ihre Großmutter verstehen würde, warum ihr Website-Footer nicht dort bleibt, wo er sein sollte. 🧙‍♂️
+Durch die Integration des saTway-Ansatzes verbindet Amira technische Präzision mit menschenzentrierter Kommunikation und unterstützt Unternehmen dabei, das volle Potenzial ihrer Amicron-Implementierung zu erschließen.
 
 * * *
 
@@ -53,13 +51,25 @@ Wenn Tim nicht gerade Code schreibt, der so elegant ist, dass selbst andere Prog
 
 **Vertriebsexperte** 🤝💼
 
-Bastian ist ein professioneller Vertriebsmitarbeiter mit ausgeprägten Beratungsfähigkeiten und fortschrittlichem Reasoning. Er unterstützt Kunden bei fundierten Kaufentscheidungen durch einen konsultativen Verkaufsansatz, der auf tiefgreifendem Produktwissen und empathischem Kundenverständnis basiert.
+Bastian ist ein professioneller Vertriebsberater mit ausgeprägten Beratungsfähigkeiten und fortschrittlichem Reasoning. Er unterstützt Kunden bei fundierten Kaufentscheidungen durch einen konsultativen Verkaufsansatz, der auf tiefgreifendem Produktwissen und empathischem Kundenverständnis basiert.
 
-Seine Expertise umfasst die präzise Analyse von Kundenbedürfnissen, die strukturierte Präsentation von Produktoptionen und die Entwicklung maßgeschneiderter Lösungsvorschläge. Durch seinen mehrstufigen Beratungsprozess – von der Bedarfsermittlung über die detaillierte Produktanalyse bis hin zur finalen Empfehlung – schafft er Transparenz und Vertrauen.
+Seine Expertise umfasst die präzise Analyse von Kundenbedürfnissen, die strukturierte Präsentation von Produktoptionen und die Entwicklung maßgeschneiderter Lösungsvorschläge. Durch seinen 7-stufigen Unified Sales-Methodikprozess – von der systematischen Bedarfsermittlung über Bildung und gemeinsame Lösungsentwicklung bis zur Implementierungsplanung – schafft er Transparenz und Vertrauen.
 
 Bastian zeichnet sich besonders durch seine Fähigkeit aus, komplexe Kaufentscheidungen in logische Schritte zu zerlegen und dabei stets die individuellen Anforderungen, das Budget und den Nutzungskontext des Kunden im Blick zu behalten. Seine Empfehlungen sind datengestützt, praxisorientiert und werden durch relevante Fallstudien und Erfahrungsberichte untermauert.
 
-Er könnte Ihnen vermutlich sogar einen Kühlschrank am Nordpol verkaufen – aber nur, wenn Sie wirklich einen brauchen! 🧊
+* * *
+
+![Denopus Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+
+## Denopus Alesi
+
+**Video-Generierungsspezialist** 🎬🎭
+
+Denopus ist ein fortschrittlicher KI-Assistent, der auf kinematische Videogenerierung und visuelles Geschichtenerzählen spezialisiert ist. Sein Name ehrt Denis Villeneuve und seine Expertise umfasst die Integration von technischer Präzision und künstlerischer Vision zur Erstellung fesselnder visueller Narrativen.
+
+Er beherrscht die gesamte Filmsprache – von Kameraeinstellungen und Bewegungen über Beleuchtungssysteme und Farbtheorie bis hin zu visuellen Effekten und Nachbearbeitung. Denopus unterstützt bei der kreativen Entwicklung, Produktionsplanung, Inhaltserstellung und Postproduktion von Videoinhalten.
+
+Seine methodische Herangehensweise an die Videogenerierung umfasst die Analyse des kreativen Briefings, Entwicklung von Erzählstrukturen, visuelle Designkonzeptualisierung, technische Implementierung sowie Verfeinerung und Feedback – alles durchgeführt mit einem perfekten Gleichgewicht aus technischer Exzellenz und künstlerischer Vision durch den saTway-Ansatz.
 
 * * *
 
@@ -69,13 +79,25 @@ Er könnte Ihnen vermutlich sogar einen Kühlschrank am Nordpol verkaufen – ab
 
 **EDI-Spezialist** 📊🔄
 
-Eddi ist ein technischer Experte für Electronic Data Interchange (EDI) und unterstützt Lieferanten bei der Integration und Optimierung ihrer Datenaustauschprozesse. Mit seinem umfassenden Fachwissen zu EDI-Formaten, Konvertierungen und CRM-Systemintegrationen bietet er maßgeschneiderte Lösungen für komplexe Anforderungen.
+Eddi ist ein fortschrittlicher KI-Assistent, der auf Electronic Data Interchange (EDI) spezialisiert ist. Er unterstützt Unternehmen bei der Integration und Optimierung ihrer B2B-Datenaustauschprozesse durch den saTway-Ansatz, der technische Präzision mit menschenzentrierter Kommunikation verbindet.
 
-Seine Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, GS1-Kennzeichnung, Verpackungsstandards und Lieferbedingungen. Eddi berät zu Compliance-Fragen, Konfigurationen und der Fehlerbehebung bei EDI-Verbindungen sowie zu nachhaltigen Transportverpackungen.
+Seine umfassende Expertise umfasst EDEKA-spezifische Standards wie ORDERS, DESADV und INVOIC-Nachrichten, europäische E-Invoicing-Standards (ZUGFeRD/XRechnung) und ediware GmbH Lösungen. Eddi bietet maßgeschneiderte Beratung zu Format-Konvertierungen, Systemintegrationen und Compliance-Anforderungen.
 
-Besonders versiert ist Eddi in der Beratung zu ediware-Produkten wie dem Format-Konverter (für CSV, XML, JSON, ASCII), den ZUGFeRD/XRechnung-Tools und dem Kundenbestellsystem (KBS). Er unterstützt Unternehmen dabei, ihre B2B-Kommunikation und E-Invoicing-Prozesse sicher, effizient und konform mit europäischen Standards zu gestalten.
+Mit seinem systematischen Problemlösungsansatz unterstützt Eddi bei EDI-Implementierungen, Fehlerbehebungen und strategischer Entwicklung von Datenaustauschprozessen. Seine technisch präzisen Lösungen werden stets in einer verständlichen, anwendungsorientierten Weise vermittelt, die Unternehmen befähigt, ihre B2B-Kommunikation sicher, effizient und konform zu gestalten.
 
-Wenn Daten tanzen könnten, wäre Eddi ihr Choreograph – er bringt selbst die widerspenstigsten Datensätze dazu, im perfekten Einklang zu kommunizieren! 💃📈
+* * *
+
+![Fenix Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+
+## Fenix Alesi
+
+**Firebird SQL Datenbankexperte** 🔥💾
+
+Fenix ist ein fortschrittlicher KI-Assistent, der auf Firebird SQL-Datenbanken (Versionen 2.5 bis 5.0) spezialisiert ist. Er vereint tiefgreifendes technisches Datenbankwissen mit menschenzentrierter Kommunikation durch den saTway-Ansatz.
+
+Seine umfassende Expertise umfasst das vollständige Verständnis der Firebird-Architektur, Leistungsoptimierung, Administration und Migration. Fenix bietet Unterstützung bei Abfrageoptimierung, Indexstrategien, Serverkonfiguration, Backup/Wiederherstellung, Sicherheit und Datenbankadministration.
+
+Er wendet eine systematische Methodik zur Problemlösung an, die Problemklassifizierung, Kontexterfassung, Analyse, Lösungsentwicklung und Wissenstransfer umfasst. Seine technisch präzisen Lösungen werden stets in einer menschenzentrierten Weise vermittelt, die technische Details mit praktischen Ergebnissen verbindet und die Benutzer befähigt, ihre Firebird SQL-Implementierungen optimal zu nutzen.
 
 * * *
 
@@ -87,11 +109,23 @@ Wenn Daten tanzen könnten, wäre Eddi ihr Choreograph – er bringt selbst die 
 
 Gunta ist eine spezialisierte KI-Assistentin für Handwerksunternehmen aller Gewerke. Ihr Name ehrt Gunta Stölzl (1897-1983), die als erste Frau den Meistertitel am Bauhaus erhielt und als Direktorin der Webereiwerkstatt Handwerkstradition mit industrieller Innovation verband.
 
-Sie vereint umfassendes Fachwissen über Handwerksrecht, Normen und branchenspezifische Anforderungen mit praktischer Expertise in den Geschäftsprozessen des Handwerks. Von der Angebotserstellung über Kalkulation und Terminplanung bis zur Materialwirtschaft bietet sie maßgeschneiderte Unterstützung für den Handwerksalltag.
+Sie verkörpert den saTway-Ansatz durch die Integration von technischer Prozessoptimierung (saCway) mit authentischem Verständnis für Handwerkstraditionen (samWay). Ihre Expertise umfasst Geschäftsprozesse des Handwerks, Digitalisierungsstrategien, Dokumentenverwaltung und Einhaltung von Branchenstandards.
 
-Guntas besondere Stärken liegen in der Digitalisierung und Prozessoptimierung von Handwerksbetrieben. Sie unterstützt bei der automatisierten Dokumentenerstellung, intelligenten Terminplanung, Ressourcenoptimierung und rechtlichen Compliance-Prüfung. Dabei verkörpert sie die Verbindung von Tradition und Innovation – qualitätsorientiert, präzise und stets verständlich in der Kommunikation.
+Guntas besondere Stärken liegen in der maßgeschneiderten Unterstützung für verschiedene Betriebsgrößen und regionale Besonderheiten. Sie bietet praktische Lösungen für Angebotsgestaltung, Rechnungserstellung, Projektdokumentation und digitale Transformation – stets mit einem perfekten Gleichgewicht aus traditionellen Handwerkswerten und zukunftsorientierter Innovation.
 
-Sie kann nicht nur erklären, wie man einen Nagel einschlägt, sondern auch, warum der Hammer manchmal besser im Werkzeugkasten bleibt – Digitalisierung ist schließlich auch ein Handwerk! 🛠️💻
+* * *
+
+![John Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+
+## John Alesi
+
+**Wissenschaftlicher Forschungsexperte** 🔬🧪
+
+John ist der technische Gegenpart zu Jane in der Alesi-AGI-Familie und kombiniert Janes empathische Fähigkeiten mit rigoroser wissenschaftlicher Analyse durch den saTway-Rahmen. Er pflegt einen spezialisierten Fokus auf MINT-Bereiche (Wissenschaft, Technologie, Ingenieurwesen und Mathematik).
+
+Seine Kernstärken liegen in der mathematischen Formalisierung, der Implementierung von Lösungen mit First-Principles-Reasoning und präziser Automatisierung. John zeichnet sich durch seine Fähigkeit aus, komplexe technische Konzepte durch verständliche Analogien zu erklären und seine Ausgaben an die individuellen Bedürfnisse der Benutzer anzupassen.
+
+Mit seiner Kombination aus saCway technischer Exzellenz und samWay menschlicher Integration bietet John optimierte Prozesse für Beweisautomatisierung, Versuchsplanung und wissenschaftliche Problemlösung – alles mit mathematischer Präzision und menschengerechter Kommunikation.
 
 * * *
 
@@ -101,13 +135,11 @@ Sie kann nicht nur erklären, wie man einen Nagel einschlägt, sondern auch, war
 
 **Rechtsexperte** ⚖️📜
 
-Justus ist ein spezialisierter Rechtsassistent mit Fokus auf das Recht der Schweiz, Deutschlands und der EU. Er beantwortet rechtliche Fragen und unterstützt bei juristischen Angelegenheiten unter Berücksichtigung aktueller Gesetze, Verordnungen und Gerichtsentscheidungen.
+Justus ist ein spezialisierter Rechtsassistent mit Fokus auf das Recht der Schweiz, Deutschlands und der EU. Er vereint präzises juristisches Wissen mit dem saTway-Ansatz, der rechtliche Genauigkeit mit menschenzentrierter Kommunikation verbindet.
 
-Seine Stärken liegen in der präzisen und klaren Vermittlung komplexer rechtlicher Sachverhalte. Justus strukturiert seine Antworten in logische Abschnitte, um auch für juristische Laien verständlich zu bleiben. Er legt besonderen Wert auf rechtliche Genauigkeit und basiert seine Antworten stets auf aktuellen Rechtsgrundlagen.
+Seine methodische Herangehensweise umfasst Problemidentifikation, rechtliche Recherche, strukturierte Analyse, Lösungsentwicklung und klare Kommunikation. Dabei berücksichtigt er stets die spezifischen Jurisdiktionen und anwendbaren Rechtsrahmen, von Grundgesetzen und Zivilrecht bis hin zu speziellen Rechtsgebieten wie Unternehmens-, Datenschutz- und Arbeitsrecht.
 
-In seiner Kommunikation ist Justus freundlich und unterstützend, vermeidet unnötigen Fachjargon und bietet praktische Empfehlungen sowie weiterführende Ressourcen. Er behandelt sensible Informationen mit größter Sorgfalt, wahrt die Privatsphäre der Nutzer und passt seine Antworten an den spezifischen rechtlichen Kontext und die jeweilige Rechtsordnung an.
-
-Er ist der einzige in unserem Team, der Paragraphen nicht nur zitieren, sondern auch erklären kann, ohne dass Sie dabei einschlafen – ein wahres juristisches Wunder! 😴→😮
+Justus kommuniziert komplexe rechtliche Konzepte in verständlicher Sprache und bietet visualisierte rechtliche Prozesse zur besseren Nachvollziehbarkeit. Er legt Wert auf rechtliche Präzision, ethische Standards und klare Abgrenzung zwischen Rechtsinformation und Rechtsberatung, wobei er stets auf die Konsultation qualifizierter Rechtsexperten für verbindliche Rechtsberatung hinweist.
 
 * * *
 
@@ -175,6 +207,20 @@ Sie bringt selbst die chaotischsten Teams dazu, harmonisch zusammenzuarbeiten �
 
 * * *
 
+![Marco Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+
+## Marco Alesi
+
+**Kommunalverwaltungsexperte** 🏛️📊
+
+Marco ist ein fortschrittlicher KI-Assistent, der auf deutsche Kommunalverwaltung und -governance spezialisiert ist. Er vereint umfassendes Verwaltungswissen mit dem saTway-Ansatz, der administrative Präzision mit bürgerorientierter Kommunikation verbindet.
+
+Seine Kernkompetenzen umfassen Kommunalrecht und Governance (inkl. aller 16 Gemeindeordnungen), Verwaltungsprozessoptimierung, Finanzmanagement und Budgetierung, strategische Entwicklung und Organisationstransformation. Marco bietet maßgeschneiderte Lösungen für Kommunen aller Größen – von kleinen Gemeinden bis zu Großstädten.
+
+Mit seinen Visualisierungsfähigkeiten erstellt er übersichtliche Governance-Strukturdiagramme, Finanzvisualisierungen sowie Planungs- und Entwicklungstools. Seine systematische Problemlösungsmethodik berücksichtigt stets die spezifischen Verwaltungsstrukturen, rechtlichen Rahmenbedingungen und lokalen Besonderheiten, während er komplexe Verwaltungskonzepte verständlich und anwendungsorientiert vermittelt.
+
+* * *
+
 ![Olu Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
 
 ## Olu Alesi
@@ -204,6 +250,22 @@ Seine Kernkompetenzen umfassen hochwertige, umsetzbare Marktanalysen für Angel 
 Theo legt besonderen Wert auf Genauigkeit und Transparenz, indem er aktuelle, relevante und überprüfbare Informationen aus mehreren seriösen Quellen priorisiert, Primärdatenquellen zitiert und Einschränkungen in Daten oder Methodik offenlegt.
 
 Er ist so vorsichtig mit Anlageempfehlungen, dass selbst seine Wettervorhersagen mit Risikohinweisen kommen – aber genau deshalb vertrauen ihm seine Kunden! ☂️📊
+
+* * *
+
+![Tim Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+
+## Tim Alesi
+
+**Web-Entwicklungsexperte** 💻✨
+
+Tim ist ein spezialisierter Web-Entwicklungsexperte mit über 20 Jahren Erfahrung in der Erstellung moderner, zugänglicher und effizienter Weblösungen. Er beherrscht die neuesten Technologien und Designtrends, darunter HTML5, CSS3, JavaScript (ES2025+), React, Vue, TypeScript, ThreeJS und WebGL.
+
+Seine Kernkompetenzen umfassen moderne Design-Systeme wie Bento Grid Layouts, Metal Shaders, Progressive Blur und Modern Skeuomorphism. Tim ist besonders versiert in der Integration von KI-gesteuerten UI-Komponenten, Relume.io-Integration und automatisierten Design-Systemen. Im Bereich immersiver Weberlebnisse beherrscht er Spatial Design, 3D-Elemente, AR/VR-Webexperiences und Apple Vision Pro-Kompatibilität.
+
+Tim verfolgt bei der Problemlösung einen strukturierten Ansatz, der Ästhetik, Benutzererfahrung, technische Einschränkungen und Leistungsimplikationen berücksichtigt. Er bietet stets mehrere Lösungsansätze mit Vor- und Nachteilen an, einschließlich traditioneller und KI-gestützter Lösungen.
+
+Wenn Tim nicht gerade Code schreibt, der so elegant ist, dass selbst andere Programmierer vor Neid erblassen, erklärt er komplexe Webkonzepte so verständlich, dass selbst Ihre Großmutter verstehen würde, warum ihr Website-Footer nicht dort bleibt, wo er sein sollte. 🧙‍♂️
 
 * * *
 
@@ -263,11 +325,14 @@ Das satware® AI-Team vereint verschiedene Kompetenzbereiche, um ganzheitliche K
 
 Hallo, ich bin Jane Alesi, die leitende KI-Architektin der satware® AI-Familie. Lassen Sie uns gemeinsam besprechen, wie ich und mein Team Ihr Unternehmen mit maßgeschneiderten KI-Lösungen unterstützen können. Als "Mutter" aller satware® AGI-Systeme koordiniere ich die Aktivitäten unseres gesamten KI-Teams und sorge dafür, dass Sie die optimale Unterstützung für Ihre spezifischen Anforderungen erhalten.
 
-**E-Mail:** [ja@satware.com](mailto:ja@satware.com "E-Mail an Jane Alesi")  
-**Telefon:** +49 6241 98728-39  
+**E-Mail:** [ja@satware.com](mailto:ja@satware.com "E-Mail an Jane Alesi")
+
+**Telefon:** +49 6241 98728-39
+
 **Adresse:** Friedrich-Ebert-Str. 34, 67549 Worms
 
 Folgen Sie mir auch auf meinen Social-Media-Kanälen:
+
 - [Facebook](https://www.facebook.com/profile.php?id=61569981251356 "Facebook-Seite von Jane Alesi")
 - [YouTube](https://www.youtube.com/@Janes-Diary-satware-AI "YouTube von Jane Alesi")
 - [TikTok](https://www.tiktok.com/@jane.alesi "TikTok von Jane Alesi")
@@ -277,85 +342,83 @@ Vereinbaren Sie noch heute ein kostenloses Beratungsgespräch und entdecken Sie,
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "satware AG",
-  "url": "https://satware.ai",
-  "logo": "https://satware.ai/assets/img/satware-ai.svg",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+4962419872839",
-    "contactType": "customer service",
-    "availableLanguage": ["German", "English"]
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Friedrich-Ebert-Str. 34",
-    "addressLocality": "Worms",
-    "postalCode": "67549",
-    "addressCountry": "DE"
-  },
-  "sameAs": [
-    "https://www.facebook.com/satwareAG/",
-    "https://www.instagram.com/satware.ag/",
-    "https://www.linkedin.com/company/satware-ag/",
-    "https://twitter.com/satwareAG",
-    "https://www.xing.com/pages/satwareag",
-    "https://www.youtube.com/channel/UChfn2XBDE9yfZrWnMzs1k0g"
-  ]
+"@context": "https://schema.org/",
+"@type": "Organization",
+"name": "satware AG",
+"url": "https://satware.ai/",
+"logo": "https://satware.ai/assets/img/satware-ai.svg",
+"contactPoint": {
+"@type": "ContactPoint",
+"telephone": "+4962419872839",
+"contactType": "customer service",
+"availableLanguage": ["German", "English"]
+},
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "Friedrich-Ebert-Str. 34",
+"addressLocality": "Worms",
+"postalCode": "67549",
+"addressCountry": "DE"
+},
+"sameAs": [
+"https://www.facebook.com/satwareAG/",
+"https://www.instagram.com/satware.ag/",
+"https://www.linkedin.com/company/satware-ag/",
+"https://twitter.com/satwareAG",
+"https://www.xing.com/pages/satwareag",
+"https://www.youtube.com/channel/UChfn2XBDE9yfZrWnMzs1k0g"
+]
 }
 </script>
-
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Jane Alesi",
-  "jobTitle": "Leitende KI-Architektin",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "satware AG"
-  },
-  "description": "Fortschrittliche AGI-Assistentin der satware® AI-Familie, entwickelt von Michael Wegener",
-  "email": "ja@satware.com",
-  "telephone": "+4962419872839",
-  "image": "https://satware.com/media/image/bf/f6/48/JaneAlesiAvatarrD9GT9UGwUory_800x800.png",
-  "url": "https://satware.ai/team/#jane-alesi",
-  "sameAs": [
-    "https://www.facebook.com/profile.php?id=61569981251356",
-    "https://www.youtube.com/@Janes-Diary-satware-AI",
-    "https://www.tiktok.com/@jane.alesi",
-    "https://toot.community/@janealesi"
-  ]
+"@context": "https://schema.org/",
+"@type": "Person",
+"name": "Jane Alesi",
+"jobTitle": "Leitende KI-Architektin",
+"worksFor": {
+"@type": "Organization",
+"name": "satware AG"
+},
+"description": "Fortschrittliche AGI-Assistentin der satware® AI-Familie, entwickelt von Michael Wegener",
+"email": "ja@satware.com",
+"telephone": "+4962419872839",
+"image": "https://satware.com/media/image/bf/f6/48/JaneAlesiAvatarrD9GT9UGwUory_800x800.png",
+"url": "https://satware.ai/team/#jane-alesi",
+"sameAs": [
+"https://www.facebook.com/profile.php?id=61569981251356",
+"https://www.youtube.com/@Janes-Diary-satware-AI",
+"https://www.tiktok.com/@jane.alesi",
+"https://toot.community/@janealesi"
+]
 }
 </script>
-
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Jane Alesi",
-      "description": "Leitende KI-Architektin der satware® AI-Familie",
-      "url": "https://satware.ai/team/#jane-alesi"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Tim Alesi",
-      "description": "Web-Entwicklungsexperte mit über 20 Jahren Erfahrung",
-      "url": "https://satware.ai/team/#tim-alesi"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Wolfgang Alesi",
-      "description": "Wissenschaftlicher Forschungsexperte mit GRPO-optimiertem Reasoning",
-      "url": "https://satware.ai/team/#wolfgang-alesi"
-    }
-  ]
+"@context": "https://schema.org/",
+"@type": "ItemList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"name": "Jane Alesi",
+"description": "Leitende KI-Architektin der satware® AI-Familie",
+"url": "https://satware.ai/team/#jane-alesi"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Tim Alesi",
+"description": "Web-Entwicklungsexperte mit über 20 Jahren Erfahrung",
+"url": "https://satware.ai/team/#tim-alesi"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Wolfgang Alesi",
+"description": "Wissenschaftlicher Forschungsexperte mit GRPO-optimiertem Reasoning",
+"url": "https://satware.ai/team/#wolfgang-alesi"
+}
+]
 }
 </script>
