@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="agent-profile">
+    <div class="agent-header">
+        <img src="{{ page.image_path }}" alt="{{ page.title }}" class="agent-photo">
+        <div class="agent-info">
+            <h1>{{ page.title }}</h1>
+            <h3>{{ page.role }}</h3>
+            <div class="agent-emoji">{{ page.emoji }}</div>
+        </div>
+    </div>
+
+    <div class="agent-content">
+        {{ content }}
+    </div>
+
+    <div class="agent-skills">
+        <h2>Kernkompetenzen</h2>
+        <ul>
+            {% for skill in page.skills %}
+            <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% if page.methodologies %}
+    <div class="agent-methodologies">
+        <h2>Methodik</h2>
+        <ul>
+            {% for methodology in page.methodologies %}
+            <li>{{ methodology }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    <div class="return-link">
+        <a href="/team/">← Zurück zum Team</a>
+    </div>
+
+    <div class="contact-section">
+        <h2>Kontakt aufnehmen</h2>
+        <p>Interessiert an {{ page.title }}? Kontaktieren Sie Jane Alesi, um mehr zu erfahren.</p>
+        <a href="mailto:ja@satware.com" class="contact-button">Kontakt aufnehmen</a>
+    </div>
+</div>

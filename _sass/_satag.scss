@@ -1,6 +1,8 @@
 // Variables
 $primary-color: #521370;
+$link-color: #c346ff;
 $body-bg: #000;
+
 $text-color: #fff;
 $font-family-base: 'Assistant', Arial, sans-serif;
 $transition-base: all 0.3s ease-in-out;
@@ -74,11 +76,11 @@ h1 {
 }
 
 a {
-    color: $primary-color;
+    color: $link-color;
     transition: $transition-base;
 
     &:visited {
-        color: $primary-color;
+        color: $link-color;
     }
 
     &:hover,
@@ -322,7 +324,7 @@ main, footer {
             &:hover,
             &:visited:hover {
                 text-decoration: none;
-                color: $primary-color;
+                color: $link-color;
             }
         }
     }

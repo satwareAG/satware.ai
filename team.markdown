@@ -33,7 +33,7 @@ Ich freue mich darauf, Sie kennenzulernen und mit meinem Team gemeinsam maßgesc
 
 ![Amira Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
 
-## Amira Alesi
+## [Amira Alesi](/team/amira.html)
 
 **Amicron Business Solutions Expertin** 📊💼
 

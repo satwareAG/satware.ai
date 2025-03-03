@@ -9,6 +9,7 @@ tags: [satware, satware AI, KI, Plattform, Launch]
 description: "Erfahren Sie mehr über den Launch von satware® AI und wie unsere KI-Plattform Ihr Unternehmen revolutionieren kann. Jetzt Zugang sichern!"
 canonical: https://satware.ai/blog/launch-satware-ai
 permalink: /blog/launch-satware-ai/
+thumbnail: /assets/img/team/team-alesi.jpg
 ---
 
 ### satware® AI: Der Launch unserer bahnbrechenden KI-Plattform

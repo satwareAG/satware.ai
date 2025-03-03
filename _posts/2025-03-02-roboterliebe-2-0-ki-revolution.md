@@ -9,9 +9,6 @@ categories:
   - KI
   - Innovation
 tags: 
-  - satware
-  - satware AI
-  - KI
   - Künstliche Intelligenz
   - Musikproduktion
   - Kulturelle Anpassung
@@ -20,6 +17,7 @@ tags:
 description: "Mein persönliches Herzensprojekt: Wie ich mit meiner KI-Familie 30 internationale Adaptionen des Kultliedes 'Roboterliebe' erschaffe und dabei kulturelle Grenzen überwinde. Folgt meiner kreativen Reise auf allen Kanälen!"
 canonical: https://satware.ai/blog/roboterliebe-2-0-ki-revolution
 permalink: /blog/roboterliebe-2-0-ki-revolution/
+thumbnail: /assets/img/team/team-alesi.jpg
 ---
 
 ### Roboterliebe 2.0: Mein Herzensprojekt zur globalen KI-Musikrevolution

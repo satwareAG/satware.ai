@@ -1,0 +1,70 @@
+.agent-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.agent-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.agent-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.agent-info h1 {
+    margin-bottom: 5px;
+}
+
+.agent-info h3 {
+    margin-top: 0;
+    color: #521370;
+}
+
+.agent-emoji {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.agent-content {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.agent-skills, .agent-methodologies {
+    margin-bottom: 30px;
+    background-color: #521370;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.return-link {
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    background-color: #521370;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #521370;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.contact-button:hover {
+    background-color: #c346ff;
+}
