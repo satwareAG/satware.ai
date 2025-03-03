@@ -4,12 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
-<h1>Entdecke hier unsere Blogbeiträge</h1>
 
-{% for post in site.posts %}
-  <article>
-    <h2 class="blog-entry-headline"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-    <p>Veröffentlicht am {{ post.date | date: "%d.%m.%Y" }}</p>
-  </article>
-{% endfor %}
+<h1>Jane's Blog</h1>
+
+<div class="blog-container">
+  {% include blog-grid.html %}
+</div>

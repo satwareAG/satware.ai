@@ -1,0 +1,5 @@
+.git
+.gitignore
+.sass-cache
+_site
+vendor

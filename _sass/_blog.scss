@@ -1,0 +1,111 @@
+/* assets/css/blog.scss */
+// Define SCSS variables in place of CSS custom properties
+$card-bg: #2d3748;
+$heading-color: #e2e8f0;
+$primary-color: #521370;
+$text-muted: #a0aec0;
+$tag-bg: #4a5568;
+$tag-color: #e2e8f0;
+
+// Dark mode variables
+$dark-card-bg: #2d3748;
+$dark-heading-color: #e2e8f0;
+$dark-text-muted: #a0aec0;
+$dark-tag-bg: #4a5568;
+$dark-tag-color: #e2e8f0;
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.blog-card {
+  background: $card-bg;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  &__image {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    padding: 1.5rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+
+    a {
+      color: $heading-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  &__meta {
+    font-size: 0.875rem;
+    color: $text-muted;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
+    .tag {
+      padding: 0.25rem 0.75rem;
+      background: $tag-bg;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      color: $tag-color;
+    }
+  }
+}
+
+// Dark mode implementation using a class-based approach
+.dark-mode {
+  .blog-card {
+    background: $dark-card-bg;
+
+    &__title a {
+      color: $dark-heading-color;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    &__meta {
+      color: $dark-text-muted;
+    }
+
+    &__tags .tag {
+      background: $dark-tag-bg;
+      color: $dark-tag-color;
+    }
+  }
+}
