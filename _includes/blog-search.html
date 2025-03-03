@@ -1,0 +1,60 @@
+<!-- _includes/blog-search.html -->
+<div class="blog-search">
+  <input type="text" id="search-input" placeholder="Search posts...">
+  <div id="search-results" class="search-results"></div>
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Create index
+  const searchIndex = lunr(function() {
+    this.field('title', { boost: 10 });
+    this.field('content');
+    this.field('tags', { boost: 5 });
+    this.ref('id');
+
+    {% for post in site.posts %}
+      this.add({
+        title: {{ post.title | jsonify }},
+        content: {{ post.content | strip_html | jsonify }},
+        tags: {{ post.tags | jsonify }},
+        id: {{ post.url | jsonify }}
+      });
+    {% endfor %}
+  });
+
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value;
+    if (query.length < 2) {
+      searchResults.innerHTML = '';
+      return;
+    }
+
+    const results = searchIndex.search(query);
+    displayResults(results);
+  });
+
+  function displayResults(results) {
+    if (results.length === 0) {
+      searchResults.innerHTML = '<p>No results found</p>';
+      return;
+    }
+
+    const html = results.map(result => {
+      const post = site.posts.find(p => p.url === result.ref);
+      return `
+        <article class="search-result">
+          <h3><a href="${post.url}">${post.title}</a></h3>
+          <p>${post.excerpt}</p>
+        </article>
+      `;
+    }).join('');
+
+    searchResults.innerHTML = html;
+  }
+});
+</script>

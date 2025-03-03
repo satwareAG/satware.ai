@@ -1,0 +1,15 @@
+<!-- _includes/blog-filters.html -->
+<div class="blog-filters">
+  <select class="filter-category">
+    <option value="">All Categories</option>
+    {% for category in site.categories %}
+      <option value="{{ category[0] }}">{{ category[0] | capitalize }}</option>
+    {% endfor %}
+  </select>
+
+  <select class="sort-posts">
+    <option value="date-desc">Newest First</option>
+    <option value="date-asc">Oldest First</option>
+    <option value="title">Title A-Z</option>
+  </select>
+</div>

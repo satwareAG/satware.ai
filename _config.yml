@@ -23,12 +23,15 @@ description: "Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir b
 baseurl: "" # Lassen Sie dies leer, wenn die Website im Root-Verzeichnis gehostet wird
 url: "https://satware.ai" # Die zukünftige URL der Website
 
-
+sass:
+  load_paths:
+    - _sass
+    - node_modules # if using npm packages
+  style: compressed
 
 # Build settings
 theme: minima
-assets:
-  - "assets/satag.css"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -87,3 +90,16 @@ exclude:
 include:
   - .htaccess
   - CNAME
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
+      reading_time: true
+      comments: true
+      share: true
+      related: true
+      thumbnail: "/assets/images/default-post-thumbnail.jpg"
+
