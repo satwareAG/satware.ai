@@ -28,6 +28,8 @@ jobs:
         with:
           ruby-version: '3.2' # Wählen Sie die Ruby-Version, die Sie verwenden
           bundler-cache: true # Aktiviert Caching für schnellere Builds
+      - name: Add platform to Gemfile.lock
+        run: bundle lock --add-platform x86_64-linux
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
