@@ -31,7 +31,14 @@ Ich freue mich darauf, Sie kennenzulernen und mit meinem Team gemeinsam maßgesc
 
 * * *
 
-![Amira Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+<picture>
+<!-- Best compression, newer browsers -->
+<source srcset="/assets/img/team/amira-alesi.avif" type="image/avif">
+<!-- Good compression, wide support -->
+<source srcset="/assets/img/team/amira-alesi.webp" type="image/webp">
+<!-- Fallback for older browsers -->
+<img src="/assets/img/team/amira-alesi.jpg" alt="Amira Alesi - Amicron KI Unterstützung">
+</picture>
 
 ## [Amira Alesi](/team/amira.html)
 
@@ -221,9 +228,16 @@ Mit seinen Visualisierungsfähigkeiten erstellt er übersichtliche Governance-St
 
 * * *
 
-![Olu Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+<picture>
+    <!-- Best compression, newer browsers -->
+    <source srcset="/assets/img/team/olu-alesi.avif" type="image/avif">
+    <!-- Good compression, wide support -->
+    <source srcset="/assets/img/team/olu-alesi.webp" type="image/webp">
+    <!-- Fallback for older browsers -->
+    <img src="/assets/img/team/olu-alesi.jpg" alt="Olu Alesi KI Agent">
+</picture>
 
-## Olu Alesi
+## [Olu Alesi](/team/olu.html)
 
 **Globaler Kulturnavigator und Finanzexperte** 🌍💹
 

@@ -1,21 +1,7 @@
 services:
   jekyll:
-    image: jekyll/jekyll:4.2.2
-    command: jekyll serve --force_polling --livereload
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
     ports:
-      - "4000:4000"
-      - "35729:35729"  # for livereload
-    volumes:
-      - .:/srv/jekyll:cached
-      - ./vendor/bundle:/usr/local/bundle:cached
-    environment:
-      - JEKYLL_ENV=development
-    restart: unless-stopped
-
-  # Optional service for caching dependencies
-  bundle:
-    image: jekyll/jekyll:4.2.2
-    command: bundle install
-    volumes:
-      - .:/srv/jekyll:cached
-      - ./vendor/bundle:/usr/local/bundle:cached
+      - '4000:4000'
