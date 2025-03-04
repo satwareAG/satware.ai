@@ -117,11 +117,30 @@ header, footer {
     padding: 3rem;
 }
 
+header.post-header{
+    padding: 3rem 0;
+}
+
 main, footer {
     width: 80%;
     max-width: 1080px;
     margin: auto;
     padding: 0;
+}
+
+.footer-column{
+    .social-media{
+        a,
+        a:visited{
+            color: $text-color;
+            transition: $transition-base;
+            padding-right: 10px;
+            &:hover{
+                color: $link-color;
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 // Navigation
@@ -330,6 +349,15 @@ main, footer {
     }
 }
 
+header .logo img {
+    float: none;
+    width: 237.469px;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
 // Team Page Styles
    body.team,
    [data-page-id="team"] {
@@ -358,12 +386,19 @@ main, footer {
            box-shadow: none;
        }
 
+
        hr {
            clear: both;
            margin: 2rem 0;
            border: none;
        }
    }
+
+hr {
+    clear: both;
+    margin: 2rem 0;
+    border: none;
+}
 
 // Custom Widget Styles
    .typingmind-chat-widget-button {

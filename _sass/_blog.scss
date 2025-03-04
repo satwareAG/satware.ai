@@ -1,17 +1,17 @@
 /* assets/css/blog.scss */
 // Define SCSS variables in place of CSS custom properties
-$card-bg: #2d3748;
-$heading-color: #e2e8f0;
+$card-bg: #fff;
+$heading-color: #000;
 $primary-color: #521370;
 $text-muted: #a0aec0;
-$tag-bg: #4a5568;
-$tag-color: #e2e8f0;
+$tag-bg: $primary-color;
+$tag-color: #ccc;
 
 // Dark mode variables
-$dark-card-bg: #2d3748;
-$dark-heading-color: #e2e8f0;
+$dark-card-bg: #fff;
+$dark-heading-color: #000;
 $dark-text-muted: #a0aec0;
-$dark-tag-bg: #4a5568;
+$dark-tag-bg: $primary-color;
 $dark-tag-color: #e2e8f0;
 
 .blog-grid {
@@ -23,7 +23,7 @@ $dark-tag-color: #e2e8f0;
 
 .blog-card {
   background: $card-bg;
-  border-radius: 12px;
+  border-radius: 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   overflow: hidden;
