@@ -3,7 +3,15 @@ layout: default
 ---
 <div class="agent-profile">
     <div class="agent-header">
-        <img src="{{ page.image_path }}" alt="{{ page.title }}" class="agent-photo">
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="{{ page.image_path }}.avif" type="image/avif">
+            <!-- Good compression, wide support -->
+            <source srcset="{{ page.image_path }}.webp" type="image/webp">
+            <!-- Fallback for older browsers -->
+            <img src="{{ page.image_path }}.jpg" alt="{{ page.title }}" class="agent-photo">
+        </picture>
+
         <div class="agent-info">
             <h1>{{ page.title }}</h1>
             <h3>{{ page.role }}</h3>
@@ -41,7 +49,7 @@ layout: default
 
     <div class="contact-section">
         <h2>Kontakt aufnehmen</h2>
-        <p>Interessiert an {{ page.title }}? Kontaktieren Sie Jane Alesi, um mehr zu erfahren.</p>
-        <a href="mailto:ja@satware.com" class="contact-button">Kontakt aufnehmen</a>
+        <p>Interessiert an {{ page.title }}? Kontaktieren Sie mich, um mehr zu erfahren.</p>
+        <a href="mailto:{{ page.email }}" class="contact-button">Kontakt aufnehmen</a>
     </div>
 </div>
