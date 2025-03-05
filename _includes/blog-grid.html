@@ -13,13 +13,20 @@
             </h2>
             <div class="blog-card__meta">
                 <time datetime="{{ post.date | date_to_xmlschema }}">
-                    {{ post.date | date: "%B %d, %Y" }}
+                    {{ post.date | date: "%d. %B %Y" }}
                 </time>
                 {% if post.author %}
                 <span class="blog-card__author">{{ post.author }}</span>
                 {% endif %}
                 {% if post.reading_time %}
-                <span class="blog-card__reading-time">{{ post.content | reading_time }} min read</span>
+                <span class="blog-card__reading-time">
+                    {% assign reading_time = post.content | reading_time | round %}
+                    {% if reading_time == 1 %}
+                      {{ reading_time }} Minute Lesezeit
+                    {% else %}
+                      {{ reading_time }} Minuten Lesezeit
+                    {% endif %}
+                </span>
                 {% endif %}
             </div>
             <p class="blog-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
