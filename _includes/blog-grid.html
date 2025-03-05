@@ -19,7 +19,7 @@
                 <span class="blog-card__author">{{ post.author }}</span>
                 {% endif %}
                 {% if post.reading_time %}
-                <span class="blog-card__reading-time">{{ post.reading_time }} min read</span>
+                <span class="blog-card__reading-time">{{ post.content | reading_time }} min read</span>
                 {% endif %}
             </div>
             <p class="blog-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
