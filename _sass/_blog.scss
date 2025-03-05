@@ -28,6 +28,10 @@ $dark-tag-color: #e2e8f0;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   overflow: hidden;
 
+  .blog-card__excerpt{
+    color: #000;
+  }
+
   &:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
