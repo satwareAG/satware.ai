@@ -22,8 +22,9 @@
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:description" content="{{ page.description }}">
 
-    <meta property="og:image" content="{{ site.url }}/assets/img/share.jpg">
-    <meta name="twitter:image" content="{{ site.url }}/assets/img/share.jpg">
+    <meta property="og:image" content="{{ site.url }}{% if page.share_image %}{{ page.share_image }}{% else %}/assets/img/share.jpg{% endif %}">
+    <meta name="twitter:image" content="{{ site.url }}{% if page.share_image %}{{ page.share_image }}{% else %}/assets/img/share.jpg{% endif %}">
+
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}">
