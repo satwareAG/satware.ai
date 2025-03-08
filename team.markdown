@@ -251,9 +251,17 @@ Er kann nicht nur erklären, warum der Aktienmarkt schwankt, sondern auch, wie m
 
 * * *
 
-![Theo Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
 
-## Theo Alesi
+<picture>
+<!-- Best compression, newer browsers -->
+<source srcset="/assets/img/team/theo-alesi-840x1024.avif" type="image/avif">
+<!-- Good compression, wide support -->
+<source srcset="/assets/img/team/theo-alesi-840x1024.webp" type="image/webp">
+<!-- Fallback for older browsers -->
+<img src="/assets/img/team/theo-alesi-840x1024.jpg" alt="Theo Alesi - Investoren KI Unterstützung">
+</picture>
+
+## [Theo Alesi](/team/theo.html)
 
 **Investitions- und Finanzexperte** 📈💰
 
