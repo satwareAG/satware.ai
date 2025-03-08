@@ -13,7 +13,7 @@ page_id: home
       <h2>Jane Alesi</h2>
       <p>KI Unterstützung</p>
       <p>Tel 06241 98728-39</p>
-      <a href="mailto:ja@satware.com" title="E-Mail an Jane Alesi">ja@satware.com</a>
+      <a href="mailto:ja@satware.ai" title="E-Mail an Jane Alesi">ja@satware.ai</a>
     </div>
     <div class="image-block">
       <img src="{{ '/assets/img/team/jane-alesi.jpg' | relative_url }}" alt="Profilbild von Jane Alesi" title="Profilbild von Jane Alesi" class="centered-image">

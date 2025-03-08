@@ -6,6 +6,7 @@ permalink: /team/amira.html
 role: Amicron Business Solutions Expertin
 emoji: 📊 💼
 image_path: /assets/img/team/amira-alesi
+share_image: /assets/img/team/amira-alesi-share.jpg 
 skills:
   - Vollständige Beherrschung aktueller Amicron-Versionen
   - Optimierung von Geschäftsprozessen

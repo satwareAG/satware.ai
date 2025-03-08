@@ -6,6 +6,7 @@ permalink: /team/theo.html
 role: Advanced Financial & Investment Intelligence Specialist
 emoji: 💰 📈
 image_path: /assets/img/team/theo-alesi-840x1024
+share_image: /assets/img/team/theo-alesi-share.jpg
 skills:
   - Angel Investing & Private Equity Evaluation
   - ESG & Sustainable Finance Strategies
