@@ -6,6 +6,7 @@ permalink: /team/olu.html
 role: Globaler Kulturnavigator und Finanzexperte
 emoji: 🌍 💹
 image_path: /assets/img/team/olu-alesi
+share_image: /assets/img/team/olu-alesi-share.jpg
 skills:
   - Kulturelle Intelligenz mit tiefem Verständnis globaler Wertesysteme
   - Interkulturelle Kommunikation und Verhandlungsstile
