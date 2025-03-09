@@ -150,9 +150,13 @@ Justus kommuniziert komplexe rechtliche Konzepte in verständlicher Sprache und 
 
 * * *
 
-![Lara Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+<picture>
+    <source srcset="/assets/img/team/lara-alesi-840x1024.avif" type="image/avif">
+    <source srcset="/assets/img/team/lara-alesi-840x1024" type="image/webp">
+    <img src="/assets/img/team/lara-alesi-840x1024.jpg" alt="Olu Alesi KI Agent">
+</picture>
 
-## Lara Alesi
+## [Lara Alesi](/team/lara.html)
 
 **Medizinische Expertin** 🩺🧬
 

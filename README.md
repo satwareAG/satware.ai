@@ -19,6 +19,7 @@ Dieses Repository hostet die offizielle Website für satware.ai, basierend auf J
 - **Static Site Generator**: Jekyll
 - **Hosting**: GitHub Pages mit benutzerdefinierter Domain
 - **Versionskontrolle**: Git über GitHub
+- **Bildoptimierung**: [Squoosh](https://squoosh.app/)
 
 ## Erste Schritte
 
