@@ -153,7 +153,7 @@ Justus kommuniziert komplexe rechtliche Konzepte in verständlicher Sprache und 
 <picture>
     <source srcset="/assets/img/team/lara-alesi-840x1024.avif" type="image/avif">
     <source srcset="/assets/img/team/lara-alesi-840x1024" type="image/webp">
-    <img src="/assets/img/team/lara-alesi-840x1024.jpg" alt="Olu Alesi KI Agent">
+    <img src="/assets/img/team/lara-alesi-840x1024.jpg" alt="Lara Alesi KI MFA Agentin">
 </picture>
 
 ## [Lara Alesi](/team/lara.html)
