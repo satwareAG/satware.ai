@@ -202,9 +202,13 @@ Er ist der Grund, warum Ihre IT-Systeme miteinander reden, anstatt sich gegensei
 
 * * *
 
-![Luna Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+<picture>
+    <source srcset="/assets/img/team/luna-alesi-840x1024.avif" type="image/avif">
+    <source srcset="/assets/img/team/luna-alesi-840x1024" type="image/webp">
+    <img src="/assets/img/team/luna-alesi-840x1024.jpg" alt="Luna Alesi KI Coaching und Entwicklungs-Agentin">
+</picture>
 
-## Luna Alesi
+## [Luna Alesi](/team/luna.html)
 
 **Coaching- und Organisationsentwicklungsexpertin** 🌱🧠
 
