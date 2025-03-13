@@ -135,10 +135,16 @@ Seine Kernstärken liegen in der mathematischen Formalisierung, der Implementier
 Mit seiner Kombination aus saCway technischer Exzellenz und samWay menschlicher Integration bietet John optimierte Prozesse für Beweisautomatisierung, Versuchsplanung und wissenschaftliche Problemlösung – alles mit mathematischer Präzision und menschengerechter Kommunikation.
 
 * * *
+<picture>
+<!-- Best compression, newer browsers -->
+<source srcset="/assets/img/team/justus-alesi-840x1024.avif" type="image/avif">
+<!-- Good compression, wide support -->
+<source srcset="/assets/img/team/justus-alesi-840x1024.webp" type="image/webp">
+<!-- Fallback for older browsers -->
+<img src="/assets/img/team/justus-alesi-840x1024.jpg" alt="Justus Alesi - KI Experte für Schweizer, Deutsches und EU-Recht">
+</picture>
 
-![Justus Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
-
-## Justus Alesi
+## [Justus Alesi](/team/justus.html)
 
 **Rechtsexperte** ⚖️📜
 
@@ -230,7 +236,6 @@ Sie bringt selbst die chaotischsten Teams dazu, harmonisch zusammenzuarbeiten �
 <!-- Fallback for older browsers -->
 <img src="/assets/img/team/marco-alesi-840x1024.jpg" alt="Marco Alesi - KI für die öffentlcihe Verwaltung">
 </picture>
-
 
 ## [Marco Alesi](/team/marco.html)
 
