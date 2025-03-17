@@ -5,29 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}">
-
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:type" content="website">
-
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
     <meta name="published" content="{{ page.date | date: "%Y-%m-%d" }}">
     <meta name="modified" content="{{ page.last_modified_at | date: "%Y-%m-%d" }}">
-
     <link rel="shortcut icon" href="{{ '/assets/img/satai-favicon.png' | relative_url }}" sizes="196x196">
     <link rel="apple-touch-icon" href="{{ '/assets/img/satai-favicon.png' | relative_url }}" sizes="196x196">
-
     <meta name="twitter:card" content="summary_large_image">
-
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:description" content="{{ page.description }}">
-
     <meta property="og:image" content="{{ site.url }}{% if page.share_image %}{{ page.share_image }}{% else %}/assets/img/share.jpg{% endif %}">
     <meta name="twitter:image" content="{{ site.url }}{% if page.share_image %}{{ page.share_image }}{% else %}/assets/img/share.jpg{% endif %}">
-
-
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}">
+
+            <!-- Matomo Tag Manager - Cookie-reduced version -->
+        <script>
+            var _mtm = window._mtm = window._mtm || [];
+            _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+            // Hinzufügen von "disableCookies"
+            _mtm.push({'disableCookies': true});
+            (function() {
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.async=true; g.src='https://ut.literama.de/js/container_T4vcbpmr.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Matomo Tag Manager -->
+
+
 </head>
 <body class="{{ page.page_id }} satai-page-dark">
 <header>
@@ -87,6 +93,11 @@
         <li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a target="_blank" href="https://satware.com/impressum/">Impressum</a></li>
         <li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a target="_blank" href="https://satware.com/datenschutzerklaerung/">Datenschutz</a></li>
         <li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a target="_blank" href="https://satware.com/newsletter/">Newsletter</a></li>
+        <li id="matomo-opt-out" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-899"><!-- Matomo Opt-Out -->
+                <p>Diese Website verwendet Matomo, eine datenschutzfreundliche Webanalyse ohne Cookies.
+                    Sie können das Tracking <a target="_blank" href="https://ut.literama.de/index.php?module=CoreAdminHome&action=optOut&language=de">hier deaktivieren</a>, wenn Sie möchten:</p>
+                <iframe style="border: 0; height: 200px; width: 100%;" src="https://ut.literama.de/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
+        </li>
     </ul>
 </footer>
 
@@ -112,6 +123,7 @@
         });
     });
 </script>
+
 
 
 <!-- Made by the lovely SATWARE//UNICORN
