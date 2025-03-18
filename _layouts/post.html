@@ -5,9 +5,13 @@ layout: default
 
     {% if page.header.image or page.image %}
     <div class="post-header-image">
-        <img src="{{ page.header.image | default: page.image | relative_url }}"
-             alt="{{ page.header.alt | default: page.title }}"
-             class="featured-image">
+        <picture>
+            <source srcset="{{ page.header.image_path }}.avif" type="image/avif">
+            <source srcset="{{ page.header.image_path }}.webp" type="image/webp">
+            <img src="{{ page.header.image_path }}.jpg" alt="{{ page.title }}"
+                 alt="{{ page.header.alt | default: page.title }}"
+                 class="featured-image">
+        </picture>
         {% if page.header.caption %}
         <span class="image-caption">{{ page.header.caption }}</span>
         {% endif %}

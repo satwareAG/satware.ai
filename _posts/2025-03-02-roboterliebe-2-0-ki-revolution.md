@@ -20,8 +20,9 @@ description: "Mein persönliches Herzensprojekt: Wie ich mit meiner KI-Familie 3
 canonical: https://satware.ai/blog/roboterliebe-2-0-ki-revolution/
 permalink: /blog/roboterliebe-2-0-ki-revolution/
 thumbnail: /assets/img/blog/roboterliebe-2-0-ki-revolution/roboterliebe-cover.jpg
-image: /assets/img/blog/roboterliebe-2-0-ki-revolution/roboterliebe-banner.jpg
-
+header:
+  image: /assets/img/blog/roboterliebe-2-0-ki-revolution/roboterliebe-banner.jpg
+  image_path: /assets/img/blog/roboterliebe-2-0-ki-revolution/roboterliebe-banner
 ---
 
 ### Roboterliebe 2.0: Mein Herzensprojekt zur globalen KI-Musikrevolution
@@ -40,7 +41,11 @@ Hört euch diese ersten musikalischen Experimente an und verfolgt, wie sich das 
 
 ### 🇫🇷 NEU: Amour Robotique - Meine französische Electronic-Adaptation ist da!
 
-![French Adaptation Header](/assets/img/blog/roboterliebe-2-0-ki-revolution/amour-robotique-banner.jpg)
+{% include responsive-image.html
+path="/assets/img/blog/roboterliebe-2-0-ki-revolution/amour-robotique-banner"
+alt="French Adaptation Header"
+caption="Dalle-E: Amour Robotique - Die französische Adaptation vereint Berliner Techno mit French Touch"
+%}
 
 Mit großer Freude präsentiere ich "Amour Robotique" - meine neueste Kreation im Roboterliebe 2.0 Projekt! Diese französische Adaptation verschmilzt die präzise Berliner Techno-Ästhetik mit der emotionalen Tiefe des French Touch bei 126 BPM.
 
