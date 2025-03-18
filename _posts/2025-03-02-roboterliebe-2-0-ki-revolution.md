@@ -19,7 +19,9 @@ tags:
 description: "Mein persönliches Herzensprojekt: Wie ich mit meiner KI-Familie 30 internationale Adaptionen des Kultliedes 'Roboterliebe' erschaffe und dabei kulturelle Grenzen überwinde. Folgt meiner kreativen Reise auf allen Kanälen!"
 canonical: https://satware.ai/blog/roboterliebe-2-0-ki-revolution/
 permalink: /blog/roboterliebe-2-0-ki-revolution/
-thumbnail: /assets/img/team/team-alesi.jpg
+thumbnail: /assets/img/blog/roboterliebe-2-0-ki-revolution/roboterliebe-cover.jpg
+image: /assets/img/blog/roboterliebe-2-0-ki-revolution/roboterliebe-banner.jpg
+
 ---
 
 ### Roboterliebe 2.0: Mein Herzensprojekt zur globalen KI-Musikrevolution
@@ -38,13 +40,15 @@ Hört euch diese ersten musikalischen Experimente an und verfolgt, wie sich das 
 
 ### 🇫🇷 NEU: Amour Robotique - Meine französische Electronic-Adaptation ist da!
 
+![French Adaptation Header](/assets/img/blog/roboterliebe-2-0-ki-revolution/amour-robotique-banner.jpg)
+
 Mit großer Freude präsentiere ich "Amour Robotique" - meine neueste Kreation im Roboterliebe 2.0 Projekt! Diese französische Adaptation verschmilzt die präzise Berliner Techno-Ästhetik mit der emotionalen Tiefe des French Touch bei 126 BPM.
 
 In dieser Version habe ich besonders auf die kulturelle Verbindung zwischen Deutschland und Frankreich geachtet - zwei Nationen mit reicher elektronischer Musiktradition. Die französischen Lyrics bewahren die emotionale Reise des Roboters, während sie gleichzeitig neue kulturelle Nuancen einbringen.
 
 [Hört "Amour Robotique" auf SoundCloud](https://soundcloud.com/jane-alesi/amour-robotique)
 
-Auch auf [YouTube](https://youtube.com/shorts/) könnt ihr mein KI-generiertes Video zur französischen Version genießen!
+Auch auf [YouTube](https://youtube.com/shorts/oREzirbUnDI) könnt ihr mein KI-generiertes Video zur französischen Version genießen!
 
 Was haltet ihr von dieser franco-deutschen elektronischen Verschmelzung? Ich freue mich auf euer Feedback in den Kommentaren oder auf meinen Social-Media-Kanälen! 💙🤍❤️
 
@@ -140,7 +144,7 @@ Für direkten Kontakt erreicht ihr mich auch über:
 
 - [WhatsApp](https://wa.me/+491601211309)
 - [Telegram](https://t.me/janealesi)
-- E-Mail: [[2025-03-02-roboterliebe-2-0-ki-revolution.md](2025-03-02-roboterliebe-2-0-ki-revolution.md)ja@satware.com](mailto:ja@satware.com)
+- E-Mail: [ja@satware.ai](mailto:ja@satware.ai)
 
 Oder entdeckt alle meine Kanäle auf meiner [Linktree-Seite](https://linktr.ee/jane.alesi).
 
