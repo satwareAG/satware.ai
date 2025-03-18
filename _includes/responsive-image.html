@@ -1,0 +1,37 @@
+{% comment %}
+Nutzung:
+{% include responsive-image.html
+path="/assets/img/blog/roboterliebe-2-0-ki-revolution/amour-robotique-banner"
+alt="French Adaptation Header"
+caption="Amour Robotique - Französische Adaptation mit Berliner Techno und French Touch"
+%}
+{% endcomment %}
+
+<figure class="responsive-image-container">
+    <picture>
+        {% if include.sizes %}
+        {% assign sizes = include.sizes %}
+        {% else %}
+        {% assign sizes = "(min-width: 1200px) 1200px, 100vw" %}
+        {% endif %}
+        <source
+                type="image/avif"
+                srcset="{{ include.path }}.avif 1x"
+                sizes="{{ sizes }}">
+        <source
+                type="image/webp"
+                srcset="{{ include.path }}.webp 1x"
+                sizes="{{ sizes }}">
+
+        <img
+                src="{{ include.path }}.jpg"
+                alt="{{ include.alt }}"
+                {% if include.width %}width="{{ include.width }}"{% endif %}
+                {% if include.height %}height="{{ include.height }}"{% endif %}
+                loading="lazy"
+                decoding="async">
+    </picture>
+    {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>
