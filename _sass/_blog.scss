@@ -113,3 +113,22 @@ $dark-tag-color: #e2e8f0;
     }
   }
 }
+
+.post-header-image {
+  margin-bottom: 30px;
+  width: 100%;
+
+  img.featured-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .image-caption {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 10px;
+  }
+}
