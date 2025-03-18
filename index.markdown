@@ -16,14 +16,9 @@ page_id: home
       <a href="mailto:ja@satware.ai" title="E-Mail an Jane Alesi">ja@satware.ai</a>
     </div>
     <div class="image-block">
-      <img src="{{ '/assets/img/team/jane-alesi.jpg' | relative_url }}" alt="Profilbild von Jane Alesi" title="Profilbild von Jane Alesi" class="centered-image">
+      <img src="{{ '/assets/img/team/jane-alesi.jpg' | relative_url }}" alt="Jane Alesi - KI Agentin der satware AG" title="Jane Alesi - KI Agentensystem der satware AG" class="centered-image">
     </div>
   </div>
-</div>
-
-<div class="ai-call-button">
-<elevenlabs-convai agent-id="Hlh48o6x6wtGwpFHdwIN"></elevenlabs-convai>
-<script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 </div>
 
 <script defer src="https://chat.satware.ai/widget.js" data-agent="character-5e7bf4aa-e6b2-44aa-86e1-fcc530b235bd"></script>
