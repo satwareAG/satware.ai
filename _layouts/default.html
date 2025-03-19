@@ -41,8 +41,8 @@
         </div>
         <nav class="main-navigation">
             <ul class="nav-menu">
-                <li><a href="https://chat.satware.ai">satware® AI chat</a></li>
-                <li><b><a href="https://docs.google.com/forms/d/e/1FAIpQLScehsPfGrp3K3EDDDnpBJLtEXgK3EdlP4PJPyBwRLoNf9F4kg/viewform">Persönlichen Zugang anfordern</b></a></li>
+                <li><a href="{{ '/demo/' | relative_url }}" {% if page.url == "/demo/" %}class="active"{% endif %}>Demo buchen</a></li>
+                <li><a href="{{ '/order/' | relative_url }}" {% if page.url == "/order/" %}class="active"{% endif %}><b>Zugang bestellen</b></a></li>
                 <li><a href="{{ '/team/' | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %}>Team</a></li>
                 <li><a href="{{ '/blog/' | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
             </ul>
@@ -84,8 +84,8 @@
         <li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a target="_blank" href="https://satware.com/datenschutzerklaerung/">Datenschutz</a></li>
         <li id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-822"><a target="_blank" href="https://satware.com/newsletter/">Newsletter</a></li>
         <li id="matomo-opt-out" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-899"><!-- Matomo Opt-Out -->
-                <p>Diese Website verwendet Matomo, eine datenschutzfreundliche Webanalyse ohne Cookies.
-                    Sie können das Tracking <a target="_blank" href="https://ut.literama.de/index.php?module=CoreAdminHome&action=optOut&language=de"><b>hier deaktivieren</b></a>, wenn Sie möchten.</p>
+                <p>Diese Website verwendet Webanalyse ohne Cookies.
+                    Sie können das Tracking <a target="_blank" href="https://ut.literama.de/index.php?module=CoreAdminHome&action=optOut&language=de"><b>hier deaktivieren</b></a>.</p>
         </li>
     </ul>
 </footer>

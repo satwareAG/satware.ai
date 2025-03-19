@@ -1,0 +1,70 @@
+// Google Form Styles
+.google-form-container {
+  width: 100%;
+  max-width: 800px;
+
+  #google-form {
+    width: 100%;
+    min-height: 2500px; // Base height
+    border: none;
+
+    // Different heights for different screen sizes
+    @include respond-to(desktop-small) {
+      min-height: 2700px;
+    }
+
+    @include respond-to(tablet) {
+      min-height: 3000px;
+    }
+
+    @include respond-to(mobile) {
+      min-height: 3200px;
+    }
+  }
+}
+
+// Add some space before the form
+h1 + .google-form-container,
+h2 + .google-form-container,
+p + .google-form-container {
+  margin-top: 3rem;
+}
+
+// Add custom scrollbar for the form
+#google-form {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba($primary-color, 0.1);
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $primary-color;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $link-color;
+  }
+}
+
+// Optional: Add a faded gradient at the bottom to indicate scrollable content
+.google-form-container {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: linear-gradient(to top, $body-bg, transparent);
+    z-index: 1;
+    pointer-events: none;
+    display: none; // Comment this line to enable the fade effect
+  }
+}

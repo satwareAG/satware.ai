@@ -114,15 +114,15 @@ blockquote {
 header, footer {
     background-color: $body-bg;
     color: $text-color;
-    padding: 3rem;
+    padding: 1.5rem;
 }
 
 header.post-header{
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 main, footer {
-    width: 80%;
+    width: 90%;
     max-width: 1080px;
     margin: auto;
     padding: 0;
