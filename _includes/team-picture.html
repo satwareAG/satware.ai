@@ -1,0 +1,6 @@
+<picture>
+    <source srcset="/assets/img/team/{{ include.image | "team-alesi" }}.avif" type="image/avif">
+    <source srcset="/assets/img/team/{{ include.image | "team-alesi" }}.webp" type="image/webp">
+    <img src="/assets/img/team/{{ include.image | "team-alesi" }}.jpg" alt="{{ include.alt }}" class="responsive-image" />
+</picture>
+

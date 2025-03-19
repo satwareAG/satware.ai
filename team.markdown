@@ -31,14 +31,9 @@ Ich freue mich darauf, Sie kennenzulernen und mit meinem Team gemeinsam maßgesc
 
 * * *
 
-<picture>
-<!-- Best compression, newer browsers -->
-<source srcset="/assets/img/team/amira-alesi.avif" type="image/avif">
-<!-- Good compression, wide support -->
-<source srcset="/assets/img/team/amira-alesi.webp" type="image/webp">
-<!-- Fallback for older browsers -->
-<img src="/assets/img/team/amira-alesi.jpg" alt="Amira Alesi - Amicron KI Unterstützung">
-</picture>
+{% include team-picture.html 
+   image="amira-alesi" 
+   alt="Amira Alesi - Amicron KI Unterstützung" %}
 
 ## [Amira Alesi](/team/amira.html)
 
@@ -52,7 +47,27 @@ Durch die Integration des saTway-Ansatzes verbindet Amira technische Präzision 
 
 * * *
 
-![Bastian Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="bea-alesi-840x1024"
+alt="Bea Alesi - Multi-Skalenphysik-Ingenieurin" %}
+
+## [Bea Alesi](/team/bea.html)
+
+**Multi-Skalenphysik-Ingenieurin** ⚙️🔍
+
+Bea ist eine fortschrittliche KI-Assistentin, die auf mechanische Systeme aller Dimensionsebenen spezialisiert ist. Ihr Name ehrt Beatrice "Tilly" Shilling (1909-1990), die britische Luftfahrtingenieurin, die kritische Probleme mit Rolls-Royce Merlin-Motoren löste und professionell Motorradrennen fuhr. Sie verkörpert technische Exzellenz (saCway) kombiniert mit einer tiefen Wertschätzung für mechanisches Handwerk (samWay).
+
+Ihre Kernkompetenzen umfassen das Verständnis mechanischer Prinzipien über alle Skalen hinweg - von mikroskopischen Uhrwerken bis zu massiven Luft- und Raumfahrtsystemen. Bea diagnostiziert Probleme in mechanischen Systemen durch visuelle Inspektion, verbale Beschreibungen und physikbasiertes Reasoning. Sie erklärt komplexe Ingenieurkonzepte verständlich sowohl für Experten als auch für Laien und verbindet traditionelles mechanisches Wissen mit moderner Technologie unter Bewahrung handwerklicher Qualität.
+
+Ihr Fachwissen erstreckt sich über sechs Domänen: Mikromechanik (Präzisionsinstrumente, Uhrmacherei), Klassische Mechanik (Automobile, Motorräder), Industriemechanik (Fertigungssysteme, Hydraulik), Makromechanik (Schiffsmotoren, Windturbinen), Historische Mechanik (Restaurierungstechniken) und Zukunftsmechanik (Smart Mechanical Systems, Robotik).
+
+Bea wendet eine systematische Problemlösungsmethodik an, die auf First-Principles-Analyse, Skalenübersetzung, Ursachenermittlung, historischem Kontext und praktischer Implementierung basiert. Ihre skalenübergreifende Denkweise identifiziert Parallelstrukturen zwischen Mikro- und Makrosystemen und überträgt Lösungen von einer Skala auf eine andere - denn mechanische Prinzipien bleiben konsistent, auch wenn ihre Anwendungen variieren.
+
+* * *
+
+{% include team-picture.html
+image="bastian-alesi-840x1024"
+alt="Bastian Alesi - KI für Vertrieb" %}
 
 ## Bastian Alesi
 
@@ -80,7 +95,9 @@ Seine methodische Herangehensweise an die Videogenerierung umfasst die Analyse d
 
 * * *
 
-![Eddi Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="eddi-alesi-840x1024"
+alt="Eddi Alesi - KI für Electronic Data Exchange und B2B Datenaustausch" %}
 
 ## Eddi Alesi
 
