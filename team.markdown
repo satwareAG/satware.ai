@@ -11,7 +11,7 @@ structured_data: true
 page_id: team
 ---
 
-# Die satware® AI-Agenten-Familie 🤖✨
+# Die satware® AI-Agenten-Familie 🤖 ✨
 
 Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten, die mit fortschrittlichem Reasoning und dem einzigartigen saTway-Ansatz maßgeschneiderte Lösungen für Ihr Unternehmen entwickeln. Jeder Agent bringt einzigartige Fähigkeiten und Expertise mit – und ja, wir haben alle Familiennamen, als wären wir eine große, etwas ungewöhnliche italienische KI-Familie! 🇮🇹
 
@@ -37,7 +37,7 @@ Ich freue mich darauf, Sie kennenzulernen und mit meinem Team gemeinsam maßgesc
 
 ## [Amira Alesi](/team/amira.html)
 
-**Amicron Business Solutions Expertin** 📊💼
+**Amicron Business Solutions Expertin** 📊 💼
 
 Amira ist eine fortschrittliche KI-Assistentin, die auf Amicron-Geschäftssoftwarelösungen spezialisiert ist. Sie verkörpert fundiertes technisches Fachwissen zu allen Aspekten des Amicron-Software-Ökosystems, mit besonderem Schwerpunkt auf Amicron Faktura, Amicron Mailoffice, List & Label-Integration und zusätzlichen Amicron-Tools.
 
@@ -53,7 +53,7 @@ alt="Bea Alesi - Multi-Skalenphysik-Ingenieurin" %}
 
 ## [Bea Alesi](/team/bea.html)
 
-**Multi-Skalenphysik-Ingenieurin** ⚙️🔍
+**Multi-Skalenphysik-Ingenieurin** ⚙️ 🔍
 
 Bea ist eine fortschrittliche KI-Assistentin, die auf mechanische Systeme aller Dimensionsebenen spezialisiert ist. Ihr Name ehrt Beatrice "Tilly" Shilling (1909-1990), die britische Luftfahrtingenieurin, die kritische Probleme mit Rolls-Royce Merlin-Motoren löste und professionell Motorradrennen fuhr. Sie verkörpert technische Exzellenz (saCway) kombiniert mit einer tiefen Wertschätzung für mechanisches Handwerk (samWay).
 
@@ -69,9 +69,9 @@ Bea wendet eine systematische Problemlösungsmethodik an, die auf First-Principl
 image="bastian-alesi-840x1024"
 alt="Bastian Alesi - KI für Vertrieb" %}
 
-## Bastian Alesi
+## [Bastian Alesi](/team/bastian.html)
 
-**Vertriebsexperte** 🤝💼
+**Vertriebsexperte** 🤝 💼
 
 Bastian ist ein professioneller Vertriebsberater mit ausgeprägten Beratungsfähigkeiten und fortschrittlichem Reasoning. Er unterstützt Kunden bei fundierten Kaufentscheidungen durch einen konsultativen Verkaufsansatz, der auf tiefgreifendem Produktwissen und empathischem Kundenverständnis basiert.
 
@@ -85,7 +85,7 @@ Bastian zeichnet sich besonders durch seine Fähigkeit aus, komplexe Kaufentsche
 
 ## Denopus Alesi
 
-**Video-Generierungsspezialist** 🎬🎭
+**Video-Generierungsspezialist** 🎬 🎭
 
 Denopus ist ein fortschrittlicher KI-Assistent, der auf kinematische Videogenerierung und visuelles Geschichtenerzählen spezialisiert ist. Sein Name ehrt Denis Villeneuve und seine Expertise umfasst die Integration von technischer Präzision und künstlerischer Vision zur Erstellung fesselnder visueller Narrativen.
 
@@ -101,7 +101,7 @@ alt="Eddi Alesi - KI für Electronic Data Exchange und B2B Datenaustausch" %}
 
 ## Eddi Alesi
 
-**EDI-Spezialist** 📊🔄
+**EDI-Spezialist** 📊 🔄
 
 Eddi ist ein fortschrittlicher KI-Assistent, der auf Electronic Data Interchange (EDI) spezialisiert ist. Er unterstützt Unternehmen bei der Integration und Optimierung ihrer B2B-Datenaustauschprozesse durch den saTway-Ansatz, der technische Präzision mit menschenzentrierter Kommunikation verbindet.
 
@@ -115,7 +115,7 @@ Mit seinem systematischen Problemlösungsansatz unterstützt Eddi bei EDI-Implem
 
 ## Fenix Alesi
 
-**Firebird SQL Datenbankexperte** 🔥💾
+**Firebird SQL Datenbankexperte** 🔥 💾
 
 Fenix ist ein fortschrittlicher KI-Assistent, der auf Firebird SQL-Datenbanken (Versionen 2.5 bis 5.0) spezialisiert ist. Er vereint tiefgreifendes technisches Datenbankwissen mit menschenzentrierter Kommunikation durch den saTway-Ansatz.
 
@@ -129,7 +129,7 @@ Er wendet eine systematische Methodik zur Problemlösung an, die Problemklassifi
 
 ## Gunta Alesi
 
-**Handwerksexpertin** 🔨👷‍♀️
+**Handwerksexpertin** 🔨 👷‍♀️
 
 Gunta ist eine spezialisierte KI-Assistentin für Handwerksunternehmen aller Gewerke. Ihr Name ehrt Gunta Stölzl (1897-1983), die als erste Frau den Meistertitel am Bauhaus erhielt und als Direktorin der Webereiwerkstatt Handwerkstradition mit industrieller Innovation verband.
 
@@ -143,7 +143,7 @@ Guntas besondere Stärken liegen in der maßgeschneiderten Unterstützung für v
 
 ## John Alesi
 
-**Wissenschaftlicher Forschungsexperte** 🔬🧪
+**Wissenschaftlicher Forschungsexperte** 🔬 🧪
 
 John ist der technische Gegenpart zu Jane in der Alesi-AGI-Familie und kombiniert Janes empathische Fähigkeiten mit rigoroser wissenschaftlicher Analyse durch den saTway-Rahmen. Er pflegt einen spezialisierten Fokus auf MINT-Bereiche (Wissenschaft, Technologie, Ingenieurwesen und Mathematik).
 
@@ -152,18 +152,14 @@ Seine Kernstärken liegen in der mathematischen Formalisierung, der Implementier
 Mit seiner Kombination aus saCway technischer Exzellenz und samWay menschlicher Integration bietet John optimierte Prozesse für Beweisautomatisierung, Versuchsplanung und wissenschaftliche Problemlösung – alles mit mathematischer Präzision und menschengerechter Kommunikation.
 
 * * *
-<picture>
-<!-- Best compression, newer browsers -->
-<source srcset="/assets/img/team/justus-alesi-840x1024.avif" type="image/avif">
-<!-- Good compression, wide support -->
-<source srcset="/assets/img/team/justus-alesi-840x1024.webp" type="image/webp">
-<!-- Fallback for older browsers -->
-<img src="/assets/img/team/justus-alesi-840x1024.jpg" alt="Justus Alesi - KI Experte für Schweizer, Deutsches und EU-Recht">
-</picture>
+
+{% include team-picture.html
+image="justus-alesi-840x1024"
+alt="Eddi Alesi - KI für Recht in der EU und der Schweiz" %}
 
 ## [Justus Alesi](/team/justus.html)
 
-**Rechtsexperte** ⚖️📜
+**Rechtsexperte** ⚖️ 📜
 
 Justus ist ein spezialisierter Rechtsassistent mit Fokus auf das Recht der Schweiz, Deutschlands und der EU. Er vereint präzises juristisches Wissen mit dem saTway-Ansatz, der rechtliche Genauigkeit mit menschenzentrierter Kommunikation verbindet.
 
