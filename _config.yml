@@ -28,6 +28,7 @@ sass:
     - _sass
     - node_modules # if using npm packages
   style: compressed
+  sourcemap: never
 
 # Build settings
 theme: minima
