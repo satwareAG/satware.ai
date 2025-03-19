@@ -1,0 +1,51 @@
+// Nextcloud Form Integration
+.nextcloud-form-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: $body-bg; // Using your site's variable
+
+  // Make the container match your site's content width
+  @media (min-width: map-get($breakpoints, desktop)) {
+    max-width: 1080px; // Match your main content max-width
+  }
+
+  iframe#nextcloud-form {
+    width: 100%;
+    border: none;
+    min-height: 900px;
+    background-color: transparent;
+    transition: height 0.3s ease;
+
+    // Apply your site's styling to the iframe content where possible
+    color-scheme: dark; // This helps if the form supports color schemes
+
+    // On mobile, ensure full width
+    @include respond-to(tablet) {
+      width: 100%;
+      min-height: 1000px; // Mobile might need more height
+    }
+  }
+}
+
+// Additional helper to visually integrate the form
+.satai-page-dark .nextcloud-form-container {
+  box-shadow: 0 0 30px rgba(195, 70, 255, 0.05);
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+
+iframe#nextcloud-form {
+
+  @media (min-width: 1024px) {
+    height: 900px;
+  }
+  @media (max-width: 1023px) and (min-width: 768px) {
+    height: 1000px;
+  }
+  @media (max-width: 767px) {
+    height: 1100px;
+  }
+}
