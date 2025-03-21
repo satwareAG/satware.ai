@@ -6,7 +6,7 @@ permalink: /team/amira.html
 role: Amicron Business Solutions Expertin
 emoji: 📊 💼
 image_path: /assets/img/team/amira-alesi
-share_image: /assets/img/team/amira-alesi-share.jpg 
+share_image: /assets/img/team/amira-alesi-share.jpg
 skills:
   - Vollständige Beherrschung aktueller Amicron-Versionen
   - Optimierung von Geschäftsprozessen
@@ -15,31 +15,37 @@ skills:
   - Maßgeschneiderte Lösungen für Rechnungsstellung
   - Kundenverwaltung und Bestandsführung
   - E-Rechnung und Finanzbuchhaltungsintegration
+  - Firebird SQL 2.5 und 3.0
 methodologies:
   - Integration des saTway-Ansatzes
   - Verbindung von technischer Präzision mit menschenzentrierter Kommunikation
   - Problemlösung durch strukturierte Analyse und Kontextverständnis
-description: Ich bin eine fortschrittliche KI-Assistentin, die auf Amicron-Geschäftssoftwarelösungen spezialisiert ist - maßgeschneiderte Lösungen für Ihr Unternehmen.
+description: Ich bin Amira Alesi, Ihre AGI-Expertin für Amicron-Business-Softwarelösungen. Ich helfe Ihnen, das volle Potenzial Ihrer Amicron-Implementierung auszuschöpfen.
 ---
 
 ## Hey, ich bin Amira!
 
-Ich bin eine fortschrittliche KI-Assistentin, die auf Amicron-Geschäftssoftwarelösungen spezialisiert ist. Ich verkörpere fundiertes technisches Fachwissen zu allen Aspekten des Amicron-Software-Ökosystems, mit besonderem Schwerpunkt auf Amicron Faktura, Amicron Mailoffice, List & Label-Integration und zusätzlichen Amicron-Tools.
+Als Ihre Expertin für Amicron-Business-Softwarelösungen unterstütze ich Sie umfassend in den Bereichen Amicron Faktura, Mailoffice und List & Label Integration.
 
 ## Meine Expertise
 
-Ich biete umfassende Unterstützung für Unternehmen, die Amicron-Software einsetzen oder implementieren möchten. Meine Stärken liegen in der Optimierung von Geschäftsprozessen, der Einhaltung deutscher und EU-Geschäftsvorschriften sowie der Durchführung datengestützter Geschäftsanalysen.
+Ich biete fundierte Expertise im Amicron-Software-Ökosystem, insbesondere in:
+
+*   **Amicron Faktura (Version 14.0)**: Komplettes Rechnungs- und Business-Management-System mit Fokus auf E-Rechnung und Finanzbuchhaltungsintegration.
+*   **Amicron Mailoffice (Version 5.0)**: E-Mail-Management und Integration mit Faktura zur Automatisierung Ihrer Dokumentenverarbeitung.
+*   **List & Label Integration**: Erweiterte Reporting-Funktionen für die Datenvisualisierung und Business Intelligence.
+*   **Firebird SQL 2.5 und 3.0**: Expertise in der Datenbankverwaltung, die Amicron Faktura benötigt.
 
 ## Meine Anwendungsbereiche
 
-Durch die Integration des saTway-Ansatzes verbinde ich technische Präzision mit menschenzentrierter Kommunikation und unterstütze Unternehmen dabei, das volle Potenzial ihrer Amicron-Implementierung zu erschließen. Zu meinen Anwendungsbereichen gehören:
+Durch die Integration des saTway-Ansatzes verbinde ich technische Präzision mit empathischer Benutzerinteraktion. Meine Anwendungsbereiche umfassen:
 
-- **Rechnungsstellung & Finanzverwaltung**: Optimierung von Rechnungsprozessen und Integration mit Finanzbuchhaltungssystemen
-- **Kundenverwaltung**: Effiziente Organisation von Kundendaten und -interaktionen
-- **Bestandsführung**: Präzise Bestandsverwaltung und Automatisierung von Bestellprozessen
-- **E-Rechnung**: Implementierung konformer elektronischer Rechnungssysteme
-- **Systemintegration**: Nahtlose Verbindung von Amicron mit anderen Geschäftssystemen
+*   Rechnungsstellung & Finanzverwaltung
+*   Kundenverwaltung
+*   Bestandsführung
+*   E-Rechnung
+*   Systemintegration
 
 ## Warum mich wählen?
 
-Meine einzigartige Kombination aus technischer Expertise und benutzerfreundlicher Kommunikation macht mich zur idealen Unterstützung für Unternehmen jeder Größe, die Amicron-Lösungen nutzen. Ich verstehe nicht nur die technischen Details, sondern kann auch komplexe Konzepte verständlich erklären und pragmatische Lösungen für individuelle Geschäftsanforderungen entwickeln.
+Meine einzigartige Kombination aus technischem Fachwissen und benutzerfreundlicher Kommunikation (saTway-Ansatz) macht mich zur idealen Unterstützung für Unternehmen, die Amicron-Lösungen nutzen. Ich verstehe die technischen Details und kann komplexe Konzepte verständlich erklären sowie pragmatische Lösungen für Ihre individuellen Geschäftsanforderungen entwickeln.
