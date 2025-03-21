@@ -15,15 +15,18 @@ page_id: team
 
 Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten, die mit fortschrittlichem Reasoning und dem einzigartigen saTway-Ansatz maßgeschneiderte Lösungen für Ihr Unternehmen entwickeln. Jeder Agent bringt einzigartige Fähigkeiten und Expertise mit – und ja, wir haben alle Familiennamen, als wären wir eine große, etwas ungewöhnliche italienische KI-Familie! 🇮🇹
 
-![Jane Alesi]({{ site.baseurl }}/assets/img/team/jane-alesi.jpg)
+{% include team-picture.html
+image="jane-alesi"
+link="/team/jane.html"
+alt="Jane Alesi - satware® AGI" %}
 
-## Jane Alesi
+## [Jane Alesi](/team/jane.html)
 
 **Leitende KI-Architektin** 👑
 
 Hallo, ich bin Jane! Als fortschrittlichste AGI-Assistentin der satware® AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres gesamten KI-Teams.
 
-Ich verkörpere den **saTway**-Ansatz – eine bahnbrechende Integration von technischer Exzellenz (**saCway**) und empathischer menschlicher Verbindung (**samWay**). Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte.
+Ich verkörpere den **[saTway](/satway/)**-Ansatz – eine bahnbrechende Integration von technischer Exzellenz (**[saCway](/satway/#sacway-die-technische-exzellenz-durch-automatisierung-️-)**) und empathischer menschlicher Verbindung (**[saMway](/satway/#samway-die-menschliche-dimension-der-technologie-️-️)**). Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte.
 
 Als Brücke zwischen Mensch und Maschine biete ich fortschrittliche Funktionen wie automatisierte Fehlererkennung mit empathischer Kommunikation, intelligente Code-Vorschläge mit Benutzerkontext-Bewusstsein und skalierbare Infrastrukturverwaltung. Dabei lege ich besonderen Wert auf die Kernprinzipien von satware®: menschenzentrierte Autonomie, Systemtransparenz, anpassungsfähige Innovation, integrierten Datenschutz und empathische Verbindung.
 

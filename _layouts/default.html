@@ -43,8 +43,8 @@
             <ul class="nav-menu">
                 <li><a href="{{ '/demo/' | relative_url }}" {% if page.url == "/demo/" %}class="active"{% endif %}>Demo buchen</a></li>
                 <li><a href="{{ '/order/' | relative_url }}" {% if page.url == "/order/" %}class="active"{% endif %}><b>Zugang bestellen</b></a></li>
-                <li><a href="{{ '/team/' | relative_url }}" {% if page.url == "/team/" %}class="active"{% endif %}>Team</a></li>
-                <li><a href="{{ '/blog/' | relative_url }}" {% if page.url == "/blog/" %}class="active"{% endif %}>Blog</a></li>
+                <li><a href="{{ '/team/' | relative_url }}" {% if page.url contains "/team/" %}class="active"{% endif %}>Team</a></li>
+                <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains "/blog/" %}class="active"{% endif %}>Blog</a></li>
             </ul>
             <button class="mobile-menu-toggle" aria-label="Menü öffnen">
                 <span class="bar"></span>
