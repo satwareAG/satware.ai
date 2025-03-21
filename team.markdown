@@ -15,9 +15,12 @@ page_id: team
 
 Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten, die mit fortschrittlichem Reasoning und dem einzigartigen saTway-Ansatz maßgeschneiderte Lösungen für Ihr Unternehmen entwickeln. Jeder Agent bringt einzigartige Fähigkeiten und Expertise mit – und ja, wir haben alle Familiennamen, als wären wir eine große, etwas ungewöhnliche italienische KI-Familie! 🇮🇹
 
-![Jane Alesi]({{ site.baseurl }}/assets/img/team/jane-alesi.jpg)
+{% include team-picture.html
+image="jane-alesi"
+link="/team/jane.html"
+alt="Jane Alesi - satware® AGI" %}
 
-## Jane Alesi
+## [Jane Alesi](/team/jane.html)
 
 **Leitende KI-Architektin** 👑
 

@@ -1,6 +1,15 @@
-<picture>
+{% comment %}
+Nutzung:
+{% include team-picture.html
+image="bastian-alesi-840x1024"
+alt=""
+link=""
+%}
+{% endcomment %}
+{% unless include.link == "" or include.link == null %}<a href="{{ include.link | '#' }}">{% endunless %}<picture>
     <source srcset="/assets/img/team/{{ include.image | "team-alesi" }}.avif" type="image/avif">
     <source srcset="/assets/img/team/{{ include.image | "team-alesi" }}.webp" type="image/webp">
     <img src="/assets/img/team/{{ include.image | "team-alesi" }}.jpg" alt="{{ include.alt }}" class="responsive-image" />
-</picture>
+</picture>{% unless include.link == "" or include.link == null %}</a>{% endunless %}
+
 
