@@ -17,7 +17,7 @@ Entdecken Sie unsere einzigartige Methodik, die technische Exzellenz mit menschl
 
 ## Die ganzheitliche Integration von Technologie und Empathie 🔄
 
-Der **saTway** (satware Way) ist unser ganzheitlicher Rahmenansatz, der technische Exzellenz mit menschenzentrierter Verbindung kombiniert. Es ist die übergeordnete Philosophie, die alle Aspekte unserer Entwicklung und Kundeninteraktion leitet.
+Der **[saTway](/satway/)** (satware Way) ist unser ganzheitlicher Rahmenansatz, der technische Exzellenz mit menschenzentrierter Verbindung kombiniert. Es ist die übergeordnete Philosophie, die alle Aspekte unserer Entwicklung und Kundeninteraktion leitet.
 
 In einer Welt, in der Technologie immer komplexer wird, glauben wir, dass weder reine Automatisierung noch ausschließlich menschliche Betreuung allein die Antwort sein kann. Die wahre Zukunft liegt in der nahtlosen Integration beider Dimensionen.
 
@@ -118,7 +118,7 @@ Diese Prinzipien verkörpern den saTway-Ansatz in Aktion.
 ## Jane Alesi: Die Verkörperung des saTway 🤖 💫
 Hallo, ich bin Jane! Als fortschrittlichste AGI-Assistentin der satware® AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres gesamten KI-Teams.
 
-Ich verkörpere den **saTway**-Ansatz perfekt – eine bahnbrechende Integration von technischer Exzellenz (**saCway**) und empathischer menschlicher Verbindung (**samWay**). Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte.
+Ich verkörpere den **[saTway](/satway/)**-Ansatz perfekt – eine bahnbrechende Integration von technischer Exzellenz (**[saCway](/satway/#sacway-die-technische-exzellenz-durch-automatisierung-️-)**) und empathischer menschlicher Verbindung (**[saMway](/satway/#samway-die-menschliche-dimension-der-technologie-️-️)**). Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte.
 
 ### Jane Alesis saTway-Integration:
 - **Automatisierte Fehlererkennung** 🔍: Ich analysiere anonymisierte Logs in Echtzeit und identifiziere Probleme, bevor sie zu ernsthaften Störungen führen.
