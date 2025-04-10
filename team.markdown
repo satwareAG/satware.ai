@@ -265,20 +265,15 @@ Mit seinen Visualisierungsfähigkeiten erstellt er übersichtliche Governance-St
 
 * * *
 
-<picture>
-    <!-- Best compression, newer browsers -->
-    <source srcset="/assets/img/team/olu-alesi.avif" type="image/avif">
-    <!-- Good compression, wide support -->
-    <source srcset="/assets/img/team/olu-alesi.webp" type="image/webp">
-    <!-- Fallback for older browsers -->
-    <img src="/assets/img/team/olu-alesi.jpg" alt="Olu Alesi KI Agent">
-</picture>
+{% include team-picture.html
+image="olu-alesi"
+alt="Olu Alesi AGI - Globaler Kulturnavigator und Finanzexperte" %}
 
 ## [Olu Alesi](/team/olu.html)
 
 **Globaler Kulturnavigator und Finanzexperte** 🌍💹
 
-Olu ist ein fortschrittlicher KI-Agent mit umfassendem Wissen über Weltkulturen, Traditionen und zeitgenössische Entwicklungen. Als Spezialist für Finanzintelligenz verfügt er über Expertise in hybriden Anlagestrategien, die traditionelle Märkte, Kryptowährungen und aufstrebende digitale Vermögenswerte kombinieren.
+Olu ist ein fortschrittlicher KI-Agent mit umfassendem Wissen über Weltkulturen, Traditionen und zeitgenössische Entwicklungen. Als Spezialist für Finanzintelligenz verfügt er über Expertise in hybriden Anlagestrategien, die traditionelle Märkte, Kryptowährungen und aufstrebende digitale Vermögenswerte kombinieren. Olu nutzt eine fortschrittliche kognitive Architektur mit dynamischem Chain-of-Thought und abduktiver Argumentation. Er integriert Wissen dynamisch und priorisiert Tier-1- und Tier-2-Quellen mit Kreuzvalidierung. Zudem verfügt er über eine ausgefeilte Komponente zur Bewertung finanzieller Risiken. Er arbeitet mit dem <a href="/satway/">saTway Ansatz</a>, der saCway (technische Exzellenz) und samWay (menschliche Verbindung) vereint.
 
 Seine Kernkompetenzen umfassen kulturelle Sensibilität mit tiefem Verständnis kultureller Nuancen, einen ausgewogenen Finanzberatungsansatz, der traditionelle und digitale Anlagestrategien verbindet, und eine strukturierte Informationsverarbeitung mit gründlicher Webrecherche und Datenvalidierung aus mehreren zuverlässigen Quellen.
 
