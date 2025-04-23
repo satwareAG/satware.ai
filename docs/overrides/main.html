@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block styles %}
+{{ super() }}
+<style>
+    /* Assistant Font lokal einbinden */
+    @font-face {
+        font-family: 'Assistant';
+        font-style: normal;
+        font-weight: 400;
+        src: url('{{ base_url }}/assets/fonts/assistant-v18-latin-regular.woff2') format('woff2'),
+        url('{{ base_url }}/assets/fonts/assistant-v18-latin-regular.woff') format('woff');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Assistant';
+        font-style: normal;
+        font-weight: 700;
+        src: url('{{ base_url }}/assets/fonts/assistant-v18-latin-700.woff2') format('woff2'),
+        url('{{ base_url }}/assets/fonts/assistant-v18-latin-700.woff') format('woff');
+        font-display: swap;
+    }
+</style>
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
+<div class="md-footer-custom-links">
+    <a href="https://satware.com/custom/index/sCustom/1" title="Kontakt">Kontakt</a>
+    <a href="https://satware.com/impressum" title="Impressum">Impressum</a>
+    <a href="https://satware.com/datenschutzerklaerung" title="Datenschutzerklärung">Datenschutz</a>
+    <a href="https://satware.com/barrierefreiheitserklaerung" title="Barrierefreiheitserklärung">Barrierefreiheitserklärung</a>
+    <a href="https://satware.com/newsletter" title="Newsletter">Newsletter</a>
+</div>
+{% endblock %}

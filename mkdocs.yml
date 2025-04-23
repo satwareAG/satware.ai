@@ -1,0 +1,155 @@
+# Projekt-Informationen
+site_name: 'satware® AI: KI-basierte Automatisierung und Softwarelösungen für Unternehmen'
+site_url: https://satware.ai
+site_author: satware AG
+site_description: >-
+  Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir bieten innovative Automatisierung, Softwareentwicklung und maßgeschneiderte IT-Lösungen für moderne Unternehmen. Optimieren Sie Ihre Prozesse mit unserer Expertise.
+
+# Repository
+repo_name: satwareai-mkdocs
+repo_url: https://github.com/satwareag/satwareai-mkdocs
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2025 satware AG
+
+# Konfiguration
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: de
+
+  # Dark Mode als Standard (entsprechend satware CI)
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.svg
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+
+# Erweiterungen
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: satware
+      repo: satwareai-mkdocs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Zusätzliche Konfiguration
+extra:
+  social:
+    - icon: fontawesome/brands/square-facebook
+      link: https://www.facebook.com/satwareAG/
+      name: satware AG auf Facebook
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/satware.ag/
+      name: satware AG auf Instagram
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/satware-ag/?originalSubdomain=de
+      name: satware AG auf LinkedIn
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/satwareAG
+      name: satware AG auf X
+    - icon: fontawesome/brands/xing
+      link: https://www.xing.com/pages/satwareag
+      name: satware AG auf Xing
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UChfn2XBDE9yfZrWnMzs1k0g
+      name: satware AG auf YouTube
+
+
+  generator: false
+
+# CSS-Anpassungen
+extra_css:
+  - stylesheets/extra.css
+
+# Navigation
+nav:
+
+  - KI-Agenten:
+      - Übersicht: ki-agenten/index.md
+      - Jane Alesi: ki-agenten/jane.md
+      - Amira Alesi: ki-agenten/amira.md
+      - Bastian Alesi: ki-agenten/bastian.md
+      - Bea Alesi: ki-agenten/bea.md
+      - Justus Alesi: ki-agenten/justus.md
+      - Lara Alesi: ki-agenten/lara.md
+      - Luna Alesi: ki-agenten/luna.md
+      - Marco Alesi: ki-agenten/marco.md
+      - Olu Alesi: ki-agenten/olu.md
+      - Theo Alesi: ki-agenten/theo.md
+  - FAQ: faq.md
+  - Blog: blog/index.md
