@@ -146,10 +146,14 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascript/counter-animation.js
+
 # Navigation
 nav:
 
 
+  - Kostenlose Webinare: webinare.md
   - Demo buchen: demo.md
   - Zugang bestellen: zugang.md
   - KI-Agenten:

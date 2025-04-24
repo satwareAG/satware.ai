@@ -11,6 +11,11 @@
 // Module importieren
 @import 'modules/team';
 @import 'modules/footer';
+@import 'modules/home';
+
+@mixin transition{
+  transition: all 0.5s ease;
+}
 
 // satware.ai CI-Anpassungen
 
@@ -206,6 +211,19 @@ a.headerlink{
   color: #fff !important;
   border-color: var(--md-primary-fg-color) !important;
 
+  padding: 1.7em 2.9em !important;
+  letter-spacing: 0.2rem !important;
+  font-weight: 400 !important;
+
+  @include transition;
+
+  &:hover{
+    border-color: var(--md-primary-fg-color) !important;
+    transform: translateY(8px);
+    @include transition;
+  }
+
+
   &.md-button--primary {
     background-color: var(--md-primary-fg-color);
     border-color: var(--md-primary-fg-color);
@@ -299,5 +317,6 @@ a.headerlink{
 
   &__inner {
     padding: 0.5rem;
+    max-width: 98%;
   }
 }
