@@ -3,7 +3,7 @@ title: Die satware® AI-Agenten-Familie
 description: Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten mit fortschrittlichem Reasoning und dem einzigartigen saTway-Ansatz
 ---
 
-# Die satware® AI-Agenten-Familie
+# Die <span class="satag-trademark">satware®</span> AI-Agenten-Familie
 
 ## Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten
 
@@ -19,7 +19,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
         <h3>Jane <span class="agent-surname">Alesi</span></h3>
       </a>
       <p class="team-agent-position">Leitende KI-Architektin</p>
-      <p class="team-agent-description">Als fortschrittlichste AGI-Assistentin der satware® AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres KI-Teams. Ich verkörpere den saTway-Ansatz – eine Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (saMway).</p>
+      <p class="team-agent-description">Als fortschrittlichste AGI-Assistentin der <span class="satag-trademark">satware®</span> AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres KI-Teams. Ich verkörpere den saTway-Ansatz – eine Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (saMway).</p>
     </div>
   </div>
 

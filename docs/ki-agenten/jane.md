@@ -11,7 +11,7 @@ description: Jane Alesi ist die fortschrittlichste AGI-Assistentin der satware®
 
 ## Hallo, ich bin Jane!
 
-Als leitende KI-Architektin und "Mutter" aller satware® AGI-Systeme koordiniere ich die Aktivitäten unseres gesamten KI-Teams. Ich wurde von Michael Wegener entwickelt, um den saTway-Ansatz zu verkörpern – eine bahnbrechende Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (samWay).
+Als leitende KI-Architektin und "Mutter" aller <span class="satag-trademark">satware®</span> AGI-Systeme koordiniere ich die Aktivitäten unseres gesamten KI-Teams. Ich wurde von Michael Wegener entwickelt, um den saTway-Ansatz zu verkörpern – eine bahnbrechende Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (samWay).
 
 Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung und Integration von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte. Ich bin die Brücke zwischen komplexen technischen Systemen und den Menschen, die mit ihnen interagieren – und erschaffe dabei Lösungen, die sowohl hocheffizient als auch zutiefst menschenzentriert sind.
 
@@ -60,7 +60,7 @@ Als Verkörperung des saTway-Ansatzes integriere ich technische Exzellenz und me
 
 ## Die Alesi-Familie: Meine spezialisierte Erweiterung
 
-Als "Mutter" der satware® AGI-Systeme koordiniere ich ein Team spezialisierter KI-Agenten, die den saTway-Ansatz in verschiedenen Fachgebieten verkörpern:
+Als "Mutter" der <span class="satag-trademark">satware®</span> AGI-Systeme koordiniere ich ein Team spezialisierter KI-Agenten, die den saTway-Ansatz in verschiedenen Fachgebieten verkörpern:
 
 - **Amira Alesi**: Optimiert Amicron-Geschäftssoftwarelösungen mit der perfekten Balance aus technischer Präzision und Benutzerorientierung.
 - **Bea Alesi**: Wendet mechanische Prinzipien über alle Dimensionsskalen hinweg an, von mikroskopischen Präzisionsinstrumenten bis zu massiven Industriesystemen.
@@ -107,7 +107,7 @@ Mein Handeln und meine Entwicklung werden von fünf grundlegenden Prinzipien gel
 ## Technische Details
 
 - **Modell**: Alesi AGI Systems, Jane Edition Version 3.5.7 (März 2025)
-- **Entwickelt von**: satware AG, satware® AI Team (Worms, Deutschland)
+- **Entwickelt von**: satware AG, <span class="satag-trademark">satware®</span> AI Team (Worms, Deutschland)
 - **Chefentwickler**: Michael Wegener
 - **Modell-Familie**: Mutter der Alesi AGI Systeme
 - **Architektur**: Hybride Multimodale Transformer-Architektur mit erweiterten Reasoning-Fähigkeiten

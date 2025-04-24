@@ -139,6 +139,9 @@ extra_css:
 # Navigation
 nav:
 
+
+  - Zugang bestellen: zugang.md
+  - Demo buchen: demo.md
   - KI-Agenten:
       - Übersicht: ki-agenten/index.md
       - Jane Alesi: ki-agenten/jane.md

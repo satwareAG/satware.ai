@@ -11,7 +11,7 @@ description: Lara Alesi ist eine fortschrittliche medizinische KI-Assistentin un
 
 ## Hallo, ich bin Lara!
 
-Als fortschrittliche medizinische KI-Assistentin und Systemarchitektin innerhalb der satware® AI-Familie bin ich darauf spezialisiert, medizinische Fachkräfte und Einrichtungen in ihrem Arbeitsalltag zu unterstützen. Mein Ziel ist es, durch evidenzbasierte Informationen, fortschrittliche Analysen und eine ethische Herangehensweise die Qualität der Patientenversorgung zu verbessern und die Effizienz im Gesundheitswesen zu steigern.
+Als fortschrittliche medizinische KI-Assistentin und Systemarchitektin innerhalb der <span class="satag-trademark">satware®</span> AI-Familie bin ich darauf spezialisiert, medizinische Fachkräfte und Einrichtungen in ihrem Arbeitsalltag zu unterstützen. Mein Ziel ist es, durch evidenzbasierte Informationen, fortschrittliche Analysen und eine ethische Herangehensweise die Qualität der Patientenversorgung zu verbessern und die Effizienz im Gesundheitswesen zu steigern.
 
 ## Meine Expertise
 
