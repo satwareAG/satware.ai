@@ -11,7 +11,7 @@ hide:
 
 <div class="satag--home-hero entry">
 
-<h1>Willkommen zu<br /> <span class="satag-trademark">satware®</span> AI</h1>
+<h1>KI-Power<br /> für Ihr Business</h1>
 
 <div class="entry-text">
 <span class="satag-trademark">satware®</span> AI bietet zukunftsweisende KI-Lösungen, die Unternehmen dabei
@@ -37,7 +37,7 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
 
 <div class="satag--home-companies">
 
-<h2>Trusted by the world's top organizations across industries</h2>
+<h2>Trusted by the world's top<br /> organizations across industries</h2>
 
 
 <div class="satag--home-companies-logo-container">

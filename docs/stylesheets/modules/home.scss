@@ -16,17 +16,18 @@
     padding-bottom: 1rem;
   }
 
+
     //@include ohne-balken;
 
     h1{
       font-size: 5rem;
       margin-bottom: 1.75rem;
       text-align: left;
-      line-height: 100%;
+      line-height: 114%;
       &:after{
         height: 12px;
         width: 85px;
-        margin-top: 1.5rem;
+        margin-top: 1‚rem;
         margin-bottom: -0.2rem;
       }
     }
@@ -64,19 +65,25 @@
 
     h2{
       padding-bottom: 1rem;
+      font-size: 2.5rem;
+      line-height: 3rem;
+      max-width: 61rem;
+      text-align: left;
+      margin: 0 auto;
     }
 
-    @include ohne-balken;
+    //@include ohne-balken;
 
     text-align: center;
     .satag--home-companies-logo-container{
       display: flex;
-      max-width: 75%;
+      max-width: 61rem;
       margin: 0 auto;
       .satag--home-companies-logo{
         flex: auto;
         img{
           width: 80%;
+          float:left;
         }
       }
     }
@@ -113,4 +120,17 @@
     }
   }
 
+}
+
+body{
+  &.home{
+    background-image: url(../assets/images/home/bg.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .md-header, .md-tabs {
+    background-color: transparent;
+    box-shadow: none;
+  }
 }

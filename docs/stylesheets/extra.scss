@@ -204,6 +204,9 @@ a.headerlink{
   color: #fff;
 }
 
+.md-top{
+  border-radius: 0;
+}
 // Buttons im CI-Design
 .md-button {
 
@@ -218,7 +221,7 @@ a.headerlink{
   @include transition;
 
   &:hover{
-    border-color: var(--md-primary-fg-color) !important;
+    border-color: #8a44bd !important;
     transform: translateY(8px);
     @include transition;
   }
@@ -282,7 +285,7 @@ a.headerlink{
 
     &:hover {
       background-color: var(--md-primary-fg-color--light);
-      border-color: var(--md-primary-fg-color--light);
+      border-color: var(--md-primary-fg-color--light) !important;
     }
   }
 }
