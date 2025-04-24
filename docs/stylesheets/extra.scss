@@ -1,5 +1,16 @@
+//Fontawesome importieren
+
+@import "fontawesome/fontawesome";
+@import "fontawesome/regular";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+@import "fontawesome/light";
+@import "fontawesome/sharp-light";
+@import "fontawesome/sharp-thin";
+
 // Module importieren
 @import 'modules/team';
+@import 'modules/footer';
 
 // satware.ai CI-Anpassungen
 
@@ -54,6 +65,9 @@
 
 h1,h2,h3,h4,h5,h6 {
   color: #fff;
+  a{
+    color: #fff !important;
+  }
 
 }
 
@@ -82,6 +96,10 @@ h1{
     margin-top: 0.6rem;
     margin-bottom: -0.3rem;
   }
+}
+
+a.headerlink{
+  color: var(--md-primary-fg-color) !important;
 }
 
 .satag-trademark{
@@ -186,6 +204,7 @@ h1{
 
   border-radius: 0 !important;
   color: #fff !important;
+  border-color: var(--md-primary-fg-color) !important;
 
   &.md-button--primary {
     background-color: var(--md-primary-fg-color);

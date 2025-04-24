@@ -7,46 +7,6 @@ A documentation website for satware.ai built with MkDocs and the Material for Mk
 
 This project contains the source files for the satware.ai documentation website. It uses MkDocs as the static site generator and the Material for MkDocs theme for styling and enhanced functionality.
 
-## Project Structure
-
-
-satwareai-mkdocs/  
-├── .idea/ # IDE configuration files  
-├── docs/ # Documentation source files  
-│ ├── .icons/ # Custom icons  
-│ ├── assets/ # Static assets  
-│ │ ├── fonts/ # Custom fonts  
-│ │ ├── images/ # Images used in documentation  
-│ │ ├── stylesheets/ # Additional CSS stylesheets  
-│ │ └── javascripts/ # Custom JavaScript files  
-│ ├── ki-agenten/ # AI agents documentation  
-│ │ ├── amira.md # Amira Alesi agent profile  
-│ │ ├── bastian.md # Bastian Alesi agent profile  
-│ │ ├── bea.md # Bea Alesi agent profile  
-│ │ ├── index.md # AI agents overview page  
-│ │ ├── jane.md # Jane Alesi agent profile  
-│ │ ├── justus.md # Justus Alesi agent profile  
-│ │ ├── lara.md # Lara Alesi agent profile  
-│ │ ├── luna.md # Luna Alesi agent profile  
-│ │ ├── marco.md # Marco Alesi agent profile  
-│ │ ├── olu.md # Olu Alesi agent profile  
-│ │ └── theo.md # Theo Alesi agent profile  
-│ ├── overrides/ # Theme overrides  
-│ └── stylesheets/ # Additional stylesheets  
-│ ├── modules/ # CSS modules  
-│ ├── extra.scss # Extra SCSS styles  
-│ └── index.md # Stylesheets documentation  
-├── site/ # Built site (generated)  
-├── venv/ # Python virtual environment  
-├── .gitignore # Git ignore file  
-├── compile\_scss.py # SCSS compilation script  
-├── dev.sh # Development script  
-├── mkdocs.yml # MkDocs configuration  
-└── requirements.txt # Python dependencies
-
-
-
-
 ## Setup and Installation
 
 1. Clone the repository:
