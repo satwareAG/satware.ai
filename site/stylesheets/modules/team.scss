@@ -60,10 +60,10 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 
     img {
-      width: 100%;
+      width: 80%;
       height: 100%;
       object-fit: cover;
-      object-position: center 20%; // Besserer Bildausschnitt für Gesichter
+      object-position: top;// Besserer Bildausschnitt für Gesichter
       transition: transform 0.5s ease;
 
       &:hover {

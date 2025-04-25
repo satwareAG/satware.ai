@@ -148,6 +148,8 @@ extra_css:
 
 extra_javascript:
   - assets/javascript/counter-animation.js
+  - assets/javascript/body-classes.js
+
 
 # Navigation
 nav:

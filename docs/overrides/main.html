@@ -22,15 +22,7 @@
         font-display: swap;
     }
 </style>
-<script>
-    // Füge die Klasse 'home' zum Body hinzu, wenn es sich um die Startseite handelt
-    document.addEventListener('DOMContentLoaded', function() {
-        const path = window.location.pathname;
-        if (path === '/' || path === '/index.html' || path === '') {
-            document.body.classList.add('home');
-        }
-    });
-</script>
+
 {% endblock %}
 
 {% block footer %}
