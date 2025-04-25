@@ -12,6 +12,7 @@
 @import 'modules/team';
 @import 'modules/footer';
 @import 'modules/home';
+@import 'modules/testimonials';
 
 @mixin transition{
   transition: all 0.5s ease;
@@ -68,6 +69,30 @@
   --md-typeset-a-color: #9d65cf;             // Helleres Violett für Links
 }
 
+::-moz-selection {
+  background: var(--md-primary-fg-color);;
+  color: #fff;
+}
+::selection {
+  background: var(--md-primary-fg-color);;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d0d0d0;
+  border-radius: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--md-primary-fg-color);
+}
+
 h1,h2,h3,h4,h5,h6 {
   color: #fff;
   a{
@@ -91,6 +116,29 @@ h1,h2,h3{
 
 .md-typeset h1 {
   color: #fff;
+}
+
+.md-search-result .md-typeset {
+  color: #fff;
+}
+
+.md-tabs{
+  color: #fff !important;
+}
+.md-tabs__link{
+  opacity: 1;
+}
+
+.md-search__form{
+  input::placeholder {
+    color: #fff !important;
+  }
+}
+
+
+
+.md-search-result__meta{
+  background-color: #000;
 }
 
 h1{

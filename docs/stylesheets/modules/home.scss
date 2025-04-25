@@ -13,7 +13,8 @@
   .entry-text{
     font-size: 1.2rem;
     line-height: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
   }
 
 
@@ -27,7 +28,7 @@
       &:after{
         height: 12px;
         width: 85px;
-        margin-top: 1‚rem;
+        margin-top: 1.3rem;
         margin-bottom: -0.2rem;
       }
     }
@@ -125,12 +126,15 @@
 body{
   &.home{
     background-image: url(../assets/images/home/bg.jpg);
-    background-size: 50%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-position: top;
+
+    .md-header, .md-tabs {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
   }
-  .md-header, .md-tabs {
-    background-color: transparent;
-    box-shadow: none;
-  }
+
 }
