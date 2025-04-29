@@ -150,6 +150,7 @@ extra_javascript:
   - assets/javascript/counter-animation.js
   - assets/javascript/body-classes.js
   - assets/javascript/testimonials.js
+  - assets/javascript/wcag.js
 
 
 # Navigation

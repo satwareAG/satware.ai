@@ -138,7 +138,7 @@
 
 .satag--home-testimonial-logo {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
   background: transparent;
@@ -152,8 +152,7 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
   img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 60px;
   }
 }
 

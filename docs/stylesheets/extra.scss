@@ -69,6 +69,10 @@
   --md-typeset-a-color: #9d65cf;             // Helleres Violett für Links
 }
 
+.md-search__scrollwrap {
+  tabindex: 0; /* Macht das Element fokussierbar */
+}
+
 ::-moz-selection {
   background: var(--md-primary-fg-color);;
   color: #fff;
@@ -139,6 +143,10 @@ h1,h2,h3{
 
 .md-search-result__meta{
   background-color: #000;
+}
+
+.md-source-file{
+  display: none;
 }
 
 h1{
