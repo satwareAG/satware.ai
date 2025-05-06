@@ -6,9 +6,9 @@ site_description: >-
   Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir bieten innovative Automatisierung, Softwareentwicklung und maßgeschneiderte IT-Lösungen für moderne Unternehmen. Optimieren Sie Ihre Prozesse mit unserer Expertise.
 
 # Repository
-repo_name: satware.ai
-repo_url: https://github.com/satwareAG/satware.ai/tree/main-mkdocs
-edit_uri: ""
+#repo_name: satware.ai
+#repo_url: https://github.com/satwareAG/satware.ai/tree/main-mkdocs
+#edit_uri: ""
 
 # Copyright
 copyright: Copyright &copy; 2025 satware AG
@@ -47,9 +47,9 @@ theme:
     - search.suggest
     - toc.follow
 
-  font:
-    text: Roboto
-    code: Roboto Mono
+  #font:
+   # text: Roboto
+    #code: Roboto Mono
 
   favicon: assets/images/favicon.png
   logo: assets/images/logo.svg
@@ -70,10 +70,7 @@ plugins:
       post_url_format: "{slug}"
       post_date_format: "dd.MM.yyyy"
       archive_toc: true
-      excerpt_separator: <!-- more -->
-      excerpt_max_strip_nl: 5  # Maximale Anzahl von Leerzeilen zu entfernen
-      excerpt: true  # Aktiviert Excerpts
-      excerpt_maxlines: 5  # Maximale Anzahl von Zeilen für das Excerpt
+
 
 # Erweiterungen
 markdown_extensions:
@@ -151,15 +148,12 @@ extra_javascript:
   - assets/javascript/body-classes.js
   - assets/javascript/testimonials.js
   - assets/javascript/wcag.js
+  - assets/javascript/faq.js
 
 
 # Navigation
 nav:
 
-
-  - Kostenlose Webinare: webinare.md
-  - Demo buchen: demo.md
-  - Zugang bestellen: zugang.md
   - KI-Agenten:
       - Übersicht: ki-agenten/index.md
       - Jane Alesi: ki-agenten/jane.md
@@ -172,5 +166,10 @@ nav:
       - Marco Alesi: ki-agenten/marco.md
       - Olu Alesi: ki-agenten/olu.md
       - Theo Alesi: ki-agenten/theo.md
+  - Anwendungen: anwendungen.md
+  - Webinare: webinare.md
+  - Präsentation: praesentation.md
+  - Workshops: workshops.md
+  - Preise: zugang.md
   - FAQ: faq.md
-  - Blog: blog/index.md
+  #- Blog: blog/index.md

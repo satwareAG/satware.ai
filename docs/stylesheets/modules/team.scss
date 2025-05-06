@@ -81,14 +81,13 @@ h1, h2, h3, h4, h5, h6 {
 
     h3 {
       margin-top: 0;
-      font-size: 1.3rem;
-      color: var(--md-accent-fg-color); // Geändert zu Akzentfarbe
+      font-size: 2.2rem;
+      line-height: 2.3rem;
+      color: #fff;
       margin-bottom: 0.1rem; // Verringerter Abstand
       text-align: left;
 
-      &:after{
-        content: none;
-      }
+
 
       .agent-surname {
         //opacity: 0.8;
@@ -96,20 +95,21 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .team-agent-position {
-      font-size: 0.7rem;
+      //font-size: 0.7rem;
       font-weight: 400;
       opacity: .9;
       color: #fff;
       margin-bottom: 0.1rem;
       text-align: left;
-      text-transform: uppercase;
       margin-top: 0.1rem;
       min-height: 2rem;
+
+      text-transform: none;
     }
 
     .team-agent-description {
-      font-size: 0.8rem;
-      line-height: 1.4;
+      //font-size: 0.8rem;
+      //line-height: 1.4;
       text-align: left;
       margin-bottom: 0.75rem;
     }
@@ -118,9 +118,6 @@ h1, h2, h3, h4, h5, h6 {
 
 // Expertise-Bereich
 .team-expertise {
-  background-color: rgba(82, 19, 112, 0.05);
-  border-radius: 8px;
-  margin-top: 3rem;
 
   h2 {
     color: var(--md-primary-fg-color);
@@ -129,21 +126,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
   }
 
-  ul.expertise-list {
-    display: block;
-    //grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    //gap: 1rem;
-    margin: 0;
-    padding: 0;
-    list-style-position: inside;
 
-    li {
-      margin-bottom: 0.1rem;
-      margin-left: 0;
-      text-align: left;
-      font-size: 0.95rem;
-    }
-  }
 }
 
 // Kontakt-Bereich
@@ -229,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
       }
 
       .team-agent-description {
-        font-size: 0.9rem;
+        //font-size: 0.9rem;
       }
     }
   }

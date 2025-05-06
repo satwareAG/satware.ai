@@ -1,5 +1,6 @@
 .md-footer{
   background-color: #000;
+  padding-top: 1rem;
 }
 
 .md-footer-meta{
@@ -13,15 +14,13 @@
   margin-right: auto;
   max-width: 61rem;
   width: 100%;
-
+  line-height: 2rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   float: left;
-  line-height: 240%;
   letter-spacing: 1px;
   .satag--custom-footer-column{
     display: inline-block;
-    font-size: .8rem;
 
     &.left{
 
@@ -47,4 +46,7 @@
   margin-right: auto;
   max-width: 61rem;
   width: 100%;
+  a{
+    font-size: 1.2rem;
+  }
 }

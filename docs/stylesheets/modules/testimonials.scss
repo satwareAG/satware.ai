@@ -1,13 +1,13 @@
 // Testimonials Section
 .satag--home-testimonials-container {
   max-width: 1200px;
-  margin: 4rem auto;
-  padding: 0 1rem;
+
+
 
   h2 {
     text-align: left;
-    font-size: 2.5rem;
     margin-bottom: 3rem;
+    margin-top: 0;
   }
 }
 
@@ -55,8 +55,8 @@
     border-left: none !important;
     //border-left: 4px solid var(--md-primary-fg-color, #9c27b0);
     padding-left: 0 !important;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    //font-size: 1.2rem;
+    //line-height: 2rem;
     //padding-bottom: 1.6rem;
     //padding-top: 1.6rem;
 
@@ -69,6 +69,7 @@
 
 .satag--home-testimonial-text-logo{
   max-width: 120px !important;
+  filter: grayscale(1);
 }
 
 .satag--home-testimonial-name {
@@ -142,6 +143,7 @@
   left: 50%;
   transform: translateX(-50%);
   background: transparent;
+  filter: grayscale(1);
   border-radius: 50%;
   padding: 5px;
   width: 40px;

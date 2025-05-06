@@ -2,26 +2,29 @@
 
 {% block styles %}
 {{ super() }}
-<style>
-    /* Assistant Font lokal einbinden */
-    @font-face {
-        font-family: 'Assistant';
-        font-style: normal;
-        font-weight: 400;
-        src: url('{{ base_url }}/assets/fonts/assistant-v18-latin-regular.woff2') format('woff2'),
-        url('{{ base_url }}/assets/fonts/assistant-v18-latin-regular.woff') format('woff');
-        font-display: swap;
-    }
 
-    @font-face {
-        font-family: 'Assistant';
-        font-style: normal;
-        font-weight: 700;
-        src: url('{{ base_url }}/assets/fonts/assistant-v18-latin-700.woff2') format('woff2'),
-        url('{{ base_url }}/assets/fonts/assistant-v18-latin-700.woff') format('woff');
-        font-display: swap;
-    }
-</style>
+
+<div class="satag--cookie-consent-container">
+    <script id="usercentrics-cmp" async data-eu-mode="true" data-settings-id="plHHr67Ul9jqQP" src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"></script>
+</div>
+
+<!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setExcludedQueryParams", ["utm_source","utm_medium","utm_campaign","utm_content","utm_term","fbclid","gclid","_ga","ref","osCsid","uKey"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="https://ut.literama.de/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '63']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<!-- End Matomo Code -->
+
 
 {% endblock %}
 
@@ -65,6 +68,8 @@
     <a href="https://satware.com/impressum" title="Impressum">Impressum</a>
     <a href="https://satware.com/datenschutzerklaerung" title="Datenschutzerklärung">Datenschutz</a>
     <a href="https://satware.com/barrierefreiheitserklaerung" title="Barrierefreiheitserklärung">Barrierefreiheitserklärung</a>
+    <a href="/blog/" title="Blog">Blog</a>
     <a href="https://satware.com/newsletter" title="Newsletter">Newsletter</a>
+
 </div>
 {% endblock %}

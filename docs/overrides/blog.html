@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+
+{% block content %}
+<h1>BLOG</h1>
+
+<div class="md-posts">
+    {% for post in posts %}
+    <article class="md-post md-post--excerpt">
+        <!--<div class="md-post__meta">
+            <time datetime="{{ post.meta.date }}">{{ post.meta.date }}</time>
+            {% if post.meta.categories %}
+            <span class="md-post__categories">
+              {% for category in post.meta.categories %}
+                {{ category }}{% if not loop.last %}, {% endif %}
+              {% endfor %}
+            </span>
+            {% endif %}
+            {% if post.meta.readtime %}
+            <span>{{ post.meta.readtime }} Min. Lesezeit</span>
+            {% endif %}
+        </div>-->
+
+        <h2 class="md-post__title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+
+        <!--<a href="{{ post.url }}" class="md-button">Weiterlesen</a>-->
+    </article>
+    {% endfor %}
+</div>
+{% endblock %}

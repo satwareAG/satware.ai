@@ -9,10 +9,13 @@
 @import "fontawesome/sharp-thin";
 
 // Module importieren
+@import "modules/consent";
 @import 'modules/team';
+@import "modules/header";
 @import 'modules/footer';
 @import 'modules/home';
 @import 'modules/testimonials';
+@import "modules/faq";
 
 @mixin transition{
   transition: all 0.5s ease;
@@ -20,31 +23,39 @@
 
 // satware.ai CI-Anpassungen
 
-// Assistant Font lokal einbinden
+/* assistant-300 - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Assistant';
   font-style: normal;
-  font-weight: 200;
-  src: url('../assets/fonts/assistant-v19-latin-200.woff2') format('woff2');
-  font-display: swap;
+  font-weight: 300;
+  src: url('../assets/fonts/assistant-v19-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  url('../assets/fonts/assistant-v19-latin-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
-
+/* assistant-regular - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Assistant';
   font-style: normal;
   font-weight: 400;
-  src: url('../assets/fonts/assistant-v19-latin-regular.woff2') format('woff2');
-  font-display: swap;
+  src: url('../assets/fonts/assistant-v19-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  url('../assets/fonts/assistant-v19-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
-
+/* assistant-700 - latin */
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Assistant';
   font-style: normal;
   font-weight: 700;
-  src: url('../assets/fonts/assistant-v19-latin-700.woff2') format('woff2');
-  font-display: swap;
+  src: url('../assets/fonts/assistant-v19-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  url('../assets/fonts/assistant-v19-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
+html{
+
+  font-size: 100% !important;
+
+}
 // Schriftart auf "Assistant" setzen
 :root {
   --md-text-font: "Assistant";
@@ -97,6 +108,19 @@
   background: var(--md-primary-fg-color);
 }
 
+
+
+body{
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  .md-typeset,
+  .md-nav{
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
+
 h1,h2,h3,h4,h5,h6 {
   color: #fff;
   a{
@@ -110,16 +134,75 @@ h1,h2,h3{
     content: "";
     background: #fff;
     position: relative;
-    height: 6px;
-    width: 40px;
     display: block;
-    margin-top: 0.6rem;
-    margin-bottom: -0.3rem;
+    height: 12px;
+    width: 85px;
+    margin-top: 1.3rem;
+    margin-bottom: -0.2rem;
   }
 }
 
-.md-typeset h1 {
+.md-typeset ul {
+  list-style-type: none;
+  padding: 0 0 0 2rem;
+  li{
+    &:before{
+
+      content: "\f00c";
+      font-family: "Font Awesome 6 Pro";
+      font-style: normal;
+      font-weight: 400;
+      padding-right: 0.5rem;
+      color: var(--md-primary-fg-color);
+      margin-left: -1.5rem;
+
+    }
+  }
+
+}
+
+[dir=ltr] .md-typeset ul li {
+  margin-left: -1em;
+  //margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.md-typeset h1,
+h1{
   color: #fff;
+  margin-bottom: 1.75rem;
+  text-align: left;
+  font-size: 8rem;
+  line-height: 1.1;
+
+  a.headerlink{
+    display: none !important;
+  }
+}
+
+.md-typeset h2,
+h2{
+  line-height: 3rem;
+  font-size: 2.7rem;
+  &:after{
+    margin-top: .6rem;
+    height: 7px;
+    width: 50px;
+
+  }
+}
+
+.md-typeset h3,
+h3{
+
+  font-size: 2.1rem;
+
+  &:after{
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    height: 4px;
+    width: 33px;
+  }
 }
 
 .md-search-result .md-typeset {
@@ -129,8 +212,63 @@ h1,h2,h3{
 .md-tabs{
   color: #fff !important;
 }
+
+.md-tabs__item{
+
+  &:after{
+    opacity: 0;
+    transition: .3s all ease;
+  }
+
+  &:hover{
+    transition: .3s all ease;
+
+    &:after{
+      content: "";
+      background: #fff;
+      position: relative;
+      display: block;
+      height: 4px;
+      width: 22px;
+      margin-top: 6px;
+      margin-bottom: -0.2rem;
+      opacity: .7;
+      transition: .3s all ease;
+
+    }
+
+  }
+
+  &.md-tabs__item--active{
+
+
+      &:after{
+        content: "";
+        background: #fff;
+        position: relative;
+        display: block;
+        height: 4px;
+        width: 22px;
+        margin-top: 6px;
+        margin-bottom: -0.2rem;
+        opacity: 1;
+        transition: .3s all ease;
+
+      }
+
+
+  }
+
+}
+
+.md-tabs__list{
+  height: 4rem;
+}
+
 .md-tabs__link{
   opacity: 1;
+  font-size: 1.2rem;
+
 }
 
 .md-search__form{
@@ -149,14 +287,12 @@ h1,h2,h3{
   display: none;
 }
 
-h1{
-  &:after{
+.md-grid{
+  max-width: 1080px;
+}
 
-    height: 6px;
-    width: 40px;
-    margin-top: 0.6rem;
-    margin-bottom: -0.3rem;
-  }
+.satag--padding-container{
+  padding: 4rem 0;
 }
 
 a.headerlink{
@@ -208,6 +344,21 @@ a.headerlink{
   color: #fff;
 }
 
+
+.satag--webinar-form-container{
+  #nextcloud-form{
+    width: 100%;
+    border: none;
+    min-height: 3500px;
+    transition: height .3s ease;
+    color-scheme: dark;
+
+    .ng-csp{
+      background-color: #000 !important;
+    }
+  }
+}
+
 // Footer Navigation für zusätzliche Links
 .md-footer-meta .md-footer-meta__inner {
   .md-footer-copyright {
@@ -234,7 +385,6 @@ a.headerlink{
 
   a {
     color: var(--md-footer-fg-color);
-    font-size: 0.75rem;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
 
@@ -260,8 +410,35 @@ a.headerlink{
   color: #fff;
 }
 
+.md-search__form{
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+[data-md-toggle=search]:checked~.md-header .md-search__suggest {
+  opacity: 0;
+}
+
+
+.md-footer__title {
+
+  font-size: 100%;
+}
+
+.md-footer__direction {
+  font-size: 100%;
+  opacity: .7;
+}
+
 .md-top{
   border-radius: 0;
+  top: 4vh !important;
+  font-size: 100%;
+  padding: 0.8rem 1rem;
+  svg{
+    vertical-align: -.15rem;
+  }
 }
 // Buttons im CI-Design
 .md-button {
@@ -269,6 +446,7 @@ a.headerlink{
   border-radius: 0 !important;
   color: #fff !important;
   border-color: var(--md-primary-fg-color) !important;
+  border-width: .15rem !important;
 
   padding: 1.7em 2.9em !important;
   letter-spacing: 0.2rem !important;
@@ -318,7 +496,7 @@ a.headerlink{
 
   h2 {
     margin-top: 0.5rem;
-    font-size: 1.25rem;
+
     color: var(--md-primary-fg-color);
   }
 
@@ -333,6 +511,8 @@ a.headerlink{
 .md-button {
   border-radius: 4px;
   transition: all 0.2s ease;
+  font-size: 1.1rem;
+  border: .15rem solid;
 
   &.md-button--primary {
     background-color: var(--md-primary-fg-color);
@@ -365,7 +545,7 @@ a.headerlink{
 
 
   img, svg {
-    width: 240px; // Größeres Logo (Standardwert ist 40px)
+    width: 325px; // Größeres Logo (Standardwert ist 40px)
     height: auto;
   }
 }

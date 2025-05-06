@@ -1,6 +1,8 @@
 ---
 title: Die satware® AI-Agenten-Familie
 description: Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten mit fortschrittlichem Reasoning und dem einzigartigen saTway-Ansatz
+hide:
+  - toc
 ---
 
 # Die <span class="satag-trademark">satware®</span> AI-Agenten-Familie

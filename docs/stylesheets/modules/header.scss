@@ -1,0 +1,53 @@
+body{
+
+  /* Header nicht fixieren, sondern statisch positionieren */
+  .md-header {
+    position: static !important;
+  }
+
+  /* Abstand nach oben für den Hauptinhalt entfernen */
+  .md-main__inner {
+    margin-top: 0 !important;
+  }
+
+  /* Falls du Tabs verwendest, diese auch nicht fixieren */
+  .md-tabs {
+    position: static !important;
+  }
+
+  /* Anpassung für den Hauptinhalt */
+  .md-content {
+    margin-top: 0 !important;
+  }
+
+  /* Für den Fall, dass du die Seitenleiste verwendest */
+  .md-sidebar {
+    top: 0 !important;
+    height: auto !important;
+  }
+
+  label.md-search__icon.md-icon {
+
+
+
+    svg{
+      display: none;
+    }
+
+  }
+
+  nav.md-search__options{
+    &:after{
+      content: "\f002";
+      font-family: 'Font Awesome 6 Pro';
+      font-weight: 100;
+      font-size: 1rem;
+    }
+  }
+
+  /* Versteckt den Placeholder-Text im Suchfeld */
+  .md-search__input::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+}

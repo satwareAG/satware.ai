@@ -16,7 +16,7 @@ python compile_scss.py watch &
 SCSS_PID=$!
 
 # Starte MkDocs-Server
-mkdocs serve
+mkdocs serve --dev-addr=0.0.0.0:8000
 
 # Stoppe den SCSS-Watcher, wenn der Server beendet wird
 kill $SCSS_PID
