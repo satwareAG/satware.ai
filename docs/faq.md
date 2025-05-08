@@ -16,34 +16,7 @@ hide:
     </div>
   </div>
 
-  <div class="custom-faq-item">
-    <div class="custom-faq-question">Fragen zur Datensicherheit und Privatsphäre</div>
-    <div class="custom-faq-answer">
-      <p>Wir bieten verschiedene spezialisierte KI-Agenten an, darunter Jane Alesi, Amira Alesi, Bastian Alesi, Bea Alesi, Justus Alesi, Lara Alesi, Luna Alesi, Marco Alesi, Olu Alesi und Theo Alesi. Jeder Agent ist auf bestimmte Aufgabenbereiche spezialisiert.</p>
-    </div>
-  </div>
-
-  <div class="custom-faq-item">
-    <div class="custom-faq-question">Fragen zu Funktionen und Anpassungsmöglichkeiten</div>
-    <div class="custom-faq-answer">
-      <p>Die Integration von satware® AI in Ihr Unternehmen erfolgt in mehreren Schritten. Zunächst analysieren wir Ihre bestehenden Prozesse, identifizieren Optimierungspotenziale und entwickeln dann eine maßgeschneiderte Lösung. Unsere Experten begleiten Sie während des gesamten Implementierungsprozesses.</p>
-    </div>
-  </div>
-
-  <div class="custom-faq-item">
-    <div class="custom-faq-question">Fragen zu Preisgestaltung und Support</div>
-    <div class="custom-faq-answer">
-      <p>satware® AI bietet zahlreiche Vorteile, darunter:</p>
-      <ul>
-        <li>Höhere Effizienz durch Automatisierung wiederkehrender Aufgaben</li>
-        <li>Verbesserte Datenanalyse und Entscheidungsfindung</li>
-        <li>Maßgeschneiderte Lösungen für Ihre spezifischen Anforderungen</li>
-        <li>Skalierbarkeit und Anpassungsfähigkeit an wachsende Unternehmen</li>
-        <li>Reduzierung von Fehlern und Verbesserung der Qualität</li>
-        <li>Kosteneinsparungen durch optimierte Prozesse</li>
-      </ul>
-    </div>
-  </div>
+  
 
 <h2>Fragen zur Datensicherheit und Privatsphäre</h2>
 

@@ -1,0 +1,70 @@
+
+@media (max-width: 1219px) {
+  body{
+
+    .md-grid {
+      padding: 2rem;
+    }
+    .md-grid .md-content,
+    .md-footer-container,
+    .md-footer-custom-links{
+      padding: 4rem;
+    }
+
+    .md-typeset h1,
+    h1 {
+      font-size: 3rem;
+    }
+
+    .md-typeset h2,
+    h2 {
+      font-size: 2rem;
+    }
+
+  }
+}
+
+@media (max-width: 959px) {
+
+
+
+  label.md-header__button.md-icon:last-of-type{
+    svg{
+      display: none;
+    }
+    &:after {
+      content: "\f002";
+      font-family: 'Font Awesome 6 Pro';
+      font-weight: 100;
+      font-size: 1rem;
+    }
+  }
+
+  body{
+
+    .satag--padding-container{
+      padding: 4rem 2rem;
+    }
+
+    .satag--home-companies{
+      padding: 4rem 3rem;
+
+      .satag--home-companies-logo-container{
+        .satag--home-companies-logo{
+          img {
+            float: none !important;
+          }
+        }
+      }
+
+    }
+
+    .md-button{
+      padding: 1em 2.3em !important;
+      margin-bottom: 1em;
+    }
+  }
+
+
+
+}

@@ -12,21 +12,16 @@
 
     margin-top: 7rem;
 
-  .entry-text{
-    font-size: 1.5rem;
-    line-height: 2.2rem;
-    padding-bottom: 1.6rem;
-    padding-top: 1.6rem;
-  }
-
-
-    //@include ohne-balken;
+    .entry-text{
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      padding-bottom: 1.6rem;
+      padding-top: 1.6rem;
+    }
 
     h1{
-      //font-size: 6rem;
       margin-bottom: 1.75rem;
       text-align: left;
-      //line-height: 114%;
       &:after{
         height: 12px;
         width: 85px;
@@ -41,10 +36,7 @@
       margin-bottom: 0;
     }
 
-    //text-align: center;
-
     .screenshot-container{
-
       text-align: center;
     }
 
@@ -52,7 +44,6 @@
       border: 1px solid var(--md-primary-fg-color--light);
       width: 100%;
     }
-
   }
 
   .satag--home-companies{
@@ -73,19 +64,32 @@
       margin: 0 auto;
     }
 
-    //@include ohne-balken;
-
     text-align: center;
     .satag--home-companies-logo-container{
       display: flex;
       max-width: 61rem;
       margin: 0 auto;
+      flex-wrap: wrap; // Erlaubt Umbruch bei kleinen Bildschirmen
 
       .satag--home-companies-logo{
-        flex: auto;
+        flex: 0 0 25%;
         img{
           width: 80%;
           float:left;
+        }
+      }
+
+      // Responsive Anpassung für die Logos
+      @media screen and (max-width: 768px) {
+        .satag--home-companies-logo {
+          flex: 0 0 50%; // 2 Logos pro Zeile
+          margin-bottom: 1rem;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .satag--home-companies-logo {
+          flex: 0 0 100%; // 1 Logo pro Zeile
         }
       }
     }
@@ -94,7 +98,6 @@
   .satag--home-counters{
 
     width: 100%;
-
 
     h2{
       padding-bottom: 1rem;
@@ -105,9 +108,13 @@
     text-align: center;
     .satag--home-counters-container{
       display: flex;
+      flex-wrap: wrap; // Erlaubt Umbruch bei kleinen Bildschirmen
+
       .satag--home-counter{
-        flex: auto;
+        flex: 1 0 auto;
         display: block;
+        padding: 1rem;
+
         .satag--home-counter-icon{
           display: block;
           font-size: 2rem;
@@ -120,9 +127,21 @@
           line-height: 1.6;
         }
       }
+
+      // Responsive Breakpoints für die Counter
+      @media screen and (max-width: 768px) {
+        .satag--home-counter {
+          flex: 0 0 50%; // 2 Counter pro Zeile
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .satag--home-counter {
+          flex: 0 0 100%; // 1 Counter pro Zeile
+        }
+      }
     }
   }
-
 }
 
 body{
@@ -135,12 +154,14 @@ body{
     background-size: 60%;
     background-position-y: 2rem;
 
-
     .md-header, .md-tabs {
       background-color: transparent;
       box-shadow: none;
     }
 
+    // Responsive Anpassung für den Hintergrund
+    @media screen and (max-width: 768px) {
+      background-size: 100%;
+    }
   }
-
 }

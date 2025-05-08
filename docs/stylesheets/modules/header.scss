@@ -21,9 +21,12 @@ body{
   }
 
   /* Für den Fall, dass du die Seitenleiste verwendest */
-  .md-sidebar {
-    top: 0 !important;
-    height: auto !important;
+  @media (min-width: 768px){
+    .md-sidebar {
+      top: 0 !important;
+      height: auto !important;
+    }
+
   }
 
   label.md-search__icon.md-icon {

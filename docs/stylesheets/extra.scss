@@ -17,7 +17,12 @@
 @import 'modules/testimonials';
 @import "modules/faq";
 
-@mixin transition{
+//Responsive Design
+
+@import "responsive/medium";
+@import "responsive/mobile";
+
+@mixin transition {
   transition: all 0.5s ease;
 }
 
@@ -32,6 +37,7 @@
   src: url('../assets/fonts/assistant-v19-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   url('../assets/fonts/assistant-v19-latin-300.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
+
 /* assistant-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -41,6 +47,7 @@
   src: url('../assets/fonts/assistant-v19-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   url('../assets/fonts/assistant-v19-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
+
 /* assistant-700 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -51,11 +58,12 @@
   url('../assets/fonts/assistant-v19-latin-700.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
-html{
+html {
 
   font-size: 100% !important;
 
 }
+
 // Schriftart auf "Assistant" setzen
 :root {
   --md-text-font: "Assistant";
@@ -71,13 +79,13 @@ html{
   --md-default-fg-color--lightest: rgba(255, 255, 255, 0.07);
 
   // Primär- und Akzentfarben gemäß satware CI
-  --md-primary-fg-color: #521370;            // Primärfarbe: satware Violett
-  --md-primary-fg-color--light: #7e3a9e;     // Helle Variante
-  --md-primary-fg-color--dark: #3c0e52;      // Dunkle Variante
-  --md-accent-fg-color: #8a44bd;             // Akzentfarbe: Helleres Violett
+  --md-primary-fg-color: #521370; // Primärfarbe: satware Violett
+  --md-primary-fg-color--light: #7e3a9e; // Helle Variante
+  --md-primary-fg-color--dark: #3c0e52; // Dunkle Variante
+  --md-accent-fg-color: #8a44bd; // Akzentfarbe: Helleres Violett
 
   // Link-Farbe anpassen
-  --md-typeset-a-color: #9d65cf;             // Helleres Violett für Links
+  --md-typeset-a-color: #9d65cf; // Helleres Violett für Links
 }
 
 .md-search__scrollwrap {
@@ -88,6 +96,7 @@ html{
   background: var(--md-primary-fg-color);;
   color: #fff;
 }
+
 ::selection {
   background: var(--md-primary-fg-color);;
   color: #fff;
@@ -109,28 +118,29 @@ html{
 }
 
 
-
-body{
+body {
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 2rem;
+
   .md-typeset,
-  .md-nav{
+  .md-nav {
     font-size: 1.3rem;
     line-height: 2rem;
   }
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  a{
+
+  a {
     color: #fff !important;
   }
 
 }
 
-h1,h2,h3{
-  &:after{
+h1, h2, h3 {
+  &:after {
     content: "";
     background: #fff;
     position: relative;
@@ -145,8 +155,9 @@ h1,h2,h3{
 .md-typeset ul {
   list-style-type: none;
   padding: 0 0 0 2rem;
-  li{
-    &:before{
+
+  li {
+    &:before {
 
       content: "\f00c";
       font-family: "Font Awesome 6 Pro";
@@ -168,23 +179,24 @@ h1,h2,h3{
 }
 
 .md-typeset h1,
-h1{
+h1 {
   color: #fff;
   margin-bottom: 1.75rem;
   text-align: left;
   font-size: 8rem;
   line-height: 1.1;
 
-  a.headerlink{
+  a.headerlink {
     display: none !important;
   }
 }
 
 .md-typeset h2,
-h2{
+h2 {
   line-height: 3rem;
   font-size: 2.7rem;
-  &:after{
+
+  &:after {
     margin-top: .6rem;
     height: 7px;
     width: 50px;
@@ -193,11 +205,11 @@ h2{
 }
 
 .md-typeset h3,
-h3{
+h3 {
 
   font-size: 2.1rem;
 
-  &:after{
+  &:after {
     margin-top: 5px;
     margin-bottom: 1rem;
     height: 4px;
@@ -209,21 +221,21 @@ h3{
   color: #fff;
 }
 
-.md-tabs{
+.md-tabs {
   color: #fff !important;
 }
 
-.md-tabs__item{
+.md-tabs__item {
 
-  &:after{
+  &:after {
     opacity: 0;
     transition: .3s all ease;
   }
 
-  &:hover{
+  &:hover {
     transition: .3s all ease;
 
-    &:after{
+    &:after {
       content: "";
       background: #fff;
       position: relative;
@@ -239,81 +251,80 @@ h3{
 
   }
 
-  &.md-tabs__item--active{
+  &.md-tabs__item--active {
 
 
-      &:after{
-        content: "";
-        background: #fff;
-        position: relative;
-        display: block;
-        height: 4px;
-        width: 22px;
-        margin-top: 6px;
-        margin-bottom: -0.2rem;
-        opacity: 1;
-        transition: .3s all ease;
+    &:after {
+      content: "";
+      background: #fff;
+      position: relative;
+      display: block;
+      height: 4px;
+      width: 22px;
+      margin-top: 6px;
+      margin-bottom: -0.2rem;
+      opacity: 1;
+      transition: .3s all ease;
 
-      }
+    }
 
 
   }
 
 }
 
-.md-tabs__list{
+.md-tabs__list {
   height: 4rem;
 }
 
-.md-tabs__link{
+.md-tabs__link {
   opacity: 1;
   font-size: 1.2rem;
 
 }
 
-.md-search__form{
+.md-search__form {
   input::placeholder {
     color: #fff !important;
   }
 }
 
 
-
-.md-search-result__meta{
+.md-search-result__meta {
   background-color: #000;
 }
 
-.md-source-file{
+.md-source-file {
   display: none;
 }
 
-.md-grid{
+.md-grid {
   max-width: 1080px;
 }
 
-.satag--padding-container{
+.satag--padding-container {
   padding: 4rem 0;
 }
 
-a.headerlink{
+a.headerlink {
   color: var(--md-primary-fg-color) !important;
 }
 
-.satag-trademark{
+.satag-trademark {
   text-transform: lowercase;
 }
 
 .md-header,
-.md-tabs{
+.md-tabs {
   background-color: #000;
 }
 
-.md-tabs__item{
+.md-tabs__item {
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.md-search__input{
+.md-search__input {
   text-transform: uppercase;
   font-size: 0.7rem;
   font-weight: 400;
@@ -321,9 +332,9 @@ a.headerlink{
   color: #fff;
 }
 
-.md-search-result__list{
-  h1,h2,h3,h4,h5,h6{
-    &:after{
+.md-search-result__list {
+  h1, h2, h3, h4, h5, h6 {
+    &:after {
       content: none;
     }
   }
@@ -336,7 +347,7 @@ a.headerlink{
   width: 1rem;
 }
 
-.md-search-result__meta{
+.md-search-result__meta {
   text-transform: uppercase;
   font-size: 0.7rem;
   font-weight: 400;
@@ -345,15 +356,15 @@ a.headerlink{
 }
 
 
-.satag--webinar-form-container{
-  #nextcloud-form{
+.satag--webinar-form-container {
+  #nextcloud-form {
     width: 100%;
     border: none;
     min-height: 3500px;
     transition: height .3s ease;
     color-scheme: dark;
 
-    .ng-csp{
+    .ng-csp {
       background-color: #000 !important;
     }
   }
@@ -372,16 +383,16 @@ a.headerlink{
   padding-top: .6rem;
 }
 
-.md-footer-meta.md-typeset a{
+.md-footer-meta.md-typeset a {
   color: #fff !important;
 }
+
 .md-footer-meta {
   background-color: #000;
 }
 
 
-
-  // Füge zusätzliche Navigation im Footer hinzu
+// Füge zusätzliche Navigation im Footer hinzu
 .md-footer-custom-links {
   display: flex;
   flex-wrap: wrap;
@@ -406,22 +417,22 @@ a.headerlink{
   color: #e2e2e2;
 }
 
-.md-nav__container>.md-nav__link:first-child {
+.md-nav__container > .md-nav__link:first-child {
   text-transform: uppercase;
 }
 
-.md-nav__title{
+.md-nav__title {
   text-transform: uppercase;
   color: #fff;
 }
 
-.md-search__form{
+.md-search__form {
   &:hover {
     background-color: transparent !important;
   }
 }
 
-[data-md-toggle=search]:checked~.md-header .md-search__suggest {
+[data-md-toggle=search]:checked ~ .md-header .md-search__suggest {
   opacity: 0;
 }
 
@@ -436,15 +447,17 @@ a.headerlink{
   opacity: .7;
 }
 
-.md-top{
+.md-top {
   border-radius: 0;
   top: 4vh !important;
   font-size: 100%;
   padding: 0.8rem 1rem;
-  svg{
+
+  svg {
     vertical-align: -.15rem;
   }
 }
+
 // Buttons im CI-Design
 .md-button {
 
@@ -459,7 +472,7 @@ a.headerlink{
 
   @include transition;
 
-  &:hover{
+  &:hover {
     border-color: #8a44bd !important;
     transform: translateY(8px);
     @include transition;

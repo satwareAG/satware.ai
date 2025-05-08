@@ -16,6 +16,7 @@ copyright: Copyright &copy; 2025 satware AG
 # Konfiguration
 theme:
   name: material
+  font: false
   custom_dir: docs/overrides
   language: de
 
@@ -46,6 +47,8 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+
+
 
   #font:
    # text: Roboto

@@ -1,0 +1,24 @@
+@media (max-width: 479px) {
+  body{
+
+    .md-grid {
+      padding: 2rem;
+    }
+    .md-grid .md-content,
+    .md-footer-container,
+    .md-footer-custom-links{
+      padding: 1rem;
+    }
+
+    .md-typeset h1,
+    h1 {
+      font-size: 3rem;
+    }
+
+    .md-typeset h2,
+    h2 {
+      font-size: 2rem;
+    }
+
+  }
+}
