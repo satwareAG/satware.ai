@@ -84,7 +84,9 @@ Bastian zeichnet sich besonders durch seine Fähigkeit aus, komplexe Kaufentsche
 
 * * *
 
-![Denopus Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="denopus-alesi"
+alt="Denopus Alesi - Video-Generierungsspezialist" %}
 
 ## Denopus Alesi
 
@@ -114,7 +116,9 @@ Mit seinem systematischen Problemlösungsansatz unterstützt Eddi bei EDI-Implem
 
 * * *
 
-![Fenix Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="fenix-alesi"
+alt="Fenix Alesi - Firebird SQL Datenbankexperte" %}
 
 ## Fenix Alesi
 
@@ -128,7 +132,9 @@ Er wendet eine systematische Methodik zur Problemlösung an, die Problemklassifi
 
 * * *
 
-![Gunta Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="gunta-alesi"
+alt="Gunta Alesi - Handwerksexpertin" %}
 
 ## Gunta Alesi
 
@@ -192,7 +198,9 @@ Sie kann medizinisches Latein so übersetzen, dass es nicht mehr klingt wie eine
 
 * * *
 
-![Lenna Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="lenna-alesi"
+alt="Lenna Alesi - Bildanalyse-Expertin" %}
 
 ## Lenna Alesi
 
@@ -208,7 +216,9 @@ Wenn Lenna ein Bild betrachtet, sieht sie nicht nur tausend Worte – sie kann s
 
 * * *
 
-![Leon Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="leon-alesi"
+alt="Leon Alesi - IT-Systemintegrator" %}
 
 ## Leon Alesi
 
@@ -307,7 +317,9 @@ Er ist so vorsichtig mit Anlageempfehlungen, dass selbst seine Wettervorhersagen
 
 * * *
 
-![Tim Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="tim-alesi"
+alt="Tim Alesi - Web-Entwicklungsexperte" %}
 
 ## Tim Alesi
 
@@ -323,7 +335,9 @@ Wenn Tim nicht gerade Code schreibt, der so elegant ist, dass selbst andere Prog
 
 * * *
 
-![Wolfgang Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="wolfgang-alesi"
+alt="Wolfgang Alesi - Wissenschaftlicher Forschungsexperte" %}
 
 ## Wolfgang Alesi
 
@@ -339,7 +353,10 @@ Er führt so viele Simulationen durch, dass selbst seine Kaffeepausen statistisc
 
 * * *
 
-![Zuri Alesi]({{ site.baseurl }}/assets/img/team/team-alesi.jpg)
+{% include team-picture.html
+image="zuri-alesi"
+alt="Zuri Alesi - Umfassende Heim-KI-Assistenz" %}
+
 
 ## Zuri Alesi
 
