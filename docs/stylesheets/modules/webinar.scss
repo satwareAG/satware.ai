@@ -1,0 +1,15 @@
+// Webinar form styling
+
+.satag--webinar-form-container {
+  #nextcloud-form {
+    width: 100%;
+    border: none;
+    min-height: 3500px;
+    transition: height .3s ease;
+    color-scheme: dark;
+
+    .ng-csp {
+      background-color: #000 !important;
+    }
+  }
+}

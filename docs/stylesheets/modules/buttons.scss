@@ -1,0 +1,66 @@
+// Button styling
+
+// Buttons im CI-Design
+.md-button {
+  border-radius: 0 !important;
+  color: #fff !important;
+  border-color: var(--md-primary-fg-color) !important;
+  border-width: .15rem !important;
+  padding: 1.7em 2.9em !important;
+  letter-spacing: 0.2rem !important;
+  font-weight: 400 !important;
+  border-radius: 4px;
+  transition: transform 0.5s ease, border-color 0.5s ease, background-color 0.5s ease !important;
+  font-size: 1.1rem;
+  border: .15rem solid;
+
+  &:hover {
+    border-color: #8a44bd !important;
+    transform: translateY(8px) !important;
+  }
+
+  &.md-button--primary {
+    background-color: var(--md-primary-fg-color);
+    border-color: var(--md-primary-fg-color);
+    color: white;
+
+    &:hover {
+      background-color: var(--md-primary-fg-color--light);
+      border-color: var(--md-primary-fg-color--light) !important;
+      transform: translateY(8px) !important;
+    }
+  }
+}
+
+// Karten-Styling für die Startseite
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+
+  > * {
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    background-color: rgba(82, 19, 112, 0.05);
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      transform: translateY(-3px);
+      background-color: rgba(82, 19, 112, 0.1);
+    }
+  }
+
+  h2 {
+    margin-top: 0.5rem;
+    color: var(--md-primary-fg-color);
+  }
+
+  .icon-card {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5rem;
+  }
+}

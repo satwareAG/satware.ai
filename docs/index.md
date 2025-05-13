@@ -138,10 +138,10 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
                     <span class="satag--home-testimonial-title">Project Manager at Company 2</span>
                 </div>
             </div>
-            
+
             <div class="satag--home-testimonials-text" data-testimonial-id="3">
                         <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/testimonials/satware-ag.png" alt="satware AG Logo">
-        
+
             <p>
                         "The integration capabilities of satware AI with our existing tools made adoption seamless. Our team productivity has increased by 35% since implementation, and the custom agents continue to learn our specific needs."
             </p>
@@ -173,13 +173,13 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
                 </div>
             </div>
         </div>
-        
-        
+
+
     </div>
 
 </div>
 <!-- end section testimonials -->
 
+<script src="../javascripts/lightbox.js"></script>
+
 </div>
-
-

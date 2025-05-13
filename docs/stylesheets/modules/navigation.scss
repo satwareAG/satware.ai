@@ -1,0 +1,110 @@
+// Navigation and tabs styling
+
+// Tabs styling
+.md-tabs {
+  color: #fff !important;
+}
+
+.md-tabs__item {
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:after {
+    content: "";
+    background: #fff;
+    position: relative;
+    display: block;
+    height: 4px;
+    width: 22px;
+    margin-top: 6px;
+    margin-bottom: -0.2rem;
+    opacity: 0;
+    transition: .3s all ease;
+  }
+
+  &:hover {
+    transition: .3s all ease;
+
+    &:after {
+      opacity: .7;
+      transition: .3s all ease;
+    }
+  }
+
+  &.md-tabs__item--active {
+    &:after {
+      opacity: 1;
+      transition: .3s all ease;
+    }
+  }
+}
+
+.md-tabs__list {
+  height: 4rem;
+}
+
+.md-tabs__link {
+  opacity: 1;
+  font-size: 1.2rem;
+}
+
+// Navigation styling
+.md-nav__container > .md-nav__link:first-child {
+  text-transform: uppercase;
+}
+
+.md-nav__title {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.md-nav__container>.md-nav__link {
+  text-transform: uppercase !important;
+}
+
+// Footer navigation
+.md-footer__title {
+  font-size: 100%;
+}
+
+.md-footer__direction {
+  font-size: 100%;
+  opacity: .7;
+}
+
+// Footer Navigation für zusätzliche Links
+.md-footer-meta .md-footer-meta__inner {
+  .md-footer-copyright {
+    width: auto;
+    margin: auto 1rem 0.5rem 0;
+  }
+}
+
+.md-footer-meta.md-typeset a {
+  color: #fff !important;
+}
+
+// Füge zusätzliche Navigation im Footer hinzu
+.md-footer-custom-links {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+
+  a {
+    color: var(--md-footer-fg-color);
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+
+    &:hover {
+      color: var(--md-footer-fg-color--light);
+      text-decoration: underline;
+    }
+  }
+}
+
+// Content inner margin
+.md-content__inner {
+  margin: 0 0 1.2rem;
+  padding-top: .6rem;
+}

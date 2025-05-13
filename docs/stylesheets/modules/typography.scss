@@ -1,0 +1,140 @@
+// Typography styling
+
+body {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 2rem;
+
+  .md-typeset,
+  .md-nav {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+
+  a {
+    color: #fff !important;
+  }
+}
+
+// Underline for headings
+h1, h2, h3 {
+  &:after {
+    content: "";
+    background: #fff;
+    position: relative;
+    display: block;
+    height: 12px;
+    width: 85px;
+    margin-top: 1.3rem;
+    margin-bottom: -0.2rem;
+  }
+}
+
+// H1 styling
+.md-typeset h1,
+h1 {
+  color: #fff;
+  margin-bottom: 1.75rem;
+  text-align: left;
+  font-size: 8rem;
+  line-height: 1.1;
+
+  a.headerlink {
+    display: none !important;
+  }
+}
+
+// H2 styling
+.md-typeset h2,
+h2 {
+  line-height: 3rem;
+  font-size: 2.7rem;
+
+  &:after {
+    margin-top: .6rem;
+    height: 7px;
+    width: 50px;
+  }
+}
+
+// H3 styling
+.md-typeset h3,
+h3 {
+  font-size: 2.1rem;
+
+  &:after {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    height: 4px;
+    width: 33px;
+  }
+}
+
+// List styling
+.md-typeset ul {
+  list-style-type: none;
+  padding: 0 0 0 2rem;
+
+  li {
+    &:before {
+      content: "\f00c";
+      font-family: "Font Awesome 6 Pro";
+      font-style: normal;
+      font-weight: 400;
+      padding-right: 0.5rem;
+      color: var(--md-primary-fg-color);
+      margin-left: -1.5rem;
+    }
+  }
+}
+
+[dir=ltr] .md-typeset ul li {
+  margin-left: -1em;
+  margin-bottom: 0;
+}
+
+// Link styling
+a.headerlink {
+  color: var(--md-primary-fg-color) !important;
+}
+
+// Tooltip styling for MkDocs Material
+.md-tooltip {
+  // Increase the z-index to ensure tooltips appear above other elements
+  z-index: 10;
+
+  // Style the tooltip content
+  .md-tooltip__inner {
+    font-size: .9rem !important;
+    padding: 0.5rem !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 4px !important;
+    color: white !important;
+    max-width: 300px !important;
+    white-space: normal !important;
+  }
+}
+
+// Hide source file info
+.md-source-file {
+  display: none;
+}
+
+// Code styling in search results
+.md-search-result .md-typeset {
+  color: #fff;
+}
+
+// Remove underline in search results
+.md-search-result__list {
+  h1, h2, h3, h4, h5, h6 {
+    &:after {
+      content: none;
+    }
+  }
+}

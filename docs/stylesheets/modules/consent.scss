@@ -1,0 +1,75 @@
+/* 
+ * Cookie Consent Styling
+ * Position the cookie consent container at the top of the website, 20px from the top edge
+ */
+
+.satag--cookie-consent-container {
+  position: fixed !important;
+  top: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 9999 !important; /* Ensure it appears above other content */
+  width: auto !important;
+  height: auto !important;
+}
+
+/* 
+ * Direct targeting of Usercentrics elements
+ * These selectors target various elements that Usercentrics might create
+ */
+#usercentrics-root,
+[class*="usercentrics"],
+[id*="usercentrics"],
+.uc-banner-content,
+.uc-container,
+#uc-center-container,
+[class*="banner"],
+[class*="consent"],
+[class*="cookie"] {
+  top: 20px !important;
+  bottom: auto !important;
+  position: fixed !important;
+  z-index: 9999 !important;
+}
+
+/* Specific targeting for the center container */
+#uc-center-container {
+  position: absolute !important;
+  top: 40px !important;
+  margin: 0 auto !important;
+  text-align: left !important;
+  left: 35% !important;
+}
+
+[id*="center-container"]:not(#uc-center-container),
+[class*="center-container"] {
+  top: 0 !important;
+  position: absolute !important;
+}
+
+/* 
+ * Special styling for landscape mode on smaller height screens
+ * This targets the Usercentrics container element
+ */
+@media (max-height: 768px) and (orientation: landscape) {
+    .gtPQAC,
+    [class*="usercentrics"],
+    [id*="usercentrics"],
+    .uc-banner-content,
+    .uc-container,
+    #uc-center-container {
+        border-bottom: 0 !important;
+        max-height: 100vh !important;
+        max-width: 625px !important;
+        top: 0 !important;
+        position: absolute !important;
+    }
+}
+
+/* Additional styling to ensure the cookie consent is at the top */
+body iframe[id^="usercentrics-"],
+body [class*="usercentrics"],
+body [id*="usercentrics"] {
+  top: 20px !important;
+  bottom: auto !important;
+}
