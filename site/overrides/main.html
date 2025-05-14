@@ -3,10 +3,53 @@
 {% block styles %}
 {{ super() }}
 
+<!-- Direct CSS styles for cookie consent -->
+<style>
+    /* Specific targeting for the center container */
+    #uc-center-container {
+        position: absolute !important;
+        top: 40px !important;
+        margin: 0 auto !important;
+        text-align: left !important;
+        left: 35% !important;
+    }
+
+    /* Direct targeting of Usercentrics elements */
+    #usercentrics-root,
+    [class*="usercentrics"],
+    [id*="usercentrics"],
+    .uc-banner-content,
+    .uc-container,
+    [class*="banner"],
+    [class*="consent"],
+    [class*="cookie"] {
+        top: 20px !important;
+        bottom: auto !important;
+        position: fixed !important;
+        z-index: 9999 !important;
+    }
+
+    /* Special styling for landscape mode on smaller height screens */
+    @media (max-height: 768px) and (orientation: landscape) {
+        .gtPQAC,
+        [class*="usercentrics"],
+        [id*="usercentrics"],
+        .uc-banner-content,
+        .uc-container,
+        #uc-center-container {
+            border-bottom: 0 !important;
+            max-height: 100vh !important;
+            max-width: 625px !important;
+            top: 0 !important;
+            position: absolute !important;
+        }
+    }
+</style>
 
 <div class="satag--cookie-consent-container">
     <script id="usercentrics-cmp" async data-eu-mode="true" data-settings-id="plHHr67Ul9jqQP" src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"></script>
 </div>
+
 
 <!-- Matomo -->
 <script>

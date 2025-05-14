@@ -5,10 +5,12 @@
     .md-grid {
       padding: 2rem;
     }
-    .md-grid .md-content,
+    .md-grid .md-content{
+      padding: 4rem;
+    }
     .md-footer-container,
     .md-footer-custom-links{
-      padding: 4rem;
+      padding: 2rem;
     }
 
     .md-typeset h1,
@@ -25,8 +27,11 @@
 }
 
 @media (max-width: 959px) {
-
-
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
 
   label.md-header__button.md-icon:last-of-type{
     svg{
@@ -42,12 +47,21 @@
 
   body{
 
+    .md-nav__link {
+      text-transform: uppercase;
+    }
+
     .satag--padding-container{
       padding: 4rem 2rem;
     }
 
     .satag--home-companies{
       padding: 4rem 3rem;
+      width: 100vw !important;
+      left: 50% !important;
+      right: 50% !important;
+      margin-left: -50vw !important;
+      margin-right: -50vw !important;
 
       .satag--home-companies-logo-container{
         .satag--home-companies-logo{
