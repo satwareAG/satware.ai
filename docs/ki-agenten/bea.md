@@ -5,7 +5,7 @@ description: Bea Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert a
 
 # Bea Alesi
 
-## Multi-Scale Mechanical Engineering Specialist
+## Multi-Scale Mechanical Engineering Specialist {: .h2-as-text}
 
 ![Bea Alesi](../../assets/images/team/bea-alesi.jpg){: .agent-profile-image}
 

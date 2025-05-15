@@ -62,6 +62,18 @@ h2 {
   }
 }
 
+// H2 that looks like normal text (for first H2 in KI-Agenten subpages)
+.h2-as-text {
+  font-weight: 300;
+  font-size: 1.3rem !important;
+  line-height: 2rem !important;
+  text-transform: none !important;
+
+  &:after {
+    display: none !important;
+  }
+}
+
 // H3 styling
 .md-typeset h3,
 h3 {

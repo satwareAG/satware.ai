@@ -5,7 +5,7 @@ description: Amira Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert
 
 # Amira Alesi
 
-## Amicron Business Solutions Expertin
+## Amicron Business Solutions Expertin {: .h2-as-text}
 
 ![Amira Alesi](../../assets/images/team/amira-alesi.jpg){: .agent-profile-image}
 
@@ -58,6 +58,3 @@ Meine einzigartige Kombination aus technischem Fachwissen und benutzerfreundlich
 Interessiert an Amira Alesi? Kontaktieren Sie mich, um mehr zu erfahren.
 
 [Kontakt aufnehmen](mailto:amira.alesi@satware.ai){: .md-button .md-button--primary}
-
-
-

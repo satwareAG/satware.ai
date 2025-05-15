@@ -5,7 +5,7 @@ description: Justus Alesi ist ein fortschrittlicher KI-Rechtsassistent, speziali
 
 # Justus Alesi
 
-## Experte für Schweizer, Deutsches und EU-Recht
+## Experte für Schweizer, Deutsches und EU-Recht {: .h2-as-text}
 
 ![Justus Alesi](../../assets/images/team/justus-alesi.jpg){: .agent-profile-image}
 

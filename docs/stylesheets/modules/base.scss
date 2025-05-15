@@ -17,7 +17,7 @@ html {
 
 // General layout settings
 .md-grid {
-  max-width: 1080px;
+  max-width: 1200px;
 }
 
 .satag--padding-container {
@@ -26,4 +26,8 @@ html {
 
 .satag-trademark {
   text-transform: lowercase;
+}
+
+strong{
+  font-weight: bold;
 }
