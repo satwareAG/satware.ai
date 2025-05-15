@@ -19,7 +19,7 @@
                 {% if post.categories %}
                 <span class="md-post__categories">
                 {% for category in post.categories %}
-                  <a href="{{ category.url | url }}">{{ category.title }}</a>
+                  <a href="{{ category.url | url }}" title="Kategorie: {{ category.title }}">{{ category.title }}</a>
                   {%- if not loop.last %}, {% endif -%}
                 {% endfor %}
               </span>
@@ -31,13 +31,13 @@
         </header>
         <div class="md-post__content md-typeset">
             <h2>
-                <a href="{{ post.url | replace('blog/', '') | url }}">{{ post.config.title }}</a>
+                <a href="{{ post.url | replace('blog/', '') | url }}" title="{{ post.config.title }}">{{ post.config.title }}</a>
             </h2>
 
             <!-- Wir zeigen nur die Überschrift an, kein Excerpt oder weiterer Inhalt -->
 
             <nav class="md-post__action">
-                <a href="{{ post.url | replace('blog/', '') | url }}" class="md-button">
+                <a href="{{ post.url | replace('blog/', '') | url }}" class="md-button" title="Weiterlesen: {{ post.config.title }}">
                     Weiterlesen
                 </a>
             </nav>

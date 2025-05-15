@@ -145,6 +145,7 @@ extra:
 # CSS-Anpassungen
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/tooltip-fix.css
 
 extra_javascript:
   - assets/javascript/counter-animation.js
@@ -172,7 +173,7 @@ nav:
       - Theo Alesi: ki-agenten/theo.md
   - Anwendungen: anwendungen.md
   - Webinare: webinare.md
-  - Präsentation: praesentation.md
+  #- Präsentation: praesentation.md
   - Workshops: workshops.md
   - Preise: zugang.md
   - FAQ: faq.md

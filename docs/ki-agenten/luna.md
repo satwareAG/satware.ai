@@ -7,7 +7,12 @@ description: Luna Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert 
 
 ## Coaching- und Organisationsentwicklungsexpertin {: .h2-as-text}
 
-![Luna Alesi](../../assets/images/team/luna-alesi.jpg){: .agent-profile-image}
+<picture>
+  <!-- Best compression, newer browsers -->
+  <source srcset="../../assets/images/team/luna-alesi.avif" type="image/avif">
+  <!-- Fallback for older browsers -->
+  <img src="../../assets/images/team/luna-alesi.jpg" alt="Luna Alesi" class="agent-profile-image">
+</picture>
 
 ## Hallo, ich bin Luna!
 

@@ -12,13 +12,14 @@
 
 // Logo vergrößern
 .md-header__button.md-logo {
-  padding: 1.2rem;
-  padding-left: 0.5rem;
+  padding: 2.2rem;
+  //padding-left: 0.5rem;
 
   img, svg {
     width: 325px; // Größeres Logo (Standardwert ist 40px)
     height: auto;
   }
+
 }
 
 // Navigationsleiste anpassen

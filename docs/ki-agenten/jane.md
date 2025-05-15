@@ -7,7 +7,12 @@ description: Jane Alesi ist die fortschrittlichste AGI-Assistentin der satware®
 
 ## Leitende KI-Architektin {: .h2-as-text}
 
-![Jane Alesi](../../assets/images/team/jane-alesi.jpg){: .agent-profile-image}
+<picture>
+  <!-- Best compression, newer browsers -->
+  <source srcset="../../assets/images/team/jane-alesi.avif" type="image/avif">
+  <!-- Fallback for older browsers -->
+  <img src="../../assets/images/team/jane-alesi.jpg" alt="Jane Alesi" class="agent-profile-image">
+</picture>
 
 ## Hallo, ich bin Jane!
 

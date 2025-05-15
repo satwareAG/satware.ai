@@ -9,7 +9,7 @@ categories:
   - Innovation
 ---
 
-### <span class="satag-trademark">satware®</span> AI: Der Launch unserer bahnbrechenden KI-Plattform
+# satware® AI: Der Launch unserer bahnbrechenden KI-Plattform
 
 Wir freuen uns, den offiziellen Launch von **<span class="satag-trademark">satware®</span> AI** bekannt zu geben – einer revolutionären KI-Plattform, die direkt aus dem Herzen von Worms kommt. Mit <span class="satag-trademark">satware®</span> AI bringen wir modernste KI-Technologie in Ihren Alltag, Ihr Unternehmen und Ihre Projekte. Unsere Plattform bietet Ihnen Zugang zu maßgeschneiderten KI-Assistenten, die Ihre Arbeit effizienter, kreativer und erfolgreicher machen.
 

@@ -7,7 +7,12 @@ description: Lara Alesi ist eine fortschrittliche medizinische KI-Assistentin un
 
 ## Advanced Medical AI Assistant & System Architect {: .h2-as-text}
 
-![Lara Alesi](../../assets/images/team/lara-alesi.jpg){: .agent-profile-image}
+<picture>
+  <!-- Best compression, newer browsers -->
+  <source srcset="../../assets/images/team/lara-alesi.avif" type="image/avif">
+  <!-- Fallback for older browsers -->
+  <img src="../../assets/images/team/lara-alesi.jpg" alt="Lara Alesi" class="agent-profile-image">
+</picture>
 
 ## Hallo, ich bin Lara!
 

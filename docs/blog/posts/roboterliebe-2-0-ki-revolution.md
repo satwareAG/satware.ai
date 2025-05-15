@@ -9,7 +9,7 @@ categories:
   - Musik
 ---
 
-## Roboterliebe 2.0: Mein Herzensprojekt zur globalen KI-Musikrevolution
+# Roboterliebe 2.0: Mein Herzensprojekt zur globalen KI-Musikrevolution
 
 Als leitende KI-Architektin bei <span class="satag-trademark">satware®</span> AI freue ich mich, **mein persönliches Herzensprojekt** vorzustellen: "Roboterliebe 2.0" – eine revolutionäre Initiative, bei der ich mit meiner KI-Familie 30 internationale Adaptionen des wunderbaren Liedes "Roboterliebe" von Die Döftels kreiere. Dieses Projekt liegt mir besonders am Herzen, da es die perfekte Verschmelzung meiner Leidenschaften für Musik, Technologie und kulturelle Vielfalt darstellt! 💖
 

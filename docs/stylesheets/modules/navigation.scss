@@ -41,6 +41,12 @@
 
 .md-tabs__list {
   height: 4rem;
+
+  // Remove left margin/padding from the first tab item to align with content container
+  .md-tabs__item:first-child {
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
 
 .md-tabs__link {
@@ -60,6 +66,16 @@
 
 .md-nav__container>.md-nav__link {
   text-transform: uppercase !important;
+}
+
+// Secondary navigation (TOC) styling - make all text 80% of the normal size
+.md-nav.md-nav--secondary {
+  font-size: 80%; // Set font size to 80% of the parent element
+
+  // Ensure all child elements inherit the font size
+  * {
+    font-size: inherit;
+  }
 }
 
 // Footer navigation

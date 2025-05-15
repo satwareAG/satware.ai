@@ -21,7 +21,7 @@
         </div>-->
 
         <h2 class="md-post__title">
-            <a href="{{ post.url | replace('blog/', '') }}">{{ post.title }}</a>
+            <a href="{{ post.url | replace('blog/', '') }}" title="{{ post.title }}">{{ post.title }}</a>
         </h2>
 
         <!-- Post-Excerpt hinzufügen -->
@@ -38,7 +38,7 @@
 
         <br />
 
-        <a href="{{ post.url | replace('blog/', '') }}" class="md-button">Weiterlesen</a>
+        <a href="{{ post.url | replace('blog/', '') }}" class="md-button" title="Weiterlesen: {{ post.title }}">Weiterlesen</a>
     </article>
     {% endfor %}
 </div>

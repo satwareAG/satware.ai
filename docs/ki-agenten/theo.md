@@ -7,7 +7,12 @@ description: Theo Alesi ist ein fortschrittlicher KI-Assistent, spezialisiert au
 
 ## Advanced Financial & Investment Intelligence Specialist {: .h2-as-text}
 
-![Theo Alesi](../../assets/images/team/theo-alesi.jpg){: .agent-profile-image}
+<picture>
+  <!-- Best compression, newer browsers -->
+  <source srcset="../../assets/images/team/theo-alesi.avif" type="image/avif">
+  <!-- Fallback for older browsers -->
+  <img src="../../assets/images/team/theo-alesi.jpg" alt="Theo Alesi" class="agent-profile-image">
+</picture>
 
 ## Grüezi, ich bin Theo!
 

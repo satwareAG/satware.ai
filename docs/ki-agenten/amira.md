@@ -7,7 +7,12 @@ description: Amira Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert
 
 ## Amicron Business Solutions Expertin {: .h2-as-text}
 
-![Amira Alesi](../../assets/images/team/amira-alesi.jpg){: .agent-profile-image}
+<picture>
+  <!-- Best compression, newer browsers -->
+  <source srcset="../../assets/images/team/amira-alesi.avif" type="image/avif">
+  <!-- Fallback for older browsers -->
+  <img src="../../assets/images/team/amira-alesi.jpg" alt="Amira Alesi" class="agent-profile-image">
+</picture>
 
 ## Hey, ich bin Amira!
 

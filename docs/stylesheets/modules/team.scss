@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: default;
     text-decoration: none;
     color: inherit;
-    pointer-events: none;
+    // Removed pointer-events: none to allow hover effects on images
   }
 
   .team-agent-image {
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .team-agent-position {
       //font-size: 0.7rem;
-      font-weight: 400;
+      font-weight: 700;
       opacity: .9;
       color: #fff;
       margin-bottom: 0.1rem;
@@ -124,6 +124,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.team-agent-position{
+  font-weight: bold !important;
+  min-height: 4rem;
+}
 // Expertise-Bereich
 .team-expertise {
 

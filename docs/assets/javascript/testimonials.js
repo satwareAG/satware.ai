@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     // Testimonial-Wechsel-Funktionalität
     const testimonialImages = document.querySelectorAll('.satag--home-testimonial-image-wrapper');
     const testimonialTexts = document.querySelectorAll('.satag--home-testimonials-text');
@@ -41,6 +41,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-
-

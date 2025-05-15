@@ -49,6 +49,11 @@ h1 {
   }
 }
 
+// H1 styling for blog articles
+.md-content--post h1 {
+  font-size: 4rem;
+}
+
 // H2 styling
 .md-typeset h2,
 h2 {
@@ -118,18 +123,118 @@ a.headerlink {
 // Tooltip styling for MkDocs Material
 .md-tooltip {
   // Increase the z-index to ensure tooltips appear above other elements
-  z-index: 10;
+  z-index: 999 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 0 !important; // Start with opacity 0
+  transition: opacity 0.3s ease !important; // Add transition for fade effect
+  transition-delay: 1.5s !important; // 1.5 second delay before showing
 
   // Style the tooltip content
   .md-tooltip__inner {
-    font-size: .9rem !important;
-    padding: 0.5rem !important;
-    background-color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 1.04rem !important; // 80% of normal font size (1.3rem)
+    padding: 0.8rem !important;
+    margin-top: 0.5rem !important; // Add top spacing
+    background-color: rgba(0, 0, 0, 0.9) !important;
     border-radius: 4px !important;
     color: white !important;
     max-width: 300px !important;
     white-space: normal !important;
+    transform: none !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) !important;
   }
+}
+
+// When parent element is hovered for 1.5 seconds, show the tooltip
+*:hover > .md-tooltip,
+*:focus > .md-tooltip,
+*:hover ~ .md-tooltip,
+*:focus ~ .md-tooltip,
+*:hover + .md-tooltip,
+*:focus + .md-tooltip {
+  opacity: 1 !important;
+  transition-delay: 0s !important; // Remove delay when showing
+}
+
+// Global tooltip styling to ensure all tooltips are affected
+[data-md-tooltip],
+[data-md-tooltip]:before,
+[data-md-tooltip]:after,
+.md-tooltip:before,
+.md-tooltip:after,
+[class*="tooltip"],
+[class*="tooltip"]:before,
+[class*="tooltip"]:after {
+  font-size: 1.04rem !important; // 80% of normal font size (1.3rem)
+  margin-top: 0.5rem !important; // Add top spacing
+  visibility: visible !important;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+  transition: opacity 0.3s ease !important; // Add transition for fade effect
+  transition-delay: 1.5s !important; // 1.5 second delay before showing
+  opacity: 0 !important; // Start with opacity 0
+}
+
+// When parent element is hovered, show these tooltip elements
+*:hover > [data-md-tooltip],
+*:hover > [data-md-tooltip]:before,
+*:hover > [data-md-tooltip]:after,
+*:hover > .md-tooltip:before,
+*:hover > .md-tooltip:after,
+*:hover > [class*="tooltip"],
+*:hover > [class*="tooltip"]:before,
+*:hover > [class*="tooltip"]:after,
+*:hover ~ [data-md-tooltip],
+*:hover ~ [data-md-tooltip]:before,
+*:hover ~ [data-md-tooltip]:after,
+*:hover ~ .md-tooltip:before,
+*:hover ~ .md-tooltip:after,
+*:hover ~ [class*="tooltip"],
+*:hover ~ [class*="tooltip"]:before,
+*:hover ~ [class*="tooltip"]:after,
+*:hover + [data-md-tooltip],
+*:hover + [data-md-tooltip]:before,
+*:hover + [data-md-tooltip]:after,
+*:hover + .md-tooltip:before,
+*:hover + .md-tooltip:after,
+*:hover + [class*="tooltip"],
+*:hover + [class*="tooltip"]:before,
+*:hover + [class*="tooltip"]:after,
+*:focus > [data-md-tooltip],
+*:focus > [data-md-tooltip]:before,
+*:focus > [data-md-tooltip]:after,
+*:focus > .md-tooltip:before,
+*:focus > .md-tooltip:after,
+*:focus > [class*="tooltip"],
+*:focus > [class*="tooltip"]:before,
+*:focus > [class*="tooltip"]:after,
+*:focus ~ [data-md-tooltip],
+*:focus ~ [data-md-tooltip]:before,
+*:focus ~ [data-md-tooltip]:after,
+*:focus ~ .md-tooltip:before,
+*:focus ~ .md-tooltip:after,
+*:focus ~ [class*="tooltip"],
+*:focus ~ [class*="tooltip"]:before,
+*:focus ~ [class*="tooltip"]:after,
+*:focus + [data-md-tooltip],
+*:focus + [data-md-tooltip]:before,
+*:focus + [data-md-tooltip]:after,
+*:focus + .md-tooltip:before,
+*:focus + .md-tooltip:after,
+*:focus + [class*="tooltip"],
+*:focus + [class*="tooltip"]:before,
+*:focus + [class*="tooltip"]:after {
+  opacity: 1 !important;
+  transition-delay: 0s !important; // Remove delay when showing
+}
+
+// Hide tooltip when triggered by the logo
+.md-header__button.md-logo:hover + .md-tooltip,
+.md-header__button.md-logo:focus + .md-tooltip,
+.md-header__button.md-logo + .md-tooltip {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
 }
 
 // Hide source file info

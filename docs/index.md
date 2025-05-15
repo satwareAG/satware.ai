@@ -19,11 +19,16 @@ unterstützen, ihre Prozesse zu optimieren, Daten effektiver zu nutzen und intel
 Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
 </div>
 
-<p class="hero-buttons"><a class="md-button md-button--primary" href="/webinare/">Präsentation anfragen</a> <a class="md-button" href="/zugang/">Zugang bestellen</a></p>
+<p class="hero-buttons"><a class="md-button md-button--primary" href="/webinare/" title="Präsentation zu satware® AI anfragen">Präsentation anfragen</a> <a class="md-button" href="/zugang/" title="Zugang zu satware® AI bestellen">Zugang bestellen</a></p>
 
 
 <p class="screenshot-container satag--padding-container">
-<img src="../assets/images/home/satware-ai-chat-screenshot.jpg" alt="Screenshot von satware AI chat" />
+<picture>
+    <!-- Best compression, newer browsers -->
+    <source srcset="../assets/images/home/satware-ai-chat-screenshot.avif" type="image/avif">
+    <!-- Fallback for older browsers -->
+    <img src="../assets/images/home/satware-ai-chat-screenshot.jpg" alt="Screenshot von satware AI chat" />
+</picture>
 </p>
 
 
@@ -37,36 +42,76 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
 
 <div class="satag--home-companies satag--padding-container">
 
-<h2>Trusted by the world's top<br /> organizations across industries</h2>
+<h2>Innovative Unternehmen setzen auf <span class="satag-trademark">satware®</span> AI</h2>
 
 
 <div class="satag--home-companies-logo-container">
     <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/hammel.png" alt="Hammel Steuerbüro Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/hammel.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/hammel.png" alt="Hammel Steuerbüro Logo" />
+        </picture>
     </div>
 <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/ocupro.png" alt="Ocu Pro Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/ocupro.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/ocupro.png" alt="Ocu Pro Logo" />
+        </picture>
     </div>
 <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/satware-ag.png" alt="satware AG Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/satware-ag.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/satware-ag.png" alt="satware AG Logo" />
+        </picture>
     </div>
 <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/klinikum-worms.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo" />
+        </picture>
     </div>
 </div>
  <br /> 
 <div class="satag--home-companies-logo-container">
     <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/hammel.png" alt="Hammel Steuerbüro Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/hammel.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/hammel.png" alt="Hammel Steuerbüro Logo" />
+        </picture>
     </div>
 <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/ocupro.png" alt="Ocu Pro Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/ocupro.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/ocupro.png" alt="Ocu Pro Logo" />
+        </picture>
     </div>
 <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/satware-ag.png" alt="satware AG Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/satware-ag.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/satware-ag.png" alt="satware AG Logo" />
+        </picture>
     </div>
 <div class="satag--home-companies-logo">
-        <img src="../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo" />
+        <picture>
+            <!-- Best compression, newer browsers -->
+            <source srcset="../assets/images/home/company-logos/klinikum-worms.avif" type="image/avif">
+            <!-- Fallback for older browsers -->
+            <img src="../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo" />
+        </picture>
     </div>
 </div>
 
@@ -76,7 +121,7 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
 <!-- end Section Companies -->
 
 <!-- Section Counters -->
-
+<!-- 
 <div class="satag--home-counters ">
 
 <div class="satag--home-counters-container satag--padding-container">
@@ -103,19 +148,24 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
 </div>
 
 </div>
-
+-->
 <!-- end Section Counters -->
 
 <!-- start section testimonials -->
 <div class="satag--home-testimonials-container satag--padding-container">
-    <h2>Let teams do more, faster</h2>
+    <h2>Kunden über Ihre <span class="satag-trademark">satware®</span> AI Erfahrung</h2>
 
     <div class="satag--home-testimonials">
 
 <div class="satag--home-testimonials-text-container">
             <!-- Testimonial-Texte mit IDs zur Identifizierung -->
             <div class="satag--home-testimonials-text active" data-testimonial-id="1">
-                <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                <picture>
+                    <!-- Best compression, newer browsers -->
+                    <source srcset="../../assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
+                    <!-- Fallback for older browsers -->
+                    <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                </picture>
                 <p>
                     "Die KI-Agenten der satware sind für mich wertvoller Sparringspartner für Konzeptentwicklung & Reflektion.
 Vor allem bieten sie mir einen sicheren Raum für sensible Daten.
@@ -128,19 +178,29 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
             </div>
 
             <div class="satag--home-testimonials-text" data-testimonial-id="2">
-                <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/testimonials/satware-ag.png" alt="satware AG Logo">
+                <picture>
+                    <!-- Best compression, newer browsers -->
+                    <source srcset="../../assets/images/home/company-logos/klinikum-worms.avif" type="image/avif">
+                    <!-- Fallback for older browsers -->
+                    <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo">
+                </picture>
 
                 <p>
-                    "satware AI has transformed how our team collaborates on complex projects. The ability to have specialized AI agents for different tasks has cut our research and documentation time in half."
+                    "Die KI-Agenten der Satware sind für mich ein wertvolles Werkzeug und eine effiziente Arbeitsunterstützung, auf die ich nicht mehr verzichten möchte. Insbesondere der geschützte Datenraum war, gepaart mit der beeindruckenden Funktionalität, ein wichtiges Entscheidungskriterium. Super Lösung für die Unternehmenskommunikation."
                 </p>
                 <div class="satag--home-testimonial-author">
-                    <span class="satag--home-testimonial-name">Emma Johnson</span><br />
-                    <span class="satag--home-testimonial-title">Project Manager at Company 2</span>
+                    <span class="satag--home-testimonial-name">Dr. Eva Ehmke</span><br />
+                    <span class="satag--home-testimonial-title">Leitung Unternehmenskommunikation & Fundraising, Klinikum Worms gGmbH</span>
                 </div>
             </div>
 
             <div class="satag--home-testimonials-text" data-testimonial-id="3">
-                        <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/testimonials/satware-ag.png" alt="satware AG Logo">
+                        <picture>
+                            <!-- Best compression, newer browsers -->
+                            <source srcset="../../assets/images/home/testimonials/satware-ag.avif" type="image/avif">
+                            <!-- Fallback for older browsers -->
+                            <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/testimonials/satware-ag.png" alt="satware AG Logo">
+                        </picture>
 
             <p>
                         "The integration capabilities of satware AI with our existing tools made adoption seamless. Our team productivity has increased by 35% since implementation, and the custom agents continue to learn our specific needs."
@@ -155,21 +215,51 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
         <div class="satag--home-testimonials-images">
             <!-- Bilder mit data-testimonial-id Attribut zur Identifizierung -->
             <div class="satag--home-testimonial-image-wrapper active" data-testimonial-id="1">
-                <img src="../../assets/images/home/testimonials/silentwaves.jpg" alt="Jens Emrich von Kajdacsy" class="satag--home-testimonial-image">
+                <picture>
+                    <!-- Best compression, newer browsers -->
+                    <source srcset="../../assets/images/home/testimonials/silentwaves.avif" type="image/avif">
+                    <!-- Fallback for older browsers -->
+                    <img src="../../assets/images/home/testimonials/silentwaves.jpg" alt="Jens Emrich von Kajdacsy" class="satag--home-testimonial-image">
+                </picture>
                 <div class="satag--home-testimonial-logo">
-                    <img src="../../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                    <picture>
+                        <!-- Best compression, newer browsers -->
+                        <source srcset="../../assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
+                        <!-- Fallback for older browsers -->
+                        <img src="../../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                    </picture>
                 </div>
             </div>
             <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="2">
-                <img src="../../assets/images/team/eddi-alesi.jpg" alt="Eddi Alesi" class="satag--home-testimonial-image">
+                <picture>
+                    <!-- Best compression, newer browsers -->
+                    <source srcset="../../assets/images/team/eddi-alesi.avif" type="image/avif">
+                    <!-- Fallback for older browsers -->
+                    <img src="../../assets/images/team/eddi-alesi.jpg" alt="Dr. Eva Ehmke" class="satag--home-testimonial-image">
+                </picture>
                 <div class="satag--home-testimonial-logo">
-                    <img src="../../assets/images/home/company-logos/satware-ag.png" alt="satware AG Logo">
+                    <picture>
+                        <!-- Best compression, newer browsers -->
+                        <source srcset="../../assets/images/home/company-logos/klinikum-worms.avif" type="image/avif">
+                        <!-- Fallback for older browsers -->
+                        <img src="../../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo">
+                    </picture>
                 </div>
             </div>
             <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="3">
-                <img src="../../assets/images/team/luna-alesi.jpg" alt="Luna Alesi" class="satag--home-testimonial-image">
+                <picture>
+                    <!-- Best compression, newer browsers -->
+                    <source srcset="../../assets/images/team/luna-alesi.avif" type="image/avif">
+                    <!-- Fallback for older browsers -->
+                    <img src="../../assets/images/team/luna-alesi.jpg" alt="Luna Alesi" class="satag--home-testimonial-image">
+                </picture>
                 <div class="satag--home-testimonial-logo">
-                    <img src="../../assets/images/home/company-logos/satware-ag.png" alt="satware AG Logo">
+                    <picture>
+                        <!-- Best compression, newer browsers -->
+                        <source srcset="../../assets/images/home/company-logos/satware-ag.avif" type="image/avif">
+                        <!-- Fallback for older browsers -->
+                        <img src="../../assets/images/home/company-logos/satware-ag.png" alt="satware AG Logo">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -182,4 +272,5 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
 
 <script src="../javascripts/lightbox.js"></script>
 
+</div>
 </div>
