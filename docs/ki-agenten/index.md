@@ -1,6 +1,6 @@
 ---
-title: Die satware® AI-Agenten-Familie
-description: Entdecken Sie unser vielseitiges Team spezialisierter KI-Agenten mit fortschrittlichem Reasoning und dem einzigartigen saTway-Ansatz
+title: Spezialisierte KI-Agenten für alle Branchen | satware® AI
+description: Die satware® KI-Agenten-Familie bietet spezialisierte KI-Agenten für Industrie, Handel, Handwerk, Dienstleistungen und freie Berufe.
 hide:
   - toc
 ---

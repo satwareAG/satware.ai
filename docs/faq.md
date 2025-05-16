@@ -1,4 +1,6 @@
 ---
+title: "FAQ: Häufig gestellte Fragen zur KI-Lösung | satware® AI"
+description: "Unsere FAQ beantwortet alle wichtigen Fragen zu satware® AI und unseren KI-Agenten. Hier finden Sie alle die Informationen, die Sie suchen."
 hide:
 - navigation
 - toc

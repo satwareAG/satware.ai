@@ -23,6 +23,17 @@
       font-size: 2rem;
     }
 
+
+
+
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+  body{
+    .satag--home-landing .satag--home-companies{
+      padding: 4rem 6rem;
+    }
   }
 }
 
@@ -63,7 +74,8 @@
       margin-left: -50vw !important;
       margin-right: -50vw !important;
 
-      .satag--home-companies-logo-container{
+
+      .satag--home-companies-logo--container{
         .satag--home-companies-logo{
           img {
             float: none !important;

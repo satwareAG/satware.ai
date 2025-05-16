@@ -1,6 +1,6 @@
 ---
-title: Webinare
-description: Informationen zu unseren Webinaren und kommenden Terminen.
+title: Webinare zur KI-Lösung für alle Branchen - live! | satware® AI
+description: Die Webinare für unsere KI-Lösung satware® AI bieten Ihnen den entscheidenden Wettbewerbsvorteil – melden Sie sich jetzt zu unseren Live-Webinaren an!
 hide:
 
   - toc

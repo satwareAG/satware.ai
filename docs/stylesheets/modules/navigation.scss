@@ -119,6 +119,14 @@
   }
 }
 
+// Hide Impressum and Datenschutz from navigation (top tabs and sidebar)
+.md-tabs__link[href^="/impressum/"],
+.md-tabs__link[href^="/datenschutzerklaerung/"],
+.md-nav__link[href^="/impressum/"],
+.md-nav__link[href^="/datenschutzerklaerung/"] {
+  display: none;
+}
+
 // Content inner margin
 .md-content__inner {
   margin: 0 0 1.2rem;

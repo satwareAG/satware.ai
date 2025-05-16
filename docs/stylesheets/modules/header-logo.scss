@@ -19,7 +19,11 @@
     width: 325px; // Größeres Logo (Standardwert ist 40px)
     height: auto;
   }
+}
 
+// Mobile logo ausblenden in Desktop-Ansicht
+.md-header__mobile-logo {
+  display: none; // Wird in der mobilen Ansicht überschrieben
 }
 
 // Navigationsleiste anpassen

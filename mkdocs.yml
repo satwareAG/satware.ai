@@ -1,9 +1,9 @@
 # Projekt-Informationen
-site_name: 'satware® AI: KI-basierte Automatisierung und Softwarelösungen für Unternehmen'
+site_name: ''
 site_url: https://satware.ai
 site_author: satware AG
 site_description: >-
-  Entdecken Sie die KI-gestützten Lösungen von satware® AI. Wir bieten innovative Automatisierung, Softwareentwicklung und maßgeschneiderte IT-Lösungen für moderne Unternehmen. Optimieren Sie Ihre Prozesse mit unserer Expertise.
+  Entdecken Sie die KI-gestützten Lösungen von satware® AI. Innovative Automatisierung und maßgeschneiderte IT-Lösungen für Ihr Unternehmen.
 
 # Repository
 #repo_name: satware.ai
@@ -73,6 +73,7 @@ plugins:
       post_url_format: "{slug}"
       post_date_format: "dd.MM.yyyy"
       archive_toc: true
+  - social
 
 
 # Erweiterungen
@@ -139,13 +140,18 @@ extra:
       link: https://www.youtube.com/channel/UChfn2XBDE9yfZrWnMzs1k0g
       name: satware AG auf YouTube
 
+  #cards:
+  #  font:
+  #    text: Assistant
+   #   code: Assistant
+  #  cards_layout_options:
+  #    background_color: "#000"
 
   generator: false
 
 # CSS-Anpassungen
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/tooltip-fix.css
 
 extra_javascript:
   - assets/javascript/counter-animation.js
@@ -178,3 +184,5 @@ nav:
   - Preise: zugang.md
   - FAQ: faq.md
   #- Blog: blog/index.md
+  #- Impressum: impressum.md
+  #- Datenschutz: datenschutz.md

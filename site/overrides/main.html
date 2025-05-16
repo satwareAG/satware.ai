@@ -1,55 +1,37 @@
 {% extends "base.html" %}
 
+{% block title %}
+  {% include "partials/title.html" %}
+{% endblock %}
+
+{% block extrahead %}
+{{ super() }}
+<!-- Social card meta tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ config.site_description }}">
+<meta property="og:image" content="{{ config.site_url }}assets/images/home/share.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="{{ page.canonical_url }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ config.site_description }}">
+<meta name="twitter:image" content="{{ config.site_url }}assets/images/home/share.jpg">
+{% endblock %}
+
 {% block styles %}
 {{ super() }}
+{% endblock %}
 
-<!-- Direct CSS styles for cookie consent -->
-<style>
-    /* Specific targeting for the center container */
-    #uc-center-container {
-        position: absolute !important;
-        top: 40px !important;
-        margin: 0 auto !important;
-        text-align: left !important;
-        left: 35% !important;
-    }
-
-    /* Direct targeting of Usercentrics elements */
-    #usercentrics-root,
-    [class*="usercentrics"],
-    [id*="usercentrics"],
-    .uc-banner-content,
-    .uc-container,
-    [class*="banner"],
-    [class*="consent"],
-    [class*="cookie"] {
-        top: 20px !important;
-        bottom: auto !important;
-        position: fixed !important;
-        z-index: 9999 !important;
-    }
-
-    /* Special styling for landscape mode on smaller height screens */
-    @media (max-height: 768px) and (orientation: landscape) {
-        .gtPQAC,
-        [class*="usercentrics"],
-        [id*="usercentrics"],
-        .uc-banner-content,
-        .uc-container,
-        #uc-center-container {
-            border-bottom: 0 !important;
-            max-height: 100vh !important;
-            max-width: 625px !important;
-            top: 0 !important;
-            position: absolute !important;
-        }
-    }
-</style>
+{% block content %}
+{{ super() }}
 
 <div class="satag--cookie-consent-container">
     <script id="usercentrics-cmp" async data-eu-mode="true" data-settings-id="plHHr67Ul9jqQP" src="https://app.eu.usercentrics.eu/browser-ui/latest/loader.js"></script>
 </div>
-
 
 <!-- Matomo -->
 <script>
@@ -67,9 +49,6 @@
     })();
 </script>
 <!-- End Matomo Code -->
-
-
-
 {% endblock %}
 
 {% block footer %}
@@ -108,12 +87,12 @@
     </div>
 </div>
 <div class="md-footer-custom-links">
-    <a href="https://satware.com/custom/index/sCustom/1" title="Kontakt">Kontakt</a>
-    <a href="https://satware.com/impressum" title="Impressum">Impressum</a>
-    <a href="https://satware.com/datenschutzerklaerung" title="Datenschutzerklärung">Datenschutz</a>
+    <a href="https://satware.com/custom/index/sCustom/1" target="_blank" title="Kontakt">Kontakt</a>
+    <a href="/impressum/" title="Impressum">Impressum</a>
+    <a href="/datenschutz/" title="Datenschutzerklärung">Datenschutz</a>
     <!--<a href="/barrierefreiheitserklaerung" title="Barrierefreiheitserklärung">Barrierefreiheitserklärung</a>-->
     <a href="/blog/" title="Blog">Blog</a>
-    <a href="https://satware.com/newsletter" title="Newsletter">Newsletter</a>
+    <a href="https://satware.com/newsletter" target="_blank" title="Newsletter">Newsletter</a>
 
 </div>
 {% endblock %}

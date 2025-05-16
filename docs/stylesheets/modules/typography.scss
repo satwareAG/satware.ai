@@ -128,13 +128,12 @@ a.headerlink {
   visibility: visible !important;
   opacity: 0 !important; // Start with opacity 0
   transition: opacity 0.3s ease !important; // Add transition for fade effect
-  transition-delay: 1.5s !important; // 1.5 second delay before showing
 
   // Style the tooltip content
   .md-tooltip__inner {
     font-size: 1.04rem !important; // 80% of normal font size (1.3rem)
     padding: 0.8rem !important;
-    margin-top: 0.5rem !important; // Add top spacing
+    //margin-top: 0.5rem !important; // Add top spacing
     background-color: rgba(0, 0, 0, 0.9) !important;
     border-radius: 4px !important;
     color: white !important;
@@ -166,12 +165,11 @@ a.headerlink {
 [class*="tooltip"]:before,
 [class*="tooltip"]:after {
   font-size: 1.04rem !important; // 80% of normal font size (1.3rem)
-  margin-top: 0.5rem !important; // Add top spacing
+  //margin-top: 0.5rem !important; // Add top spacing
   visibility: visible !important;
   z-index: 9999 !important;
   pointer-events: auto !important;
   transition: opacity 0.3s ease !important; // Add transition for fade effect
-  transition-delay: 1.5s !important; // 1.5 second delay before showing
   opacity: 0 !important; // Start with opacity 0
 }
 
@@ -226,6 +224,40 @@ a.headerlink {
 *:focus + [class*="tooltip"]:after {
   opacity: 1 !important;
   transition-delay: 0s !important; // Remove delay when showing
+}
+
+// Direct link tooltip handling - ensure tooltips appear when hovering directly on links
+a[title] {
+  position: relative !important; // Ensure the link is a positioning context for the tooltip
+}
+
+a[title]::after {
+  content: attr(title);
+  position: absolute;
+  z-index: 999 !important;
+  display: block !important;
+  visibility: hidden !important; // Start hidden
+  opacity: 0 !important; // Start with opacity 0
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: white !important;
+  padding: 0.8rem !important;
+  border-radius: 4px !important;
+  font-size: 1.04rem !important;
+  max-width: 300px !important;
+  white-space: normal !important;
+  //margin-top: 0.5rem !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) !important;
+  pointer-events: none !important;
+  left: 0 !important; // Position at the left edge of the link
+  //bottom: 100% !important; // Position above the link
+  transform: translateY(-5px) !important; // Small offset for better appearance
+  transition: opacity 0.3s ease, visibility 0.3s ease !important; // Smooth transition
+}
+
+a[title]:hover::after,
+a[title]:focus::after {
+  visibility: visible !important; // Show on hover/focus
+  opacity: 1 !important; // Full opacity on hover/focus
 }
 
 // Hide tooltip when triggered by the logo

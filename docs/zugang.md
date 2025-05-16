@@ -1,6 +1,6 @@
 ---
-title: satware® AI chat Zugang buchen
-description: Buchen Sie jetzt Ihren Zugang zum satware® AI chat.
+title: Exklusiv-Angebot für unsere KI-Lösung | satware® AI
+description: Unser Exklusiv-Angebot umfasst das satware® AI 3-Monats-Paket für 120 € netto. Jetzt direkt online buchen und von der KI-Lösung profitieren!
 hide:
   - navigation
   - toc
@@ -12,6 +12,6 @@ hide:
 
 Erweitern Sie Ihre Fähigkeiten mit unserer fortschrittlichen KI-Technologie. Füllen Sie das Formular aus, um Ihren persönlichen Zugang zu erhalten.
 
-
-
-<iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLScehsPfGrp3K3EDDDnpBJLtEXgK3EdlP4PJPyBwRLoNf9F4kg/viewform?embedded=true&amp;theme=dark" width="1080" height="3400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div class="satag--webinar-form-container" style="width: 100%; margin-top: 40px;">
+<iframe id="nextcloud-form" src="https://data.satware.com/apps/forms/embed/xJtHCsxbSapjnKmN3B7wqX2x" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+</div>
