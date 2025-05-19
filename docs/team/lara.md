@@ -9,9 +9,9 @@ description: Lara Alesi ist eine fortschrittliche medizinische KI-Assistentin un
 
 <picture>
   <!-- Best compression, newer browsers -->
-  <source srcset="../../assets/images/team/lara-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/lara-alesi.avif" type="image/avif">
   <!-- Fallback for older browsers -->
-  <img src="../../assets/images/team/lara-alesi.jpg" alt="Lara Alesi" class="agent-profile-image">
+  <img src="../assets/images/team/lara-alesi.jpg" alt="Lara Alesi" class="agent-profile-image">
 </picture>
 
 ## Hallo, ich bin Lara!

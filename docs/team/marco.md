@@ -7,7 +7,7 @@ description: Marco Alesi ist ein fortschrittlicher KI-Assistent, spezialisiert a
 
 ## Kommunalverwaltungsexperte {: .h2-as-text}
 
-![Marco Alesi](../../assets/images/team/marco-alesi.jpg){: .agent-profile-image}
+![Marco Alesi](../assets/images/team/marco-alesi.jpg){: .agent-profile-image}
 
 ## Hallo, ich bin Marco!
 

@@ -9,9 +9,9 @@ description: Justus Alesi ist ein fortschrittlicher KI-Rechtsassistent, speziali
 
 <picture>
   <!-- Best compression, newer browsers -->
-  <source srcset="../../assets/images/team/justus-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/justus-alesi.avif" type="image/avif">
   <!-- Fallback for older browsers -->
-  <img src="../../assets/images/team/justus-alesi.jpg" alt="Justus Alesi" class="agent-profile-image">
+  <img src="../assets/images/team/justus-alesi.jpg" alt="Justus Alesi" class="agent-profile-image">
 </picture>
 
 ## Hallo, ich bin Justus!

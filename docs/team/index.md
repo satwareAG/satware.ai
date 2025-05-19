@@ -17,9 +17,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/jane-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/jane-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/jane-alesi.jpg" alt="Jane Alesi - Leitende KI-Architektin">
+          <img src="../assets/images/team/jane-alesi.jpg" alt="Jane Alesi - Leitende KI-Architektin">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -35,9 +35,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/amira-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/amira-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/amira-alesi.jpg" alt="Amira Alesi - Amicron Business Solutions Expertin">
+          <img src="../assets/images/team/amira-alesi.jpg" alt="Amira Alesi - Amicron Business Solutions Expertin">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -53,9 +53,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/bastian-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/bastian-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/bastian-alesi.jpg" alt="Bastian Alesi - Vertriebsexperte">
+          <img src="../assets/images/team/bastian-alesi.jpg" alt="Bastian Alesi - Vertriebsexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -71,9 +71,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/bea-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/bea-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/bea-alesi.jpg" alt="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
+          <img src="../assets/images/team/bea-alesi.jpg" alt="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -89,9 +89,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/denopus-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/denopus-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/denopus-alesi.jpg" alt="Denopus Alesi - Video-Generierungsspezialist">
+          <img src="../assets/images/team/denopus-alesi.jpg" alt="Denopus Alesi - Video-Generierungsspezialist">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -107,9 +107,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/eddi-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/eddi-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/eddi-alesi.jpg" alt="Eddi Alesi - EDI-Spezialist">
+          <img src="../assets/images/team/eddi-alesi.jpg" alt="Eddi Alesi - EDI-Spezialist">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -125,9 +125,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/fenix-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/fenix-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/fenix-alesi.jpg" alt="Fenix Alesi - Firebird SQL Datenbankexperte">
+          <img src="../assets/images/team/fenix-alesi.jpg" alt="Fenix Alesi - Firebird SQL Datenbankexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -143,9 +143,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/gunta-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/gunta-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/gunta-alesi.jpg" alt="Gunta Alesi - Handwerksexpertin">
+          <img src="../assets/images/team/gunta-alesi.jpg" alt="Gunta Alesi - Handwerksexpertin">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -161,9 +161,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/john-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/john-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/john-alesi.jpg" alt="John Alesi - Wissenschaftlicher Forschungsexperte">
+          <img src="../assets/images/team/john-alesi.jpg" alt="John Alesi - Wissenschaftlicher Forschungsexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -179,9 +179,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/justus-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/justus-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/justus-alesi.jpg" alt="Justus Alesi - Rechtsexperte">
+          <img src="../assets/images/team/justus-alesi.jpg" alt="Justus Alesi - Rechtsexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -197,9 +197,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/lara-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/lara-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/lara-alesi.jpg" alt="Lara Alesi - Medizinische Expertin">
+          <img src="../assets/images/team/lara-alesi.jpg" alt="Lara Alesi - Medizinische Expertin">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -215,9 +215,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/lenna-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/lenna-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/lenna-alesi.jpg" alt="Lenna Alesi - Bildanalyse-Expertin">
+          <img src="../assets/images/team/lenna-alesi.jpg" alt="Lenna Alesi - Bildanalyse-Expertin">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -233,9 +233,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/leon-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/leon-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/leon-alesi.jpg" alt="Leon Alesi - IT-Systemintegrator">
+          <img src="../assets/images/team/leon-alesi.jpg" alt="Leon Alesi - IT-Systemintegrator">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -251,9 +251,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/luna-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/luna-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/luna-alesi.jpg" alt="Luna Alesi - Coaching- und Organisationsentwicklungsexpertin">
+          <img src="../assets/images/team/luna-alesi.jpg" alt="Luna Alesi - Coaching- und Organisationsentwicklungsexpertin">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -269,9 +269,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/marco-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/marco-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/marco-alesi.jpg" alt="Marco Alesi - Kommunalverwaltungsexperte">
+          <img src="../assets/images/team/marco-alesi.jpg" alt="Marco Alesi - Kommunalverwaltungsexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -287,9 +287,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/olu-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/olu-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/olu-alesi.jpg" alt="Olu Alesi - Globaler Kulturnavigator und Finanzexperte">
+          <img src="../assets/images/team/olu-alesi.jpg" alt="Olu Alesi - Globaler Kulturnavigator und Finanzexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -305,9 +305,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/theo-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/theo-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/theo-alesi.jpg" alt="Theo Alesi - Investitions- und Finanzexperte">
+          <img src="../assets/images/team/theo-alesi.jpg" alt="Theo Alesi - Investitions- und Finanzexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -323,9 +323,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/tim-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/tim-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/tim-alesi.jpg" alt="Tim Alesi - Web-Entwicklungsexperte">
+          <img src="../assets/images/team/tim-alesi.jpg" alt="Tim Alesi - Web-Entwicklungsexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -341,9 +341,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/wolfgang-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/wolfgang-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/wolfgang-alesi.jpg" alt="Wolfgang Alesi - Wissenschaftlicher Forschungsexperte">
+          <img src="../assets/images/team/wolfgang-alesi.jpg" alt="Wolfgang Alesi - Wissenschaftlicher Forschungsexperte">
         </picture>
       </div>
       <div class="team-agent-info">
@@ -359,9 +359,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../../assets/images/team/zuri-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/zuri-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../../assets/images/team/zuri-alesi.jpg" alt="Zuri Alesi - Umfassende Heim-KI-Assistenz">
+          <img src="../assets/images/team/zuri-alesi.jpg" alt="Zuri Alesi - Umfassende Heim-KI-Assistenz">
         </picture>
       </div>
       <div class="team-agent-info">

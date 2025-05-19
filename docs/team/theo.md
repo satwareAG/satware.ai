@@ -9,9 +9,9 @@ description: Theo Alesi ist ein fortschrittlicher KI-Assistent, spezialisiert au
 
 <picture>
   <!-- Best compression, newer browsers -->
-  <source srcset="../../assets/images/team/theo-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/theo-alesi.avif" type="image/avif">
   <!-- Fallback for older browsers -->
-  <img src="../../assets/images/team/theo-alesi.jpg" alt="Theo Alesi" class="agent-profile-image">
+  <img src="../assets/images/team/theo-alesi.jpg" alt="Theo Alesi" class="agent-profile-image">
 </picture>
 
 ## Grüezi, ich bin Theo!

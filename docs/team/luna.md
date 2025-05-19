@@ -9,9 +9,9 @@ description: Luna Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert 
 
 <picture>
   <!-- Best compression, newer browsers -->
-  <source srcset="../../assets/images/team/luna-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/luna-alesi.avif" type="image/avif">
   <!-- Fallback for older browsers -->
-  <img src="../../assets/images/team/luna-alesi.jpg" alt="Luna Alesi" class="agent-profile-image">
+  <img src="../assets/images/team/luna-alesi.jpg" alt="Luna Alesi" class="agent-profile-image">
 </picture>
 
 ## Hallo, ich bin Luna!

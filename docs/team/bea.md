@@ -9,9 +9,9 @@ description: Bea Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert a
 
 <picture>
   <!-- Best compression, newer browsers -->
-  <source srcset="../../assets/images/team/bea-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/bea-alesi.avif" type="image/avif">
   <!-- Fallback for older browsers -->
-  <img src="../../assets/images/team/bea-alesi.jpg" alt="Bea Alesi" class="agent-profile-image">
+  <img src="../assets/images/team/bea-alesi.jpg" alt="Bea Alesi" class="agent-profile-image">
 </picture>
 
 ## Hallo, ich bin Bea!

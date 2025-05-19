@@ -131,9 +131,9 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
             <div class="satag--home-testimonials-text active" data-testimonial-id="1">
                 <picture class="satag--home-testimonial-text-logo">
                     <!-- Best compression, newer browsers -->
-                    <source srcset="../../assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
+                    <source srcset="../assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
                     <!-- Fallback for older browsers -->
-                    <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                    <img class="satag--home-testimonial-text-logo" src="../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
                 </picture>
                 <p>
                     "Die KI-Agenten der satware sind für mich wertvoller Sparringspartner für Konzeptentwicklung & Reflektion.
@@ -149,9 +149,9 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
             <div class="satag--home-testimonials-text" data-testimonial-id="2">
                 <picture class="satag--home-testimonial-text-logo">
                     <!-- Best compression, newer browsers -->
-                    <source srcset="../../assets/images/home/company-logos/square/klinikum.avif" type="image/avif">
+                    <source srcset="../assets/images/home/company-logos/square/klinikum.avif" type="image/avif">
                     <!-- Fallback for older browsers -->
-                    <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/company-logos/square/klinikum.png" alt="Klinikum Worms Logo">
+                    <img class="satag--home-testimonial-text-logo" src="../assets/images/home/company-logos/square/klinikum.png" alt="Klinikum Worms Logo">
                 </picture>
 
                 <p>
@@ -166,9 +166,9 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
             <div class="satag--home-testimonials-text" data-testimonial-id="3">
                         <picture class="satag--home-testimonial-text-logo">
                             <!-- Best compression, newer browsers -->
-                            <source srcset="../../assets/images/home/company-logos/square/ocu-pro.avif" type="image/avif">
+                            <source srcset="../assets/images/home/company-logos/square/ocu-pro.avif" type="image/avif">
                             <!-- Fallback for older browsers -->
-                            <img class="satag--home-testimonial-text-logo" src="../../assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
+                            <img class="satag--home-testimonial-text-logo" src="../assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
                         </picture>
 
             <p>
@@ -186,48 +186,48 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
             <div class="satag--home-testimonial-image-wrapper active" data-testimonial-id="1">
                 <picture>
                     <!-- Best compression, newer browsers -->
-                    <source srcset="../../assets/images/home/testimonials/silentwaves.avif" type="image/avif">
+                    <source srcset="../assets/images/home/testimonials/silentwaves.avif" type="image/avif">
                     <!-- Fallback for older browsers -->
-                    <img src="../../assets/images/home/testimonials/silentwaves.jpg" alt="Jens Emrich von Kajdacsy" class="satag--home-testimonial-image">
+                    <img src="../assets/images/home/testimonials/silentwaves.jpg" alt="Jens Emrich von Kajdacsy" class="satag--home-testimonial-image">
                 </picture>
                 <div class="satag--home-testimonial-logo">
                     <picture>
                         <!-- Best compression, newer browsers -->
-                        <source srcset="../../assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
+                        <source srcset="../assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
                         <!-- Fallback for older browsers -->
-                        <img src="../../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                        <img src="../assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
                     </picture>
                 </div>
             </div>
             <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="2">
                 <picture>
                     <!-- Best compression, newer browsers -->
-                    <source srcset="../../assets/images/home/testimonials/klinikum-worms-eva-ehmke.avif" type="image/avif">
+                    <source srcset="../assets/images/home/testimonials/klinikum-worms-eva-ehmke.avif" type="image/avif">
                     <!-- Fallback for older browsers -->
-                    <img src="../../assets/images/home/testimonials/klinikum-worms-eva-ehmke.jpg" alt="Dr. Eva Ehmke" class="satag--home-testimonial-image">
+                    <img src="../assets/images/home/testimonials/klinikum-worms-eva-ehmke.jpg" alt="Dr. Eva Ehmke" class="satag--home-testimonial-image">
                 </picture>
                 <div class="satag--home-testimonial-logo">
                     <picture>
                         <!-- Best compression, newer browsers -->
-                        <source srcset="../../assets/images/home/company-logos/klinikum-worms.avif" type="image/avif">
+                        <source srcset="../assets/images/home/company-logos/klinikum-worms.avif" type="image/avif">
                         <!-- Fallback for older browsers -->
-                        <img src="../../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo">
+                        <img src="../assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo">
                     </picture>
                 </div>
             </div>
             <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="3">
                 <picture>
                     <!-- Best compression, newer browsers -->
-                    <source srcset="../../assets/images/home/testimonials/ocu-pro-thomas-tyrtania.avif" type="image/avif">
+                    <source srcset="../assets/images/home/testimonials/ocu-pro-thomas-tyrtania.avif" type="image/avif">
                     <!-- Fallback for older browsers -->
-                    <img src="../../assets/images/home/testimonials/ocu-pro-thomas-tyrtania.jpg" alt="Dr. Thomas Tyrtania" class="satag--home-testimonial-image">
+                    <img src="../assets/images/home/testimonials/ocu-pro-thomas-tyrtania.jpg" alt="Dr. Thomas Tyrtania" class="satag--home-testimonial-image">
                 </picture>
                 <div class="satag--home-testimonial-logo">
                     <picture>
                         <!-- Best compression, newer browsers -->
-                        <source srcset="../../assets/images/home/company-logos/ocupro.avif" type="image/avif">
+                        <source srcset="../assets/images/home/company-logos/ocupro.avif" type="image/avif">
                         <!-- Fallback for older browsers -->
-                        <img src="../../assets/images/home/company-logos/ocupro.png" alt="Ocu Pro Logo">
+                        <img src="../assets/images/home/company-logos/ocupro.png" alt="Ocu Pro Logo">
                     </picture>
                 </div>
             </div>
@@ -239,7 +239,7 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
 </div>
 <!-- end section testimonials -->
 
-<script src="../javascripts/lightbox.js"></script>
+<script src="assets/javascript/lightbox.js"></script>
 
 </div>
 </div>

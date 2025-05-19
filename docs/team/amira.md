@@ -9,9 +9,9 @@ description: Amira Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert
 
 <picture>
   <!-- Best compression, newer browsers -->
-  <source srcset="../../assets/images/team/amira-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/amira-alesi.avif" type="image/avif">
   <!-- Fallback for older browsers -->
-  <img src="../../assets/images/team/amira-alesi.jpg" alt="Amira Alesi" class="agent-profile-image">
+  <img src="../assets/images/team/amira-alesi.jpg" alt="Amira Alesi" class="agent-profile-image">
 </picture>
 
 ## Hey, ich bin Amira!
