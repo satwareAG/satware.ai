@@ -43,7 +43,7 @@ jobs:
       - name: Build css
         run: python3 compile_scss.py
       - name: Build static site
-      - run: mkdocs build
+        run: mkdocs build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
