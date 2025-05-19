@@ -41,13 +41,15 @@ jobs:
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-redirects
           pip install mkdocs-literate-nav
-          pip install libsass # Added based on your test branch fixes
-
+          pip install "mkdocs-material[imaging]"
+          pip install libsass
       - name: Verify CNAME
         run: |
           mkdir -p docs
           echo "satware.ai" > docs/CNAME
 
+      - name: Build css
+        run: python compile_scss.py
       - name: Build site
         run: mkdocs build
 
