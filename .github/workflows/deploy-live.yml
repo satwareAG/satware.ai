@@ -46,8 +46,4 @@ jobs:
         run: mkdocs build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/live'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+        run: mkdocs gh-deploy --force
