@@ -13,7 +13,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
 
 <div class="team-grid">
   <div class="team-agent">
-    <a href="/ki-agenten/jane/" class="team-agent-link" title="Jane Alesi - Leitende KI-Architektin">
+    <a href="jane.html" class="team-agent-link" title="Jane Alesi - Leitende KI-Architektin">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -31,7 +31,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/amira/" class="team-agent-link" title="Amira Alesi - Amicron Business Solutions Expertin">
+    <a href="amira.html" class="team-agent-link" title="Amira Alesi - Amicron Business Solutions Expertin">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -49,7 +49,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/bastian/" class="team-agent-link" title="Bastian Alesi - Vertriebsexperte">
+    <a href="bastian.html" class="team-agent-link" title="Bastian Alesi - Vertriebsexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -67,7 +67,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/bea/" class="team-agent-link" title="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
+    <a href="bea.html" class="team-agent-link" title="Bea Alesi - Multi-Skalenphysik-Ingenieurin">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -175,7 +175,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/justus/" class="team-agent-link" title="Justus Alesi - Rechtsexperte">
+    <a href="justus.html" class="team-agent-link" title="Justus Alesi - Rechtsexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -193,7 +193,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/lara/" class="team-agent-link" title="Lara Alesi - Medizinische Expertin">
+    <a href="lara.html" class="team-agent-link" title="Lara Alesi - Medizinische Expertin">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -247,7 +247,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/luna/" class="team-agent-link" title="Luna Alesi - Coaching- und Organisationsentwicklungsexpertin">
+    <a href="luna.html" class="team-agent-link" title="Luna Alesi - Coaching- und Organisationsentwicklungsexpertin">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -265,7 +265,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/marco/" class="team-agent-link" title="Marco Alesi - Kommunalverwaltungsexperte">
+    <a href="marco.html" class="team-agent-link" title="Marco Alesi - Kommunalverwaltungsexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -283,7 +283,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/olu/" class="team-agent-link" title="Olu Alesi - Globaler Kulturnavigator und Finanzexperte">
+    <a href="olu.html" class="team-agent-link" title="Olu Alesi - Globaler Kulturnavigator und Finanzexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -301,7 +301,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <a href="/ki-agenten/theo/" class="team-agent-link" title="Theo Alesi - Investitions- und Finanzexperte">
+    <a href="theo.html" class="team-agent-link" title="Theo Alesi - Investitions- und Finanzexperte">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
