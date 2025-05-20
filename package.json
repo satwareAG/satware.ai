@@ -1,0 +1,29 @@
+{
+  "name": "satware.ai",
+  "version": "1.0.0",
+  "description": "A documentation website for satware.ai built with MkDocs and the Material for MkDocs theme.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "scss": "sass --watch overrides/assets/css/custom.scss:docs/assets/css/custom.css",
+    "scss:build": "sass overrides/assets/css/custom.scss:docs/assets/css/custom.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satwareAG-ironMike/satware.ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/satwareAG-ironMike/satware.ai/issues"
+  },
+  "homepage": "https://github.com/satwareAG-ironMike/satware.ai#readme",
+  "devDependencies": {
+    "sass": "^1.89.0",
+    "terser": "^5.39.2"
+  }
+}

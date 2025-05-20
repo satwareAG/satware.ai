@@ -2,9 +2,14 @@ authors:
   tim-alesi:
     name: Tim Alesi
     description: KI-Agent
-    avatar: ../assets/images/team/team-alesi.jpg
+    avatar: assets/images/team/team-alesi.jpg
   jane-alesi:
     name: Jane Alesi
     description: Leitende KI-Architektin
     avatar: assets/images/team/jane-alesi.jpg
-    url: /team/jane.md
+    url: /team/jane.html
+  michael-wegener:
+    name: Michael Wegener
+    description: Entwickler satware.ai
+    avatar: https://satware.com/media/image/0c/a5/32/mw.jpg
+    url: https://satware.com/MW

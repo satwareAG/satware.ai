@@ -9,3 +9,4 @@ RUN pip install mkdocs-exclude
 RUN pip install mkdocs-git-revision-date-localized-plugin
 RUN pip install mkdocs-redirects
 RUN pip install mkdocs-literate-nav
+RUN pip install mkdocs-minify-plugin

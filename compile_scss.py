@@ -6,7 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Pfade konfigurieren
-scss_file = "docs/stylesheets/extra.scss"
+scss_file = "overrides/assets/stylesheets/custom.scss"
 css_file = "docs/stylesheets/extra.css"
 
 def compile_scss():
