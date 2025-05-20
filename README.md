@@ -1,4 +1,3 @@
-
 # satwareai-mkdocs
 
 A documentation website for satware.ai built with MkDocs and the Material for MkDocs theme.
