@@ -1,6 +1,6 @@
 ---
 date: 2025-05-21
-title: "Wie moderne LLMs wirklich „denken" – Neue Erkenntnisse zu Interpretierbarkeit, Metakognition und Mythen"
+title: "Wie moderne LLMs wirklich denken - Neue Erkenntnisse zu Interpretierbarkeit, Metakognition und Mythen"
 description: "Aktuelle Forschungsergebnisse gewähren uns Einblicke in die tatsächlichen Denkprozesse moderner Large Language Models, entmystifizieren gängige Annahmen und zeigen die Grenzen der KI-Transparenz auf."
 authors: [michael-wegener]
 categories:
