@@ -1,0 +1,44 @@
+name: satware.ai
+root_path: /home/mw/Projects/satware.ai
+output_path: /home/mw/Projects/satware.ai/.repoinsight/satware-ai-code.md
+scan_directories:
+  - .
+exclude_directories:
+  - .idea
+file_patterns:
+  include:
+    - "*"
+    - "*.*"
+  exclude:
+    - "*__pycache__*"
+    - "*.git*"
+    - "*.pyc"
+    - node_modules/*
+    - assets/img/*
+    - assets/fonts/*
+    - assets/fontawesome/*
+    - .repoinsight/satware-ai-code.md
+llm:
+  enabled: false
+  provider: cortex
+  api_base_url: http://localhost:8000/v1
+  api_key: null
+  model: cogito-v1:3b
+  temperature: 0.3
+  max_tokens: 500
+  timeout: 30
+  cache_enabled: true
+  system_prompt_template:
+    Analyze the following {language} code and provide a concise
+    description in markdown format. Focus on the main purpose, key functionality,
+    and important patterns or techniques used. Keep the description under 5 sentences.
+processing:
+  max_concurrent_tasks: 4
+  chunk_size: 8192
+output:
+  include_toc: true
+  include_metadata: false
+  include_file_stats: false
+  include_commit_info: false
+  syntax_highlighting: true
+cache_path: .repoinsight_cache/satware.ai

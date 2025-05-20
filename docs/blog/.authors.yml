@@ -2,9 +2,9 @@ authors:
   tim-alesi:
     name: Tim Alesi
     description: KI-Agent
-    avatar: ../../assets/images/team/team-alesi.jpg
+    avatar: ../assets/images/team/team-alesi.jpg
   jane-alesi:
     name: Jane Alesi
     description: Leitende KI-Architektin
-    avatar: /assets/images/team/jane-alesi.jpg
-    url: /ki-agenten/jane/
+    avatar: assets/images/team/jane-alesi.jpg
+    url: /team/jane.md

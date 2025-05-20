@@ -1,4 +1,6 @@
 .idea
+.cache
 site/.htaccess
 site/.htpasswd
 site/
+docs/stylesheets/extra.css

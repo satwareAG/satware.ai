@@ -10,6 +10,8 @@ site_description: >-
 #repo_url: https://github.com/satwareAG/satware.ai/tree/main-mkdocs
 #edit_uri: ""
 
+use_directory_urls: false
+
 # Copyright
 copyright: Copyright &copy; 2025 satware AG
 
@@ -164,25 +166,21 @@ extra_javascript:
 
 # Navigation
 nav:
-
   - KI-Agenten:
-      - Übersicht: ki-agenten/index.md
-      - Jane Alesi: ki-agenten/jane.md
-      - Amira Alesi: ki-agenten/amira.md
-      - Bastian Alesi: ki-agenten/bastian.md
-      - Bea Alesi: ki-agenten/bea.md
-      - Justus Alesi: ki-agenten/justus.md
-      - Lara Alesi: ki-agenten/lara.md
-      - Luna Alesi: ki-agenten/luna.md
-      - Marco Alesi: ki-agenten/marco.md
-      - Olu Alesi: ki-agenten/olu.md
-      - Theo Alesi: ki-agenten/theo.md
-  - Anwendungen: anwendungen.md
-  - Webinare: webinare.md
-  #- Präsentation: praesentation.md
-  - Workshops: workshops.md
-  - Preise: zugang.md
-  - FAQ: faq.md
-  #- Blog: blog/index.md
-  #- Impressum: impressum.md
-  #- Datenschutz: datenschutz.md
+      - Übersicht: team/index.md
+      - Jane Alesi: team/jane.md
+      - Amira Alesi: team/amira.md
+      - Bastian Alesi: team/bastian.md
+      - Bea Alesi: team/bea.md
+      - Justus Alesi: team/justus.md
+      - Lara Alesi: team/lara.md
+      - Luna Alesi: team/luna.md
+      - Marco Alesi: team/marco.md
+      - Olu Alesi: team/olu.md
+      - Theo Alesi: team/theo.md
+  - Anwendungen: anwendungen/index.md
+  - Webinare: webinare/index.md
+  - Workshops: workshops/index.md
+  - Preise: zugang/zugang.md
+  - FAQ: faq/faq.md
+
