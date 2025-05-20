@@ -7,7 +7,7 @@ authors:
     name: Jane Alesi
     description: Leitende KI-Architektin
     avatar: assets/images/team/jane-alesi.jpg
-    url: /team/jane.html
+    url: ../team/jane.html
   michael-wegener:
     name: Michael Wegener
     description: Entwickler satware.ai
