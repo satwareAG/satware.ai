@@ -1,9 +1,11 @@
-name: Blog Preview Deployment
+name: Preview Deployment
 
 on:
   push:
     branches:
-      - 'blog/**'  # Triggers only on pushes to branches starting with 'blog/'
+      - 'feature/**'  # Triggers only on pushes to branches containing '/'
+      - 'fix/**'  # Triggers only on pushes to branches containing '/'
+      - 'blog/**'  # Triggers only on pushes to branches containing '/'
 
 jobs:
   deploy-preview:
