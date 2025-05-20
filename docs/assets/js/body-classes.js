@@ -24,8 +24,8 @@ function updateBodyClasses() {
         document.body.classList.remove(className);
     });
 
-    // Wenn der Pfad leer ist (Startseite), füge die Klasse 'home' hinzu
-    if (cleanPath === '') {
+    // Wenn der Pfad leer oder eine Entwickler Github Page ist (Startseite), füge die Klasse 'home' hinzu
+    if (cleanPath === '' || cleanPath === 'satware.ai') {
         document.body.classList.add('home');
     } else {
         // Teile den Pfad in Segmente auf
