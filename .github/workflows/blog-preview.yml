@@ -76,9 +76,4 @@ jobs:
         run: mkdocs build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          destination_dir: preview/$(echo ${GITHUB_REF#refs/heads/} | sed 's/\//-/g')
-          commit_message: "Deploy preview for branch ${{ github.ref }}"
+        run: mkdocs gh-deploy --force
