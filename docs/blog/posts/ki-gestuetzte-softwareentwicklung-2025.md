@@ -11,6 +11,8 @@ categories:
 
 # Die Zukunft der KI-gestützten Softwareentwicklung: Trends und Techniken für 2025
 
+![KI-gestützte Softwareentwicklung](/assets/images/blog/2025-05-20/ai-software-development.png)
+
 Die Softwareentwicklung durchläuft aktuell eine tiefgreifende Transformation durch künstliche Intelligenz. Was vor wenigen Jahren noch als experimentelle Technologie galt, ist heute ein unverzichtbarer Bestandteil moderner Entwicklungsumgebungen. Für deutsche Unternehmen, die im globalen Wettbewerb bestehen wollen, ist es entscheidend, diese Entwicklung zu verstehen und strategisch zu nutzen.
 
 In diesem Artikel beleuchten wir die wichtigsten Trends, Tools und Techniken der KI-gestützten Softwareentwicklung für 2025 und geben konkrete Beispiele aus führenden deutschen Unternehmen.
@@ -75,8 +77,6 @@ Deutschland ist bekannt für seine starke Industriebasis und innovative Technolo
 Bosch setzt generative KI in zwei deutschen Werken ein, um synthetische Bilder für das Training von optischen Inspektionssystemen zu erstellen. Diese Innovation hat die Bereitstellungszeit von KI-Systemen von 6-12 Monaten auf wenige Wochen reduziert. 
 
 Ein KI-gestütztes Anomalie-Erkennungssystem identifiziert Fertigungsfehler in Echtzeit in etwa 50 Bosch-Werken und verbindet dabei über 2.000 Produktionslinien. Dies hat die Produktqualität verbessert und die Ausfallzeiten durch vorausschauende Wartung reduziert.
-
-![Bosch KI in der Fertigungsoptimierung](https://satware.ai/assets/images/blog/2025-05-20/bosch-ai.jpg)
 
 ### Siemens: KI-gestützte Industriesoftware
 
