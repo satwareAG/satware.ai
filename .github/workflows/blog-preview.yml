@@ -46,15 +46,11 @@ jobs:
           GITHUB_USER=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
           REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)
           
-          # Get the branch name
-          BRANCH_NAME=${GITHUB_REF#refs/heads/}
-          BRANCH_FOLDER=$(echo $BRANCH_NAME | sed 's/\//-/g')
-          
           # Update site_url in mkdocs.yml for fork preview
           if grep -q "^site_url:" mkdocs.yml; then
-            sed -i "s|^site_url:.*|site_url: https://$GITHUB_USER.github.io/$REPO_NAME/preview/$BRANCH_FOLDER/|" mkdocs.yml
+            sed -i "s|^site_url:.*|site_url: https://$GITHUB_USER.github.io/${REPO_NAME}/|" mkdocs.yml
           else
-            echo "site_url: https://$GITHUB_USER.github.io/$REPO_NAME/preview/$BRANCH_FOLDER/" >> mkdocs.yml
+            echo "site_url: https://$GITHUB_USER.github.io/${REPO_NAME}/" >> mkdocs.yml
           fi
           
           # Configure for relative URLs
