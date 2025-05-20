@@ -1,6 +1,5 @@
 .idea
 .cache
-site/.htaccess
-site/.htpasswd
-site/
-docs/stylesheets/extra.css
+/site
+/docs/assets/css/custom.css
+/package-lock.json

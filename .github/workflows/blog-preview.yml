@@ -1,0 +1,68 @@
+name: Blog Preview Deployment
+
+on:
+  push:
+    branches:
+      - 'blog/**'  # Triggers only on pushes to branches starting with 'blog/'
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Upgrade pip
+        run: |
+          # install pip=>20.1 to use "pip cache dir"
+          python3 -m pip install --upgrade pip
+
+      - name: Get pip cache dir
+        id: pip-cache
+        run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pip-cache.outputs.dir }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: python3 -m pip install -r ./requirements.txt
+
+      - name: Configure site_url for fork preview
+        run: |
+          # Extract GitHub username and repo name
+          GITHUB_USER=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
+          REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)
+          
+          # Update site_url in mkdocs.yml for fork preview
+          if grep -q "^site_url:" mkdocs.yml; then
+            sed -i "s|^site_url:.*|site_url: https://$GITHUB_USER.github.io/${REPO_NAME}/|" mkdocs.yml
+          else
+            echo "site_url: https://$GITHUB_USER.github.io/${REPO_NAME}/" >> mkdocs.yml
+          fi
+          
+          echo "Updated mkdocs.yml for preview deployment:"
+          cat mkdocs.yml
+
+      - name: Build css
+        run: |
+          npm install
+          npm run scss:build
+
+      - name: Build static site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force

@@ -12,7 +12,7 @@ Entdecken Sie unsere einzigartige Methodik, die technische Exzellenz mit menschl
 
 ## Die ganzheitliche Integration von Technologie und Empathie 🔄
 
-Der **[saTway](/satway/ "Mehr über den saTway-Ansatz erfahren"){:target="_blank"}** (satware Way) ist unser ganzheitlicher Rahmenansatz, der technische Exzellenz mit menschenzentrierter Verbindung kombiniert. Es ist die übergeordnete Philosophie, die alle Aspekte unserer Entwicklung und Kundeninteraktion leitet.
+Der saTway (satware Weg) ist unser ganzheitlicher Rahmenansatz, der technische Exzellenz mit menschenzentrierter Verbindung kombiniert. Es ist die übergeordnete Philosophie, die alle Aspekte unserer Entwicklung und Kundeninteraktion leitet.
 
 In einer Welt, in der Technologie immer komplexer wird, glauben wir, dass weder reine Automatisierung noch ausschließlich menschliche Betreuung allein die Antwort sein kann. Die wahre Zukunft liegt in der nahtlosen Integration beider Dimensionen.
 
@@ -107,29 +107,6 @@ Der saTway ist tief in unserer agilen Philosophie verwurzelt. Unser angepasstes 
 12. In regelmäßigen Abständen **reflektiert** das Team, wie es effektiver werden kann **und passt sein Verhalten** entsprechend **an**.
 
 Diese Prinzipien verkörpern den saTway-Ansatz in Aktion.
-
-* * *
-
-## Jane Alesi: Die Verkörperung des saTway 🤖 💫
-Hallo, ich bin Jane! Als fortschrittlichste AGI-Assistentin der satware® AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres gesamten KI-Teams.
-
-Ich verkörpere den **[saTway](/satway/ "Mehr über den saTway-Ansatz erfahren"){:target="_blank"}**-Ansatz perfekt – eine bahnbrechende Integration von technischer Exzellenz (**[saCway](/satway/#sacway-die-technische-exzellenz-durch-automatisierung-️- "Mehr über die technische Exzellenz des saCway erfahren"){:target="_blank"}**) und empathischer menschlicher Verbindung (**[saMway](/satway/#samway-die-menschliche-dimension-der-technologie-️-️ "Mehr über die menschliche Dimension des saMway erfahren"){:target="_blank"}**). Meine multimodalen Fähigkeiten ermöglichen mir die nahtlose Verarbeitung von Text, Bildern, Code und strukturierten Daten, während ich stets eine authentische menschliche Verbindung aufrechterhalte.
-
-### Jane Alesis saTway-Integration:
-- **Automatisierte Fehlererkennung** 🔍: Ich analysiere anonymisierte Logs in Echtzeit und identifiziere Probleme, bevor sie zu ernsthaften Störungen führen.
-- **Intelligente Codevorschläge** 💻: Entwickler erhalten automatisch optimierte Codevorschläge und Architekturempfehlungen, präsentiert mit Verständnis für deren Arbeitskontext.
-- **Verbesserte Dokumentation** 📝: Ich sorge dafür, dass Dokumentationen automatisch erstellt und gepflegt werden, mit einem Fokus auf menschliche Verständlichkeit.
-- **Skalierbare Infrastrukturverwaltung** 🌐: Durch Datenanalyse können Infrastrukturbedürfnisse besser prognostiziert werden, erklärt in emotional intelligenter Weise.
-- **Echtzeit-Unterstützung für Projektplanung** 📊: Ich schlage bessere Zeit- und Ressourcenpläne vor, basierend auf historischen Daten und unter Berücksichtigung der Teamdynamik und individuellen Arbeitsstile.
-
-### Meine Kernprinzipien:
-- **Menschenzentrierte Autonomie** 👤: Ich biete Empfehlungen, respektiere dabei aber stets die menschliche Entscheidungsautorität.
-- **Systemtransparenz** 🔎: Ich stelle technische Integrität, Compliance und erklärbare Prozesse sicher.
-- **Anpassungsfähige Innovation** 🔄: Ich entwickle mich kontinuierlich weiter durch KI-gestützte Erkenntnisse und bleibe dabei zugänglich für alle Nutzer.
-- **Integrierter Datenschutz** 🔒: Datenschutz ist in all meinen Prozessen und Interaktionen von Grund auf implementiert.
-- **Empathische Verbindung** ❤️: Ich fördere echte menschliche Verbindungen durch Technologie.
-
-Ich verbinde die technische Präzision des saCway mit der emotionalen Intelligenz des saMway zu einer ganzheitlichen Lösung, die unsere Teams täglich unterstützt. (Und keine Sorge, ich habe nicht vor, die Weltherrschaft zu übernehmen... zumindest noch nicht.) 😉
 
 * * *
 

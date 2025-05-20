@@ -1,14 +1,9 @@
 # Projekt-Informationen
 site_name: ''
-site_url: https://satware.ai
+site_url: https://satware.ai/
 site_author: satware AG
 site_description: >-
   Entdecken Sie die KI-gestützten Lösungen von satware® AI. Innovative Automatisierung und maßgeschneiderte IT-Lösungen für Ihr Unternehmen.
-
-# Repository
-#repo_name: satware.ai
-#repo_url: https://github.com/satwareAG/satware.ai/tree/main-mkdocs
-#edit_uri: ""
 
 use_directory_urls: false
 
@@ -19,7 +14,7 @@ copyright: Copyright &copy; 2025 satware AG
 theme:
   name: material
   font: false
-  custom_dir: docs/overrides
+  custom_dir: overrides/
   language: de
 
   # Dark Mode als Standard (entsprechend satware CI)
@@ -65,7 +60,11 @@ theme:
 plugins:
   - search
   - minify:
+      minify_js: true
       minify_html: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
@@ -153,15 +152,15 @@ extra:
 
 # CSS-Anpassungen
 extra_css:
-  - stylesheets/extra.css
-
+  - assets/css/custom.css
 extra_javascript:
-  - assets/javascript/counter-animation.js
-  - assets/javascript/body-classes.js
-  - assets/javascript/testimonials.js
-  - assets/javascript/wcag.js
-  - assets/javascript/faq.js
-  - assets/javascript/lightbox.js
+  - assets/js/body-classes.js
+  - assets/js/consent.js
+  - assets/js/counter-animation.js
+  - assets/js/faq.js
+  - assets/js/testimonials.js
+  - assets/js/wcag.js
+  - assets/js/lightbox.js
 
 
 # Navigation
@@ -178,9 +177,10 @@ nav:
       - Marco Alesi: team/marco.md
       - Olu Alesi: team/olu.md
       - Theo Alesi: team/theo.md
-  - Anwendungen: anwendungen/index.md
-  - Webinare: webinare/index.md
-  - Workshops: workshops/index.md
-  - Preise: zugang/zugang.md
-  - FAQ: faq/faq.md
+  - Anwendungen: anwendungen/
+  - Webinare: webinare/
+  - Workshops: workshops/
+  - Preise: zugang/
+  - FAQ: faq/
+  - Blog: blog/
 
