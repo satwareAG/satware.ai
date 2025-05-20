@@ -14,6 +14,31 @@ tags:
   - Attribution Graphs
 ---
 
+<style>
+.md-typeset .mermaid text {
+  font-family: var(--md-code-font-family); 
+  fill: white !important;
+}
+.md-typeset .mermaid .node rect,
+.md-typeset .mermaid .node circle,
+.md-typeset .mermaid .node ellipse,
+.md-typeset .mermaid .node polygon,
+.md-typeset .mermaid .node path {
+  fill: rgba(0, 150, 136, 0.1) !important;
+  stroke: #00c4b0 !important;
+}
+.md-typeset .mermaid .label {
+  color: white !important;
+}
+.md-typeset .mermaid .edgePath .path {
+  stroke: #00c4b0 !important;
+}
+.md-typeset .mermaid .edgeLabel {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: white !important;
+}
+</style>
+
 # Wie moderne LLMs wirklich „denken" – Neue Erkenntnisse zu Interpretierbarkeit, Metakognition und Mythen (2025)
 
 ## Einleitung: Was passiert im Kopf einer KI?
@@ -58,6 +83,7 @@ Das sogenannte Faithfulness Gap bleibt bestehen: Erklärungen klingen logisch-me
 #### Visualisierung:
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#00b894', 'primaryTextColor': '#fff', 'primaryBorderColor': '#00b8b0', 'lineColor': '#00b894', 'secondaryColor': '#006060', 'tertiaryColor': '#003030' }}}%%
 mindmap
 root((Moderne LLM Interpretierbarkeit & Metakognition))
     Anthropic Claude Serie
