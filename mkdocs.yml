@@ -48,7 +48,7 @@ theme:
 
 
   #font:
-   # text: Roboto
+    # text: Roboto
     #code: Roboto Mono
 
   favicon: assets/images/favicon.png
@@ -74,6 +74,10 @@ plugins:
       post_url_format: "{slug}"
       post_date_format: "dd.MM.yyyy"
       archive_toc: true
+      # Added exclusion pattern for README.md files
+      exclude:
+        - "*.txt"
+        - "README.md"
   - social
 
 
@@ -183,4 +187,3 @@ nav:
   - Preise: zugang/
   - FAQ: faq/
   - Blog: blog/
-
