@@ -177,9 +177,9 @@ nav:
       - Marco Alesi: team/marco.md
       - Olu Alesi: team/olu.md
       - Theo Alesi: team/theo.md
-  - Anwendungen: anwendungen/index.md
-  - Webinare: webinare/index.md
-  - Workshops: workshops/index.md
-  - Preise: zugang/index.md
-  - FAQ: faq/faq.md
+  - Anwendungen: anwendungen/
+  - Webinare: webinare/
+  - Workshops: workshops/
+  - Preise: zugang/
+  - FAQ: faq/
 
