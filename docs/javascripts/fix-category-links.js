@@ -1,18 +1,24 @@
-// Fix for blog category links
+// Fix für Blog-Kategorielinks
 document.addEventListener('DOMContentLoaded', function() {
-  // Check if we're on a category page
+  // Prüfen, ob wir uns auf einer Kategorie-Seite befinden
   if (window.location.pathname.includes('/blog/category/')) {
-    // Find all post links inside the category page
-    const postLinks = document.querySelectorAll('.md-posts__title a, .md-posts__continue a');
+    // Alle Post-Links auf der Kategorie-Seite finden
+    const postLinks = document.querySelectorAll('.md-post__content a, .md-post__action a');
     
     postLinks.forEach(function(link) {
       const href = link.getAttribute('href');
       
-      // Check if the link incorrectly includes /category/ in its path
-      if (href && href.includes('/blog/category/') && !href.endsWith('.html')) {
-        // Fix the link by replacing the incorrect path with the correct one
-        const fixedHref = href.replace('/blog/category/', '/blog/');
+      // Prüfen, ob der Link fälschlicherweise '/category/' im Pfad enthält
+      if (href && href.includes('/category/') && !href.endsWith('.html')) {
+        // Link korrigieren indem der category/ Teil entfernt wird
+        const fixedHref = href.replace('/category/', '/');
         link.setAttribute('href', fixedHref);
+        
+        // Zur Sicherheit auch die URL im Titel korrigieren
+        const title = link.getAttribute('title');
+        if (title && title.startsWith('Weiterlesen:')) {
+          link.setAttribute('title', title);
+        }
       }
     });
   }
