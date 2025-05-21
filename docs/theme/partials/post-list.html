@@ -1,0 +1,58 @@
+{% if config.plugins.blog.pagination and pagination %}
+<ul class="md-posts md-posts--pagination">
+  {% if pagination.page_count > 1 %}
+  <li class="md-posts__pagination">
+    {% include "partials/pagination.html" %}
+  </li>
+  {% endif %}
+  {% for post in posts %}
+  <li class="md-posts__item">
+    <article class="md-posts__article">
+      {% if post.authors %}
+      <div class="md-posts__meta md-typeset">
+        <div>
+          {% for author in post.authors | map("item") %}
+          {% if author.avatar %}
+          <span class="md-author md-author--long">
+            <img src="{{ author.avatar }}" alt="{{ author.name }}" title="{{ author.name }}" draggable="false">
+          </span>
+          {% else %}
+          <span class="md-author">{{ author.name }}</span>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <time datetime="{{ post.config.date.created }}">
+          {{- post.config.date.created | date -}}
+        </time>
+      </div>
+      {% endif %}
+      <h2 class="md-posts__title">
+        <!-- FIX: Ensure the post URL is absolute and not relative to the category path -->
+        <a href="{{ '/' ~ post.url | url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.excerpt %}
+      <div class="md-posts__content md-typeset">
+        {{ post.excerpt }}
+      </div>
+      {% endif %}
+      <nav class="md-posts__footer">
+        <div class="md-posts__continue">
+          <a class="md-button" href="{{ '/' ~ post.url | url }}">
+            {{ lang.t("blog.continue") }}
+          </a>
+        </div>
+        {% if post.categories %}
+        <div class="md-posts__categories">
+          {% for category in post.categories | map("item") %}
+          <a class="md-content__button" href="{{ category.url | url }}">
+            <code>{{ category.name }}</code>
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </nav>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
