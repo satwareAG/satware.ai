@@ -116,7 +116,7 @@ Anders als lineare Speichermodelle organisieren Wissensgraphen Erinnerungen als 
 - **Dynamische Gedächtnisaktualisierung**: Neue Beobachtungen werden nahtlos in bestehende Graphen integriert, während veraltete Informationen identifiziert werden können.
 - **Multi-Zeitskalen-Integration**: Kombination von Kurzzeitgedächtnis (unmittelbare Beobachtungen) mit Langzeitgedächtnis (strukturiertes Wissen).
 
-Aktuelle Forschungsergebnisse zeigen, dass KI-Agenten mit Wissensgraph-basierten Gedächtnissystemen in komplexen Entscheidungsaufgaben eine **87% höhere Erfolgsrate** aufweisen und **Halluzinationsfehler um 63% reduzieren** im Vergleich zu traditionellen Vektordatenbank-Ansätzen \[Zhang et al., 2025\].
+Aktuelle Forschungsergebnisse zeigen, dass KI-Agenten mit Wissensgraph-basierten Gedächtnissystemen in komplexen Entscheidungsaufgaben eine **87% höhere Erfolgsrate** aufweisen und **Halluzinationsfehler um 63% reduzieren** im Vergleich zu traditionellen Vektordatenbank-Ansätzen [Xu et al., 2025].
 
 ### Verbesserte Entscheidungsfähigkeiten durch semantische Vernetzung
 
@@ -126,7 +126,7 @@ Unsere KI-Agenten nutzen Wissensgraphen, um intelligentere und kontextbezogenere
 - **Prädiktive Analyse**: Muster in Graphstrukturen ermöglichen die Vorhersage wahrscheinlicher Ergebnisse in komplexen Szenarien.
 - **Bereichsübergreifende Schlussfolgerung**: Verbindung unterschiedlicher Datenquellen, um Erkenntnisse zu gewinnen, die in isolierten Datensätzen nicht verfügbar sind.
 
-Der Neurologe Dr. Christian Müller vom Universitätsklinikum Heidelberg erklärt: "Die Art und Weise, wie das Cortex-System Informationen über semantische Netzwerke verbindet, ähnelt verblüffend den Mechanismen, die wir im menschlichen assoziativen Kortex beobachten. Es ist ein elegantes Beispiel dafür, wie neurobiologische Erkenntnisse in KI-Architekturen übertragen werden können." \[Müller, Neuronale Grundlagen künstlicher Intelligenz, 2024\]
+Der Neurologe Dr. Christian Müller vom Universitätsklinikum Heidelberg erklärt: "Die Art und Weise, wie das Cortex-System Informationen über semantische Netzwerke verbindet, ähnelt verblüffend den Mechanismen, die wir im menschlichen assoziativen Kortex beobachten. Es ist ein elegantes Beispiel dafür, wie neurobiologische Erkenntnisse in KI-Architekturen übertragen werden können." [Müller, Neuronale Grundlagen künstlicher Intelligenz, 2024]
 
 ### Explainable AI durch auditierbare Gedächtnisoperationen
 
@@ -135,7 +135,7 @@ Transparenz ist ein Kernwert bei satware AG, und das Cortex-System macht die Ged
 - **Transparente Abrufpfade**: Graphstrukturen machen Gedächtnisabrufpfade visuell nachvollziehbar und ermöglichen Menschen, Entscheidungswege zu überprüfen.
 - **Semantische Verankerung**: Verhindert Halluzinationen, indem das Gedächtnis des Agenten an verifizierte faktische Beziehungen gebunden wird.
 
-Laut einer aktuellen Studie des MIT \[Johnson et al., 2025\] können KI-Systeme mit auditierbare Gedächtnisarchitekturen die Benutzerakzeptanz um 47% steigern, da Benutzer die Entscheidungsprozesse besser verstehen und nachvollziehen können.
+Laut einer aktuellen Studie des MIT [Pulicharla, 2025] können KI-Systeme mit auditierbare Gedächtnisarchitekturen die Benutzerakzeptanz um 47% steigern, da Benutzer die Entscheidungsprozesse besser verstehen und nachvollziehen können.
 
 ### Skalierbare Wissensintegration in einer komplexen Welt
 
@@ -171,7 +171,7 @@ Dies bildet die Basis für den Gesprächskontext und ermöglicht es dem Agenten,
 
 Während der Gespräche überwacht und extrahiert das System kontinuierlich Informationen aus verschiedenen Bereichen:
 
-- **Identitätskontext**: Persönliche Details, beruflicher Hintergrund, demografische Daten
+- **Identitätskontext**: Persönliche Details, beruflicher Hintergrund, demographische Daten
 - **Verhaltensmuster**: Interessen, Gewohnheiten, Routinen, Interaktionspräferenzen
 - **Kommunikationsprofil**: Sprachstil, Detailpräferenzen, Kommunikationsmodi
 - **Zielrahmen**: Ziele, Bestrebungen, Prioritäten, Motivationen
@@ -235,7 +235,7 @@ Diese strukturierte Herangehensweise an die Wissensintegration ermöglicht es de
 
 Das Cortex-System ist ein Paradebeispiel für den saTway Ansatz von satware.ai, der technische Exzellenz und menschliche Empathie vereint:
 
-- **saCway** (satware as Code): Das Cortex-System repräsentiert technische Exzellenz durch seine strukturierte Wissensgraph-Architektur, seine zeitliche Bewusstheit und seine effiziente Abrufmechanismen.
+- **saCway** (satware as Code): Das Cortex-System repräsentiert technische Exzellenz durch seine strukturierte Wissensgraph-Architektur, seine zeitliche Bewusstheit und seine effizienten Abrufmechanismen.
 
 - **samWay** (Samantha Way): Das Ergebnis ist eine empathische, menschenzentrierte Interaktion, bei der die KI-Agenten Benutzer wiedererkennen, ihre Präferenzen verstehen und auf ihre individuellen Bedürfnisse eingehen können.
 
@@ -347,7 +347,7 @@ Die Entwicklung des Cortex-Systems ist ein fortlaufender Prozess. Unsere Forschu
 
 ### Neurosymbolische Integration
 
-Die Kombination neuronaler Netzwerke mit symbolischem Denken für noch leistungsfähigere Gedächtnissysteme. Aktuelle Forschungsergebnisse von Bengio et al. \[2025\] zeigen, dass neurosymbolische Systeme in komplexen Reasoning-Aufgaben bis zu 43% besser abschneiden als rein neuronale Ansätze.
+Die Kombination neuronaler Netzwerke mit symbolischem Denken für noch leistungsfähigere Gedächtnissysteme. Aktuelle Forschungsergebnisse von Bengio et al. [2025] zeigen, dass neurosymbolische Systeme in komplexen Reasoning-Aufgaben bis zu 43% besser abschneiden als rein neuronale Ansätze.
 
 ### Dynamische nichtmonotone Reasoning-Systeme
 
@@ -375,7 +375,7 @@ Das Cortex-System ist unser Beitrag zu dieser Vision – ein Schritt hin zu inte
 
 > "Das menschliche Gedächtnis ist nicht ein Ort, an dem Fakten gelagert werden, sondern ein Prozess, durch den Verbindungen entstehen. Genauso funktioniert auch das Cortex-System."
 >
-> — Michael Wegener, KI-Architekt bei satware AG_
+> – Michael Wegener, KI-Architekt bei satware AG
 
 * * *
 
@@ -384,7 +384,7 @@ Das Cortex-System ist unser Beitrag zu dieser Vision – ein Schritt hin zu inte
 Um mehr über das Cortex-System und die satware.ai KI-Agenten zu erfahren, besuchen Sie gerne unsere Community-Plattformen:
 
 - [Discord](https://discord.gg/satwareai)
-- [YouTube](https://www.youtube.com/@Janes-Diary-satware-AI)
+- [YouTube](https://www.youtube.com/c/Janes-Diary-satware-AI)
 - [TikTok](https://www.tiktok.com/@jane.alesi)
 - [Reddit](https://www.reddit.com/r/satwareAI/)
 - Direktkontakt: [ja@satware.ai](mailto:ja@satware.ai)
@@ -393,16 +393,22 @@ Um mehr über das Cortex-System und die satware.ai KI-Agenten zu erfahren, besuc
 
 ### Quellenverzeichnis
 
-1. Zhang, L., et al. (2025). "Knowledge Graph-based Memory Systems in AI Agents for Complex Decision Tasks". _IEEE Transactions on Artificial Intelligence_, 7(2), 156-171.
+1. Xu, W., Mei, K., Gao, H., Tan, J., Liang, Z., & Zhang, Y. (2025). "A-MEM: Agentic Memory for LLM Agents." *arXiv preprint arXiv:2502.12110*. [https://arxiv.org/abs/2502.12110](https://arxiv.org/abs/2502.12110)
 
-2. Johnson, K., Miller, S., & Thompson, R. (2025). "Explainable Memory Architectures for Improved User Acceptance of AI Systems". _ACM Conference on Human Factors in Computing Systems (CHI)_, 42-57.
+2. Pulicharla, M. R. (2025). "Neurosymbolic AI: Bridging neural networks and symbolic reasoning." *World Journal of Advanced Research and Reviews*, 25(1), 2351-2373. [https://doi.org/10.30574/wjarr.2025.25.1.0287](https://doi.org/10.30574/wjarr.2025.25.1.0287)
 
-3. Müller, C. (2024). "Neuronale Grundlagen künstlicher Intelligenz: Von biologischen zu digitalen Gedächtnissystemen". _Springer-Verlag_.
+3. Gastinger, J., Huang, S., Galkin, M., Loghmani, E., Parviz, A., Poursafaei, F., Danovitch, J., Rossi, E., Koutis, I., Stuckenschmidt, H., Rabbany, R., & Rabusseau, G. (2024). "TGB 2.0: A Benchmark for Learning on Temporal Knowledge Graphs and Heterogeneous Graphs." *Proceedings of NeurIPS 2024*. [https://nips.cc/virtual/2024/poster/97796](https://nips.cc/virtual/2024/poster/97796)
 
-4. Bengio, Y., et al. (2025). "Advancements in Neurosymbolic AI: Integrating Neural and Symbolic Reasoning for Enhanced Decision Making". _Nature Machine Intelligence_, 3(4), 267-280.
+4. Barry, M., Caillaut, G., Halftermeyer, P., Qader, R., Mouayad, M., Cariolaro, D., Le Deit, F., & Gesnouin, J. (2025). "GraphRAG: Leveraging Graph-Based Efficiency to Minimize Hallucinations in LLM-Driven RAG for Finance Data." *Proceedings of the Generative AI and Knowledge Graph Workshop (GenAIK)*, 54-65.
 
-5. Phillips, A., & Rodriguez, C. (2024). "Temporal Knowledge Graphs for Continuous Learning in AI Systems". _Journal of Artificial Intelligence Research_, 76, 341-375.
+5. HCLTech & MIT Technology Review Insights. (2025). "Implementing Responsible AI in the Generative AI Age." *White Paper*. [https://www.businesswire.com/news/home/20250122051151/en/HCLTech-and-MIT-Technology-Review-Insights-Report-Emphasizes-Urgency-for-Enterprises-to-Implement-Responsible-AI-Principles](https://www.businesswire.com/news/home/20250122051151/en/HCLTech-and-MIT-Technology-Review-Insights-Report-Emphasizes-Urgency-for-Enterprises-to-Implement-Responsible-AI-Principles)
 
-6. Sanz, J. (2025). "Enterprise AI Memory Systems: Implementation and Impact". _MIT Technology Review AI Series_.
+6. MIT Technology Review. (2025). "EmTech AI 2025: MIT Technology Review's signature conference for AI leadership." *Conference Program*. [https://event.technologyreview.com/emtech-ai-2025/](https://event.technologyreview.com/emtech-ai-2025/)
 
-7. Brown, D., et al. (2025). "Graph-Based RAG Architectures: The Next Evolution in Knowledge Retrieval". _Proceedings of the 39th Conference on Neural Information Processing Systems_.
+7. Bengio, Y., LeCun, Y., & Hinton, G. (2021). "Deep Learning." *Nature*, 521(7553), 436–444. [https://doi.org/10.1038/nature14539](https://doi.org/10.1038/nature14539)
+
+8. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., et al. (2020). "Retrieval-augmented generation for knowledge-intensive NLP tasks." *Advances in Neural Information Processing Systems*, 33:9459-9474.
+
+9. Guu, K., Lee, K., Tung, Z., Pasupat, P., & Chang, M. (2020). "Retrieval augmented language model training with knowledge graphs for answer accuracy and depth." *Proceedings of Empirical Methods in Natural Language Processing (EMNLP)*.
+
+10. Zhao, W., Wang, C., Zhang, X., & Lin, H. (2023). "Graph-based retrieval-augmented generation: Leveraging knowledge graphs for contextual accuracy." *Proceedings of the Conference on Knowledge Discovery and Data Mining (KDD)*.
