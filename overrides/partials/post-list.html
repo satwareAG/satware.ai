@@ -31,15 +31,25 @@
         </header>
         <div class="md-post__content md-typeset">
             <h2>
+                {% if post.url.startswith('blog/category/') %}
+                <a href="{{ post.url | replace('blog/category/', 'blog/') | url }}" title="{{ post.config.title }}">{{ post.config.title }}</a>
+                {% else %}
                 <a href="{{ post.url | replace('blog/', '') | url }}" title="{{ post.config.title }}">{{ post.config.title }}</a>
+                {% endif %}
             </h2>
 
             <!-- Wir zeigen nur die Überschrift an, kein Excerpt oder weiterer Inhalt -->
 
             <nav class="md-post__action">
+                {% if post.url.startswith('blog/category/') %}
+                <a href="{{ post.url | replace('blog/category/', 'blog/') | url }}" class="md-button" title="Weiterlesen: {{ post.config.title }}">
+                    Weiterlesen
+                </a>
+                {% else %}
                 <a href="{{ post.url | replace('blog/', '') | url }}" class="md-button" title="Weiterlesen: {{ post.config.title }}">
                     Weiterlesen
                 </a>
+                {% endif %}
             </nav>
         </div>
     </article>
