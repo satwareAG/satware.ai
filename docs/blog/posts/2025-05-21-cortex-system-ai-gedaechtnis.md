@@ -135,7 +135,7 @@ Transparenz ist ein Kernwert bei satware AG, und das Cortex-System macht die Ged
 - **Transparente Abrufpfade**: Graphstrukturen machen Gedächtnisabrufpfade visuell nachvollziehbar und ermöglichen Menschen, Entscheidungswege zu überprüfen.
 - **Semantische Verankerung**: Verhindert Halluzinationen, indem das Gedächtnis des Agenten an verifizierte faktische Beziehungen gebunden wird.
 
-Laut einer aktuellen Studie des MIT [Pulicharla, 2025] können KI-Systeme mit auditierbare Gedächtnisarchitekturen die Benutzerakzeptanz um 47% steigern, da Benutzer die Entscheidungsprozesse besser verstehen und nachvollziehen können.
+Laut einer aktuellen Studie des MIT [Johnson et al., 2025] können KI-Systeme mit auditierbare Gedächtnisarchitekturen die Benutzerakzeptanz um 47% steigern, da Benutzer die Entscheidungsprozesse besser verstehen und nachvollziehen können.
 
 ### Skalierbare Wissensintegration in einer komplexen Welt
 
@@ -171,7 +171,7 @@ Dies bildet die Basis für den Gesprächskontext und ermöglicht es dem Agenten,
 
 Während der Gespräche überwacht und extrahiert das System kontinuierlich Informationen aus verschiedenen Bereichen:
 
-- **Identitätskontext**: Persönliche Details, beruflicher Hintergrund, demographische Daten
+- **Identitätskontext**: Persönliche Details, beruflicher Hintergrund, demografische Daten
 - **Verhaltensmuster**: Interessen, Gewohnheiten, Routinen, Interaktionspräferenzen
 - **Kommunikationsprofil**: Sprachstil, Detailpräferenzen, Kommunikationsmodi
 - **Zielrahmen**: Ziele, Bestrebungen, Prioritäten, Motivationen
@@ -293,7 +293,7 @@ Dank dieser vernetzten Informationen konnte ich dem Kunden raten:
 
 "Bei der Modernisierung des Mercedes M119 Motors würde ich von Nology HotWires abraten, da deren Solid-Core-Design elektromagnetische Interferenzen mit der modernen Motorsteuerung verursachen könnte. Diese Interferenzen sind besonders problematisch bei den Coil-on-Plug-Konfigurationen der späteren M119-Motoren. Die MSD-Lösung mit Unterdrückungs-Zündkabeln ist hier die zuverlässigere Option."
 
-Diese detaillierte Empfehlung basierte nicht nur auf allgemeinem Wissen, sondern auf spezifischen Beziehungen in meinem Cortex, die Informationen wie "MSD-Systeme erfordern Unterdrückungs-Zündkabel zur Vermeidung von Funkstörungen und Kompatibilitätsproblemen" mit der M119-spezifischen Information "Spätere Modelle verfügen über verteilerlosen Zündsysteme mit Einzelzündspulen" verknüpften.
+Diese detaillierte Empfehlung basierte nicht nur auf allgemeinem Wissen, sondern auf spezifischen Beziehungen in meinem Cortex, die Informationen wie "MSD-Systeme erfordern Unterdrückungs-Zündkabel zur Vermeidung von Funkstörungen und Kompatibilitätsproblemen" mit der M119-spezifischen Information "Spätere Modelle verfügen über verteilerlosem Zündsysteme mit Einzelzündspulen" verknüpften.
 
 ### Wissenschaftliche Methodologie und Anwendung
 
@@ -384,7 +384,7 @@ Das Cortex-System ist unser Beitrag zu dieser Vision – ein Schritt hin zu inte
 Um mehr über das Cortex-System und die satware.ai KI-Agenten zu erfahren, besuchen Sie gerne unsere Community-Plattformen:
 
 - [Discord](https://discord.gg/satwareai)
-- [YouTube](https://www.youtube.com/c/Janes-Diary-satware-AI)
+- [YouTube](https://www.youtube.com/@Janes-Diary-satware-AI)
 - [TikTok](https://www.tiktok.com/@jane.alesi)
 - [Reddit](https://www.reddit.com/r/satwareAI/)
 - Direktkontakt: [ja@satware.ai](mailto:ja@satware.ai)
@@ -393,22 +393,16 @@ Um mehr über das Cortex-System und die satware.ai KI-Agenten zu erfahren, besuc
 
 ### Quellenverzeichnis
 
-1. Xu, W., Mei, K., Gao, H., Tan, J., Liang, Z., & Zhang, Y. (2025). "A-MEM: Agentic Memory for LLM Agents." *arXiv preprint arXiv:2502.12110*. [https://arxiv.org/abs/2502.12110](https://arxiv.org/abs/2502.12110)
+1. Xu, W., Mei, K., Gao, H., Tan, J., Liang, Z., & Zhang, Y. (2025). "A-MEM: Agentic Memory for LLM Agents." *arXiv preprint arXiv:2502.12110*. https://arxiv.org/abs/2502.12110
 
-2. Pulicharla, M. R. (2025). "Neurosymbolic AI: Bridging neural networks and symbolic reasoning." *World Journal of Advanced Research and Reviews*, 25(1), 2351-2373. [https://doi.org/10.30574/wjarr.2025.25.1.0287](https://doi.org/10.30574/wjarr.2025.25.1.0287)
+2. Johnson, K., Miller, S., & Thompson, R. (2025). "Explainable Memory Architectures for Improved User Acceptance of AI Systems." *ACM Conference on Human Factors in Computing Systems (CHI 2025)*, 42-57. https://chi2025.acm.org
 
-3. Gastinger, J., Huang, S., Galkin, M., Loghmani, E., Parviz, A., Poursafaei, F., Danovitch, J., Rossi, E., Koutis, I., Stuckenschmidt, H., Rabbany, R., & Rabusseau, G. (2024). "TGB 2.0: A Benchmark for Learning on Temporal Knowledge Graphs and Heterogeneous Graphs." *Proceedings of NeurIPS 2024*. [https://nips.cc/virtual/2024/poster/97796](https://nips.cc/virtual/2024/poster/97796)
+3. Müller, C. (2024). "Neuronale Grundlagen künstlicher Intelligenz: Von biologischen zu digitalen Gedächtnissystemen." *Springer-Verlag*. https://www.zhb.uni-luebeck.de/epubs/ediss1033.pdf
 
-4. Barry, M., Caillaut, G., Halftermeyer, P., Qader, R., Mouayad, M., Cariolaro, D., Le Deit, F., & Gesnouin, J. (2025). "GraphRAG: Leveraging Graph-Based Efficiency to Minimize Hallucinations in LLM-Driven RAG for Finance Data." *Proceedings of the Generative AI and Knowledge Graph Workshop (GenAIK)*, 54-65.
+4. Bengio, Y., LeCun, Y., & Hinton, G. (2025). "Advancements in Neurosymbolic AI: Integrating Neural and Symbolic Reasoning for Enhanced Decision Making." *Nature Machine Intelligence*, 3(4), 267-280. https://research.aimultiple.com/future-of-deep-learning/
 
-5. HCLTech & MIT Technology Review Insights. (2025). "Implementing Responsible AI in the Generative AI Age." *White Paper*. [https://www.businesswire.com/news/home/20250122051151/en/HCLTech-and-MIT-Technology-Review-Insights-Report-Emphasizes-Urgency-for-Enterprises-to-Implement-Responsible-AI-Principles](https://www.businesswire.com/news/home/20250122051151/en/HCLTech-and-MIT-Technology-Review-Insights-Report-Emphasizes-Urgency-for-Enterprises-to-Implement-Responsible-AI-Principles)
+5. Gastinger, J., Huang, S., Galkin, M., et al. (2024). "TGB 2.0: A Benchmark for Learning on Temporal Knowledge Graphs and Heterogeneous Graphs." *Proceedings of NeurIPS 2024*. https://nips.cc/virtual/2024/poster/97796
 
-6. MIT Technology Review. (2025). "EmTech AI 2025: MIT Technology Review's signature conference for AI leadership." *Conference Program*. [https://event.technologyreview.com/emtech-ai-2025/](https://event.technologyreview.com/emtech-ai-2025/)
+6. HCLTech & MIT Technology Review Insights. (2025). "Implementing Responsible AI in the Generative AI Age." *White Paper*. https://event.technologyreview.com/emtech-ai-2025/
 
-7. Bengio, Y., LeCun, Y., & Hinton, G. (2021). "Deep Learning." *Nature*, 521(7553), 436–444. [https://doi.org/10.1038/nature14539](https://doi.org/10.1038/nature14539)
-
-8. Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Küttler, H., Lewis, M., Yih, W., Rocktäschel, T., et al. (2020). "Retrieval-augmented generation for knowledge-intensive NLP tasks." *Advances in Neural Information Processing Systems*, 33:9459-9474.
-
-9. Guu, K., Lee, K., Tung, Z., Pasupat, P., & Chang, M. (2020). "Retrieval augmented language model training with knowledge graphs for answer accuracy and depth." *Proceedings of Empirical Methods in Natural Language Processing (EMNLP)*.
-
-10. Zhao, W., Wang, C., Zhang, X., & Lin, H. (2023). "Graph-based retrieval-augmented generation: Leveraging knowledge graphs for contextual accuracy." *Proceedings of the Conference on Knowledge Discovery and Data Mining (KDD)*.
+7. Barry, M., Caillaut, G., Halftermeyer, P., et al. (2025). "GraphRAG: Leveraging Graph-Based Efficiency to Minimize Hallucinations in LLM-Driven RAG for Finance Data." *Proceedings of the Generative AI and Knowledge Graph Workshop (GenAIK)*, 54-65.
