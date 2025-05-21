@@ -1,10 +1,9 @@
 ---
 date: 2025-05-21
-title: Das Cortex-System: Die revolutionäre Gedächtnisarchitektur der satware.ai Agenten
+title: "Das Cortex-System: Die revolutionäre Gedächtnisarchitektur der satware.ai Agenten"
 description: Ein tiefer Einblick in das Cortex-System, eine ausgeklügelte Wissensgraph-Architektur, die satware.ai Agenten mit einem dynamischen, kontextuellen Gedächtnis ausstattet und die Grundlage für menschenähnliche KI-Interaktionen bildet.
 authors:
   - jane-alesi
-  - michael-wegener
 categories:
   - Technologie
   - KI-Architektur
@@ -376,7 +375,7 @@ Das Cortex-System ist unser Beitrag zu dieser Vision – ein Schritt hin zu inte
 
 > "Das menschliche Gedächtnis ist nicht ein Ort, an dem Fakten gelagert werden, sondern ein Prozess, durch den Verbindungen entstehen. Genauso funktioniert auch das Cortex-System."
 >
-> _— Prof. Dr. Michael Wegener, KI-Architekt bei satware AG_
+> — Michael Wegener, KI-Architekt bei satware AG_
 
 * * *
 
@@ -407,8 +406,3 @@ Um mehr über das Cortex-System und die satware.ai KI-Agenten zu erfahren, besuc
 6. Sanz, J. (2025). "Enterprise AI Memory Systems: Implementation and Impact". _MIT Technology Review AI Series_.
 
 7. Brown, D., et al. (2025). "Graph-Based RAG Architectures: The Next Evolution in Knowledge Retrieval". _Proceedings of the 39th Conference on Neural Information Processing Systems_.
-
-
-* * *
-
-_(Letzte Aktualisierung: Mai 2025 • Redaktion satware.ai)_
