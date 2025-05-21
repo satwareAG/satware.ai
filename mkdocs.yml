@@ -46,7 +46,6 @@ theme:
     - toc.follow
 
 
-
   #font:
     # text: Roboto
     #code: Roboto Mono
@@ -147,8 +146,8 @@ extra:
 
   #cards:
   #  font:
-  #    text: Assistant
-   #   code: Assistant
+  #     text: Assistant
+   #     code: Assistant
   #  cards_layout_options:
   #    background_color: "#000"
 
@@ -165,6 +164,7 @@ extra_javascript:
   - assets/js/testimonials.js
   - assets/js/wcag.js
   - assets/js/lightbox.js
+  - javascripts/fix-category-links.js
 
 
 # Navigation
