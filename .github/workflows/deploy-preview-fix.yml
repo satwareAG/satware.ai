@@ -1,6 +1,7 @@
 name: Preview Deployment (Fix)
 
 on:
+  workflow_dispatch:  # Ermöglicht manuelles Starten
   push:
     branches:
       - 'blog/**'

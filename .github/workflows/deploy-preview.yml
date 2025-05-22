@@ -1,6 +1,7 @@
 name: Preview Deployment
 
 on:
+  workflow_dispatch:  # Ermöglicht manuelles Starten
   push:
     branches:
       - 'feature/**'  # Triggers only on pushes to branches containing '/'
