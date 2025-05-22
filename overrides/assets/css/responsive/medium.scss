@@ -50,7 +50,7 @@
     }
     &:after {
       content: "\f002";
-      font-family: 'Font Awesome 6 Pro';
+      font-family: 'Font Awesome 6 Pro', sans-serif;
       font-weight: 100;
       font-size: 1rem;
     }
@@ -93,4 +93,74 @@
 
 
 
+}
+
+
+// Fix for iPad and tablet devices in landscape orientation
+@media (min-width: 768px) and (max-width: 1220px) {
+  // Ensure logo is visible
+  .md-header__button.md-logo {
+    display: block !important;
+    visibility: visible !important;
+  }
+
+  .md-header__mobile-logo{
+    display: none !important;
+  }
+
+  // Make sure navigation elements remain visible
+  .md-header-nav,
+  .md-header__inner,
+  .md-tabs,
+  .md-header__title,
+  .md-tabs__list {
+    display: flex !important;
+    visibility: visible !important;
+  }
+
+  .md-header{
+    .md-grid{
+      padding: 0 6rem !important;
+      width: 100% !important;
+    }
+  }
+
+  // Ensure proper layout and spacing
+  .md-header__inner {
+    justify-content: space-between;
+    padding: 0 0.2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  // Make navigation width match content width
+  .md-tabs {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  // Adjust font sizes for better fit in this viewport range
+  .md-header__title {
+    font-size: 0.9rem;
+  }
+
+  .md-tabs__link {
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+  }
+
+  .md-header__button.md-logo {
+    padding: 2.2rem 0;
+  }
+
+  // Hide hamburger menu for this range to prevent conflicts
+  .md-header__button[for="__drawer"] {
+    display: none !important;
+  }
+
+  body .md-grid .md-content {
+    padding: 0 4rem;
+  }
 }
