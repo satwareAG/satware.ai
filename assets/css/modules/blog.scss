@@ -1,0 +1,51 @@
+// Blog styling
+
+// Author styling in blog posts
+.md-post__authors.md-typeset {
+  font-size: 1.3rem; // Match the general text size of the website
+
+  // General author styling
+  .md-author {
+    img {
+      // Make the author image significantly larger
+      width: 3.5rem; // Much larger than default
+      height: 3.5rem; // Maintain aspect ratio
+      border-radius: 50%; // Keep the circular shape
+    }
+  }
+
+  // Long author format (used in blog post sidebar)
+  .md-author--long {
+    img {
+      width: 4rem; // Even larger for the long format
+      height: 4rem; // Maintain aspect ratio
+    }
+  }
+
+  // Author profile description
+  .md-profile__description {
+    font-size: 1.3rem; // Match the general text size of the website
+    line-height: 1.6; // Improve readability
+  }
+
+  // Profile container
+  .md-profile.md-post__profile {
+    margin-bottom: 1rem; // Add some spacing between multiple authors
+  }
+}
+
+// Blog sidebar styling - make all text in the sidebar 80% of the normal size
+.md-sidebar__inner.md-post {
+  font-size: 80%; // Set font size to 80% of the parent element
+
+  // Ensure all child elements inherit the font size
+  * {
+    font-size: inherit;
+  }
+
+  // Override specific font sizes that were previously set
+  .md-post__authors.md-typeset,
+  .md-profile__description {
+    font-size: inherit;
+  }
+}

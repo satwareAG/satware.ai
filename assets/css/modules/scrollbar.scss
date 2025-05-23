@@ -1,0 +1,45 @@
+// Scrollbar styling
+
+// Selection color
+::-moz-selection {
+  background: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+::selection {
+  background: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+// Scrollbar width
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d0d0d0;
+  border-radius: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--md-primary-fg-color);
+}
+
+// Scrollwrap for search
+.md-search__scrollwrap {
+  tabindex: 0; /* Macht das Element fokussierbar */
+}
+
+// Back to top button
+.md-top {
+  border-radius: 0;
+  top: 4vh !important;
+  font-size: 100%;
+  padding: 0.8rem 1rem;
+
+  svg {
+    vertical-align: -.15rem;
+  }
+}

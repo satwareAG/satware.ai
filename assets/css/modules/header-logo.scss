@@ -1,0 +1,37 @@
+// Header logo and title styling
+
+// Seitentitel ausblenden
+.md-header__title {
+  .md-header__topic {
+    // Der erste Eintrag (Seitenname) wird ausgeblendet
+    &:first-child {
+      display: none;
+    }
+  }
+}
+
+// Logo vergrößern
+.md-header__button.md-logo {
+  padding: 2.2rem;
+  //padding-left: 0.5rem;
+
+  img, svg {
+    width: 325px; // Größeres Logo (Standardwert ist 40px)
+    height: auto;
+  }
+}
+
+// Mobile logo ausblenden in Desktop-Ansicht
+.md-header__mobile-logo {
+  display: none; // Wird in der mobilen Ansicht überschrieben
+}
+
+// Navigationsleiste anpassen
+.md-header {
+  height: auto;
+
+  &__inner {
+    padding: 0.5rem;
+    max-width: 98%;
+  }
+}

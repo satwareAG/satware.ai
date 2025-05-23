@@ -1,0 +1,44 @@
+// Search functionality styling
+
+// Search form
+.md-search__form {
+  input::placeholder {
+    color: #fff !important;
+  }
+
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+// Search input
+.md-search__input {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 400;
+  opacity: 1;
+  color: #fff;
+}
+
+// Search results meta
+.md-search-result__meta {
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 400;
+  opacity: 1;
+  color: #fff;
+}
+
+// Hide search suggestions when search is active
+[data-md-toggle=search]:checked ~ .md-header .md-search__suggest {
+  opacity: 0;
+}
+
+// Social links
+.md-social__link {
+  display: inline-block;
+  height: 1rem;
+  text-align: center;
+  width: 1rem;
+}

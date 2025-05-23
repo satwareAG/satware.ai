@@ -1,0 +1,32 @@
+// Base HTML and root settings
+
+html {
+  font-size: 100% !important;
+}
+
+:root {
+  --md-text-font: "Assistant";
+  --md-code-font: "Assistant";
+}
+
+// Transition mixin for reuse
+@mixin transition {
+  transition: all 0.5s ease;
+}
+
+// General layout settings
+.md-grid {
+  max-width: 1200px;
+}
+
+.satag--padding-container {
+  padding: 4rem 0;
+}
+
+.satag-trademark {
+  text-transform: lowercase;
+}
+
+strong{
+  font-weight: bold;
+}

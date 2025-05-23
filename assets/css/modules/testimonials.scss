@@ -1,0 +1,330 @@
+// Testimonials Section
+.satag--home-testimonials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  overflow-x: hidden; // Prevent horizontal scrolling
+  box-sizing: border-box; // Include padding in width calculation
+  width: 100%;
+
+  h2 {
+    text-align: left;
+    margin-bottom: 3rem;
+    margin-top: 0;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit; // Ensure all children inherit box-sizing
+  }
+}
+
+.satag--home-testimonials {
+  display: flex;
+  flex-direction: column;
+  //gap: 2rem;
+  gap: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; // Prevent horizontal scrolling
+  min-height: 25rem;
+
+  @media (min-width: 1201px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+// Text-Container (links)
+.satag--home-testimonials-text-container {
+  flex: 1;
+  position: relative;
+  min-height: 250px;
+
+  @media (min-width: 1201px) {
+    flex: 0 0 60%;
+  }
+
+  @media (max-width: 1200px) {
+    min-height: 20rem; // Mehr Platz für den Text auf mobilen Geräten
+  }
+}
+
+.satag--home-testimonials-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  blockquote {
+    font-style: normal;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    border-left: none !important;
+    padding-left: 0 !important;
+
+    @media (max-width: 1200px) {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-top: 70px; // Platz für das Logo über dem Text
+
+
+
+    }
+
+    @media (max-width: 767px) {
+      font-size: 1rem; // Etwas kleinere Schrift auf mobilen Geräten
+      line-height: 1.5;
+    }
+  }
+}
+
+.satag--home-testimonial-author {
+  margin-top: 1rem;
+
+  @media (max-width: 1200px) {
+    margin-top: 1.5rem; // Mehr Abstand nach oben auf Tablets und mobilen Geräten
+    margin-bottom: 2rem; // Mehr Abstand nach unten auf Tablets und mobilen Geräten
+
+  }
+}
+
+.satag--home-testimonial-text-logo {
+  max-width: 120px !important;
+  filter: grayscale(1);
+
+  @media (max-width: 1200px) {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100px !important; // Kleineres Logo
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 80px !important; // Noch kleineres Logo für mobile Geräte
+  }
+}
+
+.satag--home-testimonial-name {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+
+  @media (max-width: 1200px) {
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+.satag--home-testimonial-title {
+  font-size: 0.9rem;
+  color: #666;
+
+  @media (max-width: 1200px) {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+}
+
+// Bilder-Container (rechts)
+.satag--home-testimonials-images {
+  display: flex;
+  gap: 0.5rem; // Increased gap for better spacing between larger images
+  justify-content: center;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden; // Ensure no overflow
+
+  @media (min-width: 1201px) {
+    flex: 0 0 40%; // Increased from 35% to 40% to accommodate larger images
+    justify-content: flex-end;
+  }
+
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap; // Allow wrapping to create grid-like layout
+    overflow-x: hidden; // Prevent horizontal scrolling
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    justify-content: center; // Center on smaller screens
+    gap: 0.5rem; // Add gap between grid items
+  }
+}
+
+.satag--home-testimonial-image-wrapper {
+  position: relative;
+  width: 130px; // Increased width for desktop
+  height: auto; // Further reduced height for desktop
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  border-radius: 10px; // Add rounded corners
+  box-sizing: border-box; // Include border in width calculation
+  flex: 0 0 auto; // Prevent flex items from growing or shrinking
+  margin: 0.5rem; // Add more space between images
+
+  img {
+    filter: grayscale(1);
+    max-width: 100%; // Ensure image doesn't exceed container width
+  }
+
+  &.active {
+    opacity: 1;
+    border-color: var(--md-primary-fg-color, #9c27b0);
+    transform: scale(1.01); // Subtle scale for visibility without overflow
+    transform-origin: center; // Ensure scaling happens from center
+    img {
+      filter: grayscale(0);
+    }
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @media (max-width: 1200px) {
+    width: 80px; // Further reduced width for tablets
+    height: auto; // Further reduced height for tablets
+    margin: 0; // Remove margin as we're using gap in the parent
+    transform-origin: center; // Ensure scaling happens from center
+    flex: 0 0 calc(33.333% - 0.5rem); // Create a 3-column grid layout
+    max-width: calc(33.333% - 0.5rem); // Ensure consistent sizing
+    display: flex; // Make it a flex container
+    justify-content: center; // Center content horizontally
+    align-items: center; // Center content vertically
+  }
+
+  @media (max-width: 767px) {
+    width: 70px; // Further reduced width for mobile
+    height: auto; // Further reduced height for mobile
+    margin: 0; // Remove margin as we're using gap in the parent
+    flex: 0 0 calc(50% - 0.5rem); // Create a 2-column grid layout for smaller screens
+    max-width: calc(50% - 0.5rem); // Ensure consistent sizing
+  }
+
+  @media (max-width: 480px) {
+    width: 60px; // Further reduced width for very small screens
+    height: auto; // Further reduced height for very small screens
+    //flex: 0 0 calc(50% - 0.5rem); // Maintain 2-column grid layout for very small screens
+    //max-width: calc(50% - 0.5rem); // Ensure consistent sizing
+    flex: 0 0 calc(35% - 1rem);
+    max-width: calc(35% - 1rem);
+
+
+  }
+}
+
+.satag--home-testimonial-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%; // Ensure image doesn't exceed container width
+}
+
+.satag--home-testimonial-logo {
+  display: none;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  filter: grayscale(1);
+  border-radius: 50%;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  //display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; // Include padding in width calculation
+  overflow: hidden; // Prevent content from extending beyond container
+
+  img {
+    max-width: 100%; // Ensure image doesn't exceed container width
+    width: auto;
+    height: auto;
+  }
+
+  @media (max-width: 1200px) {
+    bottom: 20px;
+    width: 35px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.3);
+
+    img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    bottom: 15px; // Näher am unteren Rand
+    width: 30px; // Etwas kleiner
+    height: 30px; // Etwas kleiner
+    background: rgba(0, 0, 0, 0.5); // Halbdurchsichtiger Hintergrund für bessere Sichtbarkeit
+
+    img {
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+// Responsive Anpassungen
+@media (max-width: 1200px) {
+  // Verbessertes Layout für Tablets und mobile Geräte
+  .satag--home-testimonials-container {
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+// iPad specific adjustments (both portrait and landscape)
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .satag--home-testimonials {
+    overflow-x: hidden;
+  }
+
+  .satag--home-testimonials-images {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap; // Allow wrapping to create grid-like layout
+    justify-content: center;
+    overflow-x: hidden;
+    gap: 0.2rem; // Even smaller gap for iPad
+  }
+
+  .satag--home-testimonial-image-wrapper {
+    margin: 0; // Remove margin as we're using gap in the parent
+  }
+}
+
+@media (max-width: 767px) {
+  // Zusätzliche Anpassungen für kleinere mobile Geräte
+  .satag--home-testimonials-container {
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .satag--home-testimonials-text-container {
+    min-height: 35rem;
+  }
+}

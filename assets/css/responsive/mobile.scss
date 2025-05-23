@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+  .md-nav--primary .md-nav__title{
+    padding: 3rem 1rem !important;
+    img{
+      margin-top: -1.7rem !important;
+    }
+  }
+
+  /* Hide desktop logo in mobile view */
+  .md-header__button.md-logo {
+    display: none;
+  }
+
+  /* Show and style mobile logo */
+  .md-header__mobile-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+
+    img {
+      height: 1.8rem;
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  body{
+
+
+
+    .md-typeset .headerlink{
+      display: none;
+    }
+
+    .md-grid {
+      padding: 2rem;
+    }
+    .md-grid .md-content{
+      padding: 1rem;
+    }
+    .md-footer-container,
+    .md-footer-custom-links{
+      padding: 3rem;
+    }
+
+    .md-nav__link {
+      text-transform: uppercase;
+    }
+
+    .satag--home-companies{
+      width: 100vw !important;
+      left: 50% !important;
+      right: 50% !important;
+      margin-left: -50vw !important;
+      margin-right: -50vw !important;
+      padding: 3rem 2rem;
+    }
+
+    .md-typeset h1,
+    h1 {
+      font-size: 3rem;
+
+      &:after{
+        height: 7px;
+        width: 46px;
+        margin-top: .7rem;
+        margin-bottom: -0.2rem;
+      }
+
+    }
+
+    .md-typeset h2,
+    h2 {
+      font-size: 2rem;
+    }
+
+    .md-typeset h2,
+    h2 {
+      &:after{
+        margin-top: 5px;
+        margin-bottom: 1rem;
+        height: 5px;
+        width: 26px;
+      }
+    }
+
+    .team-agent-position{
+      margin: 1rem 0 0 0;
+    }
+
+  }
+}

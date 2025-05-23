@@ -1,0 +1,61 @@
+// Webinar form styling
+
+.satag--webinar-form-container {
+  #nextcloud-form {
+    width: 100%;
+    border: none;
+    min-height: 3600px;
+    transition: height .3s ease;
+    color-scheme: dark;
+
+    .ng-csp {
+      background-color: #000 !important;
+    }
+  }
+}
+
+// Webinar dates styling
+.satag--webinar-dates {
+  margin: 2rem 0;
+}
+
+.satag--webinar-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.satag--webinar-date {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+
+  i {
+    margin-right: 0.5rem;
+    width: 1rem;
+    text-align: center;
+  }
+}
+
+.satag--webinar-time {
+  margin-bottom: 0.5rem;
+  color: white;
+
+  i {
+    margin-right: 0.5rem;
+    width: 1rem;
+    text-align: center;
+  }
+}
+
+.satag--webinar-course {
+  margin-bottom: 0.25rem;
+}
+
+.satag--webinar-type {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}

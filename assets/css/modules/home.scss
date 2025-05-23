@@ -1,0 +1,170 @@
+.satag--home-landing{
+
+  @mixin ohne-balken{
+    h1,h2,h3,h4,h5,h6{
+      &:after{
+        display: none;
+      }
+    }
+  }
+
+  .satag--home-hero{
+
+    margin-top: 7rem;
+
+    .entry-text{
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      padding-bottom: 1.6rem;
+      padding-top: 1.6rem;
+    }
+
+    h1{
+      margin-bottom: 1.75rem;
+      text-align: left;
+      &:after{
+        height: 12px;
+        width: 85px;
+        margin-top: 1.3rem;
+        margin-bottom: -0.2rem;
+      }
+    }
+
+    .hero-buttons{
+      text-align: left;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .screenshot-container{
+      text-align: center;
+    }
+
+    img{
+      border: 1px solid var(--md-primary-fg-color--light);
+      width: 100%;
+    }
+  }
+
+  .satag--home-companies{
+
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    background-color: var(--md-primary-fg-color);
+
+    h2{
+      padding-bottom: 1rem;
+      max-width: 1200px;
+      text-align: left;
+      margin: 0 auto;
+    }
+
+    text-align: center;
+    .satag--home-companies-logo-container{
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 2rem;
+      flex-wrap: wrap; // Erlaubt Umbruch bei kleinen Bildschirmen
+
+      .satag--home-companies-logo{
+        flex: 0 0 25%;
+        img{
+          width: 80%;
+          float:left;
+        }
+      }
+
+      // Responsive Anpassung für die Logos
+      @media screen and (max-width: 768px) {
+        .satag--home-companies-logo {
+          flex: 0 0 50%; // 2 Logos pro Zeile
+          margin-bottom: 1rem;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .satag--home-companies-logo {
+          flex: 0 0 100%; // 1 Logo pro Zeile
+        }
+      }
+    }
+  }
+
+  .satag--home-counters{
+
+    width: 100%;
+
+    h2{
+      padding-bottom: 1rem;
+    }
+
+    @include ohne-balken;
+
+    text-align: left;
+    .satag--home-counters-container{
+      display: flex;
+      flex-wrap: wrap; // Erlaubt Umbruch bei kleinen Bildschirmen
+
+      .satag--home-counter{
+        flex: 1 0 auto;
+        display: block;
+        padding: 1rem;
+
+        .satag--home-counter-icon{
+          display: block;
+          font-size: 2rem;
+          color: var(--md-primary-fg-color--light);
+        }
+        .satag--home-counter-number{
+          display: block;
+          font-weight: 700;
+          font-size: 3rem;
+          line-height: 1.6;
+        }
+      }
+
+      // Responsive Breakpoints für die Counter
+      @media screen and (max-width: 768px) {
+        .satag--home-counter {
+          flex: 0 0 50%; // 2 Counter pro Zeile
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .satag--home-counter {
+          flex: 0 0 100%; // 1 Counter pro Zeile
+        }
+      }
+    }
+  }
+}
+
+body{
+  &.home{
+
+    background-image: url('../images/home/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    backdrop-filter: brightness(0.4);
+    background-size: 60%;
+    background-position-y: 2rem;
+
+    .md-header, .md-tabs {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    // Responsive Anpassung für den Hintergrund
+    @media screen and (max-width: 768px) {
+      background-size: 100%;
+    }
+  }
+}

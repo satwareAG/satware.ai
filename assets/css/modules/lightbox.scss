@@ -1,0 +1,134 @@
+// Lightbox styling for the homepage screenshot
+
+// Lightbox container - positioned directly over the original image
+.satag-lightbox {
+  display: none;
+  position: fixed !important;
+  z-index: 9999; // Use a very high z-index to ensure it's above everything
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+
+  &.active {
+    display: flex;
+    opacity: 1;
+  }
+
+  // Close button - positioned in the top-right corner
+  .satag-lightbox-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1001;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+
+    &:hover {
+      color: var(--md-primary-fg-color--light);
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  }
+
+  // Lightbox image
+  .satag-lightbox-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border: 2px solid var(--md-primary-fg-color--light);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: scale(0.95);
+    transition: transform 0.4s ease;
+    display: block; // Ensure proper display
+    position: relative;
+  }
+
+  // Transform scale is now handled by JavaScript for better responsive control
+  // &.active .satag-lightbox-img {
+  //   transform: scale(1.3);
+  // }
+
+  // Responsive styles for medium screens (max-width: 1219px)
+  @media (max-width: 1219px) {
+    .satag-lightbox-close {
+      top: 5px;
+      right: 5px;
+      font-size: 22px;
+      width: 28px;
+      height: 28px;
+    }
+
+    .satag-lightbox-img {
+      border-width: 1px; // Thinner border
+    }
+  }
+
+  // Responsive styles for tablets and smaller devices (max-width: 959px)
+  @media (max-width: 959px) {
+    .satag-lightbox-close {
+      top: 3px;
+      right: 3px;
+      font-size: 20px;
+      width: 25px;
+      height: 25px;
+    }
+
+    .satag-lightbox-img {
+      border-width: 1px; // Thinner border
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.25); // Lighter shadow
+    }
+  }
+
+  // Responsive styles for mobile phones (max-width: 479px)
+  @media (max-width: 479px) {
+    .satag-lightbox-close {
+      top: 2px;
+      right: 2px;
+      font-size: 18px;
+      width: 22px;
+      height: 22px;
+    }
+
+    .satag-lightbox-img {
+      border-width: 1px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); // Lighter shadow
+    }
+  }
+}
+
+// Make the screenshot container image clickable only on screens > 768px
+.screenshot-container {
+  img {
+    transition: opacity 0.3s ease;
+
+    // Cursor styling is handled by JavaScript for better control
+    // Default cursor is used for screens <= 768px
+    // Pointer cursor is used for screens > 768px
+
+    // Hover effect only for screens > 768px
+    @media (min-width: 769px) {
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+// We want the lightbox to scroll with the page, so we don't need to prevent scrolling
+// body.lightbox-active {
+//   overflow: hidden;
+// }

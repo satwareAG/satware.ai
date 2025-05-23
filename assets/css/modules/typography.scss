@@ -1,0 +1,289 @@
+// Typography styling
+
+body {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 2rem;
+
+  .md-typeset,
+  .md-nav {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+
+  a {
+    color: #fff !important;
+  }
+}
+
+// Underline for headings
+h1, h2, h3 {
+  &:after {
+    content: "";
+    background: #fff;
+    position: relative;
+    display: block;
+    height: 12px;
+    width: 85px;
+    margin-top: 1.3rem;
+    margin-bottom: -0.2rem;
+  }
+}
+
+// H1 styling
+.md-typeset h1,
+h1 {
+  color: #fff;
+  margin-bottom: 1.75rem;
+  text-align: left;
+  font-size: 8rem;
+  line-height: 1.1;
+
+  a.headerlink {
+    display: none !important;
+  }
+}
+
+// H1 styling for blog articles
+.md-content--post h1 {
+  font-size: 4rem;
+}
+
+// H2 styling
+.md-typeset h2,
+h2 {
+  line-height: 3rem;
+  font-size: 2.7rem;
+
+  &:after {
+    margin-top: .6rem;
+    height: 7px;
+    width: 50px;
+  }
+}
+
+// H2 that looks like normal text (for first H2 in KI-Agenten subpages)
+.h2-as-text {
+  font-weight: 300;
+  font-size: 1.3rem !important;
+  line-height: 2rem !important;
+  text-transform: none !important;
+
+  &:after {
+    display: none !important;
+  }
+}
+
+// H3 styling
+.md-typeset h3,
+h3 {
+  font-size: 2.1rem;
+
+  &:after {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    height: 4px;
+    width: 33px;
+  }
+}
+
+// List styling
+.md-typeset ul {
+  list-style-type: none;
+  padding: 0 0 0 2rem;
+
+  li {
+    &:before {
+      content: "\f00c";
+      font-family: "Font Awesome 6 Pro";
+      font-style: normal;
+      font-weight: 400;
+      padding-right: 0.5rem;
+      color: var(--md-primary-fg-color);
+      margin-left: -1.5rem;
+    }
+  }
+}
+
+[dir=ltr] .md-typeset ul li {
+  margin-left: -1em;
+  margin-bottom: 0;
+}
+
+// Link styling
+a.headerlink {
+  color: var(--md-primary-fg-color) !important;
+}
+
+// Tooltip styling for MkDocs Material
+.md-tooltip {
+  // Increase the z-index to ensure tooltips appear above other elements
+  z-index: 999 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 0 !important; // Start with opacity 0
+  transition: opacity 0.3s ease !important; // Add transition for fade effect
+
+  // Style the tooltip content
+  .md-tooltip__inner {
+    font-size: 1.04rem !important; // 80% of normal font size (1.3rem)
+    padding: 0.8rem !important;
+    //margin-top: 0.5rem !important; // Add top spacing
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-radius: 4px !important;
+    color: white !important;
+    max-width: 300px !important;
+    white-space: normal !important;
+    transform: none !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+// When parent element is hovered for 1.5 seconds, show the tooltip
+*:hover > .md-tooltip,
+*:focus > .md-tooltip,
+*:hover ~ .md-tooltip,
+*:focus ~ .md-tooltip,
+*:hover + .md-tooltip,
+*:focus + .md-tooltip {
+  opacity: 1 !important;
+  transition-delay: 0s !important; // Remove delay when showing
+}
+
+// Global tooltip styling to ensure all tooltips are affected
+[data-md-tooltip],
+[data-md-tooltip]:before,
+[data-md-tooltip]:after,
+.md-tooltip:before,
+.md-tooltip:after,
+[class*="tooltip"],
+[class*="tooltip"]:before,
+[class*="tooltip"]:after {
+  font-size: 1.04rem !important; // 80% of normal font size (1.3rem)
+  //margin-top: 0.5rem !important; // Add top spacing
+  visibility: visible !important;
+  z-index: 9999 !important;
+  pointer-events: auto !important;
+  transition: opacity 0.3s ease !important; // Add transition for fade effect
+  opacity: 0 !important; // Start with opacity 0
+}
+
+// When parent element is hovered, show these tooltip elements
+*:hover > [data-md-tooltip],
+*:hover > [data-md-tooltip]:before,
+*:hover > [data-md-tooltip]:after,
+*:hover > .md-tooltip:before,
+*:hover > .md-tooltip:after,
+*:hover > [class*="tooltip"],
+*:hover > [class*="tooltip"]:before,
+*:hover > [class*="tooltip"]:after,
+*:hover ~ [data-md-tooltip],
+*:hover ~ [data-md-tooltip]:before,
+*:hover ~ [data-md-tooltip]:after,
+*:hover ~ .md-tooltip:before,
+*:hover ~ .md-tooltip:after,
+*:hover ~ [class*="tooltip"],
+*:hover ~ [class*="tooltip"]:before,
+*:hover ~ [class*="tooltip"]:after,
+*:hover + [data-md-tooltip],
+*:hover + [data-md-tooltip]:before,
+*:hover + [data-md-tooltip]:after,
+*:hover + .md-tooltip:before,
+*:hover + .md-tooltip:after,
+*:hover + [class*="tooltip"],
+*:hover + [class*="tooltip"]:before,
+*:hover + [class*="tooltip"]:after,
+*:focus > [data-md-tooltip],
+*:focus > [data-md-tooltip]:before,
+*:focus > [data-md-tooltip]:after,
+*:focus > .md-tooltip:before,
+*:focus > .md-tooltip:after,
+*:focus > [class*="tooltip"],
+*:focus > [class*="tooltip"]:before,
+*:focus > [class*="tooltip"]:after,
+*:focus ~ [data-md-tooltip],
+*:focus ~ [data-md-tooltip]:before,
+*:focus ~ [data-md-tooltip]:after,
+*:focus ~ .md-tooltip:before,
+*:focus ~ .md-tooltip:after,
+*:focus ~ [class*="tooltip"],
+*:focus ~ [class*="tooltip"]:before,
+*:focus ~ [class*="tooltip"]:after,
+*:focus + [data-md-tooltip],
+*:focus + [data-md-tooltip]:before,
+*:focus + [data-md-tooltip]:after,
+*:focus + .md-tooltip:before,
+*:focus + .md-tooltip:after,
+*:focus + [class*="tooltip"],
+*:focus + [class*="tooltip"]:before,
+*:focus + [class*="tooltip"]:after {
+  opacity: 1 !important;
+  transition-delay: 0s !important; // Remove delay when showing
+}
+
+// Direct link tooltip handling - ensure tooltips appear when hovering directly on links
+a[title] {
+  position: relative !important; // Ensure the link is a positioning context for the tooltip
+}
+
+a[title]::after {
+  content: attr(title);
+  position: absolute;
+  z-index: 999 !important;
+  display: block !important;
+  visibility: hidden !important; // Start hidden
+  opacity: 0 !important; // Start with opacity 0
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: white !important;
+  padding: 0.8rem !important;
+  border-radius: 4px !important;
+  font-size: 1.04rem !important;
+  max-width: 300px !important;
+  white-space: normal !important;
+  //margin-top: 0.5rem !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) !important;
+  pointer-events: none !important;
+  left: 0 !important; // Position at the left edge of the link
+  //bottom: 100% !important; // Position above the link
+  transform: translateY(-5px) !important; // Small offset for better appearance
+  transition: opacity 0.3s ease, visibility 0.3s ease !important; // Smooth transition
+}
+
+a[title]:hover::after,
+a[title]:focus::after {
+  visibility: visible !important; // Show on hover/focus
+  opacity: 1 !important; // Full opacity on hover/focus
+}
+
+// Hide tooltip when triggered by the logo
+.md-header__button.md-logo:hover + .md-tooltip,
+.md-header__button.md-logo:focus + .md-tooltip,
+.md-header__button.md-logo + .md-tooltip {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+// Hide source file info
+.md-source-file {
+  display: none;
+}
+
+// Code styling in search results
+.md-search-result .md-typeset {
+  color: #fff;
+}
+
+// Remove underline in search results
+.md-search-result__list {
+  h1, h2, h3, h4, h5, h6 {
+    &:after {
+      content: none;
+    }
+  }
+}
