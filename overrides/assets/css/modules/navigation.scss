@@ -132,3 +132,32 @@
   margin: 0 0 1.2rem;
   padding-top: .6rem;
 }
+
+// Add a small left padding to sub-navigation items and lists
+.md-nav__list .md-nav__list {
+  padding-left: 0.5rem;
+  margin-left: 0;
+}
+
+.md-nav__list .md-nav__list .md-nav__item {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+// Add a small left padding to sub-navigation links
+.md-nav__list .md-nav__list .md-nav__link {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+// Override Material theme's media query that adds padding to primary navigation
+@media screen and (min-width: 76.25em) {
+  [dir=ltr] .md-nav--primary .md-nav__list {
+    padding-left: 0;
+  }
+
+  // Ensure sub-navigation has consistent padding
+  [dir=ltr] .md-nav--primary .md-nav__list .md-nav__list {
+    padding-left: 0.5rem;
+  }
+}
