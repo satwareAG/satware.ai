@@ -16,12 +16,7 @@ Verschaffen Sie sich mit satware® AI den entscheidenden Wettbewerbsvorteil. In 
 ## Die nächsten Webinar-Termine
 
 <div class="satag--webinar-dates">
-  <div class="satag--webinar-item">
-    <div class="satag--webinar-date"><i class="fa-thin fa-calendar-days"></i> FR. 23.05.2025</div>
-    <div class="satag--webinar-time"><i class="fa-thin fa-clock"></i> 14:00 – 15:00 Uhr</div>
-    <div class="satag--webinar-course">chat.satware.ai Demo für Nutzer, Umsteiger & KI-Interessierte</div>
-    <div class="satag--webinar-type">Webinar</div>
-  </div>
+  
 
   <div class="satag--webinar-item">
     <div class="satag--webinar-date"><i class="fa-thin fa-calendar-days"></i> FR. 30.05.2025</div>
