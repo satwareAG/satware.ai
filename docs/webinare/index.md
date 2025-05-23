@@ -27,5 +27,5 @@ Verschaffen Sie sich mit satware® AI den entscheidenden Wettbewerbsvorteil. In 
 </div>
 
 <div class="satag--webinar-form-container" style="width: 100%; margin-top: 40px;">
-<iframe id="nextcloud-form" src="https://data.satware.com/apps/forms/embed/TFbCpzSJdEDzyAorS9p2mHDs" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+<iframe id="nextcloud-form" src="https://data.satware.com/apps/forms/embed/TFbCpzSJdEDzyAorS9p2mHDs" allowtransparency="true"></iframe>
 </div>
