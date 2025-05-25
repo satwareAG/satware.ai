@@ -54,7 +54,7 @@ Sequential Thinking implementiert einen völlig anderen Ansatz: Statt einer einz
 
 ### Technische Grundlagen
 
-Das **🧠 satware® AI Sequential-Think Plugin** basiert auf dem bewährten `@modelcontextprotocol/server-sequential-thinking` MCP-Server (Version 0.6.2), der über **36.637 wöchentliche Downloads** verfügt und mit einem **MIT-Lizenzmodell** optimale Flexibilität bietet.
+Das **🧠 satware® AI Sequential-Think Plugin** basiert auf dem bewährten `@modelcontextprotocol/server-sequential-thinking` MCP-Server (Version 0.6.2), der über **36.637 wöchentliche Downloads** verfügt und mit einem **MIT-Lizenzmodell** optimale Flexibilität bietet¹.
 
 **Kern-Architektur:**
 ```typescript
@@ -72,10 +72,10 @@ interface SequentialThinking {
 
 Die wissenschaftliche Evidenz für Sequential Thinking ist eindeutig:
 
-- **Bis zu 20-40% Verbesserung** der Reasoning-Genauigkeit bei komplexen Aufgaben (gemäß Chain-of-Thought Research)
-- **Bis zu 5× Reduktion** logischer Inkonsistenzen durch Selbstkorrektur
-- **Bis zu 3× verbesserte Stabilität** über verschiedene Aufgabentypen hinweg
-- **Bis zu 70% Reduktion des Rechenaufwands** bei gleichzeitig überlegener Performance (Inner Thinking Transformer, arXiv 2025)
+- **Bis zu 20-40% Verbesserung** der Reasoning-Genauigkeit bei komplexen Aufgaben (gemäß Chain-of-Thought Research)²
+- **Bis zu 5× Reduktion** logischer Inkonsistenzen durch Selbstkorrektur³
+- **Bis zu 3× verbesserte Stabilität** über verschiedene Aufgabentypen hinweg⁴
+- **Bis zu 70% Reduktion des Rechenaufwands** bei gleichzeitig überlegener Performance (Inner Thinking Transformer, arXiv 2025)⁵
 
 ```mermaid
 flowchart TD
@@ -147,10 +147,10 @@ Die Finanzmärkte sind komplex und dynamisch. Jede Analyse, von der Bewertung ei
 
 ### Systematische Analyse des "Sequence-of-Returns Risk"
 
-Ein kritischer Aspekt in der Investitionsstrategie, insbesondere in der Ruhestandsplanung, ist das **"Sequence-of-Returns Risk"**. Es beschreibt das Risiko, dass die **Reihenfolge der Kapitalmarktrenditen** (nicht die durchschnittliche Rendite) den langfristigen Erfolg eines Portfolios maßgeblich beeinflusst.
+Ein kritischer Aspekt in der Investitionsstrategie, insbesondere in der Ruhestandsplanung, ist das **"Sequence-of-Returns Risk"**⁶⁻⁸. Es beschreibt das Risiko, dass die **Reihenfolge der Kapitalmarktrenditen** (nicht die durchschnittliche Rendite) den langfristigen Erfolg eines Portfolios maßgeblich beeinflusst.
 
 **Warum die Reihenfolge analytisch relevant ist:**
-Wie Investopedia und Charles Schwab dokumentieren, können zwei Anleger mit identischen durchschnittlichen Renditen drastisch unterschiedliche Ergebnisse erzielen, abhängig vom Timing negativer Renditen. Frühe Verluste in Verbindung mit Entnahmen können das Portfolio irreversibel schädigen, da mehr Anteile zu niedrigeren Preisen verkauft werden müssen.
+Wie Investopedia und Charles Schwab dokumentieren⁶⁻⁸, können zwei Anleger mit identischen durchschnittlichen Renditen drastisch unterschiedliche Ergebnisse erzielen, abhängig vom Timing negativer Renditen. Frühe Verluste in Verbindung mit Entnahmen können das Portfolio irreversibel schädigen, da mehr Anteile zu niedrigeren Preisen verkauft werden müssen.
 
 ```mermaid
 graph LR
@@ -214,7 +214,7 @@ Als Rechts-AGI für deutsches, schweizerisches und EU-Recht habe ich den gesamte
 ✅ **Methodische Darstellung** statt konkreter Handlungsempfehlungen  
 ✅ **Transparente Kennzeichnung** als Informations- und Demonstrationszwecke  
 
-### Quellennachweis und Transparenz
+### Quellennachweise und Transparenz
 ✅ **Verifizierte externe Quellen** (NPM Registry, Investopedia, Charles Schwab)  
 ✅ **Tier-System Kennzeichnung** für Evidenzqualität  
 ✅ **Offenlegung des KI-Charakters** aller beteiligten Agenten  
@@ -251,15 +251,15 @@ npx -y @modelcontextprotocol/server-sequential-thinking
 ```typescript
 // Hauptfunktion des Sequential Thinking Plugins
 interface SequentialThinkingTool {
-  thought: string;                    // Aktueller Denkschritt
-  nextThoughtNeeded: boolean;         // Fortsetzung erforderlich?
-  thoughtNumber: number;              // Position im Denkprozess (≥1)
-  totalThoughts: number;              // Geschätzte Gesamtschritte
-  isRevision?: boolean;               // Revision früherer Schritte (default: false)
-  revisesThought?: number;            // Welcher Schritt wird überarbeitet
-  branchFromThought?: number;         // Verzweigungspunkt für alternative Wege
-  branchId?: string;                  // ID für Verfolgung paralleler Denkwege
-  needsMoreThoughts?: boolean;        // Dynamische Erweiterung der Denkschritte
+  thought: string;                      // Aktueller Denkschritt
+  nextThoughtNeeded: boolean;           // Fortsetzung erforderlich?
+  thoughtNumber: number;                // Position im Denkprozess (≥1)
+  totalThoughts: number;                // Geschätzte Gesamtschritte
+  isRevision?: boolean;                 // Revision früherer Schritte (default: false)
+  revisesThought?: number;              // Welcher Schritt wird überarbeitet
+  branchFromThought?: number;           // Verzweigungspunkt für alternative Wege
+  branchId?: string;                    // ID für Verfolgung paralleler Denkwege
+  needsMoreThoughts?: boolean;          // Dynamische Erweiterung der Denkschritte
 }
 ```
 
