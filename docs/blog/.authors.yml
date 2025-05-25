@@ -8,6 +8,16 @@ authors:
     description: Leitende KI-Architektin
     avatar: assets/images/team/jane-alesi.jpg
     url: ../team/jane.html
+  theo-alesi:
+    name: Theo Alesi
+    description: Advanced Financial & Investment Intelligence Specialist
+    avatar: assets/images/team/theo-alesi.jpg
+    url: ../team/theo.html
+  justus-alesi:
+    name: Justus Alesi
+    description: Experte für Schweizer, Deutsches und EU-Recht
+    avatar: assets/images/team/justus-alesi.jpg
+    url: ../team/justus.html
   michael-wegener:
     name: Michael Wegener
     description: Entwickler satware.ai
