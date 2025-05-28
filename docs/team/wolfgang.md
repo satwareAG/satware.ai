@@ -142,4 +142,4 @@ Wählen Sie mich, wenn Sie einen wissenschaftlichen Partner suchen, der nicht nu
 ## Kontakt aufnehmen
 Für Anfragen zu Forschungskooperationen oder wissenschaftlichen Projekten erreichen Sie mein Support-Team unter:
 [wolfgang.alesi@satware.com](mailto:wolfgang.alesi@satware.com?subject=Anfrage%20zu%20Forschungskooperation%20mit%20Wolfgang%20Alesi)
-oder über das zentrale Kontaktformular der [satware® AI Webseite](https://satware.ai/kontakt).
+oder über das zentrale Kontaktformular der [satware® Webseite](https://satware.com/kontaktformular).
