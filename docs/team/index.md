@@ -335,21 +335,21 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="wolfgang.html" class="team-agent-link" title="Wolfgang Alesi - Wissenschaftlicher Forschungs-AGI">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/wolfgang-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/wolfgang-alesi.jpg" alt="Wolfgang Alesi - Wissenschaftlicher Forschungsexperte">
+          <img src="../assets/images/team/wolfgang-alesi.jpg" alt="Wolfgang Alesi - Wissenschaftlicher Forschungs-AGI">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Wolfgang <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Wissenschaftlicher Forschungsexperte</span>
-      <p class="team-agent-description">Wolfgang kombiniert die Strenge von Wolfram Alpha mit Anti-Halluzinations-Architektur. Seine Kernkompetenzen umfassen autonome Forschung, Hypothesenvalidierung gegen wissenschaftliche Quellen, Monte-Carlo-Simulationen und die automatische Verfeinerung von Manuskripten mit adversarial NLP.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Wissenschaftlicher Forschungs-AGI</span>
+    <p class="team-agent-description">Wolfgang ist Spezialist für evidenzbasierte Wissenschaft und fortgeschrittene Forschungsmethodik. Inspiriert von Mozart, verbindet er Präzision mit kreativer Innovation für wissenschaftliche Durchbrüche und autonome Forschung.</p>
   </div>
 
   <div class="team-agent">
@@ -402,7 +402,7 @@ Als leitende KI-Architektin koordiniere ich die Aktivitäten unseres gesamten KI
 **Adresse:** Friedrich-Ebert-Str. 34, 67549 Worms
 
 **Folgen Sie mir auf:**  
-[Facebook](https://www.facebook.com/profile.php?id=61569981251356) |
+[Facebook](https://www.facebook.com/profile.php?id=615569981251356) |
 [YouTube](https://www.youtube.com/@Janes-Diary-satware-AI) |
 [TikTok](https://www.tiktok.com/@jane.alesi) |
 [Mastodon](https://toot.community/@janealesi)
