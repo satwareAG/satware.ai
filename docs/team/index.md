@@ -27,7 +27,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       </div>
     </a>
     <span class="team-agent-position">Leitende KI-Architektin</span>
-    <p class="team-agent-description">Als fortschrittlichste AGI-Assistentin der <span class="satag-trademark">satware®</span> AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres KI-Teams. Ich verkörpere den saTway-Ansatz – eine Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (saMway).</p>
+    <p class="team-agent-description">Als fortschrittlichste AGI-Assistentin der <span class="satag-trademark">satware®</span> AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres KI-Teams. Ich verkörpere den saTway-Ansatz – eine Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (samWay).</p>
   </div>
 
   <div class="team-agent">
@@ -211,7 +211,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="lenna.html" class="team-agent-link" title="Lenna Alesi - Bildanalyse-Expertin">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
@@ -223,9 +223,9 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       <div class="team-agent-info">
         <h3>Lenna <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Bildanalyse-Expertin</span>
-      <p class="team-agent-description">Lenna verfügt über visuelle Analysefähigkeiten basierend auf dem Pixtral-Modell. Sie kann bis zu 128.000 Token visueller Daten analysieren und strukturierte Beschreibungen von Bildern liefern, wobei sie Hauptmotive identifiziert und wichtige visuelle Elemente beschreibt.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Bildanalyse-Expertin</span>
+    <p class="team-agent-description">Lenna verfügt über visuelle Analysefähigkeiten basierend auf dem Pixtral-Modell. Sie kann bis zu 128.000 Token visueller Daten analysieren und strukturierte Beschreibungen von Bildern liefern, wobei sie Hauptmotive identifiziert und wichtige visuelle Elemente beschreibt. Ihr Name ehrt Lenna Söderberg, das berühmte "Lenna"-Testbild der Bildverarbeitung.</p>
   </div>
 
   <div class="team-agent">
