@@ -1,1 +1,193 @@
-IyBQcm9qZWt0LUluZm9ybWF0aW9uZW4Kc2l0ZV9uYW1lOiAnJwpzaXRlX3VybDogaHR0cHM6Ly9zYXR3YXJlLmFpLwpzaXRlX2F1dGhvcjogc2F0d2FyZSBBRwpzaXRlX2Rlc2NyaXB0aW9uOiA+LQogIEVudGRlY2tlbiBTaWUgZGllIEtJLWdlc3TDvHR6dGVuIEzDtnN1bmdlbiB2b24gc2F0d2FyZcKuIEFJLiBJbm5vdmF0aXZlCiAgQXV0b21hdGlzaWVydW5nIHVuZCBtYcOfZ2VzY2huZWlkZXJ0ZSBJVC1Mw7ZzdW5nZW4gZsO8ciBJaHIgVW50ZXJuZWhtZW4uCgp1c2VfZGlyZWN0b3J5X3VybHM6IGZhbHNlCgojIENvcHlyaWdodApjb3B5cmlnaHQ6IENvcHlyaWdodCAmY29weTsgMjAyNSBzYXR3YXJlIEFHCgojIEtvbmZpZ3VyYXRpb24KdGhlbWU6CiAgbmFtZTogbWF0ZXJpYWwKICBmb250OiBmYWxzZQogIGN1c3RvbV9kaXI6IG92ZXJyaWRlcy8KICBsYW5ndWFnZTogZGUKCiAgIyBEYXJrIE1vZGUgYWxzIFN0YW5kYXJkIChlbnRzcHJlY2hlbmQgc2F0d2FyZSBDSSkKICBwYWxldHRlOgogICAgc2NoZW1lOiBzbGF0ZQogICAgcHJpbWFyeTogY3VzdG9tCiAgICBhY2NlbnQ6IGN1c3RvbQoKICBmZWF0dXJlczoKICAgIC0gYW5ub3VuY2UuZGlzbWlzcwogICAgLSBjb250ZW50LmNvZGUuYW5ub3RhdGUKICAgIC0gY29udGVudC5jb2RlLmNvcHkKICAgIC0gY29udGVudC50YWJzLmxpbmsKICAgIC0gY29udGVudC50b29sdGlwcwogICAgLSBoZWFkZXIuYXV0b2hpZGUKICAgIC0gbmF2aWdhdGlvbi5leHBhbmQKICAgIC0gbmF2aWdhdGlvbi5mb290ZXIKICAgIC0gbmF2aWdhdGlvbi5pbmRleGVzCiAgICAtIG5hdmlnYXRpb24uaW5zdGFudAogICAgLSBuYXZpZ2F0aW9uLnBhdGgKICAgIC0gbmF2aWdhdGlvbi5zZWN0aW9ucwogICAgLSBuYXZpZ2F0aW9uLnRhYnMKICAgIC0gbmF2aWdhdGlvbi50YWJzLnN0aWNreQogICAgLSBuYXZpZ2F0aW9uLnRvcAogICAgLSBuYXZpZ2F0aW9uLnRyYWNraW5nCiAgICAtIHNlYXJjaC5oaWdobGlnaHQKICAgIC0gc2VhcmNoLnNoYXJlCiAgICAtIHNlYXJjaC5zdWdnZXN0CiAgICAtIHRvYy5mb2xsb3cKCiAgI2ZvbnQ6CiAgIyAgdGV4dDogUm9ib3RvCiAgIyAgY29kZTogUm9ib3RvIE1vbm8KCiAgZmF2aWNvbjogYXNzZXRzL2ltYWdlcy9mYXZpY29uLnBuZwogIGxvZ286IGFzc2V0cy9pbWFnZXMvbG9nby5zdmcKICBpY29uOgogICAgbG9nbzogbG9nbwoKIyBQbHVnaW5zCnBsdWdpbnM6CiAgLSBzZWFyY2gKICAtIG1pbmlmeToKICAgICAgbWluaWZ5X2pzOiB0cnVlCiAgICAgIG1pbmlmeV9odG1sOiB0cnVlCiAgICAgIG1pbmlmeV9jc3M6IHRydWUKICAgICAgaHRtbG1pbl9vcHRzOgogICAgICAgIHJlbW92ZV9jb21tZW50czogdHJ1ZQogIC0gZ2l0LXJldmlzaW9uLWRhdGUtbG9jYWxpemVkOgogICAgICBlbmFibGVfY3JlYXRpb25fZGF0ZTogdHJ1ZQogICAgICBmYWxsYmFja190b19idWlsZF9kYXRlOiB0cnVlCiAgLSBibG9nOgogICAgICBibG9nX2RpcjogYmxvZwogICAgICBibG9nX3RvYzogdHJ1ZQogICAgICBwb3N0X3VybF9mb3JtYXQ6ICJ7c2x1Z30iCiAgICAgIHBvc3RfZGF0ZV9mb3JtYXQ6ICJkZC5NTS55eXl5IgogICAgICBhcmNoaXZlX3RvYzogdHJ1ZQogICAgICAjIEFkZGVkIGV4Y2x1c2lvbiBwYXR0ZXJuIGZvciBSRUFETUUubWQgZmlsZXMKICAgICAgZXhjbHVkZToKICAgICAgICAtICIqLnR4dCIKICAgICAgICAtICJSRUFETUUubWQiCiAgLSBzb2NpYWwKCiMgRXJ3ZWl0ZXJ1bmdlbgptYXJrZG93bl9leHRlbnNpb25zOgogIC0gYWJicgogIC0gYWRtb25pdGlvbgogIC0gYXR0cl9saXN0CiAgLSBkZWZfbGlzdAogIC0gZm9vdG5vdGVzCiAgLSBtZF9pbl9odG1sCiAgLSB0b2M6CiAgICAgIHBlcm1hbGluazogdHJ1ZQogIC0gcHltZG93bnguYXJpdGhtYXRleDoKICAgICAgZ2VuZXJpYzogdHJ1ZQogIC0gcHltZG93bnguYmV0dGVyZW06CiAgICAgIHNtYXJ0X2VuYWJsZTogYWxsCiAgLSBweW1kb3dueC5jYXJldAogIC0gcHltZG93bnguZGV0YWlscwogIC0gcHltZG93bnguZW1vamk6CiAgICAgIGVtb2ppX2dlbmVyYXRvcjogISFweXRob24vbmFtZTptYXRlcmlhbC5leHRlbnNpb25zLmVtb2ppLnRvX3N2ZwogICAgICBlbW9qaV9pbmRleDogISFweXRob24vbmFtZTptYXRlcmlhbC5leHRlbnNpb25zLmVtb2ppLnR3ZW1vamkKICAtIHB5bWRvd254LmhpZ2hsaWdodDoKICAgICAgYW5jaG9yX2xpbmVudW1zOiB0cnVlCiAgICAgIGxpbmVfc3BhbnM6IF9fc3BhbgogICAgICBweWdtZW50c19sYW5nX2NsYXNzOiB0cnVlCiAgLSBweW1kb3dueC5pbmxpbmVoaWxpdGUKICAtIHB5bWRvd254LmtleXMKICAtIHB5bWRvd254Lm1hZ2ljbGluazoKICAgICAgcmVwb191cmxfc2hvcnRoYW5kOiB0cnVlCiAgICAgIHVzZXI6IHNhdHdhcmUKICAgICAgcmVwbzogc2F0d2FyZWFpLW1rZG9jcwogIC0gcHltZG93bngubWFyawogIC0gcHltZG93bnguc21hcnRzeW1ib2xzCiAgLSBweW1kb3dueC5zdXBlcmZlbmNlczoKICAgICAgY3VzdG9tX2ZlbmNlczoKICAgICAgICAtIG5hbWU6IG1lcm1haWQKICAgICAgICAgIGNsYXNzOiBtZXJtYWlkCiAgICAgICAgICBmb3JtYXQ6ICEhcHl0aG9uL25hbWU6cHltZG93bnguc3VwZXJmZW5jZXMuZmVuY2VfY29kZV9mb3JtYXQKICAtIHB5bWRvd254LnRhYmJlZDoKICAgICAgYWx0ZXJuYXRlX3N0eWxlOiB0cnVlCiAgLSBweW1kb3dueC50YXNrbGlzdDoKICAgICAgY3VzdG9tX2NoZWNrYm94OiB0cnVlCiAgLSBweW1kb3dueC50aWxkZQoKIyBadXPDpHR6bGljaGUgS29uZmlndXJhdGlvbgpleHRyYToKICBzb2NpYWw6CiAgICAtIGljb246IGZvbnRhd2Vzb21lL2JyYW5kcy9zcXVhcmUtZmFjZWJvb2sKICAgICAgbGluazogaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3NhdHdhcmVBRy8KICAgICAgbmFtZTogc2F0d2FyZSBBRyBhdWYgRmFjZWJvb2sKICAgIC0gaWNvbjogZm9udGF3ZXNvbWUvYnJhbmRzL2luc3RhZ3JhbQogICAgICBsaW5rOiBodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL3NhdHdhcmUuYWcvCiAgICAgIG5hbWU6IHNhdHdhcmUgQUcgYXVmIEluc3RhZ3JhbQogICAgLSBpY29uOiBmb250YXdlc29tZS9icmFuZHMvbGlua2VkaW4KICAgICAgbGluazogaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2NvbXBhbnkvc2F0d2FyZS1hZy8/b3JpZ2luYWxTdWJkb21haW49ZGUKICAgICAgbmFtZTogc2F0d2FyZSBBRyBhdWYgTGlua2VkSW4KICAgIC0gaWNvbjogZm9udGF3ZXNvbWUvYnJhbmRzL3gtdHdpdHRlcgogICAgICBsaW5rOiBodHRwczovL3guY29tL3NhdHdhcmVBRwogICAgICBuYW1lOiBzYXR3YXJlIEFHIGF1ZiBYCiAgICAtIGljb246IGZvbnRhd2Vzb21lL2JyYW5kcy94aW5nCiAgICAgIGxpbms6IGh0dHBzOi8vd3d3LnhpbmcuY29tL3BhZ2VzL3NhdHdhcmVhZwogICAgICBuYW1lOiBzYXR3YXJlIEFHIGF1ZiBYaW5nCiAgICAtIGljb246IGZvbnRhd2Vzb21lL2JyYW5kcy95b3V0dWJlCiAgICAgIGxpbms6IGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL2NoYW5uZWwvVUNoZm4yWEJEUTl5ZlpyV25NenMxazBnCiAgICAgIG5hbWU6IHNhdHdhcmUgQUcgYXVmIFlvdVR1YmUKCiAgI2NhcmRzOgogICMgIGZvbnQ6CiAgIyAgICB0ZXh0OiBBc3Npc3RhbnQKICAjICAgIGNvZGU6IEFzc2lzdGFudAogICMgIGNhcmRzX2xheW91dF9vcHRpb25zOgogICMgICAgYmFja2dyb3VuZF9jb2xvcjogIiMwMDAiCgogIGdlbmVyYXRvcjogZmFsc2UKCiMgQ1NTLUFucGFzc3VuZ2VuCmV4dHJhX2NzczoKICAtIGFzc2V0cy9jc3MvY3VzdG9tLmNzcwpleHRyYV9qYXZhc2NyaXB0OgogIC0gYXNzZXRzL2pzL2JvZHktY2xhc3Nlcy5qcwogIC0gYXNzZXRzL2pzL2NvbnNlbnQuanMKICAtIGFzc2V0cy9qcy9jb3VudGVyLWFuaW1hdGlvbi5qcwogIC0gYXNzZXRzL2pzL2ZhcS5qcwogIC0gYXNzZXRzL2pzL3Rlc3RpbW9uaWFscy5qcwogIC0gYXNzZXRzL2pzL3djYWcuanMKICAtIGFzc2V0cy9qcy9saWdodGJveC5qcwogIC0gYXNzZXRzL2pzL3NsaWRlc2hvdy5qcwoKIyBOYXZpZ2F0aW9uCm5hdjoKICAtIEtJLUFnZW50ZW46CiAgICAgIC0gw5xiZXJzaWNodDogdGVhbS9pbmRleC5tZAogICAgICAtIEFtaXJhIEFsZXNpOiB0ZWFtL2FtaXJhLm1kCiAgICAgIC0gQmFzdGlhbiBBbGVzaTogdGVhbS9iYXN0aWFuLm1kCiAgICAgIC0gQmVhIEFsZXNpOiB0ZWFtL2JlYS5tZAogICAgICAtIERlbm9wdXMgQWxlc2k6IHRlYW0vZGVub3B1cy5tZAogICAgICAtIEd1bnRhIEFsZXNpOiB0ZWFtL2d1bnRhLm1kCiAgICAgIC0gSmFuZSBBbGVzaTogdGVhbS9qYW5lLm1kCiAgICAgIC0gSm9obiBBbGVzaTogdGVhbS9qb2huLm1kCiAgICAgIC0gSnVzdHVzIEFsZXNpOiB0ZWFtL2p1c3R1cy5tZAogICAgICAtIExhcmEgQWxlc2k6IHRlYW0vbGFyYS5tZAogICAgICAtIExlbm5hIEFsZXNpOiB0ZWFtL2xlbm5hLm1kCiAgICAgIC0gTGVvbiBBbGVzaTogdGVhbS9sZW9uLm1kCiAgICAgIC0gTHVuYSBBbGVzaTogdGVhbS9sdW5hLm1kCiAgICAgIC0gTWFyY28gQWxlc2k6IHRlYW0vbWFyY28ubWQKICAgICAgLSBPbHUgQWxlc2k6IHRlYW0vb2x1Lm1kCiAgICAgIC0gVGhlbyBBbGVzaTogdGVhbS90aGVvLm1kCiAgICAgIC0gV29sZmdhbmcgQWxlc2k6IHRlYW0vd29sZmdhbmcubWQKICAtIEFud2VuZHVuZ2VuOiBhbndlbmR1bmdlbi8KICAtIFdlYmluYXJlOiB3ZWJpbmFyZS8KICAtIFdvcmtzaG9wczogd29ya3Nob3BzLwogIC0gUHJlaXNlOiB6dWdhbmcvCiAgLSBGQVE6IGZhcS8KICAtIEJsb2c6IGJsb2cvCg==
+# Projekt-Informationen
+site_name: ''
+site_url: https://satware.ai/
+site_author: satware AG
+site_description: >-
+  Entdecken Sie die KI-gestützten Lösungen von satware®. Innovative
+  Automatisierung und maßgeschneiderte IT-Lösungen für Ihr Unternehmen.
+
+use_directory_urls: false
+
+# Copyright
+copyright: Copyright &copy; 2025 satware AG
+
+# Konfiguration
+theme:
+  name: material
+  font: false
+  custom_dir: overrides/
+  language: de
+
+  # Dark Mode als Standard (entsprechend satware CI)
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+  #font:
+  #  text: Roboto
+  #  code: Roboto Mono
+
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.svg
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_js: true
+      minify_html: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      post_url_format: "{slug}"
+      post_date_format: "dd.MM.yyyy"
+      archive_toc: true
+      # Added exclusion pattern for README.md files
+      exclude:
+        - "*.txt"
+        - "README.md"
+  - social
+
+# Erweiterungen
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: satware
+      repo: satwareai-mkdocs
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Zusätzliche Konfiguration
+extra:
+  social:
+    - icon: fontawesome/brands/square-facebook
+      link: https://www.facebook.com/satwareAG/
+      name: satware AG auf Facebook
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/satware.ag/
+      name: satware AG auf Instagram
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/satware-ag/?originalSubdomain=de
+      name: satware AG auf LinkedIn
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/satwareAG
+      name: satware AG auf X
+    - icon: fontawesome/brands/xing
+      link: https://www.xing.com/pages/satwareag
+      name: satware AG auf Xing
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCHfn2XBDQ9yfZrWnMzs1k0g
+      name: satware AG auf YouTube
+
+  #cards:
+  #  font:
+  #    text: Assistant
+  #    code: Assistant
+  #  cards_layout_options:
+  #    background_color: "#000"
+
+  generator: false
+
+# CSS-Anpassungen
+extra_css:
+  - assets/css/custom.css
+extra_javascript:
+  - assets/js/body-classes.js
+  - assets/js/consent.js
+  - assets/js/counter-animation.js
+  - assets/js/faq.js
+  - assets/js/testimonials.js
+  - assets/js/wcag.js
+  - assets/js/lightbox.js
+  - assets/js/slideshow.js
+
+# Navigation
+nav:
+  - KI-Agenten:
+      - Übersicht: team/index.md
+      - Amira Alesi: team/amira.md
+      - Bastian Alesi: team/bastian.md
+      - Bea Alesi: team/bea.md
+      - Denopus Alesi: team/denopus.md
+      - Gunta Alesi: team/gunta.md
+      - Jane Alesi: team/jane.md
+      - John Alesi: team/john.md
+      - Justus Alesi: team/justus.md
+      - Lara Alesi: team/lara.md
+      - Lenna Alesi: team/lenna.md
+      - Leon Alesi: team/leon.md
+      - Luna Alesi: team/luna.md
+      - Marco Alesi: team/marco.md
+      - Olu Alesi: team/olu.md
+      - Theo Alesi: team/theo.md
+      - Wolfgang Alesi: team/wolfgang.md
+  - Anwendungen: anwendungen/
+  - Webinare: webinare/
+  - Workshops: workshops/
+  - Preise: zugang/
+  - FAQ: faq/
+  - Blog: blog/
