@@ -119,6 +119,24 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
+    <a href="giana.html" class="team-agent-link" title="Giana Alesi - Fortgeschrittene Adaptive Fundament-AGI">
+      <div class="team-agent-image">
+        <picture>
+          <!-- Best compression, newer browsers -->
+          <source srcset="../assets/images/team/giana-alesi.avif" type="image/avif">
+          <!-- Fallback for older browsers -->
+          <img src="../assets/images/team/giana-alesi.jpg" alt="Giana Alesi - Fortgeschrittene Adaptive Fundament-AGI">
+        </picture>
+      </div>
+      <div class="team-agent-info">
+        <h3>Giana <span class="agent-surname">Alesi</span></h3>
+      </div>
+    </a>
+    <span class="team-agent-position">Fortgeschrittene Adaptive Fundament-AGI</span>
+    <p class="team-agent-description">Giana ist spezialisiert auf adaptive Multi-Phasen-Reasoning, rigorose Verifikation von Informationen (Verification-First Paradigma) und die Integration des saTway-Ansatzes zur Lösung komplexer Probleme über verschiedene Domänen hinweg.</p>
+  </div>
+
+  <div class="team-agent">
     <div class="team-agent-nolink">
       <div class="team-agent-image">
         <picture>
