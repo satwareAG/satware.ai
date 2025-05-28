@@ -45,8 +45,6 @@ theme:
     - search.suggest
     - toc.follow
 
-
-
   #font:
     # text: Roboto
     #code: Roboto Mono
@@ -166,7 +164,6 @@ extra_javascript:
   - assets/js/wcag.js
   - assets/js/lightbox.js
   - assets/js/slideshow.js
-
 
 # Navigation
 nav:
