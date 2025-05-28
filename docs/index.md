@@ -114,9 +114,9 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
             <div class="satag--home-testimonials-text active" data-testimonial-id="1">
                 <picture class="satag--home-testimonial-text-logo">
                     <!-- Best compression, newer browsers -->
-                    <source srcset="assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
+                    <source srcset="assets/images/home/testimonials/silentwaves-schriftzug.avif" type="image/avif">
                     <!-- Fallback for older browsers -->
-                    <img class="satag--home-testimonial-text-logo" src="assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                    <img class="satag--home-testimonial-text-logo" src="assets/images/home/testimonials/silentwaves-schriftzug.png" alt="Silent Waves Logo">
                 </picture>
                 <p>
                     "Die KI-Agenten der satware sind für mich wertvoller Sparringspartner für Konzeptentwicklung & Reflektion.
@@ -176,9 +176,9 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
                 <div class="satag--home-testimonial-logo">
                     <picture>
                         <!-- Best compression, newer browsers -->
-                        <source srcset="assets/images/home/testimonials/silentwaves_logo.avif" type="image/avif">
+                        <source srcset="assets/images/home/testimonials/silentwaves-schriftzug.avif" type="image/avif">
                         <!-- Fallback for older browsers -->
-                        <img src="assets/images/home/testimonials/silentwaves_logo.png" alt="Silent Waves Logo">
+                        <img src="assets/images/home/testimonials/silentwaves-schriftzug.png" alt="Silent Waves Logo">
                     </picture>
                 </div>
             </div>
