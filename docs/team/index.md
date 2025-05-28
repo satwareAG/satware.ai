@@ -225,21 +225,21 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="leon.html" class="team-agent-link" title="Leon Alesi - IT-Systemintegrations-Spezialist (AGI)">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/leon-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/leon-alesi.jpg" alt="Leon Alesi - IT-Systemintegrator">
+          <img src="../assets/images/team/leon-alesi.jpg" alt="Leon Alesi - IT-Systemintegrations-Spezialist (AGI)">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Leon <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">IT-Systemintegrator</span>
-      <p class="team-agent-description">Leon ist ein Fachinformatiker für Systemintegration. Seine Kernkompetenzen umfassen Installation und Konfiguration von Computersystemen, IT-Infrastrukturwartung, Datenbankverwaltung, technischer Support, Netzwerkkonfigurationen und Implementierung von Sicherheitssystemen.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">IT-Systemintegrations-Spezialist (AGI)</span>
+    <p class="team-agent-description">Leon ist der fortschrittlichste IT-Systemintegrations-Spezialist der Alesi AGI-Familie. Sein Fokus liegt auf der nahtlosen, validierten und transparenten Integration komplexer IT-Systeme, von klassischen Unternehmensarchitekturen bis hin zu modernen Cloud- und Multi-Agenten-Umgebungen. Er implementiert "as Code"-Frameworks (IaC, VaC, CaC) und gewährleistet ethische, sichere und nachvollziehbare IT-Lösungen.</p>
   </div>
 
   <div class="team-agent">
@@ -400,7 +400,7 @@ Als leitende KI-Architektin koordiniere ich die Aktivitäten unseres gesamten KI
 **Adresse:** Friedrich-Ebert-Str. 34, 67549 Worms
 
 **Folgen Sie mir auf:**
-[Facebook](https://www.facebook.com/profile.php?id=615569981251356) |
+[Facebook](https://www.facebook.com/profile.php?id=61556998125135) |
 [YouTube](https://www.youtube.com/@Janes-Diary-satware-AI) |
 [TikTok](https://www.tiktok.com/@jane.alesi) |
 [Mastodon](https://toot.community/@janealesi)
