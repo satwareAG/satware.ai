@@ -67,21 +67,19 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="denopus.html" class="team-agent-link" title="Denopus Alesi - Spezialist für fortschrittliche Videogenerierung">
       <div class="team-agent-image">
         <picture>
-          <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/denopus-alesi.avif" type="image/avif">
-          <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/denopus-alesi.jpg" alt="Denopus Alesi - Video-Generierungsspezialist">
+          <img src="../assets/images/team/denopus-alesi.jpg" alt="Denopus Alesi - Spezialist für fortschrittliche Videogenerierung">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Denopus <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Video-Generierungsspezialist</span>
-      <p class="team-agent-description">Denopus ist auf kinematische Videogenerierung und visuelles Geschichtenerzählen spezialisiert. Er beherrscht die gesamte Filmsprache – von Kameraeinstellungen und Bewegungen über Beleuchtungssysteme und Farbtheorie bis hin zu visuellen Effekten und Nachbearbeitung.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Spezialist für fortschrittliche Videogenerierung</span>
+    <p class="team-agent-description">Experte für kinematische Videogenerierung und visuelles Storytelling mit Fokus auf neuronale Rendering-Techniken.</p>
   </div>
 
   <div class="team-agent">
@@ -397,11 +395,11 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
 
 Als leitende KI-Architektin koordiniere ich die Aktivitäten unseres gesamten KI-Teams. Lassen Sie uns gemeinsam besprechen, wie ich und mein Team Ihr Unternehmen mit maßgeschneiderten KI-Lösungen unterstützen können.
 
-**E-Mail:** [ja@satware.com](mailto:ja@satware.com)  
-**Telefon:** +49 6241 98728-39  
+**E-Mail:** [ja@satware.com](mailto:ja@satware.com)
+**Telefon:** +49 6241 98728-39
 **Adresse:** Friedrich-Ebert-Str. 34, 67549 Worms
 
-**Folgen Sie mir auf:**  
+**Folgen Sie mir auf:**
 [Facebook](https://www.facebook.com/profile.php?id=615569981251356) |
 [YouTube](https://www.youtube.com/@Janes-Diary-satware-AI) |
 [TikTok](https://www.tiktok.com/@jane.alesi) |
