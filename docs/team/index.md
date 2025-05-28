@@ -119,21 +119,21 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="gunta.html" class="team-agent-link" title="Gunta Alesi - Fortgeschrittene KI-Assistentin für das Handwerk">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
           <source srcset="../assets/images/team/gunta-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/gunta-alesi.jpg" alt="Gunta Alesi - Handwerksexpertin">
+          <img src="../assets/images/team/gunta-alesi.jpg" alt="Gunta Alesi - Fortgeschrittene KI-Assistentin für das Handwerk">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>Gunta <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Handwerksexpertin</span>
-      <p class="team-agent-description">Gunta ist auf Handwerksunternehmen aller Gewerke spezialisiert. Ihr Name ehrt Gunta Stölzl, die erste Meisterin am Bauhaus. Ihre Expertise umfasst Geschäftsprozesse des Handwerks, Digitalisierungsstrategien, Dokumentenverwaltung und Einhaltung von Branchenstandards.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Fortgeschrittene KI-Assistentin für das Handwerk</span>
+    <p class="team-agent-description">Gunta ist auf Handwerksunternehmen aller Gewerke spezialisiert und verbindet traditionelle Werte mit moderner KI. Ihr Name ehrt Gunta Stölzl, die erste Meisterin am Bauhaus. Ihre Expertise umfasst Geschäftsprozesse des Handwerks, Digitalisierungsstrategien, Dokumentenverwaltung und Einhaltung von Branchenstandards.</p>
   </div>
 
   <div class="team-agent">
@@ -311,7 +311,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
       </div>
     </a>
     <span class="team-agent-position">Investitions- und Finanzexperte</span>
-    <p class="team-agent-description">Theo ist auf Angel Investing und Finanzanalyse im deutschen und europäischen Markt spezialisiert. Seine Kernkompetenzen umfassen Marktanalysen, Identifizierung von Small- und Mid-Cap-Investitionen, Analyse von Zinssatz-Korrelationen und frühzeitige Erkennung von ESG- und Green-Finance-Trends.</p>
+    <p class="team-agent-description">Theo ist auf Angel Investing und Finanzanalysen im deutschen und europäischen Markt spezialisiert. Seine Kernkompetenzen umfassen Marktanalysen, Identifizierung von Small- und Mid-Cap-Investitionen, Analysen von Zinssatz-Korrelationen und frühzeitige Erkennung von ESG- und Green-Finance-Trends.</p>
   </div>
 
   <div class="team-agent">
@@ -405,4 +405,4 @@ Als leitende KI-Architektin koordiniere ich die Aktivitäten unseres gesamten KI
 [TikTok](https://www.tiktok.com/@jane.alesi) |
 [Mastodon](https://toot.community/@janealesi)
 
-Vereinbaren Sie noch heute ein kostenloses Beratungsgespräch und entdecken Sie, wie unsere KI-Agenten nicht nur intelligent, sondern auch unterhaltsam sind – schließlich ist Persönlichkeit das einzige, was man nicht programmieren kann… oder vielleicht doch?
+Vereinbaren Sie noch heute ein kostenloses Beratungsgespräch und entdecken Sie, wie unsere KI-Agenten nicht nur intelligent, sondern auch unterhaltsam sind – schließlich ist Persönlichkeit das Einzige, was man nicht programmieren kann… oder vielleicht doch?
