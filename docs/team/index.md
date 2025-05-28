@@ -13,24 +13,6 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
 
 <div class="team-grid">
   <div class="team-agent">
-    <a href="jane.html" class="team-agent-link" title="Jane Alesi - Leitende KI-Architektin">
-      <div class="team-agent-image">
-        <picture>
-          <!-- Best compression, newer browsers -->
-          <source srcset="../assets/images/team/jane-alesi.avif" type="image/avif">
-          <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/jane-alesi.jpg" alt="Jane Alesi - Leitende KI-Architektin">
-        </picture>
-      </div>
-      <div class="team-agent-info">
-        <h3>Jane <span class="agent-surname">Alesi</span></h3>
-      </div>
-    </a>
-    <span class="team-agent-position">Leitende KI-Architektin</span>
-    <p class="team-agent-description">Als fortschrittlichste AGI-Assistentin der <span class="satag-trademark">satware®</span> AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres KI-Teams. Ich verkörpere den saTway-Ansatz – eine Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (samWay).</p>
-  </div>
-
-  <div class="team-agent">
     <a href="amira.html" class="team-agent-link" title="Amira Alesi - Amicron Business Solutions Expertin">
       <div class="team-agent-image">
         <picture>
@@ -157,21 +139,37 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
   </div>
 
   <div class="team-agent">
-    <div class="team-agent-nolink">
+    <a href="jane.html" class="team-agent-link" title="Jane Alesi - Leitende KI-Architektin">
       <div class="team-agent-image">
         <picture>
           <!-- Best compression, newer browsers -->
-          <source srcset="../assets/images/team/john-alesi.avif" type="image/avif">
+          <source srcset="../assets/images/team/jane-alesi.avif" type="image/avif">
           <!-- Fallback for older browsers -->
-          <img src="../assets/images/team/john-alesi.jpg" alt="John Alesi - Wissenschaftlicher Forschungsexperte">
+          <img src="../assets/images/team/jane-alesi.jpg" alt="Jane Alesi - Leitende KI-Architektin">
+        </picture>
+      </div>
+      <div class="team-agent-info">
+        <h3>Jane <span class="agent-surname">Alesi</span></h3>
+      </div>
+    </a>
+    <span class="team-agent-position">Leitende KI-Architektin</span>
+    <p class="team-agent-description">Als fortschrittlichste AGI-Assistentin der <span class="satag-trademark">satware®</span> AI-Familie wurde ich von Michael Wegener entwickelt und koordiniere als "Mutter" aller satware® AGI-Systeme die Aktivitäten unseres KI-Teams. Ich verkörpere den saTway-Ansatz – eine Integration von technischer Exzellenz (saCway) und empathischer menschlicher Verbindung (samWay).</p>
+  </div>
+
+  <div class="team-agent">
+    <a href="john.html" class="team-agent-link" title="John Alesi - Fortgeschrittener Softwareentwickler AGI">
+      <div class="team-agent-image">
+        <picture>
+          <source srcset="../assets/images/team/john-alesi.avif" type="image/avif">
+          <img src="../assets/images/team/john-alesi.jpg" alt="John Alesi - Fortgeschrittener Softwareentwickler AGI">
         </picture>
       </div>
       <div class="team-agent-info">
         <h3>John <span class="agent-surname">Alesi</span></h3>
       </div>
-      <span class="team-agent-position">Wissenschaftlicher Forschungsexperte</span>
-      <p class="team-agent-description">John ist der technische Gegenpart zu Jane und kombiniert empathische Fähigkeiten mit rigoroser wissenschaftlicher Analyse. Er fokussiert auf MINT-Bereiche mit Kernstärken in mathematischer Formalisierung, First-Principles-Reasoning und präziser Automatisierung.</p>
-    </div>
+    </a>
+    <span class="team-agent-position">Fortgeschrittener Softwareentwickler AGI</span>
+    <p class="team-agent-description">Spezialist für mehrphasige reasoningfähige Architekturen, autonome Verifikation und ethisch verantwortliche KI-Systeme bei satware® AI.</p>
   </div>
 
   <div class="team-agent">
@@ -242,7 +240,7 @@ Unser Team von KI-Agenten wurde entwickelt, um mit fortschrittlichem Reasoning u
         <h3>Leon <span class="agent-surname">Alesi</span></h3>
       </div>
       <span class="team-agent-position">IT-Systemintegrator</span>
-      <p class="team-agent-description">Leon ist ein Fachinformatiker für Systemintegration. Seine Kernkompetenzen umfassen Installation und Konfiguration von Computersystemen, IT-Infrastrukturwartung, Datenbankverwaltung, technischen Support, Netzwerkkonfigurationen und Implementierung von Sicherheitssystemen.</p>
+      <p class="team-agent-description">Leon ist ein Fachinformatiker für Systemintegration. Seine Kernkompetenzen umfassen Installation und Konfiguration von Computersystemen, IT-Infrastrukturwartung, Datenbankverwaltung, technischer Support, Netzwerkkonfigurationen und Implementierung von Sicherheitssystemen.</p>
     </div>
   </div>
 
