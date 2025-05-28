@@ -3,7 +3,8 @@ site_name: ''
 site_url: https://satware.ai/
 site_author: satware AG
 site_description: >-
-  Entdecken Sie die KI-gestützten Lösungen von satware® AI. Innovative Automatisierung und maßgeschneiderte IT-Lösungen für Ihr Unternehmen.
+  Entdecken Sie die KI-gestützten Lösungen von satware® AI. Innovative
+  Automatisierung und maßgeschneiderte IT-Lösungen für Ihr Unternehmen.
 
 use_directory_urls: false
 
@@ -171,6 +172,7 @@ nav:
       - Amira Alesi: team/amira.md
       - Bastian Alesi: team/bastian.md
       - Bea Alesi: team/bea.md
+      - Denopus Alesi: team/denopus.md
       - Jane Alesi: team/jane.md
       - John Alesi: team/john.md
       - Justus Alesi: team/justus.md
