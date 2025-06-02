@@ -94,6 +94,23 @@ The `satware.ai` website is automatically deployed to GitHub Pages.
 *   **SCSS Changes Not Reflecting**: Ensure the `scss_watcher.py` is running correctly within your Docker container. Check the Docker logs for any errors during SCSS compilation. The `scss_watcher.py` monitors `overrides/assets/css/custom.scss` and compiles it to `docs/assets/css/custom.css`.
 *   **Docker Issues**: If you encounter issues with the `./mkdocs.sh` script, verify that Docker is running and that you have the necessary permissions.
 
+## 🐛 Issue Reporting
+
+Found a bug, have a feature request, or experiencing issues with the satware.ai website? Please report all issues to our main repository:
+
+**🎯 [Report Issues Here](https://github.com/satwareAG/satware.ai/issues)**
+
+When reporting issues, please include:
+
+- **Clear description** of the problem or feature request
+- **Steps to reproduce** (if applicable)
+- **Expected behavior** vs actual behavior
+- **Browser/device information** (e.g., Chrome 120, Safari on iOS 17)
+- **Screenshots or error messages** (if relevant)
+- **URL** where the issue occurs (if specific to a page)
+
+This helps our team address your concerns quickly and effectively. We appreciate your feedback in making satware.ai better for everyone!
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
