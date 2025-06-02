@@ -4,11 +4,12 @@ on:
   push:
     branches:
       - main-mkdocs
-  pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    # Add condition to ensure this only runs on the main repository
+    if: github.repository == 'satwareAG/satware.ai'
     permissions:
       contents: write
     concurrency:
@@ -21,30 +22,31 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Upgrade pip
+      - name: Install MkDocs and plugins
         run: |
-          # install pip=>20.1 to use "pip cache dir"
-          python3 -m pip install --upgrade pip
-
-      - name: Get pip cache dir
-        id: pip-cache
-        run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
-
-      - name: Cache dependencies
-        uses: actions/cache@v4
-        with:
-          path: ${{ steps.pip-cache.outputs.dir }}
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: python3 -m pip install -r ./requirements.txt
+          pip install --upgrade pip
+          pip install \
+            cairosvg \
+            libsass \
+            mkdocs-exclude \
+            mkdocs-git-revision-date-localized-plugin \
+            mkdocs-lightbox \
+            mkdocs-include-markdown-plugin \
+            mkdocs-literate-nav \
+            mkdocs-macros-plugin \
+            mkdocs-material==9.6.14 \
+            "mkdocs-material[imaging]" \
+            mkdocs-minify-plugin \
+            mkdocs-redirects \
+            mkdocs-rss-plugin \
+            mkdocs-snippets \
+            mkdocs-video \
+            watchdog
 
       - name: Build css
         run: |
-          npm install
-          npm run scss:build
+          mkdir -p docs/assets/css
+          pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css
 
       - name: Build static site
         run: mkdocs build

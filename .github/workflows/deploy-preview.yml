@@ -67,6 +67,7 @@ jobs:
         run: |
           mkdir -p docs/assets/css
           pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css
+
       - name: Build static site
         run: mkdocs build
 
