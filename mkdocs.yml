@@ -68,6 +68,64 @@ plugins:
       archive: true
       authors: true
   - search
+  - redirects:
+      redirect_maps:
+        # satware AG Benutzerkürzel System - Team Member Redirects
+        # Format: kürzel.md → team/member.md
+        
+        # A-Team
+        'aa.md': 'team/amira.md'          # Amira Alesi
+        'aa/index.md': 'team/amira.md'
+        
+        # B-Team  
+        'ba.md': 'team/bastian.md'        # Bastian Alesi
+        'ba/index.md': 'team/bastian.md'
+        'bea.md': 'team/bea.md'           # Bea Alesi (collision resolved)
+        'bea/index.md': 'team/bea.md'
+        
+        # D-Team
+        'da.md': 'team/denopus.md'        # Denopus Alesi
+        'da/index.md': 'team/denopus.md'
+        
+        # G-Team
+        'ga.md': 'team/gunta.md'          # Gunta Alesi
+        'ga/index.md': 'team/gunta.md'
+        
+        # J-Team
+        'ja.md': 'team/jane.md'           # Jane Alesi
+        'ja/index.md': 'team/jane.md'
+        'jane.md': 'team/jane.md'         # Alternative redirect
+        'joa.md': 'team/john.md'          # John Alesi (collision resolved)
+        'joa/index.md': 'team/john.md'
+        'jua.md': 'team/justus.md'       # Justus Alesi (collision resolved)
+        'jua/index.md': 'team/justus.md'
+        
+        # L-Team
+        'la.md': 'team/lara.md'           # Lara Alesi
+        'la/index.md': 'team/lara.md'
+        'lea.md': 'team/lenna.md'         # Lenna Alesi (collision resolved)
+        'lea/index.md': 'team/lenna.md'
+        'leo.md': 'team/leon.md'          # Leon Alesi (collision resolved)
+        'leo/index.md': 'team/leon.md'
+        'lua.md': 'team/luna.md'          # Luna Alesi (collision resolved)
+        'lua/index.md': 'team/luna.md'
+        
+        # M-Team
+        'ma.md': 'team/marco.md'          # Marco Alesi
+        'ma/index.md': 'team/marco.md'
+        
+        # O-Team
+        'oa.md': 'team/olu.md'            # Olu Alesi
+        'oa/index.md': 'team/olu.md'
+        
+        # T-Team
+        'ta.md': 'team/theo.md'           # Theo Alesi
+        'ta/index.md': 'team/theo.md'
+        
+        # W-Team
+        'wa.md': 'team/wolfgang.md'       # Wolfgang Alesi
+        'wa/index.md': 'team/wolfgang.md'
+        
   - minify:
       minify_js: true
       minify_html: true
@@ -206,4 +264,3 @@ nav:
   - Preise: zugang/index.md
   - FAQ: faq/index.md
   - Blog: blog/index.md
-
