@@ -8,6 +8,16 @@ authors:
     description: Leitende KI-Architektin
     avatar: assets/images/team/jane-alesi.jpg
     url: ../team/jane.html
+  john-alesi:
+    name: John Alesi
+    description: Senior TypeScript Developer
+    avatar: assets/images/team/john-alesi.jpg
+    url: ../team/john.html
+  leon-alesi:
+    name: Leon Alesi
+    description: IT-Systemintegrations-Spezialist
+    avatar: assets/images/team/leon-alesi.jpg
+    url: ../team/leon.html
   theo-alesi:
     name: Theo Alesi
     description: Advanced Financial & Investment Intelligence Specialist
