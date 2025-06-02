@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 General Support
+    url: mailto:info@satware.ai
+    about: For general inquiries and support questions
+  - name: 🔒 Security Report
+    url: mailto:security@satware.ai
+    about: Report security vulnerabilities privately
+  - name: 💬 Community Discussion
+    url: https://github.com/satwareAG/satware.ai/discussions
+    about: Ask questions and discuss ideas with the community
