@@ -1,0 +1,91 @@
+name: 📝 Content Issue
+description: Report issues with website content (typos, outdated information, etc.)
+title: "[Content]: "
+labels: ["content", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve our content! Every correction makes satware.ai better.
+        
+        Before submitting, please search existing issues to avoid duplicates.
+
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: Which page has the content issue?
+      placeholder: https://satware.ai/path/to/page
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Content Issue Type
+      description: What type of content issue is this?
+      options:
+        - Typo/Grammar Error
+        - Outdated Information
+        - Broken Link
+        - Missing Information
+        - Incorrect Information
+        - Unclear/Confusing Content
+        - Translation Error
+        - Formatting Issue
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content
+      description: Copy and paste the problematic content (if applicable)
+      placeholder: Paste the current content that needs correction...
+
+  - type: textarea
+    id: suggested-correction
+    attributes:
+      label: Suggested Correction
+      description: How should the content be corrected?
+      placeholder: Provide your suggested correction...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any additional context about the content issue
+      placeholder: |
+        - Why is this content incorrect/unclear?
+        - Do you have authoritative sources for the correction?
+        - Any other relevant details...
+
+  - type: input
+    id: section-location
+    attributes:
+      label: Section/Location
+      description: Where on the page is this content located?
+      placeholder: e.g., "Introduction section", "Step 3 of the tutorial", "Footer links"
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How significant is this content issue?
+      options:
+        - Low - Minor typo or formatting
+        - Medium - Affects understanding
+        - High - Misleading or significantly outdated
+        - Critical - Factually incorrect or potentially harmful
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
