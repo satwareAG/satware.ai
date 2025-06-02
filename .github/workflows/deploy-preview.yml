@@ -34,7 +34,7 @@ jobs:
             libsass \
             mkdocs-exclude \
             mkdocs-git-revision-date-localized-plugin \
-            mkdocs-lightbox \
+            mkdocs-glightbox \
             mkdocs-include-markdown-plugin \
             mkdocs-literate-nav \
             mkdocs-macros-plugin \
@@ -64,7 +64,9 @@ jobs:
           cat mkdocs.yml
 
       - name: Build css
-        run: pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css
+        run: |
+          mkdir -p docs/assets/css
+          pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css
       - name: Build static site
         run: mkdocs build
 
