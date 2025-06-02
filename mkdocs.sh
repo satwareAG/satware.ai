@@ -10,7 +10,7 @@ docker build -t squidfunk/mkdocs-material ${PWD}/docker/mkdocs-material
 
 docker run --rm -it --user $(id -u):$(id -g) -p 8000:8000 -v ${PWD}:/docs     --entrypoint sh     squidfunk/mkdocs-material-custom     -c " \
         echo 'Performing initial SCSS compilation...' && \
-        python -m sass overrides/assets/css/custom.scss docs/assets/css/custom.css && \
+        pysassc overrides/assets/css/custom.scss docs/assets/css/custom.css && \
         echo 'Initial SCSS compilation complete. Starting watcher...' && \
         python /docs/scss_watcher.py & \
         echo 'SCSS watcher started. Starting MkDocs server...' && \

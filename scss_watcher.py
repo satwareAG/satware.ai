@@ -30,10 +30,10 @@ class ScssEventHandler(FileSystemEventHandler):
             try:
                 # Execute the SCSS compilation command
                 result = subprocess.run([
-                    "python", "-m", "sass",
+                    "pysassc",
                     scss_source_path,
                     css_dest_path
-                ], capture_output=True, text=True, check=True) # Capture output for debugging
+                ], capture_output=True, text=True, check=True)
 
                 print("SCSS compilation command output:")
                 print("STDOUT:", result.stdout)
