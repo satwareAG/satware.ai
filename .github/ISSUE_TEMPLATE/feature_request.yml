@@ -1,0 +1,92 @@
+name: ✨ Feature Request
+description: Suggest a new feature or improvement for satware.ai
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature! Your ideas help shape the future of satware.ai.
+        
+        Before submitting, please search existing issues to avoid duplicates.
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: A clear and concise description of the feature you'd like to see.
+      placeholder: Describe the feature you're requesting...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem or Use Case
+      description: What problem does this feature solve? What use case does it address?
+      placeholder: |
+        As a [type of user], I want [what] so that [why].
+        
+        Currently, I have to [current workaround] which is [problem with current approach].
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like this feature to work?
+      placeholder: Describe your ideal solution...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or features?
+      placeholder: Describe any alternative solutions you've considered...
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: Feature Type
+      description: What type of feature is this?
+      options:
+        - Content Addition
+        - User Interface Improvement
+        - Navigation Enhancement
+        - Performance Optimization
+        - Accessibility Improvement
+        - Mobile Experience
+        - Search Functionality
+        - Integration
+        - Documentation
+        - Other
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve my experience
+        - High - Significant impact on usability
+        - Critical - Blocking my use of the site
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, mockups, or examples about the feature request here.
+      placeholder: Any additional information, examples, or mockups that might help us understand your request...
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
