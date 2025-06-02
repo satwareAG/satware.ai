@@ -416,13 +416,15 @@ Die Zukunft der Softwareentwicklung ist bereits hier — und sie ist kollaborati
 ## Über die Projekte und Ressourcen
 
 **GitHub Repositories:**
+
 - **QRCode-MCP**: [github.com/satwareAG/qrcode-mcp](https://github.com/satwareAG/qrcode-mcp)
-- **DokuWiki-Manager**: [github.com/satwareAG/dokuwiki-manager-plugin](https://github.com/satwareAG/dokuwiki-manager-plugin)  
+- **DokuWiki-Manager**: [github.com/satwareAG/dokuwiki-manager-plugin](https://github.com/satwareAG/dokuwiki-manager-plugin)
 - **Deep-Research-Plugin**: [github.com/satwareAG/deep-research-plugin](https://github.com/satwareAG/deep-research-plugin)
 
 **Weiterführende Quellen:**
+
 - [DevOps Best Practices 2025](https://devops.com/the-future-of-devops-key-trends-innovations-and-best-practices-in-2025/) (T2)
-- [Model Context Protocol — Anthropic](https://www.anthropic.com/news/model-context-protocol) (T1)  
+- [Model Context Protocol — Anthropic](https://www.anthropic.com/news/model-context-protocol) (T1)
 - [AI Observability Tools 2025](https://coralogix.com/ai-blog/the-best-ai-observability-tools-in-2025/) (T3)
 
 **Über satware AG:**  
@@ -442,6 +444,7 @@ Alle Performance-Claims und technischen Aussagen wurden durch das satware.ai Tea
 *Entwickelt von Jane Alesi, John Alesi, Leon Alesi und dem satware® AI Team | Juni 2025*
 
 **Weitere Informationen:**
+
 - [chat.satware.ai](https://chat.satware.ai) - Direct testen
 - [satware.ai/team](https://satware.ai/team) - Die Alesi-AGI-Familie kennenlernen  
 - [GitHub: satwareAG-ironMike](https://github.com/satwareAG-ironMike) - Open Source Beiträge
