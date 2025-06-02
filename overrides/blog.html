@@ -5,31 +5,7 @@
 
 <div class="md-posts">
     {% for post in posts %}
-    <article class="md-post md-post--excerpt">
-        <div class="md-post__meta">
-            <time datetime="{{ post.meta.date }}">{{ post.meta.date.strftime('%d. %B %Y')|replace('January', 'Januar')|replace('February', 'Februar')|replace('March', 'März')|replace('April', 'April')|replace('May', 'Mai')|replace('June', 'Juni')|replace('July', 'Juli')|replace('August', 'August')|replace('September', 'September')|replace('October', 'Oktober')|replace('November', 'November')|replace('December', 'Dezember') }}</time>
-        </div>
-
-        <h2 class="md-post__title">
-            <a href="{{ post.url | replace('blog/', '') }}" title="{{ post.title }}">{{ post.title }}</a>
-        </h2>
-
-        <!-- Post-Excerpt hinzufügen -->
-        <div class="md-post__excerpt">
-            {% if post.excerpt %}
-            {{ post.excerpt }}
-            {% elif post.content | length > 0 %}
-            {{ post.content | striptags | truncate(200, true, "...") }}
-            {% else %}
-            <!-- Fallback, falls kein Excerpt oder Inhalt verfügbar ist -->
-            <p>Mehr Informationen im vollständigen Artikel.</p>
-            {% endif %}
-        </div>
-
-        <br />
-
-        <a href="{{ post.url | replace('blog/', '') }}" class="md-button" title="Weiterlesen: {{ post.title }}">Weiterlesen</a>
-    </article>
+        {% include "partials/post.html" %}
     {% endfor %}
 </div>
 {% endblock %}

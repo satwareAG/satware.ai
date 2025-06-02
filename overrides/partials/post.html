@@ -1,0 +1,27 @@
+<article class="md-post md-post--excerpt">
+    <div class="md-post__meta">
+        <time datetime="{{ post.config.date.created }}">
+            {{- post.config.date.created | date -}}
+        </time>
+    </div>
+
+    <h2 class="md-post__title">
+        <a href="{{ post.url | url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </h2>
+
+    <!-- Post-Excerpt hinzufügen -->
+    <div class="md-post__excerpt">
+        {% if post.excerpt %}
+        {{ post.excerpt }}
+        {% elif post.content | length > 0 %}
+        {{ post.content | striptags | truncate(200, true, "...") }}
+        {% else %}
+        <!-- Fallback, falls kein Excerpt oder Inhalt verfügbar ist -->
+        <p>Mehr Informationen im vollständigen Artikel.</p>
+        {% endif %}
+    </div>
+
+    <br />
+
+    <a href="{{ post.url | url }}" class="md-button" title="Weiterlesen: {{ post.title }}">Weiterlesen</a>
+</article>

@@ -14,4 +14,4 @@ docker run --rm -it --user $(id -u):$(id -g) -p 8000:8000 -v ${PWD}:/docs     --
         echo 'Initial SCSS compilation complete. Starting watcher...' && \
         python /docs/scss_watcher.py & \
         echo 'SCSS watcher started. Starting MkDocs server...' && \
-        mkdocs serve --dev-addr=0.0.0.0:8000 --watch overrides"
+        mkdocs serve --dev-addr=0.0.0.0:8000 --watch overrides --watch docs --watch mkdocs.yml"

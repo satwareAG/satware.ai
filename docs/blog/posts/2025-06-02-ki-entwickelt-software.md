@@ -21,18 +21,6 @@ tags:
   - Enterprise-Software
 ---
 
-<style>
-.md-typeset .admonition.warning {
-    color: #fff !important;
-    background-color: rgba(255, 152, 0, 0.1) !important;
-    border-color: #ff9800 !important;
-}
-.md-typeset .admonition.warning .admonition-title {
-    background-color: #ff9800 !important;
-    color: #fff !important;
-}
-</style>
-
 # KI entwickelt Software: Wie Prompts zu Enterprise-Ready-Lösungen werden 🚀🔖
 
 ## Wenn Algorithmen programmieren: Die neue Ära der AI-gestützten Entwicklung

@@ -1,5 +1,5 @@
 # Projekt-Informationen
-site_name: ''
+site_name: 'satware® AI'
 site_url: https://satware.ai/
 site_author: satware AG
 site_description: >-
@@ -57,6 +57,16 @@ theme:
 
 # Plugins
 plugins:
+  - meta
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+      post_url_format: "{slug}"
+      post_date_format: "dd.MM.yyyy"
+      archive_toc: true
+      pagination: true
+      archive: true
+      authors: true
   - search
   - minify:
       minify_js: true
@@ -67,13 +77,22 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
-  - blog:
-      blog_dir: blog
-      blog_toc: true
-      post_url_format: "{slug}"
-      post_date_format: "dd.MM.yyyy"
-      archive_toc: true
-  - social
+  - social:
+      cards_layout_options:
+        background_color: "#000000"
+  - rss:
+      feed_title: satware® AI Blog
+      feed_description: Aktuelle Nachrichten, technische Einblicke und Innovationen von satware® AI.
+      match_path: blog/posts/.*
+      abstract_chars_count: 250
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+      pretty_print: false
+      use_git: true
+
 
 # Erweiterungen
 markdown_extensions:
