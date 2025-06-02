@@ -30,7 +30,7 @@ jobs:
             libsass \
             mkdocs-exclude \
             mkdocs-git-revision-date-localized-plugin \
-            mkdocs-lightbox \
+            mkdocs-glightbox \
             mkdocs-include-markdown-plugin \
             mkdocs-literate-nav \
             mkdocs-macros-plugin \
