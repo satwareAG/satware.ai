@@ -1,5 +1,5 @@
 # Use a Python image based on Debian (Ubuntu is derived from Debian)
-FROM python:3.11-slim-bullseye
+FROM python:3.13-slim-bullseye
 
 # Set the working directory inside the container
 WORKDIR /docs
