@@ -1,6 +1,6 @@
 ---
-title: "satware® AI chat Webinar: Experience AI Agents Live"
-description: "Discover satware® AI chat and the Alesi AI agents on June 6, 2025, at 2:00 PM. See live how transparent AI revolutionizes your daily work!"
+title: "satware® AI chat Webinar: KI-Agenten live erleben"
+description: "Entdecken Sie satware® AI chat und die Alesi KI-Agenten am 6. Juni 2025, um 14:00 Uhr. Sehen Sie live, wie transparente KI Ihren Arbeitsalltag revolutioniert!"
 date: 2025-06-04
 authors:
   - tim-friedrich-weber
@@ -16,7 +16,7 @@ tags:
   - Zuri Alesi
   - Live-Demo
   - satware® AI chat
-verification_status: "partially_verified"
+verification_status: "needs_translation"
 evidence_quality: "T4_promotional_content"
 claim_accuracy_rate: "to_be_determined"
 confidence_levels: "mixed"
