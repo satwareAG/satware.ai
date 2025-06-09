@@ -8,16 +8,16 @@ hide:
 
 <script>
 // JavaScript redirect as primary method
-window.location.href = '/team/jane.html';
+window.location.href = 'team/jane.md';
 </script>
 
-<meta http-equiv="refresh" content="0; url=/team/jane.html">
+<meta http-equiv="refresh" content="0; url=team/jane.md">
 
 # Weiterleitung zu Jane Alesi
 
 Sie werden automatisch zu Jane Alesis Profilseite weitergeleitet...
 
-Falls die automatische Weiterleitung nicht funktioniert, [klicken Sie hier um zu Jane Alesis Profilseite zu gelangen](/team/jane.html).
+Falls die automatische Weiterleitung nicht funktioniert, [klicken Sie hier um zu Jane Alesis Profilseite zu gelangen](team/jane.md).
 
 ---
 
