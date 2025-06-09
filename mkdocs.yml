@@ -63,7 +63,6 @@ plugins:
       pagination: true
       archive: true
       authors: true
-      exclude: ['blog/posts/blog-post-template.md'] # <--- ADDED THIS LINE
   - search
   - redirects:
       redirect_maps:
@@ -164,7 +163,7 @@ plugins:
           'leo.md': 'team/leon.md'          # Leon Alesi (collision resolved)
           'leo/index.md': 'team/leon.md'
           'LEO.md': 'team/leon.md'          # Uppercase variant
-          'LEO/index.m': 'team/leon.md'
+          'LEO/index.md': 'team/leon.md'
           'Leo.md': 'team/leon.md'          # Mixed case variant
           'Leo/index.md': 'team/leon.md'
           'LEo.md': 'team/leon.md'          # Mixed case variant
