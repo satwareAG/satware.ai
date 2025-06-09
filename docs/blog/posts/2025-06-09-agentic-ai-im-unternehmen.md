@@ -42,7 +42,7 @@ sources_verified: true
 - **$7 Millionen durchschnittliche GenAI-Investition** in DACH-Unternehmen im Jahr 2024 (Sehr Hoch, T1) [^1]
 - **93% Workflow-Verständnis-Genauigkeit** bei modernen Agentic Systems (Hoch, T1) [^2]
 - **$4,4 Billionen jährliches Produktivitätspotential** durch Enterprise-Automatisierung (Hoch, T1) [^3]
-- **45,1% jährliches Wachstum** des globalen Agentic AI-Marktes bis 2030 (Hoch, T1) [^4]
+- **45,1% jährliches Wachstum** des globalen Agentic AI-Marktes bis 2030 (Hoch, T1) [^4] [^11]
 
 ### **DACH-spezifische Herausforderungen:**
 
@@ -361,7 +361,7 @@ Der `AgenticAIROICalculator` ist ein spezialisiertes Tool zur Berechnung des Ret
 
 ### **DACH-spezifische Benchmarks (Verifiziert)**
 
-| **Unternehmensgröße** | **Investment ($)** | **ROI (12 Monate)** | **Payback Period** | **Konfidenz** | **Basis** |
+| **Unternenehmensgröße** | **Investment ($)** | **ROI (12 Monate)** | **Payback Period** | **Konfidenz** | **Basis** |
 |---------------------|-------------------|-------------------|-------------------|---------------|-----------|
 | **Startup (10-50 MA)** | 250.000 | 380% | 3.8 Monate | Hoch (T2) | Statworx Daten [^4] |
 | **KMU (50-250 MA)** | 750.000 | 340% | 4.2 Monate | Hoch (T2) | Cognizant Studie [^1] |
