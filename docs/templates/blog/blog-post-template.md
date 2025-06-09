@@ -1,26 +1,47 @@
-LS0tCnRpdGxlOiAiQmxvZyBQb3N0IFRpdGxlIgpkZXNjcmlwdGlvbjogIkJy
-aWVmIGRlc2NyaXB0aW9uIgpkYXRlOiBZWVlZLU1NLURECmF1dGhvcnM6CiAg
-LSBqYW5lLWFsZXNpCmNhdGVnb3JpZXM6CiAgLSBDYXRlZ29yeQp0YWdzOgog
-IC0gdGFnMQogIC0gdGFnMgp2ZXJpZmljYXRpb25fc3RhdHVzOiAicGVuZGlu
-Z192ZXJpZmljYXRpb24iCmV2aWRlbmNlX3F1YWxpdHk6ICJ0b19iZV9jbGFz
-c2lmaWVkIgpjbGFpbV9hY2N1cmFjeV9yYXRlOiAidG9fYmVfZGV0ZXJtaW5l
-ZCIKY29uZmlkZW5jZV9sZXZlbHM6ICJ0b19iZV9tYXJrZWQiCnNvdXJjZXNf
-dmVyaWZpZWQ6IGZhbHNlCmlzc3VlX3JlZmVyZW5jZTogIiNJU1NVRV9OVU1C
-RVIiCi0tLQoKIyBCbG9nIFBvc3QgVGl0bGUKCllvdXIgY29udGVudCBoZXJl
-LiBSZW1lbWJlciB0bzoKCi0gKipWZXJpZnkgZXZlcnkgZmFjdHVhbCBjbGFp
-bSoqIHVzaW5nIFQxLVQzIHNvdXJjZXMuCi0gKipDaXRlIGFsbCBzb3VyY2Vz
-Kiogd2l0aCBldmlkZW5jZSB0aWVyIGxhYmVscyAoZS5nLiwgYChTb3VyY2U6
-IFRpdGxlLCBUIylgKS4KLSAqKkNsZWFybHkgZGlzdGluZ3Vpc2gqKiBiZXR3
-ZWVuIHZlcmlmaWVkIGZhY3RzLCBwcm9qZWN0aW9ucywgYW5kIGlsbHVzdHJh
-dGl2ZSBleGFtcGxlcy4KLSAqKkFkZCBjb25maWRlbmNlIGxldmVscyAqKiBm
-b3IgdW5jZXJ0YWluIGluZm9ybWF0aW9uLiAKLSAqKldyaXRlIGluIEdlcm1h
-bioqIHdpdGggYSB0ZWNobmljYWwgZGVwdGggc3VpdGFibGUgZm9yIHRoZSBz
-YXR3YXJlLmFpIGF1ZGllbmNlLiAKLSAqKlVzZSBNa0RvY3MgTWF0ZXJpYWwg
-dGhlbWUgYWRtb25pdGlvbnMqKiBmb3IgZW1waGFzaXMgYW5kIHN0cnVjdHVy
-ZS4KLSAqKkVuc3VyZSBwcm9wZXIgTWFya2Rvd24gc3ludGF4KiogYW5kIGZv
-cm1hdHRpbmcuCgojIyBTZWN0aW9uIDE6IEludHJvZHVjdGlvbgoKLi4uCgoj
-IyBTZWN0aW9uIDI6IFRlY2huaWNhbCBEZXRhaWxzCgouLi4KCiMjIFNlY3Rp
-b24gMzogQ29uY2x1c2lvbgoKLi4uCgojIyDwn5OaIFF1ZWxsZW4gJiBSZWZl
-cmVuemVuCgotIFtTb3VyY2UgMSBUaXRsZV0oVVJMKSAoU291cmNlOiBUaXRs
-ZSwgVCMpCi0gW1NvdXJjZSAyIFRpdGxlXShVUkwpIChTb3VyY2U6IFRpdGxl
-LCBUIykK
+---
+title: "Blog Post Title"
+description: "Brief description"
+date: YYYY-MM-DD
+authors:
+  - jane-alesi
+categories:
+  - Category
+tags:
+  - tag1
+  - tag2
+verification_status: "pending_verification"
+evidence_quality: "to_be_classified"
+claim_accuracy_rate: "to_be_determined"
+confidence_levels: "to_be_marked"
+sources_verified: false
+issue_reference: "#ISSUE_NUMBER"
+---
+
+# Blog Post Title
+
+Your content here. Remember to:
+
+- **Verify every factual claim** using T1-T3 sources.
+- **Cite all sources** with evidence tier labels (e.g., `(Source: Title, T#)`).
+- **Clearly distinguish** between verified facts, projections, and illustrative examples.
+- **Add confidence levels** for uncertain information.
+- **Write in German** with a technical depth suitable for the satware.ai audience.
+- **Use MkDocs Material theme admonitions** for emphasis and structure.
+- **Ensure proper Markdown syntax** and formatting.
+
+## Section 1: Introduction
+
+...
+
+## Section 2: Technical Details
+
+...
+
+## Section 3: Conclusion
+
+...
+
+## 📚 Quellen & Referenzen
+
+- [Source 1 Title](URL) (Source: Title, T#)
+- [Source 2 Title](URL) (Source: Title, T#)
