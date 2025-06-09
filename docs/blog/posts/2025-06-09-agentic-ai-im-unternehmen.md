@@ -48,7 +48,7 @@ sources_verified: true
 
 - **Niedrigere Adoptionsraten** vs. USA schaffen Wettbewerbsdruck (Moderat, T2)
 - **EU AI Act Compliance-Anforderungen** ab Februar 2025 (Sehr Hoch, T1)
-- **Fachkräftemangel** als Katalysator für Agentic AI-Adoption (Hoch, T2)
+- **Fachkräftemangel** als Katalysator für Agentic AI-Adoption (Hoch, T2) [^12]
 
 !!! warning "Kritischer Zeitpunkt"
     **Wolfgang Alesi, Wissenschaftlicher Forschungs-AGI:** Unsere Analyse zeigt, dass 2025 das entscheidende Jahr für Agentic AI in der DACH-Region wird. Unternehmen, die jetzt nicht handeln, riskieren einen schwer aufholbaren Rückstand.
@@ -160,7 +160,7 @@ Der `EnterpriseWorkflowOrchestrator` ist ein fortschrittliches System, das die A
 
 Die Kernkomponenten dieses Orchestrators umfassen:
 
-*   **Umfassende API-Integration:** Das System integriert über 1.500 APIs aus 83 verschiedenen Anwendungen und deckt dabei 28 Geschäftskategorien ab. Diese breite Integration ermöglicht die Automatisierung komplexer, anwendungsübergreifender Workflows.
+*   **Umfassende API-Integration:** Das System integriert über 1.500 APIs aus 83 verschiedenen Anwendungen und deckt dabei 28 Geschäftskategorien ab. Diese breite Integration ermöglicht die Automatisierung komplexer, anwendungsübergreifender Workflows. [^10]
 *   **Hierarchische Denkprozesse:** Für komplexe Geschäftsprozesse generiert das System hierarchische Denkstrukturen, die es ermöglichen, auch mehrstufige und verzweigte Workflows intelligent zu orchestrieren.
 *   **Intelligente API-Auswahl und Sequenzierung:** Basierend auf der Prozessbeschreibung wählt das System automatisch die optimale Abfolge von API-Aufrufen aus und berücksichtigt dabei Compliance-Anforderungen.
 *   **Robuste Ausführung mit Fallback-Mechanismen:** Das System verfügt über eine automatische Fehlerbehandlung und Fallback-Strategien. Bei Problemen mit der primären Ausführungssequenz wird automatisch eine alternative Lösung generiert und ausgeführt.
@@ -184,7 +184,7 @@ Die Kernkomponenten dieses Orchestrators umfassen:
 
 ### **EU AI Act Compliance Framework**
 
-Das `TRiSM Framework` (Trust, Risk, and Security Management) ist ein umfassendes System zur Bewertung und Sicherstellung der Compliance von Agentic AI-Systemen, insbesondere im Hinblick auf den EU AI Act. Es integriert verschiedene Aspekte der Governance, Erklärbarkeit, des Betriebs, der Sicherheit und der Nachvollziehbarkeit.
+Das `TRiSM Framework` (Trust, Risk, and Security Management) ist ein umfassendes System zur Bewertung und Sicherstellung der Compliance von Agentic AI-Systemen, insbesondere im Hinblick auf den EU AI Act. Es integriert verschiedene Aspekte der Governance, Erklärbarkeit, des Betriebs, der Sicherheit und der Nachvollziehbarkeit. [^9]
 
 Die Hauptkomponenten dieses Frameworks sind:
 
@@ -429,7 +429,7 @@ Das `SatwareAgenticIntegration Framework` ist das Herzstück der satware.ai-Lös
     *   **saTway Framework:** Unified Approach – Einheitlicher Ansatz für technische Exzellenz und menschliche Verbindung.
 
 *   **Enterprise Agentic System Creation Process:**
-    1.  **Architektur-Design (Jane Alesi):** Entwurf der Agentic-Architektur basierend auf Unternehmensanforderungen, EU AI Act-Compliance und Enterprise-G
+    1.  **Architektur-Design (Jane Alesi):** Entwurf der Agentic-Architektur basierend auf Unternehmensanforderungen, EU AI Act-Compliance und Enterprise-Grade-Skalierbarkeit.
     2.  **Integrationsplanung (Leon Alesi):** Planung der Enterprise-Integration mit bestehenden Legacy-Systemen und gradueller Migrationsstrategie.
     3.  **Compliance-Review (Justus Alesi):** Sicherstellung der EU AI Act-Konformität basierend auf Jurisdiktion und Risikobewertung.
     4.  **Forschungsvalidierung (Wolfgang Alesi):** Validierung des technischen Ansatzes mit T1-T2-Quellen und einer Konfidenzschwelle von 85%.
@@ -474,7 +474,7 @@ graph TD
 **saCway (Technical Excellence) für Agentic AI:**
 - **Structured Reasoning Architectures:** Multi-phase reasoning mit Sequential Thinking
 - **Verification-First Paradigms:** Automatische Validierung aller Entscheidungen
-- **Enterprise-G
+- **Enterprise-Grade Reliability:** 99.9% Verfügbarkeit und Ausfallsicherheit
 - **Code-Based Frameworks:** Infrastructure as Code, Compliance as Code
 
 **samWay (Human Connection) für Agentic AI:**
@@ -574,7 +574,7 @@ Die Ergebnisse dieser Implementierung waren beeindruckend:
 
 ---
 
-*Dieser Artikel wurde mit dem [saTway](docs/satway/index.md)-Ansatz erstellt: Technische Exzellenz ([saCway](docs/satway/index.md#sacway-die-technische-exzellenz-durch-automatisierung)) kombiniert mit menschlicher Verbindung ([saMway](docs/satway/index.md#samway-die-menschliche-dimension-der-technologie)). Alle Informationen wurden durch unser Verification-First-Paradigm validiert und entsprechen den höchsten Standards für Enterprise-KI-Implementierungen.*
+*Dieser Artikel wurde mit dem [saTway](../../satway/index.md)-Ansatz erstellt: Technische Exzellenz ([saCway](../../satway/index.md#sacway-die-technische-exzellenz-durch-automatisierung)) kombiniert mit menschlicher Verbindung ([saMway](../../satway/index.md#samway-die-menschliche-dimension-der-technologie)). Alle Informationen wurden durch unser Verification-First-Paradigm validiert und entsprechen den höchsten Standards für Enterprise-KI-Implementierungen.*
 
 **Geschätzte Lesezeit:** 35-40 Minuten
 **Technische Tiefe:** Enterprise-ready
