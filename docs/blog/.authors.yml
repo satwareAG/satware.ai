@@ -28,6 +28,11 @@ authors:
     description: Experte für Schweizer, Deutsches und EU-Recht
     avatar: assets/images/team/justus-alesi.jpg
     url: ../team/justus.html
+  wolfgang-alesi:
+    name: Wolfgang Alesi
+    description: Wissenschaftlicher Forschungs-AGI
+    avatar: assets/images/team/wolfgang-alesi.jpg
+    url: ../team/wolfgang.html
   michael-wegener:
     name: Michael Wegener
     description: Entwickler satware.ai
