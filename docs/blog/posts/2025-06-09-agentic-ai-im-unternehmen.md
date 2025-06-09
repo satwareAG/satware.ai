@@ -189,7 +189,7 @@ Das `TRiSM Framework` (Trust, Risk, and Security Management) ist ein umfassendes
 Die Hauptkomponenten dieses Frameworks sind:
 
 *   **Governance Layer (Steuerungsebene):** Bewertet Agentic AI-Systeme nach Artikel 9 des EU AI Acts. Dies umfasst die Bewertung von Entscheidungsprozessen, Verantwortlichkeiten und Kontrollmechanismen.
-*   **Explainability Engine (Erklärbarkeits-Engine):** Analysiert die Nachvollziehbarkeit von KI-Entscheidungen gemäß Artikel 13 des EU AI Acts. Sie stellt sicher, dass automatisierte Entscheidungen für Menschen verständlich und nachvollziehbar sind.
+*   **Explainability Engine (Erklärbarkeits-Engine):** Analysiert die Nachvollziehbarkeit von KI-Entscheidungen gemäß Artikel 13 des EU AI Acts. Sie stellt sicher, dass automatisierte Entscheidungen für Menschen verständlich und nachvollvollziehbar sind.
 *   **ModelOps Manager (Modell-Betriebsmanagement):** Überwacht kontinuierlich den Betrieb von KI-Modellen und stellt sicher, dass sie innerhalb definierter Parameter funktionieren. Erkennt Abweichungen und initiiert Korrekturmaßnahmen.
 *   **Privacy Security Module (Datenschutz- und Sicherheitsmodul):** Führt regelmäßige Audits gemäß DSGVO Artikel 25 durch und stellt sicher, dass alle Datenschutz- und Sicherheitsanforderungen erfüllt werden.
 *   **Audit Trail Manager (Prüfpfad-Manager):** Dokumentiert alle Systemaktivitäten für Nachvollziehbarkeit und Compliance-Nachweise. Erstellt umfassende Berichte für Auditoren und Regulierungsbehörden.
@@ -377,7 +377,7 @@ Die detaillierte Kosten-Nutzen-Analyse für Agentic AI-Implementierungen berück
 *   **Nutzen:** Erwartete Vorteile wie Produktivitätsgewinne, Kosteneinsparungen, Umsatzsteigerungen, Risikoreduktion und der Wert der Compliance.
 *   **Risikofaktoren:** Berücksichtigt werden Implementierungsrisiken, Technologierisiken, regulatorische Risiken und Marktrisiken.
 
-Zusätzlich wird eine Marktanalyse durchgeführt, die das gesamte adressierbare Marktpotenzial (z.B. 27 Mrd. € bis 2030 in Deutschland), den bedienbaren Markt, die jährliche Marktwachstumsrate, die Wettbewerbslandschaft und das regulatorische Umfeld bewertet.
+Zusätzlich wird eine Marktanalyse durchgeführt, die das gesamte adressierbare Marktpotenzial (z.B. 27 Mrd. € bis 2030 in Deutschland), den bedienbaren Markt, die jährliche Marktwachstumsrate, die die Wettbewerbslandschaft und das regulatorische Umfeld bewertet.
 
 ### **Branchenspezifische ROI-Analyse**
 
