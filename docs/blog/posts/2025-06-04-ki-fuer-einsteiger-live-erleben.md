@@ -1,6 +1,6 @@
 ---
-title: "satware® AI chat Webinar: KI-Agenten live erleben"
-description: "Entdecken Sie am 6. Juni 2025 um 14:00 Uhr satware® AI chat und die Alesi KI-Agenten. Sehen Sie live, wie transparente KI Ihren Arbeitsalltag revolutioniert!"
+title: "satware® AI chat Webinar: Experience AI Agents Live"
+description: "Discover satware® AI chat and the Alesi AI agents on June 6, 2025, at 2:00 PM. See live how transparent AI revolutionizes your daily work!"
 date: 2025-06-04
 authors:
   - tim-friedrich-weber
@@ -16,193 +16,200 @@ tags:
   - Zuri Alesi
   - Live-Demo
   - satware® AI chat
+verification_status: "partially_verified"
+evidence_quality: "T4_promotional_content"
+claim_accuracy_rate: "to_be_determined"
+confidence_levels: "mixed"
+sources_verified: false
+issue_reference: "#121"
 ---
 
-# satware® AI chat Webinar: KI-Agenten live erleben
+# satware® AI chat Webinar: Experience AI Agents Live
 
-**Entdecken Sie am 6. Juni 2025 um 14:00 Uhr satware® AI chat und die Alesi KI-Agenten. Sehen Sie live, wie transparente KI Ihren Arbeitsalltag revolutioniert!**
+**Discover satware® AI chat and the Alesi AI agents on June 6, 2025, at 2:00 PM. See live how transparent AI revolutionizes your daily work!**
 
-## Haben Sie sich schon einmal gefragt, was KI eigentlich kann?
+## Have you ever wondered what AI can actually do?
 
-Künstliche Intelligenz ist längst kein Science-Fiction mehr – sie ist ein praktischer Helfer, der Ihnen bei alltäglichen Herausforderungen zur Seite steht. Doch viele Menschen zögern noch, den ersten Schritt zu wagen. Genau hier setzt unser kostenloses Einsteiger-Webinar an.
+Artificial intelligence is no longer science fiction – it's a practical helper that stands by your side for everyday challenges. But many people are still hesitant to take the first step. This is exactly where our free beginner webinar comes in.
 
-**Lernen Sie satware® AI chat kennen** – die professionelle KI-Plattform, die bereits innovative Unternehmen wie das Klinikum Worms, OCU PRO und Silent Waves erfolgreich einsetzen.
+**Learn to know satware® AI chat** – the professional AI platform that innovative companies like Klinikum Worms, OCU PRO, and Silent Waves are already successfully using.
 
-## Was erwartet Sie in unserem Live-Webinar?
+## What can you expect in our Live Webinar?
 
-### 🎯 **Die Alesi KI-Agenten für Ihren Alltag**
+### 🤖 **The Alesi AI Agents for Your Everyday Life**
 
-Entdecken Sie drei spezialisierte KI-Assistenten aus der Alesi-Familie, die in satware® AI chat auf Sie warten:
+Discover three specialized AI assistants from the Alesi family, waiting for you in satware® AI chat:
 
-**Luna Alesi - Ihre Organisations-Expertin**
+**Luna Alesi - Your Organization Expert**
 
-- Hilft bei der Strukturierung Ihres Alltags
-- Optimiert Ihre Arbeitsabläufe
-- Unterstützt bei Projektplanung und Zeitmanagement
+- Helps with structuring your daily life
+- Optimizes your workflows
+- Supports project planning and time management
 
-**Justus Alesi - Ihr Berater für rechtliche Orientierung**
+**Justus Alesi - Your Advisor for Legal Orientation**
 
-- Gibt allgemeine rechtliche Empfehlungen (keine Rechtsberatung)
-- Hilft bei der Orientierung in rechtlichen Fragen
-- Erklärt wichtige Compliance-Grundlagen verständlich
+- Provides general legal recommendations (no legal advice)
+- Helps with orientation in legal matters
+- Explains important compliance guidelines understandably
 
-**Zuri Alesi - Ihre Work-Life-Integration-Expertin**
+**Zuri Alesi - Your Work-Life-Integration Expert**
 
-- Unterstützt bei der Balance zwischen Beruf und Familie
-- Optimiert Ihre Alltagsorganisation
-- Hilft bei nachhaltiger Lebensführung
+- Supports the balance between work and family
+- Optimizes your daily organization
+- Helps with sustainable living
 
-### 📱 **Live-Demonstration: satware® AI chat in Aktion**
+### 🎬 **Live-Demonstration: satware® AI chat in Action**
 
-Sehen Sie in Echtzeit, wie Sie mit satware® AI chat:
+See in real-time how you can use satware® AI chat:
 
-- Den richtigen KI-Agenten aus der Alesi-Familie auswählen
-- Natürliche Gespräche führen (sprechen Sie wie mit einem Menschen)
-- Strukturierte, hilfreiche Antworten erhalten
-- Ihre Chat-Historie organisieren und wiederfinden
+- Choose the right AI agent from the Alesi family
+- Conduct natural conversations (speak as you would with a human)
+- Get structured, helpful answers
+- Organize and retrieve your chat history
 
-### 🔍 **Das Besondere: Transparente KI-Denkweise**
+### 💡 **The Special Feature: Transparent AI Thinking**
 
-**"Empower your daily workflow"** – das ist das Versprechen von satware® AI chat. Sie sehen nicht nur die Antworten, sondern **wie** die KI denkt! Unser transparentes Reasoning zeigt Ihnen jeden Denkschritt – von der Problemanalyse bis zur Lösungsentwicklung. Das schafft Vertrauen und Verständnis.
+**"Empower your daily workflow"** – that's the promise of satware® AI chat. You don't just see the answers, but **how** the AI thinks! Our transparent reasoning shows you every thought step – from problem analysis to solution development. This creates trust and understanding.
 
-## Warum ist dieses Webinar perfekt für Einsteiger?
+## Why is this webinar perfect for beginners?
 
-### ✅ **Keine Vorkenntnisse nötig**
-Sie müssen kein Technik-Experte sein. Wir erklären alles Schritt für Schritt.
+### ✅ **No prior technical knowledge necessary**
+You don't need to be a tech expert. We explain everything step by step.
 
-### ✅ **Praktische Alltagsbeispiele**
-Keine abstrakten Theorien – nur konkrete Hilfe für echte Probleme.
+### ✅ **Practical everyday examples**
+No abstract theories – just concrete help for real problems.
 
-### ✅ **Sofort anwendbar**
-Was Sie lernen, können Sie direkt nach dem Webinar selbst ausprobieren.
+### ✅ **Immediately applicable**
+What you learn, you can try out yourself immediately after the webinar.
 
-### ✅ **Kostenlos und unverbindlich**
-Kein Risiko, nur Wissen und praktische Tipps.
+### ✅ **Free and non-binding**
+No risk, just knowledge and practical tips.
 
-## Was macht satware® AI chat besonders?
+## What makes satware® AI chat special?
 
-Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen satware® AI chat transparent, wie Entscheidungen getroffen werden. Mit **über 99 Funktionen** ist es ein komplettes **KI-Arbeits-Ökosystem** – aber so benutzerfreundlich, dass auch absolute Neulinge sofort loslegen können.
+While other AI systems function like a "Black Box", satware® AI chat shows you transparently how decisions are made. With **over 99 functions**, it is a complete **AI work ecosystem** – but so user-friendly that even absolute newcomers can get started immediately.
 
-### 🏠 **Für jeden Lebensbereich**
+### 🌍 **For every area of life**
 
-- **Beruf**: Projektorganisation, E-Mail-Verwaltung, Terminplanung
-- **Familie**: Haushaltsorganisation, Kinderbetreuung, Freizeitplanung
-- **Persönlich**: Lernunterstützung, Gesundheitsmanagement, Hobbys
+- **Profession:** Project organization, email management, appointment planning
+- **Family:** Household organization, childcare, leisure planning
+- **Personal:** Learning support, health management, hobbies
 
-### 🔒 **Sicher und vertrauenswürdig**
+### 🔒 **Secure and trustworthy**
 
-- Deutsche Entwicklung von satware AG in Worms
-- Transparente KI-Prozesse
-- **Geschützter Datenraum** für sensible Informationen
-- Datenschutz nach europäischen Standards
-- Keine versteckten Kosten
+- German development by satware AG in Worms
+- Transparent AI processes
+- **Protected data space** for sensitive information
+- Data protection according to European standards
+- No hidden costs
 
-### 🏢 **Vertrauen Sie auf Erfahrung**
+### 🤝 **Rely on Experience**
 
-satware® AI chat wird bereits erfolgreich von innovativen Unternehmen eingesetzt:
-- **Klinikum Worms gGmbH** für Unternehmenskommunikation
-- **OCU PRO Augenärzte MVZ** für Datenverarbeitung
-- **Silent Waves** für Coaching und Konzeptentwicklung
+satware® AI chat is already successfully used by innovative companies:
 
-## Ihr Webinar-Programm im Detail
+- **Klinikum Worms gGmbH** for enterprise communication
+- **OCU PRO Augenärzte MVZ** for data processing
+- **Silent Waves** for coaching and concept development
 
-**14:00 - 14:05 Uhr: Herzlich Willkommen**
+## Your Webinar Program in Detail
 
-- Begrüßung durch Tim Friedrich Weber
-- Was Sie heute erwartet
-- Wichtige Hinweise für Einsteiger
+**14:00 - 14:05 Uhr: Heartfelt Welcome**
 
-**14:05 - 14:20 Uhr: "Was ist satware® AI chat?"**
+- Welcome by Tim Friedrich Weber
+- What you expect today
+- Important tips for beginners
 
-- Die Alesi KI-Agenten Familie im Überblick
-- Erste Schritte in satware® AI chat
-- Transparentes Reasoning live erleben
+**14:05 - 14:20 Uhr: "What is satware® AI chat?"**
+
+- The Alesi AI Agent family at a glance
+- First steps in satware® AI chat
+- Experience transparent reasoning live
 
 **14:20 - 14:45 Uhr: Live-Demonstration**
 
-- **Luna in Aktion**: "Ich bin überlastet – kannst du mir helfen?"
-- **Justus gibt Orientierung**: "Worauf achte ich bei einem Mietvertrag?"
-- **Zuri optimiert den Alltag**: "Wie bringe ich Familie und Beruf unter einen Hut?"
+- **Luna in Action:** "I'm overwhelmed - can you help me?"
+- **Justus gives Orientation:** "What should I pay attention to in a rental agreement?"
+- **Zuri optimizes everyday life:** "How do I bring family and career under one hat?"
 
-**14:45 - 15:00 Uhr: Ihre Fragen**
+**14:45 - 15:00 Uhr: Your Questions**
 
-- Direkte Antworten von unseren KI-Experten
-- Praktische Tipps für den Einstieg
-- Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben
+- Direct answers from our AI experts
+- Practical tips for getting started
+- Ask all the questions you've always been interested in about AI
 
-## Das sagen unsere Kunden über satware® AI
+## What our customers say about satware® AI
 
-!!! quote "Jens Emrich von Kajdacsy, Silent Waves"
-    "Die KI-Agenten der satware sind für mich wertvoller Sparringspartner für Konzeptentwicklung & Reflektion. Vor allem bieten sie mir einen sicheren Raum für sensible Daten. Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
+!!! quote "Jens Emrich from Kajdacsy, Silent Waves"
+    "The AI agents from satware are valuable sparring partners for concept development & reflection. Above all, they offer me a secure space for sensitive data. For me as a coach & mediator, trustworthiness is key. Top!"
 
-!!! quote "Dr. Eva Ehmke, Leitung Unternehmenskommunikation & Fundraising, Klinikum Worms gGmbH"
-    "Die KI-Agenten der Satware sind für mich ein wertvolles Werkzeug und eine effiziente Arbeitsunterstützung, auf die ich nicht mehr verzichten möchte. Insbesondere der geschützte Datenraum war, gepaart mit der beeindruckenden Funktionalität, ein wichtiges Entscheidungskriterium. Super Lösung für die Unternehmenskommunikation."
+!!! quote "Dr. Eva Ehmke, Head of Corporate Communications & Fundraising, Klinikum Worms gGmbH"
+    "The AI agents from Satware are a valuable tool and efficient work support that I would no longer want to do without. Especially the protected data space, paired with the impressive functionality, was an important decision criterion. Super solution for corporate communication."
 
-!!! quote "Dr. Thomas Tyrtania, CEO bei OCU PRO ® Augenärzte MVZ GmbH"
-    "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
+!!! quote "Dr. Thomas Tyrtania, CEO at OCU PRO® Augenärzte MVZ GmbH"
+    "An indispensable support for our company in everyday life comes from satware AI. We work exclusively with sensitive data and the AI agent perfectly complements the data processing processes and I still have a good feeling in terms of security and data protection."
 
-## Jetzt kostenlos anmelden
+## Register now for free
 
-!!! info "Webinar-Details"
-    **Datum**: Freitag, 6. Juni 2025  
-    **Uhrzeit**: 14:00 - 15:00 Uhr  
-    **Kosten**: Kostenlos  
-    **Anmeldung**: [Hier klicken für Ihren kostenlosen Platz](https://satware.ai/webinare/index.html#anmeldung-webinare)
+!!! info "Webinar Details"
+    **Date:** Friday, June 6, 2025
+    **Time:** 14:00 - 15:00 Uhr
+    **Cost:** Free of charge
+    **Registration:** [Click here for your free spot](https://satware.ai/webinare/index.html#anmeldung-webinar)
 
-### 🎁 **Bonus für Teilnehmer**
+### 🎁 **Bonus for Participants**
 
-- Exklusive Einsteiger-Prompts für satware® AI chat zum Download
-- Aufzeichnung des Webinars verfügbar auf unserem [YouTube-Kanal](https://www.youtube.com/@satwareAG)
-- Persönliche Beratung zu Ihren individuellen KI-Fragen
-- **Einblick in das Einführungsangebot** für satware® AI chat
+- Exclusive beginner prompts for satware® AI chat for download
+- Recording of the webinar available on our [YouTube channel](https://www.youtube.com/@satwareAG)
+- Personal consultation on your individual AI questions
+- **Insight into the introductory offer** for satware® AI chat
 
-## 📺 **Weitere Webinare und Aufzeichnungen**
+### 📺 **Further Webinars and Recordings**
 
-Entdecken Sie unsere komplette Webinar-Serie auf YouTube:
+Discover our complete webinar series on YouTube:
 
-- **YouTube-Kanal**: [satware AG](https://www.youtube.com/@satwareAG)
-- **Webinar-Playlist**: [KI-Webinare für Einsteiger und Fortgeschrittene](https://www.youtube.com/playlist?list=PLQdWTJcuvc1Yy5Z9UPFk3QHHYcD0RtSIs)
+- **YouTube-Channel:** [satware AG](https://www.youtube.com/@satwareAG)
+- **Webinar-Playlist:** [AI Webinar for Beginners and Advanced](https://www.youtube.com/playlist?list=PLQdWTCuvc1Yy5Z9UPFk3QHHYcD0RtSIs)
 
-Hier finden Sie alle bisherigen Webinar-Aufzeichnungen und können sich schon vorab einen Eindruck von unseren KI-Demonstrationen verschaffen.
+Here you will find all previous webinar recordings and can already get an impression of our AI demonstrations.
 
-## Häufige Fragen
+## Frequently Asked Questions
 
-??? question "Brauche ich technische Vorkenntnisse?"
-    Nein! Das Webinar ist speziell für absolute Einsteiger konzipiert.
+??? question "Do I need technical knowledge?"
+    No! The webinar is specially designed for absolute beginners.
 
-??? question "Ist das Webinar wirklich kostenlos?"
-    Ja, komplett kostenlos und unverbindlich.
+??? question "Is the webinar really free?"
+    Yes, completely free and non-binding.
 
-??? question "Was passiert nach dem Webinar?"
-    Sie erhalten wertvolle Einsteiger-Materialien und können alle Ihre KI-Fragen direkt an unsere Experten stellen – ohne jede Verpflichtung.
+??? question "What happens after the webinar?"
+    You will receive valuable beginner materials and can ask all your AI questions directly to our experts – without any obligation.
 
-??? question "Kann ich Fragen stellen?"
-    Ja! Die letzten 15 Minuten sind für Ihre Fragen reserviert. Stellen Sie alle Fragen, die Sie schon immer zur KI interessiert haben!
+??? question "Can I ask questions?"
+    Yes! The last 15 minutes are reserved for your questions. Ask all the questions you've always been interested in about AI!
 
-??? question "Wird das Webinar aufgezeichnet?"
-    Ja! Die Aufzeichnung wird auf unserem [YouTube-Kanal](https://www.youtube.com/@satwareAG) in der [Webinar-Playlist](https://www.youtube.com/playlist?list=PLQdWTJcuvc1Yy5Z9UPFk3QHHYcD0RtSIs) verfügbar sein.
+??? question "Will the webinar be recorded?"
+    Yes! The recording will be available on our [YouTube channel](https://www.youtube.com/@satwareAG) in the [Webinar-Playlist](https://www.youtube.com/playlist?list=PLQdWTCuvc1Yy5Z9UPFk3QHHYcD0RtSIs).
 
-??? question "Kann ich satware® AI chat nach dem Webinar testen?"
-    Ja! Wir informieren Sie über aktuelle Angebote und Testmöglichkeiten für satware® AI chat.
+??? question "Can I test satware® AI chat after the webinar?"
+    Yes! We will inform you about current offers and test opportunities for satware® AI chat.
 
-## Über satware AG
+## About satware AG
 
-satware AG mit Sitz in Worms entwickelt seit Jahren innovative KI-Lösungen für den deutschen und europäischen Markt. Unser Fokus liegt auf benutzerfreundlicher, transparenter und vertrauenswürdiger künstlicher Intelligenz, die Menschen in ihrem Alltag unterstützt.
+satware AG, based in Worms, has been developing innovative AI solutions for the German and European market for years. Our focus is on user-friendly, transparent, and trustworthy artificial intelligence that supports people in their everyday lives.
 
-**satware® AI chat** ist unsere professionelle KI-Plattform, die bereits von innovativen Unternehmen erfolgreich eingesetzt wird.
-
----
-
-!!! warning "Wichtiger Hinweis"
-    Dies ist ein fortschrittliches KI-System. Alle dargestellten Inhalte und Analysen werden von künstlicher Intelligenz generiert und dienen ausschließlich Informations- und Demonstrationszwecken. Sie stellen keine professionelle Beratung dar. Für individuelle Entscheidungen konsultieren Sie bitte stets einen qualifizierten menschlichen Experten.
-
-!!! note "Rechtliche Empfehlungen, keine Beratung"
-    Justus Alesi gibt allgemeine rechtliche Empfehlungen und Orientierungshilfen. Das ist KEINE individuelle Rechtsberatung im Sinne des Rechtsdienstleistungsgesetzes (RDG). Für wichtige rechtliche Entscheidungen konsultieren Sie bitte einen qualifizierten Rechtsanwalt.
+**satware® AI chat** is our professional AI platform, already successfully used by innovative companies.
 
 ---
 
-**Verpassen Sie nicht diese einmalige Gelegenheit, satware® AI chat und die Alesi KI-Agenten kennenzulernen. Melden Sie sich jetzt an und entdecken Sie, wie transparente KI Ihren Arbeitsalltag revolutioniert!**
+!!! warning "Important Note"
+    This is an advanced AI system. All presented content and analyses are generated by artificial intelligence and serve exclusively for information and demonstration purposes. They do not constitute professional advice. For individual decisions, please always consult a qualified human expert.
 
-[**JETZT KOSTENLOS ANMELDEN**](https://satware.ai/webinare/index.html#anmeldung-webinare){ .md-button .md-button--primary }
+!!! note "Legal Recommendations, no Advice"
+    Justus Alesi provides general legal recommendations and orientation assistance. This is NOT individual legal advice within the meaning of the Legal Services Act (RDG). For important legal decisions, please always consult a qualified lawyer.
+
+---
+
+**Do not miss this unique opportunity to get to know satware® AI chat and the Alesi AI agents! Register now and discover how transparent AI revolutionizes your daily work!**
+
+[**JETZT KOSTENLOS ANMELDEN**](https://satware.ai/webinare/index.html#anmeldung-webinar){ .md-button .md-button--primary }
 
 *Webinar-Team: Tim Friedrich Weber (Moderation), Dietmar E. Schönig (Support), Adrian Schupp (Technik)*
