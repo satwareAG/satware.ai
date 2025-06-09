@@ -166,7 +166,7 @@ satware® AI chat wird bereits erfolgreich von innovativen Unternehmen eingesetz
     **Datum**: Freitag, 13. Juni 2025  
     **Uhrzeit**: 14:00 - 15:00 Uhr  
     **Kosten**: Kostenlos  
-    **Anmeldung**: [Hier klicken für Ihren kostenlosen Platz](https://data.satware.com/call/handwerk-gunta-2025)
+    **Anmeldung**: [Hier klicken für Ihren kostenlosen Platz](https://satware.ai/webinare/index.html#anmeldung-webinare)
 
 ### 🎁 **Bonus für Teilnehmer**
 
@@ -222,6 +222,6 @@ satware AG mit Sitz in Worms entwickelt seit Jahren innovative KI-Lösungen für
 
 **Verpassen Sie nicht diese einmalige Gelegenheit, satware® AI chat und die Alesi KI-Agenten kennenzulernen. Melden Sie sich jetzt an und entdecken Sie, wie transparente KI Ihren Handwerksbetrieb revolutioniert!**
 
-[**JETZT KOSTENLOS ANMELDEN**](https://data.satware.com/call/handwerk-gunta-2025){ .md-button .md-button--primary }
+[**JETZT KOSTENLOS ANMELDEN**](https://satware.ai/webinare/index.html#anmeldung-webinare){ .md-button .md-button--primary }
 
 *Webinar-Team: Michael Wegener (Moderation), Dietmar E. Schönig (Support), Adrian Schupp (Technik)*
