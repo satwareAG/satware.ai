@@ -171,7 +171,7 @@ satware® AI chat wird bereits erfolgreich von innovativen Unternehmen eingesetz
 ### 🎁 **Bonus für Teilnehmer**
 
 - Exklusive Handwerks-Prompts für satware® AI chat zum Download
-- Aufzeichnung des Webinars verfügbar auf unserem [YouTube-Kanal](https://www.youtube.com/channel/UCQdWTJcuvc1Yy5Z9UPFk3QHHYcD0RtSIs)
+- Aufzeichnung des Webinars verfügbar auf unserem [YouTube-Kanal](https://www.youtube.com/@satwareAG)
 - Persönliche Beratung zu Ihren individuellen KI-Fragen
 - **Einblick in das Einführungsangebot** für satware® AI chat
 
