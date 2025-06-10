@@ -60,6 +60,24 @@ plugins:
       archive: true
       authors: true
   - search
+  - glightbox:
+      touchNavigation: true          # Mobile support for German users
+      loop: false                    # Prevent infinite loops
+      effect: zoom                   # Smooth zoom effect
+      slide_effect: slide            # Slide transitions
+      width: 90%                     # Responsive width
+      height: auto                   # Maintain aspect ratio
+      zoomable: true                 # Enable zoom functionality
+      draggable: true                # Mouse drag navigation
+      auto_themed: true              # Integrate with Material dark theme
+      auto_caption: true             # Use alt text as captions (German content)
+      caption_position: bottom       # Standard caption placement
+      background: "#1e1e1e"          # Dark background matching slate theme
+      shadow: true                   # Maintain visual depth
+      skip_classes:                  # Exclude specific elements
+        - no-lightbox
+        - emoji
+        - logo
   - redirects:
       redirect_maps:
           # satware AG Benutzerkürzel System - Team Member Redirects
