@@ -69,7 +69,6 @@ plugins:
       height: auto                   # Maintain aspect ratio
       zoomable: true                 # Enable zoom functionality
       draggable: true                # Mouse drag navigation
-      auto_themed: true              # Integrate with Material dark theme
       auto_caption: true             # Use alt text as captions (German content)
       caption_position: bottom       # Standard caption placement
       background: "#1e1e1e"          # Dark background matching slate theme
