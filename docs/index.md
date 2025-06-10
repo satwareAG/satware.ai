@@ -118,7 +118,7 @@ Vor allem bieten sie mir einen sicheren Raum für sensible Daten.
 Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
                 </p>
                 <div class="satag--home-testimonial-author">
-                    <span class="satag--home-testimonial-name">Jens Emrich von Kjadacsy</span><br />
+                    <span class="satag--home-testimonial-name">Jens Emrich von Kajdacsy</span><br />
                     <span class="satag--home-testimonial-title">Silent Waves</span>
                 </div>
             </div>
