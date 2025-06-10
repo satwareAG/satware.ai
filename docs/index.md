@@ -19,7 +19,7 @@ Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
             <a class="md-button md-button--primary" href="webinare/" title="Präsentation zu satware® AI anfragen">Präsentation anfragen</a> <a class="md-button" href="zugang/" title="Zugang zu satware® AI bestellen">Zugang bestellen</a>
         </p>
         <p class="screenshot-container satag--padding-container">
-<img src="assets/images/home/satware-ai-chat-screenshot.jpg" alt="Screenshot von satware AI chat" data-glightbox />
+<img src="assets/images/home/satware-ai-chat-screenshot.jpg" alt="Screenshot von satware AI chat" data-lightbox />
         </p>
     </div>
 
