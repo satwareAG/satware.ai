@@ -11,21 +11,17 @@ hide:
         <h1>KI-Power<br /> für Ihr Business</h1>
         <div class="entry-text">
 <span class="satag-trademark">satware®</span> AI bietet zukunftsweisende KI-Lösungen, die Unternehmen dabei
-unterstützen, ihre Prozesse zu optimieren, Daten effektiver zu nutzen und intelligente Entscheidungen zu treffen. Unsere
-Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
+unterstützen, ihre Prozesse zu optimieren, Daten effizienter zu nutzen und intelligente
+Entscheidungen zu treffen. Unsere Technologien sind darauf ausgerichtet, Ihren
+Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
         </div>
         <p class="hero-buttons">
             <a class="md-button md-button--primary" href="webinare/" title="Präsentation zu satware® AI anfragen">Präsentation anfragen</a> <a class="md-button" href="zugang/" title="Zugang zu satware® AI bestellen">Zugang bestellen</a>
         </p>
         <p class="screenshot-container satag--padding-container">
-<picture>
-    <!-- Best compression, newer browsers -->
-    <source srcset="assets/images/home/satware-ai-chat-screenshot.avif" type="image/avif">
-    <!-- Fallback for older browsers -->
-    <img src="assets/images/home/satware-ai-chat-screenshot.jpg" alt="Screenshot von satware AI chat" />
-</picture>
+<img src="assets/images/home/satware-ai-chat-screenshot.jpg" alt="Screenshot von satware AI chat" data-glightbox />
         </p>
-</div>
+    </div>
 
 <!-- Section Companies -->
 <div class="satag--home-companies satag--padding-container">
@@ -67,13 +63,11 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
 
 
 
-
 </div>
 
 <!-- end Section Companies -->
 
 <!-- Section Counters -->
-<!-- 
 <div class="satag--home-counters ">
 
 <div class="satag--home-counters-container satag--padding-container">
@@ -100,7 +94,7 @@ Technologien sind darauf ausgerichtet, Ihren Geschäftserfolg durch moderne, KI-
 </div>
 
 </div>
--->
+
 <!-- end Section Counters -->
 
 <!-- start section testimonials -->
@@ -124,7 +118,7 @@ Vor allem bieten sie mir einen sicheren Raum für sensible Daten.
 Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
                 </p>
                 <div class="satag--home-testimonial-author">
-                    <span class="satag--home-testimonial-name">Jens Emrich von Kajdacsy</span><br />
+                    <span class="satag--home-testimonial-name">Jens Emrich von Kjadacsy</span><br />
                     <span class="satag--home-testimonial-title">Silent Waves</span>
                 </div>
             </div>
@@ -147,21 +141,22 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
             </div>
 
             <div class="satag--home-testimonials-text" data-testimonial-id="3">
-                        <picture class="satag--home-testimonial-text-logo">
-                            <!-- Best compression, newer browsers -->
-                            <source srcset="assets/images/home/company-logos/square/ocu-pro.avif" type="image/avif">
-                            <!-- Fallback for older browsers -->
-                            <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
-                        </picture>
+                <picture class="satag--home-testimonial-text-logo">
+                    <!-- Best compression, newer browsers -->
+                    <source srcset="assets/images/home/company-logos/square/ocu-pro.avif" type="image/avif">
+                    <!-- Fallback for older browsers -->
+                    <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
+                </picture>
 
-            <p>
-                        "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
-            </p>
-            <div class="satag--home-testimonial-author">
-                <span class="satag--home-testimonial-name">Dr. Thomas Tyrtania</span><br />
-                <span class="satag--home-testimonial-title">CEO bei OCU PRO ® Augenärzte MVZ GmbH</span>
+                <p>
+                    "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
+                </p>
+                <div class="satag--home-testimonial-author">
+                    <span class="satag--home-testimonial-name">Dr. Thomas Tyrtania</span><br />
+                    <span class="satag--home-testimonial-title">CEO bei OCU PRO ® Augenärzte MVZ GmbH</span>
+                </div>
             </div>
-        </div>
+
         </div>
 
         <div class="satag--home-testimonials-images">
@@ -171,7 +166,7 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
                     <!-- Best compression, newer browsers -->
                     <source srcset="assets/images/home/testimonials/silentwaves.avif" type="image/avif">
                     <!-- Fallback for older browsers -->
-                    <img src="assets/images/home/testimonials/silentwaves.jpg" alt="Jens Emrich von Kajdacsy" class="satag--home-testimonial-image">
+                    <img src="assets/images/home/testimonials/silentwaves.jpg" alt="Jens Emrich von Kjadacsy" class="satag--home-testimonial-image">
                 </picture>
                 <div class="satag--home-testimonial-logo">
                     <picture>
@@ -216,10 +211,7 @@ Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
             </div>
         </div>
 
-
     </div>
 
-</div>
-<!-- end section testimonials -->
 </div>
 </div>
