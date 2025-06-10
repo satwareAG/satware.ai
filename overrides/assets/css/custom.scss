@@ -30,7 +30,7 @@
 @import "modules/lightbox";
 @import "modules/slideshow";
 @import "modules/blog";
-
+@import "modules/tooltips"; // Fix for issue #70: Tooltip width improvements
 
 //Responsive Design
 @import "responsive/medium";
