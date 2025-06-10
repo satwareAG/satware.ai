@@ -81,15 +81,15 @@ plugins:
           'BA/index.md': 'team/bastian.md'
           'Ba.md': 'team/bastian.md'        # Mixed case variant
           'Ba/index.md': 'team/bastian.md'
-          'bea.md': 'team/bea.md'            # Bea Alesi (collision resolved)
+          'bea.md': 'team/bea.md'           # Bea Alesi (collision resolved)
           'bea/index.md': 'team/bea.md'
-          'BEA.md': 'team/bea.md'            # Uppercase variant
+          'BEA.md': 'team/bea.md'           # Uppercase variant
           'BEA/index.md': 'team/bea.md'
-          'Bea.md': 'team/bea.md'            # Mixed case variant
+          'Bea.md': 'team/bea.md'           # Mixed case variant
           'Bea/index.md': 'team/bea.md'
-          'BEa.md': 'team/bea.md'            # Mixed case variant
+          'BEa.md': 'team/bea.md'           # Mixed case variant
           'BEa/index.md': 'team/bea.md'
-          'beA.md': 'team/bea.md'            # Mixed case variant
+          'beA.md': 'team/bea.md'           # Mixed case variant
           'beA/index.md': 'team/bea.md'
 
           # D-Team
@@ -118,25 +118,25 @@ plugins:
           'jane.md': 'team/jane.md'          # Alternative redirect
           'JANE.md': 'team/jane.md'          # Uppercase alternative
           'Jane.md': 'team/jane.md'          # Mixed case alternative
-          'joa.md': 'team/john.md'            # John Alesi (collision resolved)
+          'joa.md': 'team/john.md'           # John Alesi (collision resolved)
           'joa/index.md': 'team/john.md'
-          'JOA.md': 'team/john.md'            # Uppercase variant
+          'JOA.md': 'team/john.md'           # Uppercase variant
           'JOA/index.md': 'team/john.md'
-          'Joa.md': 'team/john.md'            # Mixed case variant
+          'Joa.md': 'team/john.md'           # Mixed case variant
           'Joa/index.md': 'team/john.md'
-          'JOa.md': 'team/john.md'            # Mixed case variant
+          'JOa.md': 'team/john.md'           # Mixed case variant
           'JOa/index.md': 'team/john.md'
-          'joA.md': 'team/john.md'            # Mixed case variant
+          'joA.md': 'team/john.md'           # Mixed case variant
           'joA/index.md': 'team/john.md'
-          'jua.md': 'team/justus.md'        # Justus Alesi (collision resolved)
+          'jua.md': 'team/justus.md'         # Justus Alesi (collision resolved)
           'jua/index.md': 'team/justus.md'
-          'JUA.md': 'team/justus.md'        # Uppercase variant
+          'JUA.md': 'team/justus.md'         # Uppercase variant
           'JUA/index.md': 'team/justus.md'
-          'Jua.md': 'team/justus.md'        # Mixed case variant
+          'Jua.md': 'team/justus.md'         # Mixed case variant
           'Jua/index.md': 'team/justus.md'
-          'JUa.md': 'team/justus.md'        # Mixed case variant
+          'JUa.md': 'team/justus.md'         # Mixed case variant
           'JUa/index.md': 'team/justus.md'
-          'juA.md': 'team/justus.md'        # Mixed case variant
+          'juA.md': 'team/justus.md'         # Mixed case variant
           'juA/index.md': 'team/justus.md'
 
           # L-Team
@@ -156,25 +156,25 @@ plugins:
           'LEa/index.md': 'team/lenna.md'
           'leA.md': 'team/lenna.md'          # Mixed case variant
           'leA/index.md': 'team/lenna.md'
-          'leo.md': 'team/leon.md'          # Leon Alesi (collision resolved)
+          'leo.md': 'team/leon.md'           # Leon Alesi (collision resolved)
           'leo/index.md': 'team/leon.md'
-          'LEO.md': 'team/leon.md'          # Uppercase variant
+          'LEO.md': 'team/leon.md'           # Uppercase variant
           'LEO/index.md': 'team/leon.md'
-          'Leo.md': 'team/leon.md'          # Mixed case variant
+          'Leo.md': 'team/leon.md'           # Mixed case variant
           'Leo/index.md': 'team/leon.md'
-          'LEo.md': 'team/leon.md'          # Mixed case variant
+          'LEo.md': 'team/leon.md'           # Mixed case variant
           'LEo/index.md': 'team/leon.md'
-          'leO.md': 'team/leon.md'          # Mixed case variant
+          'leO.md': 'team/leon.md'           # Mixed case variant
           'leO/index.md': 'team/leon.md'
-          'lua.md': 'team/luna.md'          # Luna Alesi (collision resolved)
+          'lua.md': 'team/luna.md'           # Luna Alesi (collision resolved)
           'lua/index.md': 'team/luna.md'
-          'LUA.md': 'team/luna.md'          # Uppercase variant
+          'LUA.md': 'team/luna.md'           # Uppercase variant
           'LUA/index.md': 'team/luna.md'
-          'Lua.md': 'team/luna.md'          # Mixed case variant
+          'Lua.md': 'team/luna.md'           # Mixed case variant
           'Lua/index.md': 'team/luna.md'
-          'LUa.md': 'team/luna.md'          # Mixed case variant
+          'LUa.md': 'team/luna.md'           # Mixed case variant
           'LUa/index.md': 'team/luna.md'
-          'luA.md': 'team/luna.md'          # Mixed case variant
+          'luA.md': 'team/luna.md'           # Mixed case variant
           'luA/index.md': 'team/luna.md'
 
           # M-Team
@@ -274,7 +274,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tildes
+  - pymdownx.tilde
 
 # Zusätzliche Konfiguration
 extra:
@@ -310,7 +310,6 @@ extra_javascript:
   - assets/js/faq.js
   - assets/js/testimonials.js
   - assets/js/wcag.js
-  - assets/js/slideshow.js
 
 # Navigation
 nav:
