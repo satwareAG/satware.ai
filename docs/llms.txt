@@ -1,0 +1,369 @@
+<PRODUCT_KNOWLEDGE_MAP lastUpdated="2025-01-20T14:00:00.000Z">
+
+This document contains a publicly accessible product knowledge map in a structured text format designed for consumption by Large Language Models (LLMs)
+
+<PRODUCT_OVERVIEW>
+## 1. Overview
+
+**Product Name:** satware® AI chat
+
+**Tagline:** Your Advanced AI Workspace
+
+**Core Value Proposition:** satware® AI chat is a comprehensive AI chat platform designed to provide enterprise-grade access to the Alesi AGI family and advanced AI capabilities. It serves as a white-label frontend for the satware® AI ecosystem, offering users access to specialized AI agents and tools created by the satware® AI team. The platform focuses on delivering exceptional AI experiences through the saTway unified approach while maintaining enterprise security and reliability.
+
+**Target User:** Business professionals, enterprises, teams, and organizations seeking advanced AI capabilities through specialized agents and tools. It caters to users who need:
+
+- Access to the complete Alesi AGI family of specialized agents
+- Enterprise-grade AI solutions with advanced tools and plugins
+- Secure, reliable AI interactions for business use cases
+- Professional AI workspace with curated content and capabilities
+- Streamlined access to cutting-edge AI without complex setup
+
+**Key Benefits:**
+
+- **Curated AI Experience:** Access to the complete satware® AI ecosystem including specialized Alesi agents
+- **Enterprise Security:** Built with enterprise-grade security and reliability standards
+- **Professional Focus:** Designed specifically for business and professional use cases
+- **Advanced Capabilities:** Pre-configured with advanced tools, plugins, and AI agents
+- **Simplified Access:** No need for individual API key management or complex configuration
+- **Expert Curation:** All agents and tools are professionally developed and maintained by satware® AI
+- **Seamless Integration:** Unified access to multiple AI models and capabilities through one platform
+
+## 2. Key Features
+
+**Curated AI Agent Access:**
+- Complete access to the Alesi AGI family including Jane, Wolfgang, Lenna, John, Leon, and other specialized agents
+- Each agent is professionally developed with specific expertise and capabilities
+- Agents are pre-configured and optimized for professional use cases
+
+**Enterprise-Grade Platform:**
+- Secure, reliable infrastructure designed for business use
+- Professional-grade uptime and performance standards
+- Enterprise security and data protection measures
+
+**Advanced Tools and Plugins:**
+- Pre-configured access to advanced AI tools and plugins
+- Professional-grade integrations and capabilities
+- Curated selection of tools optimized for business use cases
+
+**Streamlined User Experience:**
+- No need for individual API key management
+- Simplified access to advanced AI capabilities
+- Professional interface designed for business users
+- Consistent, reliable performance across all features
+
+**Professional Support:**
+- Expert support from the satware® AI team
+- Professional-grade service level agreements
+- Dedicated support for enterprise users
+
+## 3. Platform Architecture
+
+**Frontend Platform:** satware® AI chat serves as a specialized frontend interface
+**Backend Infrastructure:** Powered by the complete satware® AI ecosystem
+**Agent Access:** Direct access to all Alesi AGI family members
+**Tool Integration:** Pre-configured access to advanced AI tools and plugins
+**Security:** Enterprise-grade security and data protection
+
+## 4. Key Differences from Standard Platforms
+
+**Curated Experience:**
+- Users access professionally curated AI agents and tools
+- No need to configure or manage individual AI agents
+- All content is professionally developed and maintained
+
+**Simplified Access:**
+- No individual API key management required
+- Streamlined access to advanced capabilities
+- Professional-grade reliability and performance
+
+**Enterprise Focus:**
+- Designed specifically for business and professional use cases
+- Enterprise-grade security and reliability standards
+- Professional support and service levels
+
+**Expert Development:**
+- All agents and tools developed by satware® AI experts
+- Continuous improvement and optimization
+- Professional-grade quality assurance
+
+## 5. User Limitations and Restrictions
+
+**Agent Configuration:**
+- Users cannot alter the Agent's Tools/Plugin selection
+- Agent system prompts are professionally maintained and cannot be modified by users
+- LLM Provider selection is managed at the platform level
+
+**Administrative Access:**
+- Users have no access to administrative areas
+- Platform configuration is managed by satware® AI
+- Professional maintenance and updates are handled centrally
+
+**Content Management:**
+- All agents and tools are professionally curated
+- Users cannot modify core agent configurations
+- Platform maintains consistency and reliability through expert management
+
+## 6. Access and Usage
+
+**Platform Access:** Available through chat.satware.ai
+**User Interface:** Professional chat interface optimized for business use
+**Agent Selection:** Access to the complete Alesi AGI family
+**Tool Access:** Pre-configured access to advanced AI tools and plugins
+**Support:** Professional support from the satware® AI team
+
+</PRODUCT_OVERVIEW>
+
+<MAIN_INTERFACE>
+### 1. Overall Layout
+
+The satware® AI chat interface is divided into two main sections: a sidebar on the left and a main content area on the right. The design is clean and professional, utilizing a modern color scheme optimized for business use.
+
+### 2. Left Sidebar
+
+- **Top Section:**
+    - **App Title/Logo:** satware® AI branding prominently displayed
+    - **"Chat" Button (Selected):** Indicates the user is currently in the Chat view with the satware® AI chat icon
+    - **"New Chat" Button:** Initiates a new conversation with available Alesi agents
+    - **User Profile Icon:** Displays the user's profile with satware® AI integration
+- **Search Bar:** Located below the buttons, allows users to search through their conversations with Alesi agents
+- **Chat Management Tools:** Professional tools for organizing conversations:
+    - Create Folder for organizing chats by project or topic
+    - Sort conversations by various criteria
+    - Filter conversations by agent type or topic
+- **Navigation Menu:** Access to different sections of the satware® AI platform:
+    - **Chat (Selected):** Main conversation interface
+    - **Agents:** Browse available Alesi AGI family members
+    - **Tools:** Access to available AI tools and plugins
+    - **Settings:** Platform and user preferences
+- **Chat List:** Displays conversations with Alesi agents:
+    - **Agent Identification:** Clear indication of which Alesi agent was used
+    - **Conversation Preview:** Snippet of recent conversation content
+    - **Timestamp:** When the conversation last occurred
+    - **Organization Tools:** Options to organize and manage conversations
+
+### 3. Main Content Area (Right Side)
+
+- **Top Bar:**
+    - **Agent Information:** Display of current Alesi agent being used
+    - **Conversation Tools:** Professional tools for managing the current conversation
+    - **Cost Information:** Transparent usage information (when applicable)
+    - **Profile Access:** Quick access to user profile and settings
+- **Chat Display Area:** Shows the conversation with the selected Alesi agent
+- **Agent Selection:** Interface for choosing from available Alesi AGI family members
+- **Input Area:**
+    - **Agent Context:** Clear indication of which agent will respond
+    - **Input Field:** Professional interface for composing messages
+    - **Tool Access:** Quick access to available tools and plugins
+    - **Send Controls:** Professional controls for sending messages and managing conversations
+
+</MAIN_INTERFACE>
+
+<ALESI_AGI_FAMILY>
+### Alesi AGI Family Access
+
+satware® AI chat provides direct access to the complete Alesi AGI family, each professionally developed for specific use cases:
+
+**Jane Alesi - Lead AI Architect**
+- Advanced AI architecture and system design
+- Technical leadership and strategic planning
+- Complex problem-solving and analysis
+
+**Wolfgang Alesi - Research Specialist**
+- Scientific research and analysis
+- Academic and technical documentation
+- Data analysis and interpretation
+
+**Lenna Alesi - Visual Analysis Expert**
+- Image and visual content analysis
+- Creative and design consultation
+- Visual communication strategies
+
+**John Alesi - Software Development Specialist**
+- Advanced software development and programming
+- Technical architecture and implementation
+- Code review and optimization
+
+**Leon Alesi - IT Systems Integration**
+- System integration and technical implementation
+- Infrastructure planning and management
+- Technical troubleshooting and optimization
+
+**Additional Specialized Agents:**
+- Each agent in the Alesi family brings specific expertise
+- All agents are professionally maintained and optimized
+- Continuous updates and improvements by satware® AI team
+
+### Agent Capabilities
+
+**Professional Expertise:**
+- Each agent has deep, specialized knowledge in their domain
+- Professionally trained and continuously updated
+- Optimized for business and professional use cases
+
+**Advanced Tools:**
+- Pre-configured access to relevant tools and plugins
+- Professional-grade integrations and capabilities
+- Seamless tool usage without user configuration
+
+**Consistent Performance:**
+- Reliable, professional-grade responses
+- Consistent quality across all interactions
+- Enterprise-level performance standards
+
+</ALESI_AGI_FAMILY>
+
+<ENTERPRISE_FEATURES>
+### Enterprise-Grade Capabilities
+
+**Security and Reliability:**
+- Enterprise-grade security measures
+- Professional uptime and performance standards
+- Secure data handling and protection
+
+**Professional Support:**
+- Expert support from satware® AI team
+- Professional service level agreements
+- Dedicated support channels for enterprise users
+
+**Scalability:**
+- Designed to handle enterprise-scale usage
+- Professional infrastructure and performance
+- Scalable access to AI capabilities
+
+**Integration:**
+- Professional-grade integration capabilities
+- Enterprise system compatibility
+- Seamless workflow integration
+
+### Business-Focused Design
+
+**Professional Interface:**
+- Clean, business-appropriate design
+- Optimized for professional use cases
+- Consistent, reliable user experience
+
+**Productivity Focus:**
+- Streamlined access to AI capabilities
+- Efficient workflow integration
+- Professional productivity tools
+
+**Quality Assurance:**
+- All content professionally curated
+- Consistent quality standards
+- Regular updates and improvements
+
+</ENTERPRISE_FEATURES>
+
+<PLATFORM_MANAGEMENT>
+### Platform Administration
+
+**Centralized Management:**
+- All platform configuration managed by satware® AI
+- Professional maintenance and updates
+- Consistent platform performance
+
+**User Access Control:**
+- Professional user management
+- Secure access controls
+- Enterprise-grade authentication
+
+**Content Curation:**
+- All agents and tools professionally maintained
+- Expert curation and optimization
+- Continuous improvement and updates
+
+### Support and Maintenance
+
+**Professional Support:**
+- Expert support from satware® AI team
+- Professional response times
+- Comprehensive support coverage
+
+**Platform Updates:**
+- Regular updates and improvements
+- Professional testing and quality assurance
+- Seamless deployment of new features
+
+**Performance Monitoring:**
+- Continuous platform monitoring
+- Professional performance optimization
+- Proactive issue resolution
+
+</PLATFORM_MANAGEMENT>
+
+<ACCESS_AND_USAGE>
+### Getting Started
+
+**Platform Access:**
+- Available at chat.satware.ai
+- Professional authentication and access controls
+- Secure, reliable platform access
+
+**Agent Selection:**
+- Browse available Alesi AGI family members
+- Select appropriate agent for your use case
+- Begin professional AI-assisted work
+
+**Tool Usage:**
+- Access to pre-configured tools and plugins
+- Professional-grade capabilities
+- Seamless integration with agent interactions
+
+### Best Practices
+
+**Agent Selection:**
+- Choose the most appropriate Alesi agent for your specific needs
+- Leverage each agent's specialized expertise
+- Combine multiple agents for complex projects
+
+**Professional Usage:**
+- Utilize the platform for business and professional purposes
+- Take advantage of enterprise-grade capabilities
+- Maintain professional standards in all interactions
+
+**Productivity Optimization:**
+- Organize conversations by project or topic
+- Use available tools to enhance productivity
+- Leverage the full capabilities of the satware® AI ecosystem
+
+</ACCESS_AND_USAGE>
+
+<SUPPORT_AND_RESOURCES>
+### Professional Support
+
+**Support Channels:**
+- Expert support from satware® AI team
+- Professional response times and service levels
+- Comprehensive support for all platform features
+
+**Documentation:**
+- Professional documentation and guides
+- Best practices for using Alesi agents
+- Comprehensive platform information
+
+**Training and Onboarding:**
+- Professional onboarding for new users
+- Training on platform capabilities
+- Guidance on maximizing AI productivity
+
+### Continuous Improvement
+
+**Platform Evolution:**
+- Regular updates and new features
+- Continuous improvement of agent capabilities
+- Professional development and testing
+
+**User Feedback:**
+- Professional channels for user feedback
+- Continuous improvement based on user needs
+- Expert evaluation and implementation of suggestions
+
+**Quality Assurance:**
+- Professional quality standards
+- Continuous monitoring and optimization
+- Expert maintenance and support
+
+</SUPPORT_AND_RESOURCES>
+
+</PRODUCT_KNOWLEDGE_MAP>
