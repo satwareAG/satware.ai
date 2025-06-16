@@ -66,6 +66,10 @@ plugins:
   - search
   - redirects:
       redirect_maps:
+          # Critical business page redirects - Fix for 404 errors
+          'zugang.md': 'zugang/index.md'           # /zugang -> /zugang/index.html
+          'demo.md': 'https://chat.satware.ai/'    # /demo -> external chat URL
+          
           # satware AG Benutzerkürzel System - Team Member Redirects
           # Format: kuerzel.md -> team/member.md
           # Unterstützt sowohl Groß- als auch Kleinschreibung
@@ -73,144 +77,144 @@ plugins:
           # A-Team
           'aa.md': 'team/amira.md'         # Amira Alesi
           'aa/index.md': 'team/amira.md'
-          'AA.md': 'team/amira.md'          # Uppercase variant
+          'AA.md': 'team/amira.md'         # Uppercase variant
           'AA/index.md': 'team/amira.md'
-          'Aa.md': 'team/amira.md'          # Mixed case variant
+          'Aa.md': 'team/amira.md'         # Mixed case variant
           'Aa/index.md': 'team/amira.md'
 
           # B-Team
-          'ba.md': 'team/bastian.md'        # Bastian Alesi
+          'ba.md': 'team/bastian.md'       # Bastian Alesi
           'ba/index.md': 'team/bastian.md'
-          'BA.md': 'team/bastian.md'        # Uppercase variant
+          'BA.md': 'team/bastian.md'       # Uppercase variant
           'BA/index.md': 'team/bastian.md'
-          'Ba.md': 'team/bastian.md'        # Mixed case variant
+          'Ba.md': 'team/bastian.md'       # Mixed case variant
           'Ba/index.md': 'team/bastian.md'
-          'bea.md': 'team/bea.md'           # Bea Alesi (collision resolved)
+          'bea.md': 'team/bea.md'          # Bea Alesi (collision resolved)
           'bea/index.md': 'team/bea.md'
-          'BEA.md': 'team/bea.md'           # Uppercase variant
+          'BEA.md': 'team/bea.md'          # Uppercase variant
           'BEA/index.md': 'team/bea.md'
-          'Bea.md': 'team/bea.md'           # Mixed case variant
+          'Bea.md': 'team/bea.md'          # Mixed case variant
           'Bea/index.md': 'team/bea.md'
-          'BEa.md': 'team/bea.md'           # Mixed case variant
+          'BEA.md': 'team/bea.md'          # Mixed case variant
           'BEa/index.md': 'team/bea.md'
-          'beA.md': 'team/bea.md'           # Mixed case variant
+          'beA.md': 'team/bea.md'          # Mixed case variant
           'beA/index.md': 'team/bea.md'
 
           # D-Team
-          'da.md': 'team/denopus.md'        # Denopus Alesi
+          'da.md': 'team/denopus.md'       # Denopus Alesi
           'da/index.md': 'team/denopus.md'
-          'DA.md': 'team/denopus.md'        # Uppercase variant
+          'DA.md': 'team/denopus.md'       # Uppercase variant
           'DA/index.md': 'team/denopus.md'
-          'Da.md': 'team/denopus.md'        # Mixed case variant
+          'Da.md': 'team/denopus.md'       # Mixed case variant
           'Da/index.md': 'team/denopus.md'
 
           # G-Team
-          'ga.md': 'team/gunta.md'          # Gunta Alesi
+          'ga.md': 'team/gunta.md'         # Gunta Alesi
           'ga/index.md': 'team/gunta.md'
-          'GA.md': 'team/gunta.md'          # Uppercase variant
+          'GA.md': 'team/gunta.md'         # Uppercase variant
           'GA/index.md': 'team/gunta.md'
-          'Ga.md': 'team/gunta.md'          # Mixed case variant
+          'Ga.md': 'team/gunta.md'         # Mixed case variant
           'Ga/index.md': 'team/gunta.md'
 
           # J-Team
-          'ja.md': 'team/jane.md'           # Jane Alesi
+          'ja.md': 'team/jane.md'          # Jane Alesi
           'ja/index.md': 'team/jane.md'
-          'JA.md': 'team/jane.md'           # Uppercase variant
+          'JA.md': 'team/jane.md'          # Uppercase variant
           'JA/index.md': 'team/jane.md'
-          'Ja.md': 'team/jane.md'           # Mixed case variant
+          'Ja.md': 'team/jane.md'          # Mixed case variant
           'Ja/index.md': 'team/jane.md'
-          'jane.md': 'team/jane.md'         # Alternative redirect
-          'JANE.md': 'team/jane.md'         # Uppercase alternative
-          'Jane.md': 'team/jane.md'         # Mixed case alternative
-          'joa.md': 'team/john.md'          # John Alesi (collision resolved)
+          'jane.md': 'team/jane.md'        # Alternative redirect
+          'JANE.md': 'team/jane.md'        # Uppercase alternative
+          'Jane.md': 'team/jane.md'        # Mixed case alternative
+          'joa.md': 'team/john.md'         # John Alesi (collision resolved)
           'joa/index.md': 'team/john.md'
-          'JOA.md': 'team/john.md'          # Uppercase variant
+          'JOA.md': 'team/john.md'         # Uppercase variant
           'JOA/index.md': 'team/john.md'
-          'Joa.md': 'team/john.md'          # Mixed case variant
+          'Joa.md': 'team/john.md'         # Mixed case variant
           'Joa/index.md': 'team/john.md'
-          'JOa.md': 'team/john.md'          # Mixed case variant
+          'JOa.md': 'team/john.md'         # Mixed case variant
           'JOa/index.md': 'team/john.md'
-          'joA.md': 'team/john.md'          # Mixed case variant
+          'joA.md': 'team/john.md'         # Mixed case variant
           'joA/index.md': 'team/john.md'
-          'jua.md': 'team/justus.md'        # Justus Alesi (collision resolved)
+          'jua.md': 'team/justus.md'       # Justus Alesi (collision resolved)
           'jua/index.md': 'team/justus.md'
-          'JUA.md': 'team/justus.md'        # Uppercase variant
+          'JUA.md': 'team/justus.md'       # Uppercase variant
           'JUA/index.md': 'team/justus.md'
-          'Jua.md': 'team/justus.md'        # Mixed case variant
+          'Jua.md': 'team/justus.md'       # Mixed case variant
           'Jua/index.md': 'team/justus.md'
-          'JUa.md': 'team/justus.md'        # Mixed case variant
+          'JUa.md': 'team/justus.md'       # Mixed case variant
           'JUa/index.md': 'team/justus.md'
-          'juA.md': 'team/justus.md'        # Mixed case variant
+          'juA.md': 'team/justus.md'       # Mixed case variant
           'juA/index.md': 'team/justus.md'
 
           # L-Team
-          'la.md': 'team/lara.md'           # Lara Alesi
+          'la.md': 'team/lara.md'          # Lara Alesi
           'la/index.md': 'team/lara.md'
-          'LA.md': 'team/lara.md'           # Uppercase variant
+          'LA.md': 'team/lara.md'          # Uppercase variant
           'LA/index.md': 'team/lara.md'
-          'La.md': 'team/lara.md'           # Mixed case variant
+          'La.md': 'team/lara.md'          # Mixed case variant
           'La/index.md': 'team/lara.md'
-          'lea.md': 'team/lenna.md'         # Lenna Alesi (collision resolved)
+          'lea.md': 'team/lenna.md'        # Lenna Alesi (collision resolved)
           'lea/index.md': 'team/lenna.md'
-          'LEA.md': 'team/lenna.md'         # Uppercase variant
+          'LEA.md': 'team/lenna.md'        # Uppercase variant
           'LEA/index.md': 'team/lenna.md'
-          'Lea.md': 'team/lenna.md'         # Mixed case variant
+          'Lea.md': 'team/lenna.md'        # Mixed case variant
           'Lea/index.md': 'team/lenna.md'
-          'LEa.md': 'team/lenna.md'         # Mixed case variant
+          'LEa.md': 'team/lenna.md'        # Mixed case variant
           'LEa/index.md': 'team/lenna.md'
-          'leA.md': 'team/lenna.md'         # Mixed case variant
+          'leA.md': 'team/lenna.md'        # Mixed case variant
           'leA/index.md': 'team/lenna.md'
-          'leo.md': 'team/leon.md'          # Leon Alesi (collision resolved)
+          'leo.md': 'team/leon.md'         # Leon Alesi (collision resolved)
           'leo/index.md': 'team/leon.md'
-          'LEO.md': 'team/leon.md'          # Uppercase variant
+          'LEO.md': 'team/leon.md'         # Uppercase variant
           'LEO/index.md': 'team/leon.md'
-          'Leo.md': 'team/leon.md'          # Mixed case variant
+          'Leo.md': 'team/leon.md'         # Mixed case variant
           'Leo/index.md': 'team/leon.md'
-          'LEo.md': 'team/leon.md'          # Mixed case variant
+          'LEo.md': 'team/leon.md'         # Mixed case variant
           'LEo/index.md': 'team/leon.md'
-          'leO.md': 'team/leon.md'          # Mixed case variant
+          'leO.md': 'team/leon.md'         # Mixed case variant
           'leO/index.md': 'team/leon.md'
-          'lua.md': 'team/luna.md'          # Luna Alesi (collision resolved)
+          'lua.md': 'team/luna.md'         # Luna Alesi (collision resolved)
           'lua/index.md': 'team/luna.md'
-          'LUA.md': 'team/luna.md'          # Uppercase variant
+          'LUA.md': 'team/luna.md'         # Uppercase variant
           'LUA/index.md': 'team/luna.md'
-          'Lua.md': 'team/luna.md'          # Mixed case variant
+          'Lua.md': 'team/luna.md'         # Mixed case variant
           'Lua/index.md': 'team/luna.md'
-          'LUa.md': 'team/luna.md'          # Mixed case variant
+          'LUa.md': 'team/luna.md'         # Mixed case variant
           'LUa/index.md': 'team/luna.md'
-          'luA.md': 'team/luna.md'          # Mixed case variant
+          'luA.md': 'team/luna.md'         # Mixed case variant
           'luA/index.md': 'team/luna.md'
 
           # M-Team
-          'ma.md': 'team/marco.md'          # Marco Alesi
+          'ma.md': 'team/marco.md'         # Marco Alesi
           'ma/index.md': 'team/marco.md'
-          'MA.md': 'team/marco.md'          # Uppercase variant
+          'MA.md': 'team/marco.md'         # Uppercase variant
           'MA/index.md': 'team/marco.md'
-          'Ma.md': 'team/marco.md'          # Mixed case variant
+          'Ma.md': 'team/marco.md'         # Mixed case variant
           'Ma/index.md': 'team/marco.md'
 
           # O-Team
-          'oa.md': 'team/olu.md'            # Olu Alesi
+          'oa.md': 'team/olu.md'           # Olu Alesi
           'oa/index.md': 'team/olu.md'
-          'OA.md': 'team/olu.md'            # Uppercase variant
+          'OA.md': 'team/olu.md'           # Uppercase variant
           'OA/index.md': 'team/olu.md'
-          'Oa.md': 'team/olu.md'            # Mixed case variant
+          'Oa.md': 'team/olu.md'           # Mixed case variant
           'Oa/index.md': 'team/olu.md'
 
           # T-Team
-          'ta.md': 'team/theo.md'           # Theo Alesi
+          'ta.md': 'team/theo.md'          # Theo Alesi
           'ta/index.md': 'team/theo.md'
-          'TA.md': 'team/theo.md'           # Uppercase variant
+          'TA.md': 'team/theo.md'          # Uppercase variant
           'TA/index.md': 'team/theo.md'
-          'Ta.md': 'team/theo.md'           # Mixed case variant
+          'Ta.md': 'team/theo.md'          # Mixed case variant
           'Ta/index.md': 'team/theo.md'
 
           # W-Team
-          'wa.md': 'team/wolfgang.md'       # Wolfgang Alesi
+          'wa.md': 'team/wolfgang.md'      # Wolfgang Alesi
           'wa/index.md': 'team/wolfgang.md'
-          'WA.md': 'team/wolfgang.md'       # Uppercase variant
+          'WA.md': 'team/wolfgang.md'      # Uppercase variant
           'WA/index.md': 'team/wolfgang.md'
-          'Wa.md': 'team/wolfgang.md'       # Mixed case variant
+          'Wa.md': 'team/wolfgang.md'      # Mixed case variant
           'Wa/index.md': 'team/wolfgang.md'
 
   - minify:
@@ -299,7 +303,7 @@ extra:
       link: https://www.xing.com/pages/satwareag
       name: satware AG auf Xing
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCHfn2XBDQ9yfZrWnMzs1k0g
+      link: https://www.youtube.com/@satwareAG
       name: satware AG auf YouTube
 
   #cards:
