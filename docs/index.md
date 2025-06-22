@@ -80,50 +80,10 @@ Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
     </div>
 <!-- Testimonials -->
     <div class="satag--home-testimonials-container">
-        <h2>Das sagen unsere Anwender zu <span class="satag-trademark">satware®</span> AI</h2>
+        <h2 id="testimonials">Das sagen unsere Anwender zu <span class="satag-trademark">satware®</span> AI</h2>
         <div class="satag--home-testimonials">
             <div class="satag--home-testimonials-text-container">
                 <div class="satag--home-testimonials-text active" data-testimonial-id="1">
-                    <picture class="satag--home-testimonial-text-logo">
-                        <source srcset="assets/images/home/testimonials/silentwaves-schriftzug.avif" type="image/avif">
-                        <img class="satag--home-testimonial-text-logo" src="assets/images/home/testimonials/silentwaves-schriftzug.png" alt="Silent Waves Logo">
-                    </picture>
-                    <p>
-                    "Die KI-Agenten der satware sind für mich wertvoller Sparringspartner für Konzeptentwicklung &amp; Reflektion.
-                    Vor allem bieten sie mir einen sicheren Raum für sensible Daten. Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
-                    </p>
-                    <div class="satag--home-testimonial-author">
-                        <span class="satag--home-testimonial-name">Jens Emrich von Kajdacsy</span><br />
-                        <span class="satag--home-testimonial-title">Silent Waves</span>
-                    </div>
-                </div>
-                <div class="satag--home-testimonials-text" data-testimonial-id="2">
-                    <picture class="satag--home-testimonial-text-logo">
-                        <source srcset="assets/images/home/company-logos/square/klinikum.avif" type="image/avif">
-                        <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/klinikum.png" alt="Klinikum Worms Logo">
-                    </picture>
-                    <p>
-                        "Die KI-Agenten der Satware sind für mich ein wertvolles Werkzeug und eine effiziente Arbeitsunterstützung, auf die ich nicht mehr verzichten möchte. Insbesondere der geschützte Datenraum war, gepaart mit der beeindruckenden Funktionalität, ein wichtiges Entscheidungskriterium. Super Lösung für die Unternehmenskommunikation."
-                    </p>
-                    <div class="satag--home-testimonial-author">
-                        <span class="satag--home-testimonial-name">Dr. Eva Ehmke</span><br />
-                        <span class="satag--home-testimonial-title">Leitung Unternehmenskommunikation & Fundraising, Klinikum Worms gGmbH</span>
-                    </div>
-                </div>
-                <div class="satag--home-testimonials-text" data-testimonial-id="3">
-                    <picture class="satag--home-testimonial-text-logo">
-                        <source srcset="assets/images/home/company-logos/square/ocu-pro.avif" type="image/avif">
-                        <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
-                    </picture>
-                    <p>
-                        "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
-                    </p>
-                    <div class="satag--home-testimonial-author">
-                        <span class="satag--home-testimonial-name">Dr. Thomas Tyrtania</span><br />
-                        <span class="satag--home-testimonial-title">CEO bei OCU PRO ® Augenärzte MVZ GmbH</span>
-                    </div>
-                </div>
-                <div class="wolfgang satag--home-testimonials-text" data-testimonial-id="4">
                     <picture class="satag--home-testimonial-text-logo">
                         <source srcset="assets/images/home/testimonials/logo/caribou3d.avif" type="image/avif">
                         <img class="satag--home-testimonial-text-logo" src="assets/images/home/testimonials/logo/caribou3d.jpeg" alt="Caribou 3D by Wolfgang Schadow">
@@ -138,9 +98,61 @@ Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
                         <span class="satag--home-testimonial-title">Wissenschaftler</span>
                     </div>
                 </div>
+                <div class="satag--home-testimonials-text" data-testimonial-id="2">
+                    <picture class="satag--home-testimonial-text-logo">
+                        <source srcset="assets/images/home/testimonials/silentwaves-schriftzug.avif" type="image/avif">
+                        <img class="satag--home-testimonial-text-logo" src="assets/images/home/testimonials/silentwaves-schriftzug.png" alt="Silent Waves Logo">
+                    </picture>
+                    <p>
+                    "Die KI-Agenten der satware sind für mich wertvoller Sparringspartner für Konzeptentwicklung &amp; Reflektion.
+                    Vor allem bieten sie mir einen sicheren Raum für sensible Daten. Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
+                    </p>
+                    <div class="satag--home-testimonial-author">
+                        <span class="satag--home-testimonial-name">Jens Emrich von Kajdacsy</span><br />
+                        <span class="satag--home-testimonial-title">Silent Waves</span>
+                    </div>
+                </div>
+                <div class="satag--home-testimonials-text" data-testimonial-id="3">
+                    <picture class="satag--home-testimonial-text-logo">
+                        <source srcset="assets/images/home/company-logos/square/klinikum.avif" type="image/avif">
+                        <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/klinikum.png" alt="Klinikum Worms Logo">
+                    </picture>
+                    <p>
+                        "Die KI-Agenten der Satware sind für mich ein wertvolles Werkzeug und eine effiziente Arbeitsunterstützung, auf die ich nicht mehr verzichten möchte. Insbesondere der geschützte Datenraum war, gepaart mit der beeindruckenden Funktionalität, ein wichtiges Entscheidungskriterium. Super Lösung für die Unternehmenskommunikation."
+                    </p>
+                    <div class="satag--home-testimonial-author">
+                        <span class="satag--home-testimonial-name">Dr. Eva Ehmke</span><br />
+                        <span class="satag--home-testimonial-title">Leitung Unternehmenskommunikation & Fundraising, Klinikum Worms gGmbH</span>
+                    </div>
+                </div>
+                <div class="satag--home-testimonials-text" data-testimonial-id="4">
+                    <picture class="satag--home-testimonial-text-logo">
+                        <source srcset="assets/images/home/company-logos/square/ocu-pro.avif" type="image/avif">
+                        <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
+                    </picture>
+                    <p>
+                        "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
+                    </p>
+                    <div class="satag--home-testimonial-author">
+                        <span class="satag--home-testimonial-name">Dr. Thomas Tyrtania</span><br />
+                        <span class="satag--home-testimonial-title">CEO bei OCU PRO ® Augenärzte MVZ GmbH</span>
+                    </div>
+                </div>
             </div>
             <div class="satag--home-testimonials-images">
                 <div class="satag--home-testimonial-image-wrapper active" data-testimonial-id="1">
+                    <picture>
+                        <source srcset="assets/images/home/testimonials/person/dr-wolfgang-schadow.avif" type="image/avif">
+                        <img src="assets/images/home/testimonials/person/dr-wolfgang-schadow.jpg" alt="Wolfgang Schadow" class="satag--home-testimonial-image">
+                    </picture>
+                    <div class="satag--home-testimonial-logo">
+                        <picture>
+                            <source srcset="assets/images/home/testimonials/logo/caribou3d.avif" type="image/avif">
+                            <img src="assets/images/home/testimonials/logo/caribou3d.jpg" alt="3D Printing Logo">
+                        </picture>
+                    </div>
+                </div>                
+                <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="2">
                     <picture>
                         <source srcset="assets/images/home/testimonials/silentwaves.avif" type="image/avif">
                         <img src="assets/images/home/testimonials/silentwaves.jpg" alt="Jens Emrich von Kajdacsy" class="satag--home-testimonial-image">
@@ -152,7 +164,7 @@ Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
                         </picture>
                     </div>
                 </div>
-                <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="2">
+                <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="3">
                     <picture>
                         <source srcset="assets/images/home/testimonials/klinikum-worms-eva-ehmke.avif" type="image/avif">
                         <img src="assets/images/home/testimonials/klinikum-worms-eva-ehmke.jpg" alt="Dr. Eva Ehmke" class="satag--home-testimonial-image">
@@ -164,7 +176,7 @@ Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
                         </picture>
                     </div>
                 </div>
-                <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="3">
+                <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="4">
                     <picture>
                         <source srcset="assets/images/home/testimonials/ocu-pro-thomas-tyrtania.avif" type="image/avif">
                         <img src="assets/images/home/testimonials/ocu-pro-thomas-tyrtania.jpg" alt="Dr. Thomas Tyrtania" class="satag--home-testimonial-image">
@@ -173,18 +185,6 @@ Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
                         <picture>
                             <source srcset="assets/images/home/company-logos/ocupro.avif" type="image/avif">
                             <img src="assets/images/home/company-logos/ocupro.png" alt="Ocu Pro Logo">
-                        </picture>
-                    </div>
-                </div>
-                <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="4">
-                    <picture>
-                        <source srcset="assets/images/home/testimonials/person/dr-wolfgang-schadow.avif" type="image/avif">
-                        <img src="assets/images/home/testimonials/person/dr-wolfgang-schadow.jpg" alt="Wolfgang Schadow" class="satag--home-testimonial-image">
-                    </picture>
-                    <div class="satag--home-testimonial-logo">
-                        <picture>
-                            <source srcset="assets/images/home/testimonials/logo/caribou3d.avif" type="image/avif">
-                            <img src="assets/images/home/testimonials/logo/caribou3d.jpg" alt="3D Printing Logo">
                         </picture>
                     </div>
                 </div>
