@@ -20365,7 +20365,7 @@ body.home {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
-  min-height: 25rem; }
+  min-height: 30rem; }
   @media (min-width: 1201px) {
     .satag--home-testimonials {
       flex-direction: row;
@@ -20462,7 +20462,7 @@ body.home {
       gap: 0.5rem; } }
 .satag--home-testimonial-image-wrapper {
   position: relative;
-  width: 130px;
+  width: 100px;
   height: auto;
   overflow: hidden;
   cursor: pointer;
