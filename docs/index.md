@@ -148,7 +148,7 @@ Geschäftserfolg durch moderne, KI-gestützte Lösungen zu steigern.
                     <div class="satag--home-testimonial-logo">
                         <picture>
                             <source srcset="assets/images/home/testimonials/logo/caribou3d.avif" type="image/avif">
-                            <img src="assets/images/home/testimonials/logo/caribou3d.jpg" alt="3D Printing Logo">
+                            <img src="assets/images/home/testimonials/logo/caribou3d.jpeg" alt="3D Printing Logo">
                         </picture>
                     </div>
                 </div>                
