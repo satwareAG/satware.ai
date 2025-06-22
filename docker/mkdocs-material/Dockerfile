@@ -5,8 +5,8 @@ FROM python:3.13-slim-bullseye
 WORKDIR /docs
 
 # Set locale to avoid potential issues with C/C++ libraries
-ENV LANG C.UTF-8
-ENV LC_ALL C.UTF-8
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
 
 # Install system dependencies and Python packages in a single layer
 RUN apt-get update && apt-get install -y --no-install-recommends \
