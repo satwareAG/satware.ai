@@ -122,9 +122,9 @@ quadrantChart
     quadrant-4 Sustainable Leadership
     
     Cluely: [0.2, 0.7]
-    Silicon Valley AI: [0.3, 0.8]
-    satware® AI: [0.9, 0.8]
-    Traditional Solutions: [0.7, 0.4]
+    "Silicon Valley AI": [0.3, 0.8]
+    "satware AI": [0.9, 0.8]
+    "Traditional Solutions": [0.7, 0.4]
 ```
 
 !!! success "🎯 Strategic Recommendations"
