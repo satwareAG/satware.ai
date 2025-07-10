@@ -36,11 +36,11 @@ sources_verified: true
 
 ### **Kernaussagen mit Konfidenzleveln:**
 
-- **Vollständig Open-Source:** Apache 2.0 Lizenz mit kompletter Transparenz (Sehr Hoch, T1) [^1]
-- **Multilingual Excellence:** Über 1.500 Sprachen, 40% nicht-englische Trainingsdaten (Sehr Hoch, T1) [^1]
-- **Zwei Modellgrößen:** 8 Milliarden und 70 Milliarden Parameter (Sehr Hoch, T1) [^1]
-- **Nachhaltige Infrastruktur:** 100% erneuerbare Energie auf Alps-Supercomputer (Hoch, T1) [^1]
-- **Veröffentlichung:** Spätsommer 2025 geplant (Sehr Hoch, T1) [^1]
+- **Vollständig Open-Source:** Apache 2.0 Lizenz mit kompletter Transparenz (Sehr Hoch, T1)[^1]
+- **Multilingual Excellence:** Über 1.500 Sprachen, 40% nicht-englische Trainingsdaten (Sehr Hoch, T1)[^1]
+- **Zwei Modellgrößen:** 8 Milliarden und 70 Milliarden Parameter (Sehr Hoch, T1)[^1]
+- **Nachhaltige Infrastruktur:** 100% erneuerbare Energie auf Alps-Supercomputer (Hoch, T1)[^1]
+- **Veröffentlichung:** Spätsommer 2025 geplant (Sehr Hoch, T1)[^1]
 
 !!! success "Wolfgang Alesi: Forschungsvalidierung"
     Diese Initiative reiht sich in eine Reihe europäischer Projekte ein, die darauf abzielen, die Abhängigkeit von US-amerikanischen KI-Giganten zu reduzieren. Die wissenschaftliche Qualität und Transparenz sind beispiellos.
@@ -73,7 +73,7 @@ Die technische Infrastruktur des Schweizer Open-Source-LLMs basiert auf dem Alps
 | **Lizenz** | Apache 2.0 | Apache 2.0 | Vollständig offen | Sehr Hoch (T1) |
 | **Transparenz** | Vollständig | Vollständig | Code, Weights, Daten | Sehr Hoch (T1) |
 
-**Quelle:** Greater Geneva Bern Area Report (Juli 2025, T1) [^1]
+**Quelle:** Greater Geneva Bern Area Report (Juli 2025, T1)[^1]
 
 ### **Multilingual Excellence**
 
@@ -102,20 +102,20 @@ Die Schweizer Entwicklung fügt sich in ein wachsendes Ökosystem europäischer 
 - **Konsortium:** 20 Institutionen europaweit
 - **Ziel:** Multilingual LLMs für alle EU-Sprachen
 - **Compliance:** EU-Regulierungen von Anfang an integriert
-- **Koordination:** Jan Hajič (Lead), Peter Sarlin (Co-Lead)
+- **Koordination:** Jan Hajič (Lead), Peter Sarlin (Co-Lead)[^4]
 
 #### **LLMs4Europe (April 2025):**
 
 - **Partner:** Über 70 europäische Organisationen
 - **Finanzierung:** Digital Europe Programme
 - **Fokus:** Strategische Sektoren (Energie, Telekom, Tourismus)
-- **Koordination:** ALT-EDIC
+- **Koordination:** ALT-EDIC[^5]
 
 #### **Mistral AI:**
 
 - **Position:** Französischer Vorreiter für europäische KI-Souveränität
 - **Strategie:** Alternative zu US-dominierten Modellen
-- **Marktposition:** Etablierter Player im europäischen KI-Markt
+- **Marktposition:** Etablierter Player im europäischen KI-Markt[^7]
 
 ### **Strategische Bedeutung für die DACH-Region**
 
@@ -399,25 +399,9 @@ Das satware.ai Ökosystem ist optimal positioniert, um das Schweizer Open-Source
 
 ### **Tier 1 (Primary Sources - Peer-Reviewed Research):**
 
-[^1]: Greater Geneva Bern Area (2025). "Switzerland to release fully open large language model trained on national supercomputer." *GGBA News*, 9. Juli 2025. [Verifiziert: 10.07.2025]
-
-[^2]: ETH Zurich News (2025). "A language model built for the public good." *ETH News*, Juli 2025. [Verifiziert: 10.07.2025]
-
-[^3]: Swiss National Supercomputing Centre (2025). "ETH Zurich students gain AI skills using Alps supercomputer." *CSCS News*, 2025. [Verifiziert: 10.07.2025]
-
 ### **Tier 2 (Established Research & Industry Reports):**
 
-[^4]: BDVA (2025). "OpenEuroLLM Project Launch." *Big Data Value Association*, 2025. [Verifiziert: 10.07.2025]
-
-[^5]: OpenAIRE (2025). "LLMs4Europe launches: Europe builds its own fine-tuned large language models." *OpenAIRE News*, April 2025. [Verifiziert: 10.07.2025]
-
-[^6]: Open Source Initiative (2025). "Open Source and the Future of European AI Sovereignty: Insights from Vivatech 2025." *OSI Blog*, 2025. [Verifiziert: 10.07.2025]
-
 ### **Tier 3 (Market Analysis & Industry Reports):**
-
-[^7]: AI Competence (2025). "Mistral AI: Europe's Bold Move for AI Sovereignty." *AI Competence Report*, 2025. [Verifiziert: 10.07.2025]
-
-[^8]: TechCrunch (2025). "Open source LLMs hit Europe's digital sovereignty roadmap." *TechCrunch Europe*, Februar 2025. [Verifiziert: 10.07.2025]
 
 ---
 
@@ -452,3 +436,19 @@ Das satware.ai Ökosystem ist optimal positioniert, um das Schweizer Open-Source
 **Technische Tiefe:** Enterprise-ready  
 **Compliance:** EU AI Act konform  
 **Zielgruppe:** DACH C-Level & Technical Leaders
+
+[^1]: Greater Geneva Bern Area (2025). "Switzerland to release fully open large language model trained on national supercomputer." *GGBA News*, 9. Juli 2025. [Verifiziert: 10.07.2025]
+
+[^2]: ETH Zurich News (2025). "A language model built for the public good." *ETH News*, Juli 2025. [Verifiziert: 10.07.2025]
+
+[^3]: Swiss National Supercomputing Centre (2025). "ETH Zurich students gain AI skills using Alps supercomputer." *CSCS News*, 2025. [Verifiziert: 10.07.2025]
+
+[^4]: BDVA (2025). "OpenEuroLLM Project Launch." *Big Data Value Association*, 2025. [Verifiziert: 10.07.2025]
+
+[^5]: OpenAIRE (2025). "LLMs4Europe launches: Europe builds its own fine-tuned large language models." *OpenAIRE News*, April 2025. [Verifiziert: 10.07.2025]
+
+[^6]: Open Source Initiative (2025). "Open Source and the Future of European AI Sovereignty: Insights from Vivatech 2025." *OSI Blog*, 2025. [Verifiziert: 10.07.2025]
+
+[^7]: AI Competence (2025). "Mistral AI: Europe's Bold Move for AI Sovereignty." *AI Competence Report*, 2025. [Verifiziert: 10.07.2025]
+
+[^8]: TechCrunch (2025). "Open source LLMs hit Europe's digital sovereignty roadmap." *TechCrunch Europe*, Februar 2025. [Verifiziert: 10.07.2025]
