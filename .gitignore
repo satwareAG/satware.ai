@@ -1,6 +1,7 @@
 .idea
 .cache
 /site
+/_site
 /docs/assets/css/custom.css
 /package-lock.json
 # Add readme.md to ensure case sensitivity is enforced
