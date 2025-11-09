@@ -7,3 +7,9 @@
 # Add readme.md to ensure case sensitivity is enforced
 # This commit includes an attempt to delete readme.md
 /docs/assets/css/custom.css.map
+
+# Ruby/Bundler (orphaned files - this is a Python/MkDocs project)
+Gemfile.lock
+Gemfile
+.bundle/
+vendor/bundle/
