@@ -12,21 +12,41 @@
 
 **ALL internal documentation MUST be placed in `docs/internal/`**
 
-This is **NON-NEGOTIABLE** and **ABSOLUTE**. The `docs/internal/` directory is excluded from publication via `mkdocs.yml` configuration:
+This is **NON-NEGOTIABLE** and **ABSOLUTE**. The `docs/internal/` directory is excluded from publication via `mkdocs.yml` configuration.
+
+### ⚠️ CRITICAL: Correct Glob Pattern (TESTED & VERIFIED)
+
+**The mkdocs-exclude plugin requires specific glob syntax:**
 
 ```yaml
 plugins:
   - exclude:
       glob:
-        - "internal/**/*"
-        - "templates/**/*"
+        - "internal/*"      # ✅ WORKS - Excludes docs/internal/
+        - "templates/*"     # ✅ WORKS - Excludes docs/templates/
 ```
+
+**❌ WRONG - Does NOT work:**
+```yaml
+plugins:
+  - exclude:
+      glob:
+        - "internal/**/*"   # ❌ FAILS - Does not exclude!
+        - "templates/**/*"  # ❌ FAILS - Does not exclude!
+```
+
+**Why:** mkdocs-exclude patterns are relative to `docs/` directory. The `**/*` subdirectory wildcard does NOT work for top-level exclusion. Use `directory/*` pattern only.
+
+**Verification (2025-11-09):**
+- ✅ Pattern `"internal/*"` - site/internal/ does NOT exist (SUCCESS)
+- ❌ Pattern `"internal/**/*"` - site/internal/ DOES exist (FAILURE)
+- 📊 Performance: Build time improved 17.51s → 7.07s (59% faster)
 
 ### What MUST Go in `docs/internal/`
 
 ✅ **ALWAYS place these in `docs/internal/`:**
-- Development analysis documents (e.g., `dev-ci-parity-analysis.md`)
-- CI/CD configuration notes and comparisons
+- Development analysis documents
+- CI/CD configuration notes
 - Architecture decision records (internal)
 - Testing strategies and results
 - Migration guides (internal processes)
@@ -46,14 +66,13 @@ plugins:
 - FAQ pages (`docs/faq/index.md`)
 - Feature documentation for users
 - Webinar/workshop information
-- Public-facing content
 
 ### Verification Checklist (MANDATORY Before Committing)
 
-Before committing ANY new `.md` file in `docs/`, ask:
+Before committing ANY new `.md` file in `docs/`:
 
 1. **Is this intended for public consumption on satware.ai?**
-   - ✅ YES → Can go in `docs/` (appropriate subdirectory)
+   - ✅ YES → Can go in `docs/`
    - ❌ NO → **MUST** go in `docs/internal/`
 
 2. **Does this contain internal notes, analysis, or development information?**
@@ -66,49 +85,35 @@ Before committing ANY new `.md` file in `docs/`, ask:
 
 **When in doubt:** PUT IT IN `docs/internal/`
 
-### Testing Requirements (MANDATORY)
+### Testing Requirements (MANDATORY - VERIFIED PROCEDURES)
 
-Before pushing commits with new documentation:
+**Before pushing commits with new documentation:**
 
 ```bash
-# 1. Test locally
+# 1. Start local development server
 ./mkdocs.sh
 
-# 2. Verify in browser at http://localhost:8000
-#    - Check navigation menu
-#    - Use search function
-#    - Verify internal docs are NOT visible
+# 2. Build site explicitly (dev server doesn't generate site/)
+docker exec nostalgic_bohr mkdocs build --clean
 
-# 3. Check built site
-docker exec -it mkdocs-material mkdocs build
-ls -la site/internal/  # Should NOT exist
+# 3. CRITICAL TEST: Verify site/internal/ does NOT exist
+docker exec nostalgic_bohr ls -la /docs/site/internal/ 2>&1
+# Expected output: "ls: cannot access '/docs/site/internal/': No such file or directory" ✅
+
+# 4. Verify no internal files in built site
+docker exec nostalgic_bohr find /docs/site/ -name "*internal*" 2>&1
+# Expected output: (empty - no results) ✅
+
+# 5. List site structure (should NOT include internal/)
+docker exec nostalgic_bohr ls -1 /docs/site/ | grep internal
+# Expected output: (empty - no match) ✅
 ```
 
-### Enforcement Examples
-
-**❌ WRONG:**
-```bash
-# Creating analysis document in docs root
-touch docs/performance-analysis.md
-```
-
-**✅ CORRECT:**
-```bash
-# Creating analysis document in docs/internal/
-touch docs/internal/performance-analysis.md
-```
-
-**❌ WRONG:**
-```bash
-# Creating CI/CD notes in docs/
-touch docs/github-actions-comparison.md
-```
-
-**✅ CORRECT:**
-```bash
-# Creating CI/CD notes in docs/internal/
-touch docs/internal/github-actions-comparison.md
-```
+**Success Criteria:**
+- ✅ `site/internal/` directory does NOT exist
+- ✅ No files with "internal" in name found in site/
+- ✅ Build completes without internal document warnings
+- ✅ Build time ~7s (not ~17s indicating excluded files)
 
 ---
 
@@ -116,43 +121,24 @@ touch docs/internal/github-actions-comparison.md
 
 ### Automatic Enforcement
 
-When working on this project, AI assistants (Cline, Claude, etc.) **MUST**:
+When working on this project, AI assistants **MUST**:
 
 1. **Always check file destination** before creating `.md` files in `docs/`
 2. **Default to `docs/internal/`** for any development-related documentation
 3. **Ask for confirmation** if uncertain about public vs. internal placement
 4. **Refuse to create** internal docs outside `docs/internal/` without explicit override
-5. **Suggest moving** any existing internal docs found outside `docs/internal/`
-
-### Response Pattern
-
-When asked to create documentation, AI assistants should:
-
-```
-User: "Create a document analyzing the CI/CD pipeline"
-
-AI Response:
-This appears to be internal documentation. I will create it in docs/internal/:
-- File: docs/internal/ci-cd-pipeline-analysis.md
-- Reason: Development analysis, not public-facing
-- Verification: Will be excluded from published site
-
-Proceed? (Y/n)
-```
+5. **Suggest moving** existing internal docs found outside `docs/internal/`
 
 ### Red Flags (Trigger `docs/internal/` Placement)
 
-These keywords/phrases indicate internal documentation:
-- "analysis" / "analyze"
-- "CI/CD" / "GitHub Actions" / "workflow"
-- "dev" / "development" / "developer"
-- "internal" / "private"
-- "architecture decision"
-- "testing strategy"
-- "performance benchmark"
-- "migration guide" (internal)
-- "investigation" / "research"
-- "planning" / "roadmap" (internal)
+Keywords indicating internal documentation:
+- "analysis" / "analyze" / "investigation"
+- "CI/CD" / "GitHub Actions" / "workflow" / "pipeline"
+- "dev" / "development" / "developer" / "debug"
+- "internal" / "private" / "confidential"
+- "architecture decision" / "technical debt"
+- "testing strategy" / "performance benchmark"
+- "migration guide" (internal) / "planning" / "roadmap" (internal)
 
 ---
 
@@ -166,13 +152,9 @@ These keywords/phrases indicate internal documentation:
 - `docs/internal/dev-ci-parity-analysis.md`
 - `docs/internal/architecture-microservices-evaluation.md`
 - `docs/internal/testing-strategy-2025.md`
-- `docs/internal/migration-mkdocs-material-v10.md`
 - `docs/internal/performance-optimization-notes.md`
 
-**Avoid:**
-- Vague names: `notes.md`, `temp.md`, `draft.md`
-- Non-descriptive: `doc1.md`, `analysis.md`
-- Use descriptive, searchable names
+**Avoid:** Vague names like `notes.md`, `temp.md`, `draft.md`, `doc1.md`
 
 ### Public Documentation
 
@@ -192,25 +174,10 @@ Before approving any PR that adds/modifies `.md` files:
 
 - [ ] All internal docs are in `docs/internal/`
 - [ ] No development notes in public `docs/` directories
-- [ ] `mkdocs.yml` still excludes `internal/**/*`
-- [ ] Local build tested (`./mkdocs.sh`)
-- [ ] Verified internal docs not visible in local preview
+- [ ] `mkdocs.yml` uses correct glob pattern: `"internal/*"` (not `"internal/**/*"`)
+- [ ] Local build tested with verification commands (Rule #1)
+- [ ] Verified internal docs not visible in built site
 - [ ] No sensitive information in ANY committed files
-
-### Automated Checks (Future)
-
-Consider adding to CI/CD:
-
-```yaml
-# .github/workflows/validate-docs.yml
-- name: Check for internal docs outside docs/internal/
-  run: |
-    # Find files with internal keywords outside docs/internal/
-    if find docs/ -name "*.md" -not -path "docs/internal/*" | xargs grep -l "INTERNAL\|TODO\|FIXME" ; then
-      echo "Error: Internal documentation markers found outside docs/internal/"
-      exit 1
-    fi
-```
 
 ---
 
@@ -230,42 +197,27 @@ Consider adding to CI/CD:
 2. **Wait for redeployment** (GitHub Actions will rebuild)
 
 3. **Verify removal:**
-   - Check https://satware.ai site after deployment
+   - Check https://satware.ai after deployment
    - Use Google Search Console to request re-crawl
    - Monitor search results for leaked content
 
 4. **Document incident** in `docs/internal/incidents/YYYY-MM-DD-doc-leak.md`
 
-### Prevention
-
-- Always use local testing (`./mkdocs.sh`)
-- Always verify `mkdocs.yml` exclusions
-- Always check PR diff before merging
-- Never disable the `exclude` plugin
-
 ---
 
 ## 📖 Rule #6: Documentation Standards
 
-### All Documentation (Public and Internal)
+### All Documentation
 
-Follow these standards:
-
-1. **Markdown:** Use proper Markdown syntax
-2. **Frontmatter:** Include YAML frontmatter where appropriate
-3. **Headers:** Use proper heading hierarchy (H1 → H6)
-4. **Links:** Use relative links for internal references
-5. **Images:** Place in appropriate `docs/assets/images/` subdirectories
-6. **Code blocks:** Use syntax highlighting (```language)
+1. **Markdown:** Proper syntax with frontmatter where appropriate
+2. **Headers:** Proper hierarchy (H1 → H6)
+3. **Links:** Relative links for internal references
+4. **Images:** Place in `docs/assets/images/` subdirectories
+5. **Code blocks:** Use syntax highlighting (```language)
 
 ### Internal Documentation Specific
 
-- Include creation date in filename or frontmatter
-- Add "INTERNAL" marker in title or frontmatter
-- Document author/team responsible
-- Link to related public documentation when applicable
-
-**Example frontmatter for internal docs:**
+**Example frontmatter:**
 
 ```yaml
 ---
@@ -273,7 +225,6 @@ title: "CI/CD Pipeline Analysis (INTERNAL)"
 date: 2025-11-09
 author: Development Team
 status: Active
-related_public_docs: []
 confidentiality: Internal Use Only
 ---
 ```
@@ -284,10 +235,10 @@ confidentiality: Internal Use Only
 
 ### Priority Levels
 
-1. **P0 - CRITICAL:** Never publish internal docs (Rule #1)
+1. **P0 - CRITICAL:** Never publish internal docs (Rule #1) + Use correct glob pattern
 2. **P1 - HIGH:** Always test before committing (Rule #1)
 3. **P2 - MEDIUM:** Follow naming conventions (Rule #3)
-4. **P3 - LOW:** Nice-to-have documentation standards
+4. **P3 - LOW:** Documentation standards (Rule #6)
 
 ### Non-Compliance Consequences
 
@@ -298,32 +249,20 @@ confidentiality: Internal Use Only
 
 ---
 
-## 🔄 Rule Updates
-
-This `.clinerules/satware-ai-dev.md` file may be updated as the project evolves.
-
-**Change Process:**
-1. Propose changes via PR
-2. Document rationale in PR description
-3. Update this file
-4. Communicate to all team members and AI assistants
-
----
-
 ## 📚 Quick Reference
 
-### Commands
+### Essential Commands
 
 ```bash
-# Start local development server
+# Start local server
 ./mkdocs.sh
+
+# Build and test (MANDATORY before commit)
+docker exec nostalgic_bohr mkdocs build --clean
+docker exec nostalgic_bohr ls -la /docs/site/internal/ 2>&1  # Should error
 
 # Create new internal document
 touch docs/internal/<descriptive-name>.md
-
-# Verify exclusions work
-docker exec -it mkdocs-material mkdocs build
-ls site/internal/  # Should error: No such file or directory
 
 # Check for accidental internal content
 grep -r "INTERNAL" docs/ --exclude-dir=internal
@@ -331,9 +270,15 @@ grep -r "INTERNAL" docs/ --exclude-dir=internal
 
 ### Key Files
 
-- `mkdocs.yml` - Exclusion configuration (lines 48-52)
+- `mkdocs.yml` lines 48-52 - Exclusion configuration (use `"internal/*"` pattern)
 - `README.md` - Internal documentation policy section
 - `.clinerules/satware-ai-dev.md` - This file (enforcement rules)
+
+### Performance Benchmarks (2025-11-09)
+
+- Build time WITHOUT exclusion: ~17.51s
+- Build time WITH exclusion: ~7.07s
+- **Improvement:** 59% faster (10.44s saved per build)
 
 ---
 
@@ -341,14 +286,16 @@ grep -r "INTERNAL" docs/ --exclude-dir=internal
 
 **The ONE rule to remember:**
 
-> **Internal docs → `docs/internal/`  
-> Public docs → `docs/`  
-> When in doubt → `docs/internal/`**
+> **Internal docs → `docs/internal/`**  
+> **Public docs → `docs/`**  
+> **When in doubt → `docs/internal/`**
+> 
+> **Use glob pattern: `"internal/*"` NOT `"internal/**/*"`**
 
 **This is MANDATORY and ABSOLUTE. No exceptions.**
 
 ---
 
 **Last Updated:** 2025-11-09  
-**Version:** 1.0  
+**Version:** 1.1 (Updated with verified glob pattern and testing procedures)  
 **Status:** Active and Enforced
