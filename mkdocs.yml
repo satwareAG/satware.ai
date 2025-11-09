@@ -93,13 +93,23 @@ plugins:
           'BA/index.md': 'team/bastian.md'
           'Ba.md': 'team/bastian.md'       # Mixed case variant
           'Ba/index.md': 'team/bastian.md'
+          'bra.md': 'team/brenda.md'       # Brenda Alesi (collision resolved)
+          'bra/index.md': 'team/brenda.md'
+          'BRA.md': 'team/brenda.md'       # Uppercase variant
+          'BRA/index.md': 'team/brenda.md'
+          'Bra.md': 'team/brenda.md'       # Mixed case variant
+          'Bra/index.md': 'team/brenda.md'
+          'BRa.md': 'team/brenda.md'       # Mixed case variant
+          'BRa/index.md': 'team/brenda.md'
+          'brA.md': 'team/brenda.md'       # Mixed case variant
+          'brA/index.md': 'team/brenda.md'
           'bea.md': 'team/bea.md'          # Bea Alesi (collision resolved)
           'bea/index.md': 'team/bea.md'
           'BEA.md': 'team/bea.md'          # Uppercase variant
           'BEA/index.md': 'team/bea.md'
           'Bea.md': 'team/bea.md'          # Mixed case variant
           'Bea/index.md': 'team/bea.md'
-          'BEA.md': 'team/bea.md'          # Mixed case variant
+          'BEa.md': 'team/bea.md'          # Mixed case variant
           'BEa/index.md': 'team/bea.md'
           'beA.md': 'team/bea.md'          # Mixed case variant
           'beA/index.md': 'team/bea.md'
@@ -338,6 +348,7 @@ nav:
       - Übersicht: team/index.md
       - Amira Alesi: team/amira.md
       - Bastian Alesi: team/bastian.md
+      - Brenda Alesi: team/brenda.md
       - Bea Alesi: team/bea.md
       - Denopus Alesi: team/denopus.md
       - Gunta Alesi: team/gunta.md
