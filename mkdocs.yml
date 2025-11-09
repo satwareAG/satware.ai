@@ -54,6 +54,10 @@ theme:
 
 plugins:
   - meta
+  - exclude:
+      glob:
+        - "internal/*"
+        - "templates/*"
   - blog:
       blog_dir: blog
       blog_toc: true

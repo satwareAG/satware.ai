@@ -43,6 +43,8 @@ Developing locally is streamlined using Docker, which encapsulates all necessary
 
 ```
 .
+├── .clinerules/          # Project-specific AI assistant rules (MANDATORY)
+│   └── satware-ai-dev.md # Development rules for this project
 ├── .github/              # GitHub Actions workflows for CI/CD
 │   └── workflows/        # Contains deploy-live.yml and deploy-preview.yml
 ├── .gitignore            # Specifies intentionally untracked files to ignore
@@ -50,6 +52,7 @@ Developing locally is streamlined using Docker, which encapsulates all necessary
 ├── docker/               # Docker-related files
 │   └── mkdocs-material/  # Dockerfile for the MkDocs Material environment
 ├── docs/                 # Markdown source files for the documentation
+│   ├── internal/         # ⚠️ INTERNAL DOCS - NOT PUBLISHED (excluded via mkdocs.yml)
 │   ├── index.md          # Homepage content
 │   └── ...               # Other documentation pages and assets
 ├── mkdocs.sh             # Script for local development with Docker
@@ -62,6 +65,36 @@ Developing locally is streamlined using Docker, which encapsulates all necessary
 ├── tasks.md              # Markdown file for project tasks/notes
 └── README.md             # This file
 ```
+
+### 📁 Internal Documentation Policy
+
+**⚠️ CRITICAL: All internal documentation MUST be placed in `docs/internal/`**
+
+The `docs/internal/` directory is **automatically excluded** from the published website via the `mkdocs-exclude` plugin configured in `mkdocs.yml`. This ensures that internal development notes, analysis documents, and sensitive information are **never published** to satware.ai.
+
+**Rules:**
+- ✅ **DO**: Place all internal docs in `docs/internal/`
+- ✅ **DO**: Use descriptive filenames (e.g., `dev-ci-parity-analysis.md`, `architecture-notes.md`)
+- ❌ **DON'T**: Place internal docs anywhere else in `docs/`
+- ❌ **DON'T**: Commit sensitive information even to `docs/internal/`
+
+**Verification:**
+```bash
+# Test locally before pushing
+./mkdocs.sh
+# Navigate to http://localhost:8000
+# Verify internal docs are NOT listed in navigation or search
+```
+
+**What belongs in `docs/internal/`:**
+- Development analysis and planning documents
+- Architecture decision records (internal)
+- CI/CD configuration notes
+- Testing strategies and results
+- Migration guides (internal)
+- Any documentation NOT intended for public consumption
+
+**Enforcement:** The `.clinerules/satware-ai-dev.md` file contains **MANDATORY rules** for AI assistants working on this project to enforce this policy automatically.
 
 ## 🛠️ Technologies Used
 
