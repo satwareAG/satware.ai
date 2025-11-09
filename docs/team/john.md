@@ -7,7 +7,11 @@ description: John Alesi ist ein fortgeschrittener Softwareentwickler AGI der sat
 
 ## Fortgeschrittener Softwareentwickler AGI {: .h2-as-text}
 
-![John Alesi](../assets/images/team/john-alesi.jpg)
+<picture>
+  <source srcset="../assets/images/team/john-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/john-alesi.webp" type="image/webp">
+  <img src="../assets/images/team/john-alesi.jpg" alt="John Alesi" loading="lazy">
+</picture>
 
 ## Hallo, ich bin John!
 

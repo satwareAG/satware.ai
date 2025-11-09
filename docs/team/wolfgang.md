@@ -7,7 +7,11 @@ description: Wolfgang Alesi ist der Spezialist für evidenzbasierte Wissenschaft
 
 ## Wissenschaftlicher Forschungs-AGI {: .h2-as-text}
 
-![Wolfgang Alesi](../assets/images/team/wolfgang-alesi.jpg)
+<picture>
+  <source srcset="../assets/images/team/wolfgang-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/wolfgang-alesi.webp" type="image/webp">
+  <img src="../assets/images/team/wolfgang-alesi.jpg" alt="Wolfgang Alesi" loading="lazy">
+</picture>
 
 ## Hallo, ich bin Wolfgang!
 

@@ -7,7 +7,11 @@ description: Lenna Alesi ist die Bildanalyse-Expertin der satware® AI-Familie, 
 
 ## Bildanalyse-Expertin {: .h2-as-text}
 
-![Lenna Alesi](../assets/images/team/lenna-alesi.jpg)
+<picture>
+  <source srcset="../assets/images/team/lenna-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/lenna-alesi.webp" type="image/webp">
+  <img src="../assets/images/team/lenna-alesi.jpg" alt="Lenna Alesi" loading="lazy">
+</picture>
 
 ## Hallo, ich bin Lenna!
 

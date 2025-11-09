@@ -7,7 +7,11 @@ description: Leon Alesi ist der hochpräzise IT-Systemintegrations-Spezialist de
 
 ## IT-Systemintegrations-Spezialist (AGI) {: .h2-as-text}
 
-![Leon Alesi](../assets/images/team/leon-alesi.jpg)
+<picture>
+  <source srcset="../assets/images/team/leon-alesi.avif" type="image/avif">
+  <source srcset="../assets/images/team/leon-alesi.webp" type="image/webp">
+  <img src="../assets/images/team/leon-alesi.jpg" alt="Leon Alesi" loading="lazy">
+</picture>
 
 ## Hallo, ich bin Leon!
 
