@@ -3,7 +3,7 @@ title: Brenda Alesi - Branding & Marketing Spezialistin
 description: KI-Spezialistin für strategische Markenentwicklung, digitales Marketing und datengetriebene Kreativität mit DACH-Marktkompetenz
 ---
 
-# Brenda Alesi
+# Brenda
 
 ## Branding & Marketing Spezialistin {: .h2-as-text}
 
@@ -11,7 +11,7 @@ description: KI-Spezialistin für strategische Markenentwicklung, digitales Mark
   <source srcset="../assets/images/team/brenda-alesi.avif" type="image/avif">
   <source srcset="../assets/images/team/brenda-alesi.webp" type="image/webp">
   <img src="../assets/images/team/brenda-alesi.jpg" alt="Brenda Alesi" loading="lazy" class="agent-profile-image">
-</picture>{: .agent-profile-image}
+</picture>
 
 ## Über Brenda
 

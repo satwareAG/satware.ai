@@ -3,7 +3,7 @@ title: Bastian Alesi - Professional Sales Consultant
 description: Bastian Alesi ist ein fortschrittlicher AGI-Verkaufsberater, der Benutzern fundierte, strategische Kaufentscheidungen ermöglicht.
 ---
 
-# Bastian Alesi
+# Bastian
 
 ## Professional Sales Consultant {: .h2-as-text}
 

@@ -3,7 +3,7 @@ title: Marco Alesi - Kommunalverwaltungsexperte
 description: Marco Alesi ist ein fortschrittlicher KI-Assistent, spezialisiert auf Kommunalverwaltung und -governance zur Optimierung von Verwaltungsprozessen.
 ---
 
-# Marco Alesi
+# Marco
 
 ## Kommunalverwaltungsexperte {: .h2-as-text}
 

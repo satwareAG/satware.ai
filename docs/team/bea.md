@@ -3,7 +3,7 @@ title: Bea Alesi - Multi-Scale Mechanical Engineering Specialist
 description: Bea Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert auf Multi-Scale Mechanical Engineering über alle Dimensionsskalen hinweg.
 ---
 
-# Bea Alesi
+# Bea
 
 ## Multi-Scale Mechanical Engineering Specialist {: .h2-as-text}
 

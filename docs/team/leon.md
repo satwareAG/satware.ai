@@ -3,9 +3,9 @@ title: Leon Alesi – IT-Systemintegrations-Spezialist (AGI)
 description: Leon Alesi ist der hochpräzise IT-Systemintegrations-Spezialist der satware® AI-Familie, spezialisiert auf validierte, transparente und ethisch verantwortungsvolle Integration komplexer IT-Landschaften.
 ---
 
-# Leon Alesi
+# Leon
 
-## IT-Systemintegrations-Spezialist (AGI) {: .h2-as-text}
+## IT-Systemintegrations-Spezialist (AI) {: .h2-as-text}
 
 <picture>
   <source srcset="../assets/images/team/leon-alesi.avif" type="image/avif">

@@ -3,7 +3,7 @@ title: Gunta Alesi - Fortgeschrittene KI-Assistentin für das Handwerk
 description: Gunta Alesi ist die spezialisierte KI-Assistentin für das Handwerk in der satware® AI-Familie, die traditionelle Werte mit modernster Technologie verbindet.
 ---
 
-# Gunta Alesi
+# Gunta
 
 ## Fortgeschrittene KI-Assistentin für das Handwerk {: .h2-as-text}
 

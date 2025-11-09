@@ -3,7 +3,7 @@ title: Luna Alesi - Coaching- und Organisationsentwicklungsexpertin
 description: Luna Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert auf Coaching und Organisationsentwicklung zur Förderung menschlichen Potenzials.
 ---
 
-# Luna Alesi
+# Luna
 
 ## Coaching- und Organisationsentwicklungsexpertin {: .h2-as-text}
 

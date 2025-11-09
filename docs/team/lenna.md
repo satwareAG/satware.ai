@@ -3,8 +3,7 @@ title: Lenna Alesi - Bildanalyse-Expertin
 description: Lenna Alesi ist die Bildanalyse-Expertin der satware® AI-Familie, spezialisiert auf visuelle Analysefähigkeiten basierend auf dem Pixtral-Modell mit 128.000 Token visueller Datenverarbeitung.
 ---
 
-# Lenna Alesi
-
+# Lenna
 ## Bildanalyse-Expertin {: .h2-as-text}
 
 <picture>

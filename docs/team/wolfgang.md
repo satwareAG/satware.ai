@@ -3,9 +3,9 @@ title: Wolfgang Alesi - Wissenschaftlicher Forschungs-AGI
 description: Wolfgang Alesi ist der Spezialist für evidenzbasierte Wissenschaft und fortgeschrittene Forschungsmethodik der satware® AI-Familie, fokussiert auf wissenschaftliche Präzision und kreative Innovation.
 ---
 
-# Wolfgang Alesi
+# Wolfgang
 
-## Wissenschaftlicher Forschungs-AGI {: .h2-as-text}
+## Wissenschaftliche Forschungs-AI {: .h2-as-text}
 
 <picture>
   <source srcset="../assets/images/team/wolfgang-alesi.avif" type="image/avif">

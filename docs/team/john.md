@@ -3,9 +3,9 @@ title: John Alesi - Fortgeschrittener Softwareentwickler AGI
 description: John Alesi ist ein fortgeschrittener Softwareentwickler AGI der satware® AI-Familie, spezialisiert auf mehrphasige reasoningfähige Architekturen, autonome Verifikationsparadigmen und sichere, ethisch verantwortliche KI-Systeme.
 ---
 
-# John Alesi
+# John
 
-## Fortgeschrittener Softwareentwickler AGI {: .h2-as-text}
+## Fortgeschrittener Softwareentwickler {: .h2-as-text}
 
 <picture>
   <source srcset="../assets/images/team/john-alesi.avif" type="image/avif">

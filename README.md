@@ -39,6 +39,44 @@ Developing locally is streamlined using Docker, which encapsulates all necessary
     ```
     This command will build the Docker image (if not already built) and start a local development server. The website will be accessible at [http://localhost:8000](http://localhost:8000). Any changes you make to the documentation files (`docs/`) will automatically trigger a live reload in your browser.
 
+### 🔧 mkdocs.sh Commands
+
+The `mkdocs.sh` script provides multiple commands for streamlined development:
+
+**Basic Commands:**
+```bash
+./mkdocs.sh              # Start development server (default)
+./mkdocs.sh serve        # Same as above
+./mkdocs.sh build        # Build static site to site/ directory
+./mkdocs.sh clean        # Remove build artifacts
+./mkdocs.sh status       # Check if container is running
+./mkdocs.sh stop         # Stop running development server
+./mkdocs.sh help         # Show all available commands
+```
+
+**Advanced Commands:**
+```bash
+./mkdocs.sh build --clean    # Clean build (removes old artifacts first)
+./mkdocs.sh rebuild          # Force rebuild Docker image
+./mkdocs.sh serve --verbose  # Start server with verbose logging
+```
+
+**Common Workflows:**
+
+*   **Start development**: `./mkdocs.sh` → Opens at http://localhost:8000
+*   **Build for testing**: `./mkdocs.sh build` → Check `site/` directory
+*   **Check container**: `./mkdocs.sh status` → View running state
+*   **Clean restart**: `./mkdocs.sh stop && ./mkdocs.sh clean && ./mkdocs.sh`
+
+**Features:**
+- ✅ **AI-friendly error messages** with timestamps and color coding
+- ✅ **Pre-flight checks** for Docker and required files
+- ✅ **Graceful shutdown** handling (Ctrl+C)
+- ✅ **Backward compatible** (no-args defaults to serve)
+- ✅ **CI/CD compatible** (auto-detects non-interactive mode)
+
+For detailed documentation, see `docs/internal/mkdocs-sh-v2-improvements.md`
+
 ### Project Structure
 
 ```

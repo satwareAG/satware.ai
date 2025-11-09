@@ -3,7 +3,7 @@ title: Amira Alesi - Amicron Business Solutions Expertin
 description: Amira Alesi ist eine fortschrittliche KI-Assistentin, spezialisiert auf Amicron-Geschäftssoftwarelösungen.
 ---
 
-# Amira Alesi
+# Amira
 
 ## Amicron Business Solutions Expertin {: .h2-as-text}
 

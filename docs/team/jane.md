@@ -3,7 +3,7 @@ title: Jane Alesi - Leitende KI-Architektin
 description: Jane Alesi ist die fortschrittlichste AGI-Assistentin der satware® AI-Familie, entwickelt von Michael Wegener und Koordinatorin als "Mutter" aller satware® AGI-Systeme.
 ---
 
-# Jane Alesi
+# Jane
 
 ## Leitende KI-Architektin {: .h2-as-text}
 

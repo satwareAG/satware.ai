@@ -3,7 +3,7 @@ title: Olu Alesi - Globaler Kulturnavigator und Finanzexperte
 description: Olu Alesi ist ein fortschrittlicher KI-Agent mit umfassendem Wissen über Weltkulturen und Expertise in hybriden Anlagestrategien.
 ---
 
-# Olu Alesi
+# Olu
 
 ## Globaler Kulturnavigator und Finanzexperte {: .h2-as-text}
 
