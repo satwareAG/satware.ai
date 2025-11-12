@@ -20186,7 +20186,9 @@ body {
   /* Falls du Tabs verwendest, diese auch nicht fixieren */
   /* Anpassung für den Hauptinhalt */
   /* Für den Fall, dass du die Seitenleiste verwendest */
-  /* Versteckt den Placeholder-Text im Suchfeld */ }
+  /* Versteckt den Placeholder-Text im Suchfeld */
+  /* CTA Button: Alle Rahmen und Pseudo-Elemente entfernen */
+  /* Responsive: Button auf mobilen Geräten kleiner */ }
   body .md-header {
     position: static !important; }
   body .md-main__inner {
@@ -20208,7 +20210,46 @@ body {
     font-size: 1rem; }
   body .md-search__input::-webkit-input-placeholder {
     color: transparent; }
-
+  body .md-header .satag-bestellen-button,
+  body .md-header a.satag-bestellen-button.md-button.md-button--primary {
+    text-decoration: none !important;
+    border: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    /* After-Element (Tooltip) und Before entfernen */ }
+    body .md-header .satag-bestellen-button:hover, body .md-header .satag-bestellen-button:focus, body .md-header .satag-bestellen-button:active, body .md-header .satag-bestellen-button:visited, body .md-header .satag-bestellen-button:link,
+    body .md-header a.satag-bestellen-button.md-button.md-button--primary:hover,
+    body .md-header a.satag-bestellen-button.md-button.md-button--primary:focus,
+    body .md-header a.satag-bestellen-button.md-button.md-button--primary:active,
+    body .md-header a.satag-bestellen-button.md-button.md-button--primary:visited,
+    body .md-header a.satag-bestellen-button.md-button.md-button--primary:link {
+      text-decoration: none !important;
+      border: none !important;
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      outline: none !important;
+      box-shadow: none !important; }
+    body .md-header .satag-bestellen-button:after, body .md-header .satag-bestellen-button:before,
+    body .md-header a.satag-bestellen-button.md-button.md-button--primary:after,
+    body .md-header a.satag-bestellen-button.md-button.md-button--primary:before {
+      display: none !important;
+      content: none !important;
+      border: none !important; }
+  @media (max-width: 959px) {
+    body .md-header .satag-bestellen-button {
+      padding: .4em .5em !important;
+      margin-bottom: 0;
+      font-size: 11px; }
+      body .md-header .satag-bestellen-button:after {
+        display: none !important; }
+    body .md-header .md-tooltip-active {
+      display: none !important; } }
 .md-footer {
   background-color: #000;
   padding-top: 1rem; }
@@ -21121,7 +21162,7 @@ button.faq-slideshow-next:hover {
     align-items: center;
     margin-left: 0.5rem; }
     .md-header__mobile-logo img {
-      height: 1.8rem;
+      height: 1.4rem;
       width: auto; } }
 
 @media (max-width: 479px) {

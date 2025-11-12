@@ -53,4 +53,62 @@ body{
     color: transparent;
   }
 
+  /* CTA Button: Alle Rahmen und Pseudo-Elemente entfernen */
+  .md-header .satag-bestellen-button,
+  .md-header a.satag-bestellen-button.md-button.md-button--primary {
+    text-decoration: none !important;
+    border: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited,
+    &:link {
+      text-decoration: none !important;
+      border: none !important;
+      border-top: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+      border-left: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    
+    /* After-Element (Tooltip) und Before entfernen */
+    &:after,
+    &:before {
+      display: none !important;
+      content: none !important;
+      border: none !important;
+    }
+  }
+
+  /* Responsive: Button auf mobilen Geräten kleiner */
+  @media (max-width: 959px) {
+    .md-header{
+      .satag-bestellen-button {
+        padding: .4em .5em !important;
+        margin-bottom: 0;
+        font-size: 11px;
+
+        &:after {
+          display: none !important;
+        }
+
+
+      }
+
+      .md-tooltip-active{
+        display: none !important;
+      }
+
+    }
+  }
+
 }
