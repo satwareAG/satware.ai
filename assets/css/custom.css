@@ -21150,7 +21150,8 @@ button.faq-slideshow-next:hover {
 
 @media (max-width: 768px) {
   .md-nav--primary .md-nav__title {
-    padding: 3rem 1rem !important; }
+    padding: 3rem 1rem !important;
+    line-height: 3.4rem !important; }
     .md-nav--primary .md-nav__title img {
       margin-top: -1.7rem !important; }
   /* Hide desktop logo in mobile view */
