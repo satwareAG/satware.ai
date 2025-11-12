@@ -20243,7 +20243,7 @@ body {
       border: none !important; }
   @media (max-width: 959px) {
     body .md-header .satag-bestellen-button {
-      padding: .4em .5em !important;
+      padding: .4em .8em !important;
       margin-bottom: 0;
       font-size: 11px; }
       body .md-header .satag-bestellen-button:after {
