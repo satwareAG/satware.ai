@@ -73,3 +73,49 @@
   color: #666;
   font-style: italic;
 }
+
+// Icon tiles for webinar overview page
+.satag--webinar-tiles {
+  display: grid;
+  grid-template-columns: 1fr 2fr; // Linke Spalte schmaler (1/3), rechte Spalte breiter (2/3)
+  gap: 2rem;
+  margin: 3rem 0;
+
+  // Responsive: Auf mobilen Geräten einspaltig
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.satag--webinar-tile {
+  background-color: #521370; // Primary button color
+  border-radius: 0;
+  padding: 4rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: block;
+  font-size: 4rem;
+  color: #fff;
+
+  &:hover {
+    background-color: #7e3a9e; // Lighter variant
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(82, 19, 112, 0.4);
+  }
+
+  .satag--webinar-tile-icon {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  .satag--webinar-tile-title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+  }
+}
