@@ -1,72 +1,11 @@
 {% extends "main.html" %}
 
-{% block content %}
-  {{ super() }}
-
-  {# Simple approach: Create workshop data directly from frontmatter structure #}
-  {# Workshop data will be rendered manually with correct structure #}
+{# 
+  Workshops Template
   
-  <h2>Die Nächsten Seminar-Termine</h2>
-
-<p>Die Termine für 2026 werden hier sukzessive veröffentlicht.</p>
-
+  This template extends main.html without custom content.
+  All content is now rendered from markdown in docs/workshops/index.md
+  using Material for MkDocs features (grids, cards, icons, admonitions).
   
-  <!-- <div class="satag--webinar-dates">
-    <div class="satag--webinar-item">
-      <div class="satag--webinar-date">
-        <i class="fa-sharp fa-thin fa-calendar-day"></i> Sa., 29.11.2025
-      </div>
-      <div class="satag--webinar-time">
-        <i class="fa-sharp fa-thin fa-clock"></i> 09:00 – 13:00 Uhr
-      </div>
-      <div class="satag--webinar-course">
-        <i class="fa-sharp fa-thin fa-arrow-up-right-from-square"></i> 
-        <a href="https://www.vhs-worms.de/programm/kurs/KI-Chatbots-im-Privatleben-nutzen/Z04.052" target="_blank" title="KI-Chatbots im Privatleben nutzen">
-          Z04.052 KI-Chatbots im Privatleben nutzen
-        </a>
-      </div>
-      <div class="satag--webinar-location">
-        <i class="fa-sharp fa-thin fa-location-dot"></i> vhs, Willy-Brandt-Ring 11, Raum 1.09, 67547 Worms
-      </div>
-    </div>
-  </div>
-
-  <hr>
-  
-  <h2>Vergangene Workshops</h2>
-  
-  <div class="satag--webinar-dates satag--webinar-dates--past">
-    <div class="satag--webinar-item">
-      <div class="satag--webinar-date">
-        <i class="fa-sharp fa-thin fa-calendar-day"></i> Sa., 12.07.2025
-      </div>
-      <div class="satag--webinar-time">
-        <i class="fa-sharp fa-thin fa-clock"></i> 09:00 – 13:00 Uhr
-      </div>
-      <div class="satag--webinar-course">
-        <i class="fa-sharp fa-thin fa-graduation-cap"></i> 
-        Y01.945 KI-Einsatz im Beruf – Nutzen von KI-Chatbots im Arbeitsalltag
-      </div>
-      <div class="satag--webinar-location">
-        <i class="fa-sharp fa-thin fa-location-dot"></i> vhs, Willy-Brandt-Ring 11, Raum 1.09, 67547 Worms
-      </div>
-    </div>
-
-    <div class="satag--webinar-item">
-      <div class="satag--webinar-date">
-        <i class="fa-sharp fa-thin fa-calendar-day"></i> Sa., 21.06.2025
-      </div>
-      <div class="satag--webinar-time">
-        <i class="fa-sharp fa-thin fa-clock"></i> 09:00 – 13:00 Uhr
-      </div>
-      <div class="satag--webinar-course">
-        <i class="fa-sharp fa-thin fa-graduation-cap"></i> 
-        Y01.944 KI-Chatbots im Privatleben nutzen
-      </div>
-      <div class="satag--webinar-location">
-        <i class="fa-sharp fa-thin fa-location-dot"></i> vhs, Willy-Brandt-Ring 11, Raum 1.09, 67547 Worms
-      </div>
-    </div>
-  </div> -->
-
-{% endblock %}
+  This file exists for future customizations if needed.
+#}

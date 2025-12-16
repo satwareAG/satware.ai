@@ -67,15 +67,6 @@ plugins:
       pagination: true
       archive: true
       authors: true
-  - blog:
-      blog_dir: workshops
-      blog_toc: false
-      post_url_format: "{slug}"
-      post_date_format: "dd.MM.yyyy"
-      archive: false
-      pagination: false
-      categories: true
-      categories_toc: true
   - search
   - redirects:
       redirect_maps:
