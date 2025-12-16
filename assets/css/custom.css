@@ -21117,6 +21117,66 @@ button.faq-slideshow-next:hover {
   [title] {
     title: attr(title) !important; } }
 
+.workshops .grid.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem; }
+  .workshops .grid.cards > ul > li {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+    .workshops .grid.cards > ul > li::before {
+      display: none !important; }
+    .workshops .grid.cards > ul > li > * {
+      flex-grow: 0; }
+    .workshops .grid.cards > ul > li > p:first-of-type {
+      flex-grow: 1; }
+    .workshops .grid.cards > ul > li .md-button {
+      margin-top: auto; }
+
+.workshops .green {
+  color: #4caf50 !important;
+  vertical-align: middle; }
+
+body.workshops .md-content .grid.cards > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch; }
+  body.workshops .md-content .grid.cards > ul > li {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 1.25rem;
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 0.25rem;
+    background: var(--md-default-bg-color); }
+    body.workshops .md-content .grid.cards > ul > li::before {
+      content: none !important;
+      display: none !important; }
+    body.workshops .md-content .grid.cards > ul > li hr {
+      margin: 0.75rem 0;
+      border-color: var(--md-primary-fg-color);
+      opacity: 0.3; }
+    body.workshops .md-content .grid.cards > ul > li > p:nth-of-type(1) {
+      flex-grow: 1;
+      margin-bottom: 1rem; }
+    body.workshops .md-content .grid.cards > ul > li > p:nth-of-type(2),
+    body.workshops .md-content .grid.cards > ul > li > p:nth-of-type(3),
+    body.workshops .md-content .grid.cards > ul > li > p:nth-of-type(4) {
+      margin: 0.25rem 0;
+      font-size: 0.9rem; }
+    body.workshops .md-content .grid.cards > ul > li > p:last-of-type {
+      margin-top: auto;
+      padding-top: 1rem; }
+      body.workshops .md-content .grid.cards > ul > li > p:last-of-type .md-button {
+        width: 100%;
+        text-align: center; }
+
 @media (max-width: 1219px) {
   body .md-grid {
     padding: 2rem; }

@@ -1,0 +1,115 @@
+// Workshops page styling
+// Fixes for VHS Worms course cards
+
+// Workshop cards - equal height grid
+.workshops {
+  // Grid cards equal height fix
+  .grid.cards {
+    // Ensure grid items stretch to equal height
+    > ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      
+      > li {
+        // Equal height cards
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+        // Remove the default checkmark decoration from Material theme
+        &::before {
+          display: none !important;
+        }
+        
+        // Ensure content fills the card
+        > * {
+          flex-grow: 0;
+        }
+        
+        // Make the main content area grow to fill space
+        > p:first-of-type {
+          flex-grow: 1;
+        }
+        
+        // Button stays at bottom
+        .md-button {
+          margin-top: auto;
+        }
+      }
+    }
+  }
+  
+  // DigiSMart checkmark styling - make it more visible and consistent
+  .green {
+    color: #4caf50 !important;
+    vertical-align: middle;
+  }
+}
+
+// Global grid cards improvements for workshops page
+body.workshops {
+  .md-content {
+    .grid.cards {
+      > ul {
+        // Override Material default list styling
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        align-items: stretch;
+        
+        > li {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          margin: 0;
+          padding: 1.25rem;
+          border: 1px solid var(--md-primary-fg-color);
+          border-radius: 0.25rem;
+          background: var(--md-default-bg-color);
+          
+          // Remove the awkward checkmark pseudo-element
+          &::before {
+            content: none !important;
+            display: none !important;
+          }
+          
+          // First paragraph (description) should expand
+          hr {
+            margin: 0.75rem 0;
+            border-color: var(--md-primary-fg-color);
+            opacity: 0.3;
+          }
+          
+          // Course description - let it grow to push button down
+          > p:nth-of-type(1) {
+            flex-grow: 1;
+            margin-bottom: 1rem;
+          }
+          
+          // Course details (date, location, price)
+          > p:nth-of-type(2),
+          > p:nth-of-type(3),
+          > p:nth-of-type(4) {
+            margin: 0.25rem 0;
+            font-size: 0.9rem;
+          }
+          
+          // Button container - always at bottom
+          > p:last-of-type {
+            margin-top: auto;
+            padding-top: 1rem;
+            
+            .md-button {
+              width: 100%;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
