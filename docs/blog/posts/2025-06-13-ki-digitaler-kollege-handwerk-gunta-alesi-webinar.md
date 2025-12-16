@@ -158,7 +158,7 @@ satware® AI chat wird bereits erfolgreich von innovativen Unternehmen eingesetz
     "Die KI-Agenten der Satware sind für mich ein wertvolles Werkzeug und eine effiziente Arbeitsunterstützung, auf die ich nicht mehr verzichten möchte. Insbesondere der geschützte Datenraum war, gepaart mit der beeindruckenden Funktionalität, ein wichtiges Entscheidungskriterium. Super Lösung für die Unternehmenskommunikation."
 
 !!! quote "Dr. Thomas Tyrtania, CEO bei OCU PRO ® Augenärzte MVZ GmbH"
-    "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
+    "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware® AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
 
 ## Jetzt kostenlos anmelden
 

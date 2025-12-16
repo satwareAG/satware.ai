@@ -146,7 +146,7 @@ satware® AI chat is already successfully used by innovative companies:
     "The AI agents from Satware are a valuable tool and efficient work support that I would no longer want to do without. Especially the protected data space, paired with the impressive functionality, was an important decision criterion. Super solution for corporate communication."
 
 !!! quote "Dr. Thomas Tyrtania, CEO at OCU PRO® Augenärzte MVZ GmbH"
-    "An indispensable support for our company in everyday life comes from satware AI. We work exclusively with sensitive data and the AI agent perfectly complements the data processing processes and I still have a good feeling in terms of security and data protection."
+    "An indispensable support for our company in everyday life comes from satware® AI. We work exclusively with sensitive data and the AI agent perfectly complements the data processing processes and I still have a good feeling in terms of security and data protection."
 
 ## Register now for free
 

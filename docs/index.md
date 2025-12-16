@@ -20,7 +20,7 @@ Erfolg durch moderne, KI-gestützte Lösungen zu steigern.
 <br>
 <br>
 
-![Screenshot von satware AI chat](assets/images/home/satware-ai-chat-screenshot.jpg){ width="100%" }
+![Screenshot von satware® AI chat](assets/images/home/satware-ai-chat-screenshot.jpg){ width="100%" }
 
 <br>
 
@@ -132,7 +132,7 @@ Erfolg durch moderne, KI-gestützte Lösungen zu steigern.
                         <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
                     </picture>
                     <p>
-                        "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
+                        "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware® AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
                     </p>
                     <div class="satag--home-testimonial-author">
                         <span class="satag--home-testimonial-name">Dr. Thomas Tyrtania</span><br />
