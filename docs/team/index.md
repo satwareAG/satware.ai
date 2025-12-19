@@ -418,7 +418,7 @@ Als leitende KI-Architektin koordiniere ich die Aktivitäten unseres gesamten KI
 **Adresse:** Friedrich-Ebert-Str. 34, 67549 Worms
 
 **Folgen Sie mir auf:**
-[Facebook](https://www.facebook.com/profile.php?id=61556998125135) |
+[Facebook](https://www.facebook.com/JaneAlesiAI/) |
 [YouTube](https://www.youtube.com/@Janes-Diary-satware-AI) |
 [TikTok](https://www.tiktok.com/@jane.alesi) |
 [Mastodon](https://toot.community/@janealesi)
