@@ -146,25 +146,3 @@
     }
   }
 }
-
-body{
-  &.home{
-
-    background-image: url('../images/home/bg.jpg');
-    background-repeat: no-repeat;
-    background-position: top;
-    backdrop-filter: brightness(0.4);
-    background-size: 60%;
-    background-position-y: 2rem;
-
-    .md-header, .md-tabs {
-      background-color: transparent;
-      box-shadow: none;
-    }
-
-    // Responsive Anpassung für den Hintergrund
-    @media screen and (max-width: 768px) {
-      background-size: 100%;
-    }
-  }
-}

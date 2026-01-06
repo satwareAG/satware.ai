@@ -161,3 +161,16 @@
     padding-left: 0.5rem;
   }
 }
+
+// Fix for homepage: Hide sidebar when navigation is hidden via frontmatter
+// This prevents sidebar from overlapping content at tablet widths (768px-1220px)
+@media (min-width: 768px) and (max-width: 1220px) {
+  .md-sidebar--primary[hidden] {
+    display: none !important;
+  }
+  
+  // When sidebar is hidden, ensure content takes full width
+  .md-sidebar--primary[hidden] ~ .md-content {
+    max-width: 100% !important;
+  }
+}

@@ -1,8 +1,9 @@
 body{
 
-  /* Header nicht fixieren, sondern statisch positionieren */
+  /* Header mit relativer Positionierung für z-index Support */
   .md-header {
-    position: static !important;
+    //position: relative !important;
+    //z-index: 1 !important;
   }
 
   /* Abstand nach oben für den Hauptinhalt entfernen */

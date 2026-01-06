@@ -1,102 +1,247 @@
-/*
- * Cookie Consent Styling
- * Position the cookie consent container in the center of the viewport
- */
+  .satag--home-landing{
 
-.satag--cookie-consent-container {
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  z-index: 9999 !important; /* Ensure it appears above other content */
-  width: auto !important;
-  height: auto !important;
-}
-
-/*
- * Direct targeting of Usercentrics elements
- * These selectors target various elements that Usercentrics might create
- */
-#usercentrics-root,
-[class*="usercentrics"],
-[id*="usercentrics"],
-.uc-banner-content,
-.uc-container,
-[class*="banner"],
-[class*="consent"],
-[class*="cookie"] {
-  top: 50% !important;
-  left: 50% !important;
-  bottom: auto !important;
-  position: fixed !important;
-  z-index: 9999 !important;
-}
-
-/* Specific targeting for the center container */
-#uc-center-container {
-  position: fixed !important;
-  top: 50% !important;
-  left: 50% !important;
-  margin: 0 auto !important;
-  text-align: left !important;
-}
-
-[id*="center-container"]:not(#uc-center-container),
-[class*="center-container"] {
-  top: 50% !important;
-  left: 50% !important;
-  position: fixed !important;
-}
-
-/*
- * Special styling for landscape mode on smaller height screens
- * This targets the Usercentrics container element
- */
-@media (max-height: 768px) and (orientation: landscape) {
-    .gtPQAC,
-    [class*="usercentrics"],
-    [id*="usercentrics"],
-    .uc-banner-content,
-    .uc-container,
-    #uc-center-container {
-        border-bottom: 0 !important;
-        max-height: 100vh !important;
-        max-width: 625px !important;
-        top: 50% !important;
-        left: 50% !important;
-        position: fixed !important;
+  @mixin ohne-balken{
+    h1,h2,h3,h4,h5,h6{
+      &:after{
+        display: none;
+      }
     }
+  }
+
+  .satag--home-hero{
+
+    margin-top: 7rem;
+
+    .entry-text{
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+      padding-bottom: 1.6rem;
+      padding-top: 1.6rem;
+    }
+
+    h1{
+      margin-bottom: 1.75rem;
+      text-align: left;
+      &:after{
+        height: 12px;
+        width: 85px;
+        margin-top: 1.3rem;
+        margin-bottom: -0.2rem;
+      }
+    }
+
+    .hero-buttons{
+      text-align: left;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+
+    .screenshot-container{
+      text-align: center;
+    }
+
+    img{
+      border: 1px solid var(--md-primary-fg-color--light);
+      width: 100%;
+    }
+  }
+
+  .satag--home-companies{
+
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    background-color: var(--md-primary-fg-color);
+
+    h2{
+      padding-bottom: 1rem;
+      max-width: 1200px;
+      text-align: left;
+      margin: 0 auto;
+    }
+
+    text-align: center;
+    .satag--home-companies-logo-container{
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 2rem;
+      flex-wrap: wrap;
+
+      .satag--home-companies-logo{
+        flex: 0 0 25%;
+        img{
+          width: 80%;
+          float:left;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .satag--home-companies-logo {
+          flex: 0 0 50%;
+          margin-bottom: 1rem;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .satag--home-companies-logo {
+          flex: 0 0 100%;
+        }
+      }
+    }
+  }
+
+  .satag--home-counters{
+
+    width: 100%;
+
+    h2{
+      padding-bottom: 1rem;
+    }
+
+    @include ohne-balken;
+
+    text-align: left;
+    .satag--home-counters-container{
+      display: flex;
+      flex-wrap: wrap;
+
+      .satag--home-counter{
+        flex: 1 0 auto;
+        display: block;
+        padding: 1rem;
+
+        .satag--home-counter-icon{
+          display: block;
+          font-size: 2rem;
+          color: var(--md-primary-fg-color--light);
+        }
+        .satag--home-counter-number{
+          display: block;
+          font-weight: 700;
+          font-size: 3rem;
+          line-height: 1.6;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        .satag--home-counter {
+          flex: 0 0 50%;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .satag--home-counter {
+          flex: 0 0 100%;
+        }
+      }
+    }
+  }
 }
 
-/*
- * Usercentrics Privacy Button - HIGHEST PRIORITY
- * Must stay fixed at bottom-left on ALL pages, especially home page
- * This rule MUST come FIRST to ensure proper specificity
- */
-html body iframe#usercentrics-cmp-ui,
-html body.home iframe#usercentrics-cmp-ui,
-html body iframe[id^="usercentrics"][id*="button"],
-html body.home iframe[id^="usercentrics"][id*="button"],
-body iframe#usercentrics-cmp-ui,
-body.home iframe#usercentrics-cmp-ui,
-body iframe[id^="usercentrics"][id*="button"],
-body.home iframe[id^="usercentrics"][id*="button"] {
+// CCM19 Cookie-Banner Styling Fix (speziell für Startseite)
+.ccm-root, #ccm-widget, .ccm-modal.ccm-widget {
   position: fixed !important;
-  bottom: 50px !important;
-  left: 24px !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: auto !important;
+  right: auto !important;
+  z-index: 9999 !important;
+  margin: 0 !important;
+}
+
+// CCM19 Einstellungen-Button Fix (unten links im Viewport)
+// Höhere Spezifität für body.home
+body.home .ccm-settings-summoner,
+body.home div.ccm-settings-summoner,
+.ccm-settings-summoner.ccm-show {
+  position: fixed !important;
+  bottom: 20px !important;
+  left: 20px !important;
   top: auto !important;
   right: auto !important;
+  z-index: 9998 !important;
   transform: none !important;
-  margin: 0 !important;
-  z-index: 9999 !important;
 }
 
-/* Additional styling to ensure the cookie consent banner is centered */
-/* Exclude Privacy Button using :not() selector */
-body iframe[id^="usercentrics-"]:not(#usercentrics-cmp-ui):not([id*="button"]),
-body [class*="usercentrics"]:not(iframe),
-body [id*="usercentrics"]:not(iframe):not(#usercentrics-cmp-ui) {
-  top: 50% !important;
-  left: 50% !important;
-  bottom: auto !important;
-  position: fixed !important;
+@media (max-width: 768px) {
+  .ccm-root, #ccm-widget, #ccm-control-panel {
+    max-height: 80vh !important;
+  }
+  
+  .ccm-settings-summoner {
+    bottom: 10px !important;
+    left: 10px !important;
+  }
+}
+
+
+
+// Generelle Mobile Navigation Fix (für alle Seiten)
+.md-header {
+  z-index: 10000 !important;
+}
+
+// Sidebar Container muss über Overlay liegen
+// WICHTIG: position erforderlich, damit z-index funktioniert
+.md-sidebar--primary {
+  //position: relative !important;
+  z-index: 10002 !important;
+}
+
+.md-header__button.md-icon {
+  z-index: 10000 !important;
+}
+
+.md-overlay {
+  z-index: 10001 !important;
+}
+
+body{
+  &.home{
+    // Schwarzer Hintergrund für die gesamte Seite
+    background-color: #000000;
+    
+    // Hintergrundbild bleibt oben stehen beim Scrollen
+    background-image: url('../images/home/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 60%;
+    background-position-y: 2rem;
+    background-attachment: scroll; // Bild bleibt oben, scrollt nicht mit Content
+    
+    // Opacity mit ::before Overlay
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 800px; // Nur obere 800px werden vom Bild überdeckt
+      //background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .md-header, .md-tabs {
+      background-color: transparent;
+      box-shadow: none;
+      position: relative;
+    }
+
+
+    @media screen and (max-width: 768px) {
+      background-size: 100%;
+      
+      &::before {
+        height: 600px; // Kleinere Höhe auf Mobile
+      }
+    }
+  }
 }
