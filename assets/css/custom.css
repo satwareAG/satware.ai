@@ -20369,6 +20369,9 @@ body {
         display: none !important; }
     body .md-header .md-tooltip-active {
       display: none !important; } }
+  @media (min-width: 768px) {
+    body .md-header {
+      z-index: 10010 !important; } }
 .md-footer {
   background-color: #000;
   padding-top: 1rem; }

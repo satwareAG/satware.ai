@@ -112,4 +112,10 @@ body{
     }
   }
 
+  @media (min-width: 768px){
+    .md-header {
+      z-index: 10010 !important;
+    }
+  }
+
 }
