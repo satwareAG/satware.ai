@@ -20107,7 +20107,7 @@ a[title]:focus::after {
   left: 0 !important;
   bottom: auto !important;
   right: auto !important;
-  z-index: 9999 !important;
+  z-index: 19999 !important;
   margin: 0 !important; }
 
 body.home .ccm-settings-summoner,
