@@ -20994,6 +20994,20 @@ button.faq-slideshow-next:hover {
   .md-sidebar__inner.md-post .md-profile__description {
     font-size: inherit; }
 
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem; }
+  .md-typeset table:not([class]) th, .md-typeset table:not([class]) td {
+    padding: 0.75rem 1rem;
+    white-space: normal;
+    word-wrap: break-word; }
+  .md-typeset table:not([class]) th {
+    font-weight: 700;
+    text-align: left; }
+
 .md-typeset h2 {
   margin-top: 0 !important; }
 
