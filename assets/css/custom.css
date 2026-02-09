@@ -21043,6 +21043,47 @@ button.faq-slideshow-next:hover {
       color: #fff !important;
       top: .8rem !important; }
 
+.md-typeset sup {
+  font-size: 75%; }
+  .md-typeset sup .footnote-ref {
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.1em 0.2em;
+    border-radius: 0.2em;
+    transition: background-color 0.2s ease; }
+    .md-typeset sup .footnote-ref:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      text-decoration: none; }
+
+.md-typeset div.footnote {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  line-height: 1.6; }
+  .md-typeset div.footnote hr {
+    border-color: rgba(255, 255, 255, 0.12);
+    margin-bottom: 1rem; }
+  .md-typeset div.footnote ol {
+    padding-left: 1.5rem;
+    margin: 0; }
+    .md-typeset div.footnote ol li {
+      margin-bottom: 0.5rem;
+      padding-left: 0.25rem; }
+      .md-typeset div.footnote ol li p {
+        margin: 0;
+        display: inline; }
+  .md-typeset div.footnote .footnote-backref {
+    display: inline-block;
+    margin-left: 0.2em;
+    font-size: 0.9em;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: opacity 0.2s ease; }
+    .md-typeset div.footnote .footnote-backref:hover {
+      opacity: 1;
+      text-decoration: none; }
+    .md-typeset div.footnote .footnote-backref + .footnote-backref {
+      margin-left: 0.1em; }
+
 [title] {
   position: relative; }
   [title]:hover::before {
