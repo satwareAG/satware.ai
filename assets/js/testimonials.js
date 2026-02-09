@@ -4,6 +4,11 @@ window.addEventListener('load', function() {
     const testimonialImages = document.querySelectorAll('.satag--home-testimonial-image-wrapper');
     const testimonialTexts = document.querySelectorAll('.satag--home-testimonials-text');
 
+    // Guard: Only run on pages with testimonial elements
+    if (testimonialImages.length === 0 || testimonialTexts.length === 0) {
+        return;
+    }
+
     // Funktion zum Wechseln des aktiven Testimonials
     function switchTestimonial(id) {
         // Entferne 'active' Klasse von allen Bildern und Texten
@@ -11,8 +16,15 @@ window.addEventListener('load', function() {
         testimonialTexts.forEach(text => text.classList.remove('active'));
 
         // Füge 'active' Klasse zum ausgewählten Bild und Text hinzu
-        document.querySelector(`.satag--home-testimonial-image-wrapper[data-testimonial-id="${id}"]`).classList.add('active');
-        document.querySelector(`.satag--home-testimonials-text[data-testimonial-id="${id}"]`).classList.add('active');
+        const targetImage = document.querySelector(`.satag--home-testimonial-image-wrapper[data-testimonial-id="${id}"]`);
+        const targetText = document.querySelector(`.satag--home-testimonials-text[data-testimonial-id="${id}"]`);
+
+        if (targetImage) {
+            targetImage.classList.add('active');
+        }
+        if (targetText) {
+            targetText.classList.add('active');
+        }
     }
 
     // Event-Listener für Klicks auf die Bilder
