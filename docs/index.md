@@ -46,12 +46,6 @@ Erfolg durch moderne, KI-gestützte Lösungen zu steigern.
                     <img src="assets/images/home/company-logos/square/satware.png" alt="satware AG Logo" />
                 </picture>
             </div>
-            <div class="satag--home-companies-logo">
-                <picture>
-                    <source srcset="assets/images/home/company-logos/square/klinikum.avif" type="image/avif">
-                    <img src="assets/images/home/company-logos/square/klinikum.png" alt="Klinikum Worms Logo" />
-                </picture>
-            </div>
         </div>
     </div>
 <!-- Counter -->    
@@ -115,19 +109,6 @@ Erfolg durch moderne, KI-gestützte Lösungen zu steigern.
                 </div>
                 <div class="satag--home-testimonials-text" data-testimonial-id="3">
                     <picture class="satag--home-testimonial-text-logo">
-                        <source srcset="assets/images/home/company-logos/square/klinikum.avif" type="image/avif">
-                        <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/klinikum.png" alt="Klinikum Worms Logo">
-                    </picture>
-                    <p>
-                        "Die KI-Agenten der Satware sind für mich ein wertvolles Werkzeug und eine effiziente Arbeitsunterstützung, auf die ich nicht mehr verzichten möchte. Insbesondere der geschützte Datenraum war, gepaart mit der beeindruckenden Funktionalität, ein wichtiges Entscheidungskriterium. Super Lösung für die Unternehmenskommunikation."
-                    </p>
-                    <div class="satag--home-testimonial-author">
-                        <span class="satag--home-testimonial-name">Dr. Eva Ehmke</span><br />
-                        <span class="satag--home-testimonial-title">Leitung Unternehmenskommunikation & Fundraising, Klinikum Worms gGmbH</span>
-                    </div>
-                </div>
-                <div class="satag--home-testimonials-text" data-testimonial-id="4">
-                    <picture class="satag--home-testimonial-text-logo">
                         <source srcset="assets/images/home/company-logos/square/ocu-pro.avif" type="image/avif">
                         <img class="satag--home-testimonial-text-logo" src="assets/images/home/company-logos/square/ocu-pro.png" alt="Ocu Pro Logo">
                     </picture>
@@ -166,18 +147,6 @@ Erfolg durch moderne, KI-gestützte Lösungen zu steigern.
                     </div>
                 </div>
                 <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="3">
-                    <picture>
-                        <source srcset="assets/images/home/testimonials/klinikum-worms-eva-ehmke.avif" type="image/avif">
-                        <img src="assets/images/home/testimonials/klinikum-worms-eva-ehmke.jpg" alt="Dr. Eva Ehmke" class="satag--home-testimonial-image">
-                    </picture>
-                    <div class="satag--home-testimonial-logo">
-                        <picture>
-                            <source srcset="assets/images/home/company-logos/klinikum-worms.avif" type="image/avif">
-                            <img src="assets/images/home/company-logos/klinikum-worms.png" alt="Klinikum Worms Logo">
-                        </picture>
-                    </div>
-                </div>
-                <div class="satag--home-testimonial-image-wrapper" data-testimonial-id="4">
                     <picture>
                         <source srcset="assets/images/home/testimonials/ocu-pro-thomas-tyrtania.avif" type="image/avif">
                         <img src="assets/images/home/testimonials/ocu-pro-thomas-tyrtania.jpg" alt="Dr. Thomas Tyrtania" class="satag--home-testimonial-image">

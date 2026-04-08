@@ -32,7 +32,7 @@ issue_reference: "#121"
 
 Artificial intelligence is no longer science fiction – it's a practical helper that stands by your side for everyday challenges. But many people are still hesitant to take the first step. This is exactly where our free beginner webinar comes in.
 
-**Learn to know satware® AI chat** – the professional AI platform that innovative companies like Klinikum Worms, OCU PRO, and Silent Waves are already successfully using.
+**Learn to know satware® AI chat** – the professional AI platform that innovative companies like OCU PRO and Silent Waves are already successfully using.
 
 ## What can you expect in our Live Webinar?
 
@@ -107,7 +107,6 @@ While other AI systems function like a "Black Box", satware® AI chat shows you 
 
 satware® AI chat is already successfully used by innovative companies:
 
-- **Klinikum Worms gGmbH** for enterprise communication
 - **OCU PRO Augenärzte MVZ** for data processing
 - **Silent Waves** for coaching and concept development
 
@@ -141,9 +140,6 @@ satware® AI chat is already successfully used by innovative companies:
 
 !!! quote "Jens Emrich from Kajdacsy, Silent Waves"
     "The AI agents from satware are valuable sparring partners for concept development & reflection. Above all, they offer me a secure space for sensitive data. For me as a coach & mediator, trustworthiness is key. Top!"
-
-!!! quote "Dr. Eva Ehmke, Head of Corporate Communications & Fundraising, Klinikum Worms gGmbH"
-    "The AI agents from Satware are a valuable tool and efficient work support that I would no longer want to do without. Especially the protected data space, paired with the impressive functionality, was an important decision criterion. Super solution for corporate communication."
 
 !!! quote "Dr. Thomas Tyrtania, CEO at OCU PRO® Augenärzte MVZ GmbH"
     "An indispensable support for our company in everyday life comes from satware AI. We work exclusively with sensitive data and the AI agent perfectly complements the data processing processes and I still have a good feeling in terms of security and data protection."

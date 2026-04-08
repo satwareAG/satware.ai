@@ -30,7 +30,7 @@ Die Zahlen sprechen eine klare Sprache: **81% der Ausbaugewerbe-Betriebe** kämp
 
 Doch es gibt eine Lösung: **KI als digitaler Kollege** – nicht als Ersatz für Ihre Fachkräfte, sondern als intelligente Unterstützung, die Ihre Mitarbeiter effizienter macht und Ihren Betrieb zukunftssicher aufstellt.
 
-**Lernen Sie satware® AI chat kennen** – die professionelle KI-Plattform, die bereits innovative Unternehmen wie das Klinikum Worms, OCU PRO und Silent Waves erfolgreich einsetzen.
+**Lernen Sie satware® AI chat kennen** – die professionelle KI-Plattform, die bereits innovative Unternehmen wie OCU PRO und Silent Waves erfolgreich einsetzen.
 
 ## Was erwartet Sie in unserem Live-Webinar?
 
@@ -113,7 +113,6 @@ Während andere KI-Systeme wie eine "Black Box" funktionieren, zeigt Ihnen satwa
 ### 🏆 **Vertrauen Sie auf Erfahrung**
 
 satware® AI chat wird bereits erfolgreich von innovativen Unternehmen eingesetzt:
-- **Klinikum Worms gGmbH** für Unternehmenskommunikation
 - **OCU PRO Augenärzte MVZ** für Datenverarbeitung
 - **Silent Waves** für Coaching und Konzeptentwicklung
 
@@ -153,9 +152,6 @@ satware® AI chat wird bereits erfolgreich von innovativen Unternehmen eingesetz
 
 !!! quote "Jens Emrich von Kajdacsy, Silent Waves"
     "Die KI-Agenten der satware sind für mich wertvoller Sparringspartner für Konzeptentwicklung & Reflektion. Vor allem bieten sie mir einen sicheren Raum für sensible Daten. Für mich als Coach & Mediator ist Vertraulichkeit der Schlüssel. Top!"
-
-!!! quote "Dr. Eva Ehmke, Leitung Unternehmenskommunikation & Fundraising, Klinikum Worms gGmbH"
-    "Die KI-Agenten der Satware sind für mich ein wertvolles Werkzeug und eine effiziente Arbeitsunterstützung, auf die ich nicht mehr verzichten möchte. Insbesondere der geschützte Datenraum war, gepaart mit der beeindruckenden Funktionalität, ein wichtiges Entscheidungskriterium. Super Lösung für die Unternehmenskommunikation."
 
 !!! quote "Dr. Thomas Tyrtania, CEO bei OCU PRO ® Augenärzte MVZ GmbH"
     "Ein im Alltag für unser Unternehmen mittlerweile unverzichtbarer Support kommt von der satware AI. Wir arbeiten ausschließlich mit sensiblen Daten und die KI Agentin ergänzt perfekt die Datenverarbeitungsprozesse und ich habe trotzdem ein gutes Gefühl in puncto Sicherheit und Datenschutz."
